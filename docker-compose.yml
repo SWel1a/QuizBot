@@ -1,7 +1,9 @@
 version: '3.9'
 
 services:
-  quiz_telegram_bot:
+  my_telegram_bot:
     build: .
-    container_name: quiz_bot_container
+    container_name: my_telegram_bot_container
+    env_file:
+      - .env
     restart: unless-stopped
