@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  quiz_telegram_bot:
+    build: .
+    container_name: quiz_bot_container
+    restart: unless-stopped
