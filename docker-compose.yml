@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  my_telegram_bot:
+    build: .
+    container_name: my_telegram_bot_container
+    env_file:
+      - .env
+    restart: unless-stopped
