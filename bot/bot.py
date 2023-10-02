@@ -1,7 +1,8 @@
 import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-
+import json
+import random
 import os
 from dotenv import load_dotenv
 
@@ -13,7 +14,19 @@ logging.basicConfig(
 
 
 def get_random_quiz():
-    return "This is a random quiz"
+    filename_json = 'words.json'
+
+    # Load the JSON file
+    with open(filename_json, 'r', encoding='utf-8') as f:
+        word_list = json.load(f)
+
+    # Pick a random word-description pair
+    random_pair = random.choice(word_list)
+
+    word = random_pair['word']
+    description = random_pair['description']
+
+    return f"Word: {word} Description: {description}"
 
 
 async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
