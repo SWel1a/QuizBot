@@ -43,9 +43,10 @@ async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
 async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
     if not len(context.args) or not str(context.args[0]).isnumeric():
-        interval_time = 60
+        interval_time_min = 120
     else:
-        interval_time = int(context.args[0])
+        interval_time_min = int(context.args[0])
+    interval_time = interval_time_min * 60
     await context.bot.send_message(chat_id=chat_id, text=f'Started timed Quiz!\nHere\'s the first one:')
     # Set the alarm:
     context.job_queue.run_repeating(callback_quiz, interval=interval_time, first=1, name="timed_quiz", chat_id=chat_id)
