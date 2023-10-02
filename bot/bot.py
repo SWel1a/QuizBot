@@ -14,34 +14,29 @@ logging.basicConfig(
 )
 
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a quiz bot, please use commands /start_easy, /start_hard to use me!")
+def get_random_quiz():
+    return "This is a random quiz"
 
 
-async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, I didn't understand that command.")
-
-
-async def anecdote(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    random_anecdote = get_random_anecdote()
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=random_anecdote)
-
-
-async def callback_anecdote(context: ContextTypes.DEFAULT_TYPE):
-    random_anecdote = get_random_anecdote()
+async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
+    random_anecdote = get_random_quiz()
     await context.bot.send_message(chat_id=context.job.chat_id, text=random_anecdote)
 
 
-async def start_callback_anecdote(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
-    await context.bot.send_message(chat_id=chat_id, text=f'Started timed anecdotes!')
+    if not len(context.args) or not str(context.args[0]).isnumeric():
+        interval_time = 60
+    else:
+        interval_time = int(context.args[0])
+    await context.bot.send_message(chat_id=chat_id, text=f'Started timed Quiz!\n Here\'s the first one:')
     # Set the alarm:
-    context.job_queue.run_repeating(callback_anecdote, interval=25200, first=1, name="timed_anecdotes", chat_id=chat_id)
+    context.job_queue.run_repeating(callback_quiz, interval=interval_time, first=1, name="timed_quiz", chat_id=chat_id)
 
 
-async def stop_callback_anecdote(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def stop_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
-    current_jobs = context.job_queue.get_jobs_by_name("timed_anecdotes")
+    current_jobs = context.job_queue.get_jobs_by_name("timed_quiz")
     for job in current_jobs:
         job.schedule_removal()
     await context.bot.send_message(chat_id=chat_id, text='Stopped!')
@@ -56,15 +51,11 @@ if __name__ == '__main__':
     application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
     handlers = [
-        CommandHandler('start', start),  # start_handler
-        CommandHandler('anecdote', anecdote),  # anecdote_handler
-        CommandHandler('start_anecdote', start_callback_anecdote),  # timed anecdote_handler
-        CommandHandler('stop_anecdote', stop_callback_anecdote),  # timed anecdote_handler
-        MessageHandler(filters.COMMAND, unknown),  # unknown_handler
+        CommandHandler('start', start_callback_quiz),
+        CommandHandler('stop', stop_callback_quiz),
     ]
 
     for handler in handlers:
         application.add_handler(handler)
 
     application.run_polling()
-# here will be the code
