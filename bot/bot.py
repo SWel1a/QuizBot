@@ -1,8 +1,6 @@
 import logging
 from telegram import Update
-from telegram.ext import filters, MessageHandler, ApplicationBuilder, CommandHandler, ContextTypes
-from telegram import InlineQueryResultArticle, InputTextMessageContent
-from telegram.ext import InlineQueryHandler
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 import os
 from dotenv import load_dotenv
