@@ -3,6 +3,8 @@ from telegram import Update
 from telegram.ext import filters, MessageHandler, ApplicationBuilder, CommandHandler, ContextTypes
 from telegram import InlineQueryResultArticle, InputTextMessageContent
 from telegram.ext import InlineQueryHandler
+import os
+from dotenv import load_dotenv
 
 from bots_sources.anecdotes import get_random_anecdote
 from config import TG_TOKEN
@@ -89,8 +91,13 @@ async def callback_timer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     context.job_queue.run_once(callback_alarm, timer_time, data=name, chat_id=chat_id)
 
 
-if name == '__main__':
-    application = ApplicationBuilder().token(TG_TOKEN).build()
+if __name__ == '__main__':
+    # Load environment variables from .env file
+    load_dotenv()
+
+    # Read environment variables
+    TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+    application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
     handlers = [
         CommandHandler('start', start),  # start_handler
