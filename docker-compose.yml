@@ -1,7 +1,10 @@
 version: '3.9'
 
 services:
-  my_telegram_bot:
+  quiz_telegram_bot:
+    image: quiz_bot_image
+    volumes:
+      - ./:/app
     build: .
     container_name: my_telegram_bot_container
     env_file:
