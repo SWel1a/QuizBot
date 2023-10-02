@@ -15,31 +15,7 @@ logging.basicConfig(
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
-
-
-async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=update.message.text)
-
-
-async def caps(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text_caps = ' '.join(context.args).upper()
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=text_caps)
-
-
-async def inline_caps(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.inline_query.query
-    if not query:
-        return
-    results = []
-    results.append(
-        InlineQueryResultArticle(
-            id=query.upper(),
-            title='Caps',
-            input_message_content=InputTextMessageContent(query.upper())
-        )
-    )
-    await context.bot.answer_inline_query(update.inline_query.id, results)
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a quiz bot, please use commands /start_easy, /start_hard to use me!")
 
 
 async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -71,25 +47,6 @@ async def stop_callback_anecdote(update: Update, context: ContextTypes.DEFAULT_T
     await context.bot.send_message(chat_id=chat_id, text='Stopped!')
 
 
-async def callback_alarm(context: ContextTypes.DEFAULT_TYPE):
-    # Beep the person who called this alarm:
-    await context.bot.send_message(chat_id=context.job.chat_id, text=f'BEEP {context.job.data}!')
-
-
-async def callback_timer(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    chat_id = update.message.chat_id
-    name = update.effective_chat.full_name
-    if name is None:
-        name = '@' + update.message.from_user.username
-    if not len(context.args) or not str(context.args[0]).isnumeric():
-        timer_time = 60
-    else:
-        timer_time = int(context.args[0])
-    await context.bot.send_message(chat_id=chat_id, text=f'Setting a timer for {timer_time} second(s)!')
-    # Set the alarm:
-    context.job_queue.run_once(callback_alarm, timer_time, data=name, chat_id=chat_id)
-
-
 if __name__ == '__main__':
     # Load environment variables from .env file
     load_dotenv()
@@ -100,13 +57,9 @@ if __name__ == '__main__':
 
     handlers = [
         CommandHandler('start', start),  # start_handler
-        MessageHandler(filters.TEXT & (~filters.COMMAND), echo),  # echo_handler
-        CommandHandler('caps', caps),  # caps_handler
         CommandHandler('anecdote', anecdote),  # anecdote_handler
         CommandHandler('start_anecdote', start_callback_anecdote),  # timed anecdote_handler
         CommandHandler('stop_anecdote', stop_callback_anecdote),  # timed anecdote_handler
-        CommandHandler('timer', callback_timer),
-        InlineQueryHandler(inline_caps),  # inline_caps_handler
         MessageHandler(filters.COMMAND, unknown),  # unknown_handler
     ]
 
