@@ -5,8 +5,6 @@ from telegram.ext import filters, MessageHandler, ApplicationBuilder, CommandHan
 from telegram import InlineQueryResultArticle, InputTextMessageContent
 from telegram.ext import InlineQueryHandler
 
-from bots_sources.anecdotes import get_random_anecdote
-from config import TG_TOKEN
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
