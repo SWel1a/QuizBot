@@ -4,9 +4,16 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 import json
 import random
 import os
+import uuid
 from dotenv import load_dotenv
 
 
+# Load environment variables from .env file
+load_dotenv()
+
+# Read environment variables
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+ALLOWED_HANDLES = os.getenv('ALLOWED_HANDLES').split(',')
 quiz_answers = {}
 
 
@@ -14,6 +21,50 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
+
+
+def get_random_id():
+    return str(uuid.uuid4())  # Returns a random UUID as a string
+
+
+async def add_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_handle = update.message.from_user.username
+    if '@' + user_handle not in ALLOWED_HANDLES:
+        await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
+        return
+    
+    if context.args:
+        try:
+            word_data = json.loads(' '.join(context.args))
+            word_data["id"] = get_random_id()
+            with open('words.json', 'r', encoding='utf-8') as f:
+                word_list = json.load(f)
+            word_list.append(word_data)
+            with open('words.json', 'w', encoding='utf-8') as f:
+                json.dump(word_list, f, ensure_ascii=False, indent=4)
+            await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word added with ID: {word_data['id']}")
+        except json.JSONDecodeError:
+            await context.bot.send_message(chat_id=update.message.chat_id, text="Invalid JSON format.")
+    else:
+        await context.bot.send_message(chat_id=update.message.chat_id, text="Please provide word data in JSON format.")
+        
+
+async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_handle = update.message.from_user.username
+    if '@' + user_handle not in ALLOWED_HANDLES:
+        await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
+        return
+    
+    if context.args:
+        id_to_remove = context.args[0]  # Assume that the ID is the first argument
+        with open('words.json', 'r', encoding='utf-8') as f:
+            word_list = json.load(f)
+        word_list = [word for word in word_list if word.get('id') != id_to_remove]
+        with open('words.json', 'w', encoding='utf-8') as f:
+            json.dump(word_list, f, ensure_ascii=False, indent=4)
+        await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word with ID: {id_to_remove} removed.")
+    else:
+        await context.bot.send_message(chat_id=update.message.chat_id, text="Please provide the ID of the word to remove.")
 
 
 def get_random_quiz():
@@ -73,16 +124,13 @@ async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 if __name__ == '__main__':
-    # Load environment variables from .env file
-    load_dotenv()
-
-    # Read environment variables
-    TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
     application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
     handlers = [
         CommandHandler('start', start_callback_quiz),
         CommandHandler('stop', stop_callback_quiz),
+        CommandHandler('add_word', add_word),
+        CommandHandler('remove_word', remove_word),
         MessageHandler(filters.TEXT & ~filters.COMMAND, check_answer),
     ]
 
