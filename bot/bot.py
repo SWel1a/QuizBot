@@ -54,17 +54,27 @@ async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if '@' + user_handle not in ALLOWED_HANDLES:
         await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
         return
-    
-    if context.args:
-        id_to_remove = context.args[0]  # Assume that the ID is the first argument
+    if not context.args:
+        await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word to remove.")
+    else:
+        word_to_remove = context.args[0]  # Assume that the word is the first argument
         with open('words.json', 'r', encoding='utf-8') as f:
             word_list = json.load(f)
-        word_list = [word for word in word_list if word.get('id') != id_to_remove]
-        with open('words.json', 'w', encoding='utf-8') as f:
-            json.dump(word_list, f, ensure_ascii=False, indent=4)
-        await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word with ID: {id_to_remove} removed.")
-    else:
-        await context.bot.send_message(chat_id=update.message.chat_id, text="Please provide the ID of the word to remove.")
+        
+        # Store the original list length to check against it later
+        original_length = len(word_list)
+        
+        # Filter the list to keep only words that are NOT equal to `word_to_remove`
+        word_list = [word for word in word_list if word.get('word').lower() != word_to_remove.lower()]
+        
+        # If the length of the word_list has not changed, no word was removed
+        if len(word_list) == original_length:
+            await context.bot.send_message(chat_id=update.message.chat_id, text=f"No word found for: {word_to_remove}")
+        else:
+            with open('words.json', 'w', encoding='utf-8') as f:
+                json.dump(word_list, f, ensure_ascii=False, indent=4)
+            await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word: {word_to_remove} removed.")
+
 
 
 def get_random_quiz():
