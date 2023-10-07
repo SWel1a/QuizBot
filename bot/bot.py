@@ -1,8 +1,20 @@
 import logging
 from telegram import Update
-from telegram.ext import filters, MessageHandler, ApplicationBuilder, CommandHandler, ContextTypes
-from telegram import InlineQueryResultArticle, InputTextMessageContent
-from telegram.ext import InlineQueryHandler
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
+import json
+import random
+import os
+import uuid
+from dotenv import load_dotenv
+
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Read environment variables
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+ALLOWED_HANDLES = os.getenv('ALLOWED_HANDLES').split(',')
+quiz_answers = {}
 
 
 logging.basicConfig(
@@ -11,102 +23,128 @@ logging.basicConfig(
 )
 
 
+<<<<<<< HEAD
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     context.user_data["words"] = []  # Initialize an empty list to store words
     await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
+=======
+def get_random_id():
+    return str(uuid.uuid4())  # Returns a random UUID as a string
+>>>>>>> origin/main
 
 
-async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=update.message.text)
-
-
-async def caps(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text_caps = ' '.join(context.args).upper()
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=text_caps)
-
-
-async def inline_caps(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.inline_query.query
-    if not query:
+async def add_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_handle = update.message.from_user.username
+    if '@' + user_handle not in ALLOWED_HANDLES:
+        await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
         return
-    results = []
-    results.append(
-        InlineQueryResultArticle(
-            id=query.upper(),
-            title='Caps',
-            input_message_content=InputTextMessageContent(query.upper())
-        )
-    )
-    await context.bot.answer_inline_query(update.inline_query.id, results)
+    
+    if context.args:
+        try:
+            word_data = json.loads(' '.join(context.args))
+            word_data["id"] = get_random_id()
+            with open('words.json', 'r', encoding='utf-8') as f:
+                word_list = json.load(f)
+            word_list.append(word_data)
+            with open('words.json', 'w', encoding='utf-8') as f:
+                json.dump(word_list, f, ensure_ascii=False, indent=4)
+            await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word added with ID: {word_data['id']}")
+        except json.JSONDecodeError:
+            await context.bot.send_message(chat_id=update.message.chat_id, text="Invalid JSON format.")
+    else:
+        await context.bot.send_message(chat_id=update.message.chat_id, text="Please provide word data in JSON format.")
+        
+
+async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_handle = update.message.from_user.username
+    if '@' + user_handle not in ALLOWED_HANDLES:
+        await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
+        return
+    
+    if context.args:
+        id_to_remove = context.args[0]  # Assume that the ID is the first argument
+        with open('words.json', 'r', encoding='utf-8') as f:
+            word_list = json.load(f)
+        word_list = [word for word in word_list if word.get('id') != id_to_remove]
+        with open('words.json', 'w', encoding='utf-8') as f:
+            json.dump(word_list, f, ensure_ascii=False, indent=4)
+        await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word with ID: {id_to_remove} removed.")
+    else:
+        await context.bot.send_message(chat_id=update.message.chat_id, text="Please provide the ID of the word to remove.")
 
 
-async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, I didn't understand that command.")
+def get_random_quiz():
+    filename_json = 'words.json'
+
+    # Load the JSON file
+    with open(filename_json, 'r', encoding='utf-8') as f:
+        word_list = json.load(f)
+
+    # Pick a random word-description pair
+    random_pair = random.choice(word_list)
+
+    word = random_pair['word']
+    language = random_pair['language']
+    description = random_pair['description']
+
+    return f"What is the word (in {language}) with given description: {description}?", word
 
 
-async def anecdote(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    random_anecdote = get_random_anecdote()
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=random_anecdote)
-
-
-async def callback_anecdote(context: ContextTypes.DEFAULT_TYPE):
-    random_anecdote = get_random_anecdote()
+async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
+    random_anecdote, correct_answer = get_random_quiz()
+    # Store the correct answer using chat_id as the key
+    quiz_answers[context.job.chat_id] = correct_answer
     await context.bot.send_message(chat_id=context.job.chat_id, text=random_anecdote)
 
 
-async def start_callback_anecdote(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
-    await context.bot.send_message(chat_id=chat_id, text=f'Started timed anecdotes!')
+    if not len(context.args) or not str(context.args[0]).isnumeric():
+        interval_time_min = 120
+    else:
+        interval_time_min = int(context.args[0])
+    interval_time = interval_time_min * 60
+    await context.bot.send_message(chat_id=chat_id, text=f'Started timed Quiz!\nHere\'s the first one:')
     # Set the alarm:
-    context.job_queue.run_repeating(callback_anecdote, interval=25200, first=1, name="timed_anecdotes", chat_id=chat_id)
+    context.job_queue.run_repeating(callback_quiz, interval=interval_time, first=1, name="timed_quiz", chat_id=chat_id)
 
 
-async def stop_callback_anecdote(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def stop_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
-    current_jobs = context.job_queue.get_jobs_by_name("timed_anecdotes")
+    current_jobs = context.job_queue.get_jobs_by_name("timed_quiz")
     for job in current_jobs:
         job.schedule_removal()
     await context.bot.send_message(chat_id=chat_id, text='Stopped!')
 
 
-async def callback_alarm(context: ContextTypes.DEFAULT_TYPE):
-    # Beep the person who called this alarm:
-    await context.bot.send_message(chat_id=context.job.chat_id, text=f'BEEP {context.job.data}!')
+async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_message = update.message.text  # Get user's message
+    chat_id = update.message.chat_id  # Get chat_id
+    correct_answer = quiz_answers.get(chat_id)  # Retrieve the correct answer for this chat_id
+    
+    if correct_answer:  # If a correct answer exists for this chat_id
+        if user_message.lower().strip() == correct_answer.lower().strip():  # Check correctness
+            await context.bot.send_message(chat_id=chat_id, text='Correct! 🎉')
+        else:
+            await context.bot.send_message(chat_id=chat_id, text=f'Incorrect! The correct answer was: {correct_answer}')
 
 
-async def callback_timer(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    chat_id = update.message.chat_id
-    name = update.effective_chat.full_name
-    if name is None:
-        name = '@' + update.message.from_user.username
-    if not len(context.args) or not str(context.args[0]).isnumeric():
-        timer_time = 60
-    else:
-        timer_time = int(context.args[0])
-    await context.bot.send_message(chat_id=chat_id, text=f'Setting a timer for {timer_time} second(s)!')
-    # Set the alarm:
-    context.job_queue.run_once(callback_alarm, timer_time, data=name, chat_id=chat_id)
-
-
-if name == '__main__':
-    application = ApplicationBuilder().token(TG_TOKEN).build()
+if __name__ == '__main__':
+    application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
     handlers = [
-        CommandHandler('start', start),  # start_handler
-        MessageHandler(filters.TEXT & (~filters.COMMAND), echo),  # echo_handler
-        CommandHandler('caps', caps),  # caps_handler
-        CommandHandler('anecdote', anecdote),  # anecdote_handler
-        CommandHandler('start_anecdote', start_callback_anecdote),  # timed anecdote_handler
-        CommandHandler('stop_anecdote', stop_callback_anecdote),  # timed anecdote_handler
-        CommandHandler('timer', callback_timer),
-        InlineQueryHandler(inline_caps),  # inline_caps_handler
-        MessageHandler(filters.COMMAND, unknown),  # unknown_handler
+        CommandHandler('start', start_callback_quiz),
+        CommandHandler('stop', stop_callback_quiz),
+        CommandHandler('add_word', add_word),
+        CommandHandler('remove_word', remove_word),
+        MessageHandler(filters.TEXT & ~filters.COMMAND, check_answer),
     ]
 
     for handler in handlers:
         application.add_handler(handler)
 
     application.run_polling()
+<<<<<<< HEAD
 
 
     async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -127,3 +165,5 @@ if name == '__main__':
     CommandHandler('removeword', remove_word),
 
 
+=======
+>>>>>>> origin/main
