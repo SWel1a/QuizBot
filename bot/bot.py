@@ -23,14 +23,8 @@ logging.basicConfig(
 )
 
 
-<<<<<<< HEAD
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    context.user_data["words"] = []  # Initialize an empty list to store words
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
-=======
 def get_random_id():
     return str(uuid.uuid4())  # Returns a random UUID as a string
->>>>>>> origin/main
 
 
 async def add_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -144,7 +138,6 @@ if __name__ == '__main__':
         application.add_handler(handler)
 
     application.run_polling()
-<<<<<<< HEAD
 
 
     async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -165,5 +158,3 @@ if __name__ == '__main__':
     CommandHandler('removeword', remove_word),
 
 
-=======
->>>>>>> origin/main
