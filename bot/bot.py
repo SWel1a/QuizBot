@@ -12,6 +12,7 @@ logging.basicConfig(
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    context.user_data["words"] = []  # Initialize an empty list to store words
     await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
 
 
@@ -106,4 +107,23 @@ if name == '__main__':
         application.add_handler(handler)
 
     application.run_polling()
-# here will be the code
+
+
+    async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
+        if not context.args:
+            await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word to remove.")
+        else:
+            word_to_remove = context.args[0].lower()
+            if word_to_remove in context.user_data.get("words", []):
+                context.user_data["words"].remove(word_to_remove)
+                await context.bot.send_message(chat_id=update.effective_chat.id,
+                                               text=f"Word '{word_to_remove}' removed.")
+            else:
+                await context.bot.send_message(chat_id=update.effective_chat.id,
+                                               text=f"Word '{word_to_remove}' not found in the list.")
+
+
+    # Add the new command handler to the list of handlers
+    CommandHandler('removeword', remove_word),
+
+
