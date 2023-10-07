@@ -50,6 +50,10 @@ async def add_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
 
 async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_handle = update.message.from_user.username
+    if '@' + user_handle not in ALLOWED_HANDLES:
+        await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
+        return
     if not context.args:
         await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word to remove.")
     else:
