@@ -57,14 +57,24 @@ async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not context.args:
         await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word to remove.")
     else:
-        word_to_remove = context.args[0].lower()
-        if word_to_remove in context.user_data.get("words", []):
-            context.user_data["words"].remove(word_to_remove)
-            await context.bot.send_message(chat_id=update.effective_chat.id,
-                                            text=f"Word '{word_to_remove}' removed.")
+        word_to_remove = context.args[0]  # Assume that the word is the first argument
+        with open('words.json', 'r', encoding='utf-8') as f:
+            word_list = json.load(f)
+        
+        # Store the original list length to check against it later
+        original_length = len(word_list)
+        
+        # Filter the list to keep only words that are NOT equal to `word_to_remove`
+        word_list = [word for word in word_list if word.get('word').lower() != word_to_remove.lower()]
+        
+        # If the length of the word_list has not changed, no word was removed
+        if len(word_list) == original_length:
+            await context.bot.send_message(chat_id=update.message.chat_id, text=f"No word found for: {word_to_remove}")
         else:
-            await context.bot.send_message(chat_id=update.effective_chat.id,
-                                            text=f"Word '{word_to_remove}' not found in the list.")
+            with open('words.json', 'w', encoding='utf-8') as f:
+                json.dump(word_list, f, ensure_ascii=False, indent=4)
+            await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word: {word_to_remove} removed.")
+
 
 
 def get_random_quiz():
