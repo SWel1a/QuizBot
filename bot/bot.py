@@ -50,21 +50,17 @@ async def add_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
 
 async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_handle = update.message.from_user.username
-    if '@' + user_handle not in ALLOWED_HANDLES:
-        await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
-        return
-    
-    if context.args:
-        id_to_remove = context.args[0]  # Assume that the ID is the first argument
-        with open('words.json', 'r', encoding='utf-8') as f:
-            word_list = json.load(f)
-        word_list = [word for word in word_list if word.get('id') != id_to_remove]
-        with open('words.json', 'w', encoding='utf-8') as f:
-            json.dump(word_list, f, ensure_ascii=False, indent=4)
-        await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word with ID: {id_to_remove} removed.")
+    if not context.args:
+        await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word to remove.")
     else:
-        await context.bot.send_message(chat_id=update.message.chat_id, text="Please provide the ID of the word to remove.")
+        word_to_remove = context.args[0].lower()
+        if word_to_remove in context.user_data.get("words", []):
+            context.user_data["words"].remove(word_to_remove)
+            await context.bot.send_message(chat_id=update.effective_chat.id,
+                                            text=f"Word '{word_to_remove}' removed.")
+        else:
+            await context.bot.send_message(chat_id=update.effective_chat.id,
+                                            text=f"Word '{word_to_remove}' not found in the list.")
 
 
 def get_random_quiz():
@@ -138,23 +134,3 @@ if __name__ == '__main__':
         application.add_handler(handler)
 
     application.run_polling()
-
-
-    async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
-        if not context.args:
-            await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word to remove.")
-        else:
-            word_to_remove = context.args[0].lower()
-            if word_to_remove in context.user_data.get("words", []):
-                context.user_data["words"].remove(word_to_remove)
-                await context.bot.send_message(chat_id=update.effective_chat.id,
-                                               text=f"Word '{word_to_remove}' removed.")
-            else:
-                await context.bot.send_message(chat_id=update.effective_chat.id,
-                                               text=f"Word '{word_to_remove}' not found in the list.")
-
-
-    # Add the new command handler to the list of handlers
-    CommandHandler('removeword', remove_word),
-
-
