@@ -15,6 +15,7 @@ load_dotenv()
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 ALLOWED_HANDLES = os.getenv('ALLOWED_HANDLES').split(',')
 quiz_answers = {}
+language_preferences = {}
 
 
 logging.basicConfig(
@@ -102,7 +103,9 @@ def get_random_quiz(language=None):
 
 
 async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
-    random_anecdote, correct_answer = get_random_quiz(language='English')  # Change 'English' to the desired language
+    language = language_preferences.get(context.job.chat_id, 'korean')  # Default to 'korean' if no preference found
+    
+    random_anecdote, correct_answer = get_random_quiz(language=language)
     if correct_answer:
         # Store the correct answer using chat_id as the key
         quiz_answers[context.job.chat_id] = correct_answer
@@ -114,15 +117,29 @@ async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
 
 async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
-    if not len(context.args) or not str(context.args[0]).isnumeric():
-        interval_time_min = 120
-    else:
-        interval_time_min = int(context.args[0])
+    
+    # Default values
+    language = 'korean'  # Default language
+    interval_time_min = 120  # Default time
+    
+    # Handling arguments
+    if len(context.args) >= 1:
+        first_arg = context.args[0]
+        if first_arg.isnumeric():
+            interval_time_min = int(first_arg)
+        else:
+            language = first_arg
+            if len(context.args) > 1 and context.args[1].isnumeric():
+                interval_time_min = int(context.args[1])
+    
     interval_time = interval_time_min * 60
-    await context.bot.send_message(chat_id=chat_id, text=f'Started timed Quiz!\nHere\'s the first one:')
+    
+    # Store language preference using chat_id as the key
+    language_preferences[chat_id] = language
+    
+    await context.bot.send_message(chat_id=chat_id, text=f'Started timed Quiz with language: {language}!\nHere\'s the first one:')
     # Set the alarm:
     context.job_queue.run_repeating(callback_quiz, interval=interval_time, first=1, name="timed_quiz", chat_id=chat_id)
-
 
 async def stop_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
