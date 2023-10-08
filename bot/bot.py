@@ -86,7 +86,7 @@ def get_random_quiz(language=None):
 
     # Filter the word list based on the specified language
     if language:
-        word_list = [word for word in word_list if word.get('language') == language]
+        word_list = [word for word in word_list if word['language'] == language]
 
     if not word_list:
         return "No words found for the specified language.", None
