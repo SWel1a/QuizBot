@@ -109,23 +109,24 @@ async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
     
     random_quiz, correct_answer, question_id = get_random_quiz(language=language)
 
+    if correct_answer:
+        message = await context.bot.send_message(chat_id=context.job.chat_id, text=random_quiz)
+    else:
+        await context.bot.send_message(chat_id=context.job.chat_id, text="No words found for the specified language.")
+        return
+    
     # Save to history
     quiz_history.append({
         'id': question_id,
         'answer': correct_answer,
         'chat_id': context.job.chat_id,
-        'attempts': 0
+        'attempts': 0,
+        'message_id': message.message_id
     })
     
     # Trim quiz_history to only keep the last 100 questions
     while len(quiz_history) > 100:
         quiz_history.pop(0)
-
-    if correct_answer:
-        await context.bot.send_message(chat_id=context.job.chat_id, text=random_quiz)
-    else:
-        await context.bot.send_message(chat_id=context.job.chat_id, text="No words found for the specified language.")
-
 
 
 async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -186,31 +187,30 @@ async def stop_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE)
 async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_message = update.message.text  # Get user's message
     chat_id = update.message.chat_id  # Get chat_id
-    
-    # Look for the answer in the history
-    corresponding_question = None
-    for qa in quiz_history:
-        if qa['chat_id'] == chat_id and user_message.lower().strip() == qa['answer'].lower().strip():
-            corresponding_question = qa
-            break
-    
-    if corresponding_question:  # If a correct answer was found
+    reply_to_message_id = update.message.reply_to_message.message_id if update.message.reply_to_message else None
+
+    if not reply_to_message_id:  # If the user did not reply to a specific message, you might decide to ignore or handle differently
+        await context.bot.send_message(chat_id=chat_id, text='Please reply directly to the question.')
+        return
+
+    # Find the question in history based on reply_to_message_id
+    corresponding_question = next((qa for qa in quiz_history if qa['chat_id'] == chat_id and qa['message_id'] == reply_to_message_id), None)
+
+    # Check and handle the answer similarly to the previous message but utilizing corresponding_question directly without further filtering.
+    if corresponding_question and user_message.lower().strip() == corresponding_question['answer'].lower().strip():
         await context.bot.send_message(chat_id=chat_id, text='Correct! 🎉')
-        quiz_history.remove(corresponding_question)  # Remove the answered Q-A pair
+        quiz_history.remove(corresponding_question)
     else:
-        # Identify the most recent question for this chat_id (assumed to be the last entry for that chat_id)
-        current_question = next((qa for qa in reversed(quiz_history) if qa['chat_id'] == chat_id), None)
-        
-        if current_question:  # If a question was found
-            current_question['attempts'] += 1  # Increment attempt count
-            remaining_attempts = 3 - current_question['attempts']
+        if corresponding_question:  # If a related question is found
+            corresponding_question['attempts'] += 1
+            remaining_attempts = 3 - corresponding_question['attempts']
             
-            if remaining_attempts > 0:  # If the user still has attempts left
+            if remaining_attempts > 0:
                 await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. You have {remaining_attempts} attempts left.')
-            else:  # If no attempts left, reveal answer and remove question from history
-                await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. The correct answer was: {current_question["answer"]}')
-                quiz_history.remove(current_question)
-        else:  # If no question was found (edge case handling)
+            else:
+                await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. The correct answer was: {corresponding_question["answer"]}')
+                quiz_history.remove(corresponding_question)
+        else:
             await context.bot.send_message(chat_id=chat_id, text='Incorrect or outdated answer. Try again with a new question!')
 
 
