@@ -97,7 +97,7 @@ def get_random_quiz(language=None):
     word = random_pair['word']
     description = random_pair['description']
 
-    return f"What is the word (in {random_pair['language']}) with given description: {description}?", word
+    return f"What is the word (in {language}) with given description: {description}?", word
 
 
 
