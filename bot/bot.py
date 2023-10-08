@@ -14,7 +14,9 @@ load_dotenv()
 # Read environment variables
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 ALLOWED_HANDLES = os.getenv('ALLOWED_HANDLES').split(',')
+ongoing_quizzes = {}
 quiz_answers = {}
+language_preferences = {}
 
 
 logging.basicConfig(
@@ -77,48 +79,86 @@ async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 
-def get_random_quiz():
+def get_random_quiz(language=None):
     filename_json = 'words.json'
 
     # Load the JSON file
     with open(filename_json, 'r', encoding='utf-8') as f:
         word_list = json.load(f)
 
+    # Filter the word list based on the specified language
+    if language:
+        word_list = [word for word in word_list if word['language'] == language]
+
+    if not word_list:
+        return "No words found for the specified language.", None
+
     # Pick a random word-description pair
     random_pair = random.choice(word_list)
 
     word = random_pair['word']
-    language = random_pair['language']
     description = random_pair['description']
 
     return f"What is the word (in {language}) with given description: {description}?", word
 
 
+
 async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
-    random_anecdote, correct_answer = get_random_quiz()
-    # Store the correct answer using chat_id as the key
-    quiz_answers[context.job.chat_id] = correct_answer
-    await context.bot.send_message(chat_id=context.job.chat_id, text=random_anecdote)
+    language = language_preferences.get(context.job.chat_id, 'korean')  # Default to 'korean' if no preference found
+    
+    random_anecdote, correct_answer = get_random_quiz(language=language)
+    if correct_answer:
+        # Store the correct answer using chat_id as the key
+        quiz_answers[context.job.chat_id] = correct_answer
+        await context.bot.send_message(chat_id=context.job.chat_id, text=random_anecdote)
+    else:
+        await context.bot.send_message(chat_id=context.job.chat_id, text="No words found for the specified language.")
+
 
 
 async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
-    if not len(context.args) or not str(context.args[0]).isnumeric():
-        interval_time_min = 120
-    else:
-        interval_time_min = int(context.args[0])
+    
+    if chat_id in ongoing_quizzes:
+        await context.bot.send_message(chat_id=chat_id, text='A quiz is already ongoing in this chat! Use /stop to stop it.')
+        return
+
+    # Default values
+    language = 'korean'  # Default language
+    interval_time_min = 120  # Default time
+    
+    # Handling arguments
+    if len(context.args) >= 1:
+        first_arg = context.args[0]
+        if first_arg.isnumeric():
+            interval_time_min = int(first_arg)
+        else:
+            language = first_arg
+            if len(context.args) > 1 and context.args[1].isnumeric():
+                interval_time_min = int(context.args[1])
+    
     interval_time = interval_time_min * 60
-    await context.bot.send_message(chat_id=chat_id, text=f'Started timed Quiz!\nHere\'s the first one:')
+    
+    # Store language preference using chat_id as the key
+    language_preferences[chat_id] = language
+    
+    await context.bot.send_message(chat_id=chat_id, text=f'Started timed Quiz with language: {language}!\nHere\'s the first one:')
     # Set the alarm:
-    context.job_queue.run_repeating(callback_quiz, interval=interval_time, first=1, name="timed_quiz", chat_id=chat_id)
+    # Store the job for the quiz
+    job = context.job_queue.run_repeating(callback_quiz, interval=interval_time, first=1, name="timed_quiz", chat_id=chat_id)
+    
+    # Add the job to the ongoing_quizzes dict
+    ongoing_quizzes[chat_id] = job
 
 
 async def stop_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
-    current_jobs = context.job_queue.get_jobs_by_name("timed_quiz")
-    for job in current_jobs:
-        job.schedule_removal()
-    await context.bot.send_message(chat_id=chat_id, text='Stopped!')
+    ongoing_job = ongoing_quizzes.pop(chat_id, None)
+    if ongoing_job:
+        ongoing_job.schedule_removal()
+        await context.bot.send_message(chat_id=chat_id, text='Stopped!')
+    else:
+        await context.bot.send_message(chat_id=chat_id, text='No ongoing quiz to stop!')
 
 
 async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
