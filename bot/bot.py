@@ -15,7 +15,6 @@ load_dotenv()
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 ALLOWED_HANDLES = os.getenv('ALLOWED_HANDLES').split(',')
 ongoing_quizzes = {}
-quiz_answers = {}
 language_preferences = {}
 quiz_history = []
 
@@ -122,8 +121,6 @@ async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
         quiz_history.pop(0)
 
     if correct_answer:
-        # Store the correct answer using chat_id as the key
-        quiz_answers[context.job.chat_id] = correct_answer
         await context.bot.send_message(chat_id=context.job.chat_id, text=random_quiz)
     else:
         await context.bot.send_message(chat_id=context.job.chat_id, text="No words found for the specified language.")
