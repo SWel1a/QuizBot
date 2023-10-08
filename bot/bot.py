@@ -14,6 +14,7 @@ load_dotenv()
 # Read environment variables
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 ALLOWED_HANDLES = os.getenv('ALLOWED_HANDLES').split(',')
+ongoing_quizzes = {}
 quiz_answers = {}
 language_preferences = {}
 
@@ -118,6 +119,10 @@ async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
 async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
     
+    if chat_id in ongoing_quizzes:
+        await context.bot.send_message(chat_id=chat_id, text='A quiz is already ongoing in this chat! Use /stop to stop it.')
+        return
+
     # Default values
     language = 'korean'  # Default language
     interval_time_min = 120  # Default time
@@ -139,14 +144,21 @@ async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE
     
     await context.bot.send_message(chat_id=chat_id, text=f'Started timed Quiz with language: {language}!\nHere\'s the first one:')
     # Set the alarm:
-    context.job_queue.run_repeating(callback_quiz, interval=interval_time, first=1, name="timed_quiz", chat_id=chat_id)
+    # Store the job for the quiz
+    job = context.job_queue.run_repeating(callback_quiz, interval=interval_time, first=1, name="timed_quiz", chat_id=chat_id)
+    
+    # Add the job to the ongoing_quizzes dict
+    ongoing_quizzes[chat_id] = job
+
 
 async def stop_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.message.chat_id
-    current_jobs = context.job_queue.get_jobs_by_name("timed_quiz")
-    for job in current_jobs:
-        job.schedule_removal()
-    await context.bot.send_message(chat_id=chat_id, text='Stopped!')
+    ongoing_job = ongoing_quizzes.pop(chat_id, None)
+    if ongoing_job:
+        ongoing_job.schedule_removal()
+        await context.bot.send_message(chat_id=chat_id, text='Stopped!')
+    else:
+        await context.bot.send_message(chat_id=chat_id, text='No ongoing quiz to stop!')
 
 
 async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
