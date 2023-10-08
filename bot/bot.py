@@ -204,18 +204,18 @@ async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     if corresponding_question and user_message.lower().strip() == corresponding_question['answer'].lower().strip():
         await context.bot.send_message(chat_id=chat_id, text='Correct! 🎉')
-        quiz_history.remove(corresponding_question)
     else:
         if corresponding_question:  # If a related question is found
+            max_attempts = 3
             corresponding_question['attempts'] += 1
-            remaining_attempts = 3 - corresponding_question['attempts']
+            corresponding_question['attempts'] = min(corresponding_question['attempts'], max_attempts)
+            remaining_attempts = max_attempts - corresponding_question['attempts']
             
             if remaining_attempts > 0:
                 msg = await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. You have {remaining_attempts} attempts left. Try again by replying to this message.')
                 corresponding_question['message_ids'].append(msg.message_id)  # Add new message_id to valid reply ids
             else:
                 await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. The correct answer was: {corresponding_question["answer"]}')
-                quiz_history.remove(corresponding_question)
         else:
             await context.bot.send_message(chat_id=chat_id, text='Incorrect or outdated answer. Try again with a new question!')
 
