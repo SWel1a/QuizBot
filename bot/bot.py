@@ -77,28 +77,39 @@ async def remove_word(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 
-def get_random_quiz():
+def get_random_quiz(language=None):
     filename_json = 'words.json'
 
     # Load the JSON file
     with open(filename_json, 'r', encoding='utf-8') as f:
         word_list = json.load(f)
 
+    # Filter the word list based on the specified language
+    if language:
+        word_list = [word for word in word_list if word.get('language') == language]
+
+    if not word_list:
+        return "No words found for the specified language.", None
+
     # Pick a random word-description pair
     random_pair = random.choice(word_list)
 
     word = random_pair['word']
-    language = random_pair['language']
     description = random_pair['description']
 
-    return f"What is the word (in {language}) with given description: {description}?", word
+    return f"What is the word (in {random_pair['language']}) with given description: {description}?", word
+
 
 
 async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
-    random_anecdote, correct_answer = get_random_quiz()
-    # Store the correct answer using chat_id as the key
-    quiz_answers[context.job.chat_id] = correct_answer
-    await context.bot.send_message(chat_id=context.job.chat_id, text=random_anecdote)
+    random_anecdote, correct_answer = get_random_quiz(language='English')  # Change 'English' to the desired language
+    if correct_answer:
+        # Store the correct answer using chat_id as the key
+        quiz_answers[context.job.chat_id] = correct_answer
+        await context.bot.send_message(chat_id=context.job.chat_id, text=random_anecdote)
+    else:
+        await context.bot.send_message(chat_id=context.job.chat_id, text="No words found for the specified language.")
+
 
 
 async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE):
