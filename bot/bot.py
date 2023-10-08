@@ -121,7 +121,7 @@ async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
         'answer': correct_answer,
         'chat_id': context.job.chat_id,
         'attempts': 0,
-        'message_id': message.message_id
+        'message_ids': [message.message_id]  # Initial valid reply IDs only contains the original message
     })
     
     # Trim quiz_history to only keep the last 100 questions
@@ -200,9 +200,8 @@ async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     # Find the question in history based on reply_to_message_id
-    corresponding_question = next((qa for qa in quiz_history if qa['chat_id'] == chat_id and qa['message_id'] == reply_to_message_id), None)
-
-    # Check and handle the answer similarly to the previous message but utilizing corresponding_question directly without further filtering.
+    corresponding_question = next((qa for qa in quiz_history if qa['chat_id'] == chat_id and reply_to_message_id in qa['message_ids']), None)
+    
     if corresponding_question and user_message.lower().strip() == corresponding_question['answer'].lower().strip():
         await context.bot.send_message(chat_id=chat_id, text='Correct! 🎉')
         quiz_history.remove(corresponding_question)
@@ -212,7 +211,8 @@ async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
             remaining_attempts = 3 - corresponding_question['attempts']
             
             if remaining_attempts > 0:
-                await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. You have {remaining_attempts} attempts left.')
+                msg = await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. You have {remaining_attempts} attempts left. Try again by replying to this message.')
+                corresponding_question['message_ids'].append(msg.message_id)  # Add new message_id to valid reply ids
             else:
                 await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. The correct answer was: {corresponding_question["answer"]}')
                 quiz_history.remove(corresponding_question)
