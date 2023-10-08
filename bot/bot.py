@@ -149,7 +149,17 @@ async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE
                 interval_time_min = int(context.args[1])
     
     interval_time = interval_time_min * 60
-    
+    language = language.lower().strip()
+
+    if language:
+        word_list = [word for word in word_list if word['language'] == language]
+    else:
+        word_list = []
+
+    if not word_list:
+        await context.bot.send_message(chat_id=chat_id, text=f'No words found for the specified language \"{language}\".')
+        return
+
     # Store language preference using chat_id as the key
     language_preferences[chat_id] = language
     
