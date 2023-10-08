@@ -113,7 +113,8 @@ async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
     quiz_history.append({
         'id': question_id,
         'answer': correct_answer,
-        'chat_id': context.job.chat_id
+        'chat_id': context.job.chat_id,
+        'attempts': 0
     })
     
     # Trim quiz_history to only keep the last 100 questions
@@ -197,7 +198,20 @@ async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await context.bot.send_message(chat_id=chat_id, text='Correct! 🎉')
         quiz_history.remove(corresponding_question)  # Remove the answered Q-A pair
     else:
-        await context.bot.send_message(chat_id=chat_id, text='Incorrect or outdated answer. Try again with a new question!')
+        # Identify the most recent question for this chat_id (assumed to be the last entry for that chat_id)
+        current_question = next((qa for qa in reversed(quiz_history) if qa['chat_id'] == chat_id), None)
+        
+        if current_question:  # If a question was found
+            current_question['attempts'] += 1  # Increment attempt count
+            remaining_attempts = 3 - current_question['attempts']
+            
+            if remaining_attempts > 0:  # If the user still has attempts left
+                await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. You have {remaining_attempts} attempts left.')
+            else:  # If no attempts left, reveal answer and remove question from history
+                await context.bot.send_message(chat_id=chat_id, text=f'Incorrect. The correct answer was: {current_question["answer"]}')
+                quiz_history.remove(current_question)
+        else:  # If no question was found (edge case handling)
+            await context.bot.send_message(chat_id=chat_id, text='Incorrect or outdated answer. Try again with a new question!')
 
 
 if __name__ == '__main__':
