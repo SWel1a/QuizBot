@@ -15,8 +15,8 @@ load_dotenv()
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 ALLOWED_HANDLES = os.getenv('ALLOWED_HANDLES').split(',')
 ongoing_quizzes = {}
-quiz_answers = {}
 language_preferences = {}
+quiz_history = []
 
 
 logging.basicConfig(
@@ -98,19 +98,30 @@ def get_random_quiz(language=None):
 
     word = random_pair['word']
     description = random_pair['description']
+    question_id = get_random_id()
 
-    return f"What is the word (in {language}) with given description: {description}?", word
+    return f"What is the word (in {language}) with given description: {description}?", word, question_id
 
 
 
 async def callback_quiz(context: ContextTypes.DEFAULT_TYPE):
     language = language_preferences.get(context.job.chat_id, 'korean')  # Default to 'korean' if no preference found
     
-    random_anecdote, correct_answer = get_random_quiz(language=language)
+    random_quiz, correct_answer, question_id = get_random_quiz(language=language)
+
+    # Save to history
+    quiz_history.append({
+        'id': question_id,
+        'answer': correct_answer,
+        'chat_id': context.job.chat_id
+    })
+    
+    # Trim quiz_history to only keep the last 100 questions
+    while len(quiz_history) > 100:
+        quiz_history.pop(0)
+
     if correct_answer:
-        # Store the correct answer using chat_id as the key
-        quiz_answers[context.job.chat_id] = correct_answer
-        await context.bot.send_message(chat_id=context.job.chat_id, text=random_anecdote)
+        await context.bot.send_message(chat_id=context.job.chat_id, text=random_quiz)
     else:
         await context.bot.send_message(chat_id=context.job.chat_id, text="No words found for the specified language.")
 
@@ -164,13 +175,19 @@ async def stop_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE)
 async def check_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_message = update.message.text  # Get user's message
     chat_id = update.message.chat_id  # Get chat_id
-    correct_answer = quiz_answers.get(chat_id)  # Retrieve the correct answer for this chat_id
     
-    if correct_answer:  # If a correct answer exists for this chat_id
-        if user_message.lower().strip() == correct_answer.lower().strip():  # Check correctness
-            await context.bot.send_message(chat_id=chat_id, text='Correct! 🎉')
-        else:
-            await context.bot.send_message(chat_id=chat_id, text=f'Incorrect! The correct answer was: {correct_answer}')
+    # Look for the answer in the history
+    corresponding_question = None
+    for qa in quiz_history:
+        if qa['chat_id'] == chat_id and user_message.lower().strip() == qa['answer'].lower().strip():
+            corresponding_question = qa
+            break
+    
+    if corresponding_question:  # If a correct answer was found
+        await context.bot.send_message(chat_id=chat_id, text='Correct! 🎉')
+        quiz_history.remove(corresponding_question)  # Remove the answered Q-A pair
+    else:
+        await context.bot.send_message(chat_id=chat_id, text='Incorrect or outdated answer. Try again with a new question!')
 
 
 if __name__ == '__main__':
