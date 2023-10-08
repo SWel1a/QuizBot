@@ -153,6 +153,12 @@ async def start_callback_quiz(update: Update, context: ContextTypes.DEFAULT_TYPE
     interval_time = interval_time_min * 60
     language = language.lower().strip()
 
+    filename_json = 'words.json'
+
+    # Load the JSON file
+    with open(filename_json, 'r', encoding='utf-8') as f:
+        word_list = json.load(f)
+
     if language:
         word_list = [word for word in word_list if word['language'] == language]
     else:
