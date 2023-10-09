@@ -322,5 +322,611 @@
         "language": "korean",
         "description": "существование (existence)",
         "id": "ad07555a-07a0-42da-86a2-e34b877a0e00"
+    },
+    {
+        "word": "Tuxedo-clad",
+        "language": "english",
+        "description": "Одетый в смокинг",
+        "id": "f98d90cb-9e58-42d2-a3db-47f72f8ac1d5"
+    },
+    {
+        "word": "Brim",
+        "language": "english",
+        "description": "Край",
+        "id": "10b8cfd9-d456-43f5-894a-6b61e852b5b8"
+    },
+    {
+        "word": "ruckus",
+        "language": "english",
+        "description": "Шум",
+        "id": "548674e4-0cc9-41dd-b4ea-2615c5ea4390"
+    },
+    {
+        "word": "comatose",
+        "language": "english",
+        "description": "коматозный",
+        "id": "a83eabaa-7f60-48cf-a74b-753e4b58f1e6"
+    },
+    {
+        "word": "corny shit that brings the clicks",
+        "language": "english",
+        "description": "Тривиальная дребедень, которая приносит клики (кликбейт)",
+        "id": "cdf6b3ec-136d-4b1b-9e90-cbfde098a0b2"
+    },
+    {
+        "word": "outrageous",
+        "language": "english",
+        "description": "скандальный",
+        "id": "8b94f733-8c80-4e03-bdbe-11b29b65ed6f"
+    },
+    {
+        "word": "stutter",
+        "language": "english",
+        "description": "заикаться",
+        "id": "3b062d5f-7de5-4924-b432-03295162f777"
+    },
+    {
+        "word": "rant",
+        "language": "english",
+        "description": "разглагольствовать",
+        "id": "8ca9305f-983b-424f-b961-5f1f5661aaba"
+    },
+    {
+        "word": "gal",
+        "language": "english",
+        "description": "девчонка",
+        "id": "61e0bf39-499d-49e3-a7df-08d4d4fbc83b"
+    },
+    {
+        "word": "before storming off",
+        "language": "english",
+        "description": "перед уходом в гневе",
+        "id": "b218d801-0320-4c1a-88e5-dfbf9a9a127c"
+    },
+    {
+        "word": "ceiling",
+        "language": "english",
+        "description": "потолок",
+        "id": "0b8c84d3-72f5-42e6-94aa-64ddef8d9b21"
+    },
+    {
+        "word": "sinks",
+        "language": "english",
+        "description": "раковины",
+        "id": "1c3f09e7-9efb-4e62-b23f-0a641e125b68"
+    },
+    {
+        "word": "crackhouse",
+        "language": "english",
+        "description": "притон",
+        "id": "1fb987b5-318f-48c6-92e1-3aef06584c1d"
+    },
+    {
+        "word": "slander",
+        "language": "english",
+        "description": "клевета",
+        "id": "f822ac35-483f-4f60-85df-dc17f97c192b"
+    },
+    {
+        "word": "fend off",
+        "language": "english",
+        "description": "парировать/отбиваться",
+        "id": "c6c0d220-1644-4ea5-938f-e19cd89cf788"
+    },
+    {
+        "word": "rioters",
+        "language": "english",
+        "description": "бунтовщики",
+        "id": "f4bdf8cb-e08b-4a52-9a78-3aa4654f7c76"
+    },
+    {
+        "word": "knocking them out cold one by one",
+        "language": "english",
+        "description": "вырубать их холодными по одному",
+        "id": "7d801f8b-23a2-42d2-88c6-693162733f7d"
+    },
+    {
+        "word": "sincere",
+        "language": "english",
+        "description": "искренний",
+        "id": "235f6a03-bacd-4ce1-9d07-96aa78b267c9"
+    },
+    {
+        "word": "pledge of allegiance",
+        "language": "english",
+        "description": "Клятва верности",
+        "id": "fb9a9d89-2aa6-4b7d-ae98-c0c2c2999162"
+    },
+    {
+        "word": "burglars",
+        "language": "english",
+        "description": "грабители",
+        "id": "e54a59db-4703-4da9-9f46-e5e527f49784"
+    },
+    {
+        "word": "alas",
+        "language": "english",
+        "description": "увы",
+        "id": "14c52cda-1532-4f8b-8f01-e0674a07fcdf"
+    },
+    {
+        "word": "that's a bummer",
+        "language": "english",
+        "description": "облом",
+        "id": "3665f013-4c89-43b5-835b-9de94f1ddbb3"
+    },
+    {
+        "word": "obnoxious",
+        "language": "english",
+        "description": "неприятный",
+        "id": "e07a3be2-8c05-42c7-b9c6-6f06f0e283f5"
+    },
+    {
+        "word": "neatly",
+        "language": "english",
+        "description": "аккуратно",
+        "id": "a45d5ea7-b9aa-42fb-937a-9e89c4f5ec11"
+    },
+    {
+        "word": "gimmick",
+        "language": "english",
+        "description": "трюк",
+        "id": "a88e3a99-c3e0-498f-918d-85a6c4e4ebd5"
+    },
+    {
+        "word": "filthy",
+        "language": "english",
+        "description": "грязный",
+        "id": "a7d34933-ec51-47a3-bef3-b79e0d654f1c"
+    },
+    {
+        "word": "accomplished",
+        "language": "english",
+        "description": "опытный",
+        "id": "b1a3de35-b204-4a3e-84cc-733c88a9a4df"
+    },
+    {
+        "word": "transcend",
+        "language": "english",
+        "description": "переступать пределы",
+        "id": "d487c60b-0f6b-46a2-a26a-3b433a126fe7"
+    },
+    {
+        "word": "recitals",
+        "language": "english",
+        "description": "сольные концерты",
+        "id": "fc52e8f4-2ec2-4d5d-9aa2-cc63a0f9cb6b"
+    },
+    {
+        "word": "nonchalantly",
+        "language": "english",
+        "description": "небрежно",
+        "id": "dd7e48c9-4e10-4d95-9c2b-1b54c5002a62"
+    },
+    {
+        "word": "ring any bells",
+        "language": "english",
+        "description": "напоминать что-либо",
+        "id": "d19eb869-7420-4f47-8f7e-29762210c8f2"
+    },
+    {
+        "word": "cram",
+        "language": "english",
+        "description": "впихивать",
+        "id": "4641ea24-7699-4c9e-bf39-918ec91967ac"
+    },
+    {
+        "word": "hectic",
+        "language": "english",
+        "description": "суматошный",
+        "id": "89b1ef09-4b25-47a7-96a7-3c19d1eb9c2d"
+    },
+    {
+        "word": "vista",
+        "language": "english",
+        "description": "перспектива",
+        "id": "dbf3d44b-ea09-4ba7-b8a3-7472fba86179"
+    },
+    {
+        "word": "impromptu",
+        "language": "english",
+        "description": "экспромт",
+        "id": "95fc873a-07c1-4e75-9e58-eb21a77d226a"
+    },
+    {
+        "word": "ventriloquism",
+        "language": "english",
+        "description": "чревовещание",
+        "id": "1a4bf5ed-cd21-492a-9830-09b50b1db4bb"
+    },
+    {
+        "word": "puns",
+        "language": "english",
+        "description": "каламбуры",
+        "id": "e23f5e16-35ec-4bc7-a799-e1c9f8d21443"
+    },
+    {
+        "word": "entity",
+        "language": "english",
+        "description": "организация, сущность",
+        "id": "4b66c32e-51cb-4a84-9dbf-6fc8b504c7ae"
+    },
+    {
+        "word": "bogeyman",
+        "language": "english",
+        "description": "призрак",
+        "id": "3e8eb965-5bcf-48a7-8a47-8c628c89b06e"
+    },
+    {
+        "word": "muddied",
+        "language": "english",
+        "description": "размытый",
+        "id": "b1168e67-3aa6-4833-8a2e-c8c18f0eb71f"
+    },
+    {
+        "word": "whim",
+        "language": "english",
+        "description": "каприз",
+        "id": "06a6a50b-dafa-4876-af6f-5a8c72aaf858"
+    },
+    {
+        "word": "precautions",
+        "language": "english",
+        "description": "меры предосторожности",
+        "id": "d4be0ad5-93c6-4f53-9dca-97c047dbb04c"
+    },
+    {
+        "word": "relay",
+        "language": "english",
+        "description": "ретранслировать, передавать",
+        "id": "aa97f32a-2ed0-46da-a294-46c41978b18f"
+    },
+    {
+        "word": "pester",
+        "language": "english",
+        "description": "надоедать",
+        "id": "25f3e3b5-e409-4ebf-9d79-af0d8ff235c4"
+    },
+    {
+        "word": "disheveled nerd",
+        "language": "english",
+        "description": "растрепанный ботаник",
+        "id": "a191cd59-7943-491f-af14-ea2a5c69b3a6"
+    },
+    {
+        "word": "spill the beans",
+        "language": "english",
+        "description": "проболтаться",
+        "id": "9a6f6723-d883-48ca-9c33-92c5736db883"
+    },
+    {
+        "word": "sonsabitches",
+        "language": "english",
+        "description": "сукины дети",
+        "id": "a927c0db-4dd2-48f1-a751-9f4f1f7e34ef"
+    },
+    {
+        "word": "moreso",
+        "language": "english",
+        "description": "тем более",
+        "id": "18a75887-014a-45bf-9d09-cb0ed8dcb4c7"
+    },
+    {
+        "word": "unsubstantiated",
+        "language": "english",
+        "description": "необоснованный",
+        "id": "ad49a8f7-5e13-4b53-b04e-75d964e8e03b"
+    },
+    {
+        "word": "klutz",
+        "language": "english",
+        "description": "недотепа",
+        "id": "d10b6ae3-25a3-4d95-9a5c-305bf81b2577"
+    },
+    {
+        "word": "fad",
+        "language": "english",
+        "description": "причуда",
+        "id": "0d702a06-3e53-481d-8193-b5ea89f4df91"
+    },
+    {
+        "word": "worrywart",
+        "language": "english",
+        "description": "беспокойный",
+        "id": "1aa2bf24-e1a7-4e4a-a63a-ba0c37c9cf09"
+    },
+    {
+        "word": "simpleton",
+        "language": "english",
+        "description": "простак",
+        "id": "60d556cc-3ef4-4859-bf36-e4c8bf4d853e"
+    },
+    {
+        "word": "refrain",
+        "language": "english",
+        "description": "воздерживаться",
+        "id": "dd1f8a19-4b3c-4b0c-b2ed-e367729fbd3f"
+    },
+    {
+        "word": "unsubstantiated",
+        "language": "english",
+        "description": "необоснованный",
+        "id": "2b86d906-9d6c-4a78-8e67-0883a28ef70d"
+    },
+    {
+        "word": "klutz",
+        "language": "english",
+        "description": "недотепа",
+        "id": "f3b56efc-5c8d-4eb9-bd8f-92a5aaae7294"
+    },
+    {
+        "word": "fad",
+        "language": "english",
+        "description": "причуда",
+        "id": "3e342f4b-4f15-460e-bd42-d01adac6d321"
+    },
+    {
+        "word": "worrywart",
+        "language": "english",
+        "description": "беспокойный",
+        "id": "b5ca172d-9c22-49e3-823c-d7481b3a1841"
+    },
+    {
+        "word": "simpleton",
+        "language": "english",
+        "description": "простак",
+        "id": "d75bf9a1-b58a-4c65-8b01-4a1e7aaef090"
+    },
+    {
+        "word": "refrain",
+        "language": "english",
+        "description": "воздерживаться",
+        "id": "88ef1c86-7f7c-48a4-8652-220c11c38ae2"
+    },
+    {
+        "word": "ulterior motives",
+        "language": "english",
+        "description": "скрытые мотивы",
+        "id": "0848ac71-8882-4f76-9a8a-988cc0e50e46"
+    },
+    {
+        "word": "cues",
+        "language": "english",
+        "description": "намеки",
+        "id": "c82f29e9-ba4d-40c0-8d4e-6c0b236201b3"
+    },
+    {
+        "word": "discreet",
+        "language": "english",
+        "description": "сдержанный",
+        "id": "95a53f84-8d9c-4754-9d3b-5c1e8cf94954"
+    },
+    {
+        "word": "disposable",
+        "language": "english",
+        "description": "одноразовый",
+        "id": "a414e3a2-6b95-4a0e-a5f5-62dd6205fc44"
+    },
+    {
+        "word": "frustrations",
+        "language": "english",
+        "description": "разочарования",
+        "id": "3d8606c6-856f-45d2-875c-3e4f0fb374b6"
+    },
+    {
+        "word": "visage",
+        "language": "english",
+        "description": "облик",
+        "id": "513bcfea-b930-43c1-8c2a-6f7f4135836f"
+    },
+    {
+        "word": "backfiring",
+        "language": "english",
+        "description": "обратный эффект",
+        "id": "c4be2a63-59d5-4a49-8a9d-6e68d67d67de"
+    },
+    {
+        "word": "chit-chat",
+        "language": "english",
+        "description": "болтовня",
+        "id": "f86c2b2b-0e10-4ce7-9c88-ec5a1306c2d3"
+    },
+    {
+        "word": "tacky",
+        "language": "english",
+        "description": "безвкусный, броский",
+        "id": "e3e92fbf-536f-40bb-a208-1b7b1c8c1af4"
+    },
+    {
+        "word": "redundant",
+        "language": "english",
+        "description": "избыточный, лишний",
+        "id": "a9247359-959f-4d0c-991a-e1a3edfb2e4c"
+    },
+    {
+        "word": "deluding",
+        "language": "english",
+        "description": "вводящий в заблуждение",
+        "id": "cc9ac789-254d-4a71-9a53-04dfcfdca7df"
+    },
+    {
+        "word": "scantily-clad",
+        "language": "english",
+        "description": "полураздетый",
+        "id": "937ff8f0-c045-4e7c-9d1b-631de076c6ce"
+    },
+    {
+        "word": "vow",
+        "language": "english",
+        "description": "обет, клятва",
+        "id": "c74c3f90-d7b1-4fcf-af09-f2a83765ca88"
+    },
+    {
+        "word": "epiphany",
+        "language": "english",
+        "description": "прозрение",
+        "id": "ab30b64e-0ecb-45d1-a270-1038c1f20724"
+    },
+    {
+        "word": "cubicle",
+        "language": "english",
+        "description": "кабинка",
+        "id": "3cbf93d3-2c6a-48c1-9924-8997c32d7e7c"
+    },
+    {
+        "word": "kennel",
+        "language": "english",
+        "description": "конура",
+        "id": "4e1cf75d-0f5c-42e9-a70f-05968a836c64"
+    },
+    {
+        "word": "ubiquitous",
+        "language": "english",
+        "description": "вездесущий",
+        "id": "2b51d9cb-16b3-42b7-bd08-e4d62bb2e2f8"
+    },
+    {
+        "word": "appraised",
+        "language": "english",
+        "description": "оцененный",
+        "id": "bb0d6f10-90a9-4d3e-a674-6c2c83e45e9d"
+    },
+    {
+        "word": "counterfeit",
+        "language": "english",
+        "description": "подделка",
+        "id": "92c772bf-c2c2-4091-b2eb-f4cafb42d1e6"
+    },
+    {
+        "word": "bonafide",
+        "language": "english",
+        "description": "добросовестный",
+        "id": "5ab1699f-464e-4d0f-903d-86ad2f1c70eb"
+    },
+    {
+        "word": "exasperation",
+        "language": "english",
+        "description": "раздражение",
+        "id": "ff8af0ef-e7b2-4e69-b9a9-3d3fc7b41c25"
+    },
+    {
+        "word": "tangible",
+        "language": "english",
+        "description": "материальный",
+        "id": "5a5c43eb-4b57-48ac-ba92-cf44298e69cb"
+    },
+    {
+        "word": "wary",
+        "language": "english",
+        "description": "осторожный",
+        "id": "10336d16-537a-431e-8b85-7e405e66e4e6"
+    },
+    {
+        "word": "slur",
+        "language": "english",
+        "description": "оскорбление",
+        "id": "c8e5b68b-d54f-4ff3-8496-8014ff09c2cc"
+    },
+    {
+        "word": "akin",
+        "language": "english",
+        "description": "сродни",
+        "id": "408f05a6-171d-4c3e-aa0a-e4f84d3f365a"
+    },
+    {
+        "word": "recite",
+        "language": "english",
+        "description": "пересказывать",
+        "id": "9f59be95-6f3d-4ac3-b740-95d4d4f24ea2"
+    },
+    {
+        "word": "the more the merrier",
+        "language": "english",
+        "description": "чем больше тем лучше",
+        "id": "9e7f112b-4465-4d1a-8eab-59c8be947d70"
+    },
+    {
+        "word": "acquainted",
+        "language": "english",
+        "description": "знакомый",
+        "id": "46d351b5-05b6-4b36-8f72-2da24436e273"
+    },
+    {
+        "word": "array",
+        "language": "english",
+        "description": "множество",
+        "id": "5e1e7b4a-8432-4b4b-a1e0-8c24bfed963b"
+    },
+    {
+        "word": "intimidating",
+        "language": "english",
+        "description": "пугающий",
+        "id": "97d7c79e-7b1c-4900-b172-aa4132c04161"
+    },
+    {
+        "word": "fidgety",
+        "language": "english",
+        "description": "суетливый, беспокойный",
+        "id": "10ec935d-981c-4bf2-ba9a-5379a30e4c56"
+    },
+    {
+        "word": "jubilant",
+        "language": "english",
+        "description": "ликующий",
+        "id": "d4e3e30b-4853-4f64-8c85-18a9c3e09c7a"
+    },
+    {
+        "word": "screwdriver",
+        "language": "english",
+        "description": "отвертка",
+        "id": "142d184f-2c23-43c6-8660-53743854e415"
+    },
+    {
+        "word": "sabbatical",
+        "language": "english",
+        "description": "творческий отпуск",
+        "id": "f6c4c55b-186b-4c8a-980a-89f91d6ab966"
+    },
+    {
+        "word": "hinder",
+        "language": "english",
+        "description": "препятствовать, мешать",
+        "id": "43aa1ed4-54c6-4c52-a8c1-3c3a6c59d923"
+    },
+    {
+        "word": "assume",
+        "language": "english",
+        "description": "предполагать",
+        "id": "7a18d4ad-0a7a-4754-a91a-8b3d08fbd11d"
+    },
+    {
+        "word": "oak branch",
+        "language": "english",
+        "description": "Дубовая ветка",
+        "id": "4bf85c98-1d98-42f2-a40a-424ecb18116d"
+    },
+    {
+        "word": "dimming the light",
+        "language": "english",
+        "description": "Затемнение света",
+        "id": "31c8b546-33c1-4c20-ae16-5b1a9f5b2db3"
+    },
+    {
+        "word": "subsequent persecution",
+        "language": "english",
+        "description": "последующее преследование",
+        "id": "6b7d90cd-7e92-43e7-8ed4-23e5f7d4ed9c"
+    },
+    {
+        "word": "reek of rage",
+        "language": "english",
+        "description": "Разить яростью",
+        "id": "a262f9f5-c853-4675-8f4c-9597ac0dfe93"
+    },
+    {
+        "word": "giddy",
+        "language": "english",
+        "description": "Ветреный",
+        "id": "dfce6ba5-738c-4de0-b0e4-d7cfa1e74719"
     }
 ]
