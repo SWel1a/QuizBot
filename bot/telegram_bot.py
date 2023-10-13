@@ -6,8 +6,8 @@ import random
 from functools import wraps
 
 
-def get_random_quiz(words_list, language=None):
-    word_list = words_list.get_words_by_language(language)
+async def get_random_quiz(words_list, language=None):
+    word_list = await words_list.get_words_by_language(language)
 
     if not word_list:
         return "No words found for the specified language.", None
@@ -134,7 +134,7 @@ class TelegramQuizBot:
         interval_time = interval_time_min * 60
         language = language.lower().strip()
 
-        word_list = self.words_list.get_words_by_language(language)
+        word_list = await self.words_list.get_words_by_language(language)
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id, text=f'No words found for the specified language \"{language}\".')
