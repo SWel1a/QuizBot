@@ -90,7 +90,7 @@ class TelegramQuizBot:
     async def callback_quiz(self, context: ContextTypes.DEFAULT_TYPE):
         language = self.language_preferences.get(context.job.chat_id, 'korean')  # Default to 'korean' if no preference found
         
-        random_quiz, correct_answer, question_id = get_random_quiz(self.words_list, language=language)
+        random_quiz, correct_answer, question_id = await get_random_quiz(self.words_list, language=language)
 
         if correct_answer:
             message = await context.bot.send_message(chat_id=context.job.chat_id, text=random_quiz)
