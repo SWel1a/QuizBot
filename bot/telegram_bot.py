@@ -39,10 +39,10 @@ class TelegramQuizBot:
 
         # Commands and handlers
         self.commands = [
-            BotCommand(command="start", description=""),
-            BotCommand(command="stop", description=""),
-            BotCommand(command="add_word", description=""),
-            BotCommand(command="remove_word", description=""),
+            BotCommand(command="start", description="the timer can be added, for example start 10"),
+            BotCommand(command="stop", description="stop the quiz"),
+            BotCommand(command="add_word", description="{\"word\": \"your word\", \"language\": \"your language\", \"description\": \"the translation or context\"}"),
+            BotCommand(command="remove_word", description="any word can be deleted from the list"),
         ]
 
         handlers = [
