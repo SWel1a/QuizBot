@@ -1,22 +1,13 @@
 from telegram import Update, BotCommand
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters, Application
+from utils import get_random_id
 import json
 import random
-import uuid
+from functools import wraps
 
 
-def get_random_id():
-    return str(uuid.uuid4())  # Returns a random UUID as a string
-
-
-def get_random_quiz(filename_json, language=None):
-    # Load the JSON file
-    with open(filename_json, 'r', encoding='utf-8') as f:
-        word_list = json.load(f)
-
-    # Filter the word list based on the specified language
-    if language:
-        word_list = [word for word in word_list if word['language'] == language]
+def get_random_quiz(words_list, language=None):
+    word_list = words_list.get_words_by_language(language)
 
     if not word_list:
         return "No words found for the specified language.", None
@@ -31,9 +22,20 @@ def get_random_quiz(filename_json, language=None):
     return f"What is the word (in {language}) with given description: {description}?", word, question_id
 
 
+def authorized(func):
+    @wraps(func)
+    async def wrapper(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        user_handle = update.message.from_user.username
+        if '@' + user_handle not in self.allowed_handles:
+            await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
+            return
+        return await func(self, update, context)
+    return wrapper
+
+
 class TelegramQuizBot:
-    def __init__(self, telegram_token, allowed_handles, words_file_path):
-        self.words_file_path = words_file_path
+    def __init__(self, telegram_token, allowed_handles, words_list):
+        self.words_list = words_list
         # Telegram bot token
         self.telegram_token = telegram_token
 
@@ -45,7 +47,7 @@ class TelegramQuizBot:
             BotCommand(command="remove_word", description="any word can be deleted from the list"),
         ]
 
-        handlers = [
+        self.handlers = [
             CommandHandler('start', self.start_callback_quiz),
             CommandHandler('stop', self.stop_callback_quiz),
             CommandHandler('add_word', self.add_word),
@@ -59,55 +61,31 @@ class TelegramQuizBot:
         self.language_preferences = {}
         self.quiz_history = []
 
-
+    @authorized
     async def add_word(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        user_handle = update.message.from_user.username
-        if '@' + user_handle not in self.allowed_handles:
-            await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
-            return
-        
-        if context.args:
-            try:
-                word_data = json.loads(' '.join(context.args))
-                word_data["id"] = get_random_id()
-                with open(self.words_file_path, 'r', encoding='utf-8') as f:
-                    word_list = json.load(f)
-                word_list.append(word_data)
-                with open(self.words_file_path, 'w', encoding='utf-8') as f:
-                    json.dump(word_list, f, ensure_ascii=False, indent=4)
-                await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word added with ID: {word_data['id']}")
-            except json.JSONDecodeError:
-                await context.bot.send_message(chat_id=update.message.chat_id, text="Invalid JSON format.")
-        else:
-            await context.bot.send_message(chat_id=update.message.chat_id, text="Please provide word data in JSON format.")
+        await self.manage_word(update, context, 'add')
             
-
+    @authorized
     async def remove_word(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        user_handle = update.message.from_user.username
-        if '@' + user_handle not in self.allowed_handles:
-            await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
-            return
-        if not context.args:
-            await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word to remove.")
-        else:
-            word_to_remove = context.args[0]  # Assume that the word is the first argument
-            with open(self.words_file_path, 'r', encoding='utf-8') as f:
-                word_list = json.load(f)
-            
-            # Store the original list length to check against it later
-            original_length = len(word_list)
-            
-            # Filter the list to keep only words that are NOT equal to `word_to_remove`
-            word_list = [word for word in word_list if word.get('word').lower() != word_to_remove.lower()]
-            
-            # If the length of the word_list has not changed, no word was removed
-            if len(word_list) == original_length:
-                await context.bot.send_message(chat_id=update.message.chat_id, text=f"No word found for: {word_to_remove}")
-            else:
-                with open(self.words_file_path, 'w', encoding='utf-8') as f:
-                    json.dump(word_list, f, ensure_ascii=False, indent=4)
-                await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word: {word_to_remove} removed.")
+        await self.manage_word(update, context, 'remove')
 
+    async def manage_word(self, update: Update, context: ContextTypes.DEFAULT_TYPE, action: str):
+        if not context.args:
+            await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word.")
+        else:
+            word = context.args[0]  # Assume that the word is the first argument
+            if action == 'add':
+                try:
+                    await self.words_list.add_word(' '.join(context.args))
+                    await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word added!")
+                except json.JSONDecodeError:
+                    await context.bot.send_message(chat_id=update.message.chat_id, text="Invalid JSON format.")
+            elif action == 'remove':
+                removed = await self.words_list.remove_word(word)
+                if not removed:
+                    await context.bot.send_message(chat_id=update.message.chat_id, text=f"No word found for: {word}")
+                else:
+                    await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word: {word} removed.")
 
     async def callback_quiz(self, context: ContextTypes.DEFAULT_TYPE):
         language = self.language_preferences.get(context.job.chat_id, 'korean')  # Default to 'korean' if no preference found
@@ -129,9 +107,7 @@ class TelegramQuizBot:
             'message_ids': [message.message_id]  # Initial valid reply IDs only contains the original message
         })
         
-        # Trim quiz_history to only keep the last 100 questions
-        while len(self.quiz_history) > 100:
-            self.quiz_history.pop(0)
+        self.quiz_history = self.quiz_history[-100:]
 
 
     async def start_callback_quiz(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -158,14 +134,7 @@ class TelegramQuizBot:
         interval_time = interval_time_min * 60
         language = language.lower().strip()
 
-        # Load the JSON file
-        with open(self.words_file_path, 'r', encoding='utf-8') as f:
-            word_list = json.load(f)
-
-        if language:
-            word_list = [word for word in word_list if word['language'] == language]
-        else:
-            word_list = []
+        word_list = self.words_list.get_words_by_language(language)
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id, text=f'No words found for the specified language \"{language}\".')
