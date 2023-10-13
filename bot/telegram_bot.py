@@ -3,6 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 from utils import get_random_id
 import json
 import random
+from functools import wraps
 
 
 def get_random_quiz(words_list, language=None):
@@ -20,6 +21,16 @@ def get_random_quiz(words_list, language=None):
 
     return f"What is the word (in {language}) with given description: {description}?", word, question_id
 
+
+def authorized(func):
+    @wraps(func)
+    async def wrapper(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        user_handle = update.message.from_user.username
+        if '@' + user_handle not in self.allowed_handles:
+            await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
+            return
+        return await func(self, update, context)
+    return wrapper
 
 
 class TelegramQuizBot:
@@ -50,38 +61,31 @@ class TelegramQuizBot:
         self.language_preferences = {}
         self.quiz_history = []
 
-
+    @authorized
     async def add_word(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        user_handle = update.message.from_user.username
-        if '@' + user_handle not in self.allowed_handles:
-            await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
-            return
-        
-        if context.args:
-            try:
-                await self.words_list.add_word(' '.join(context.args))
-                await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word added!")
-            except json.JSONDecodeError:
-                await context.bot.send_message(chat_id=update.message.chat_id, text="Invalid JSON format.")
-        else:
-            await context.bot.send_message(chat_id=update.message.chat_id, text="Please provide word data in JSON format.")
+        await self.manage_word(update, context, 'add')
             
-
+    @authorized
     async def remove_word(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        user_handle = update.message.from_user.username
-        if '@' + user_handle not in self.allowed_handles:
-            await context.bot.send_message(chat_id=update.message.chat_id, text="You are not authorized to use this command.")
-            return
-        if not context.args:
-            await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word to remove.")
-        else:
-            word_to_remove = context.args[0]  # Assume that the word is the first argument
-            removed = await self.words_list.remove_word(word_to_remove)
-            if not removed:
-                await context.bot.send_message(chat_id=update.message.chat_id, text=f"No word found for: {word_to_remove}")
-            else:
-                await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word: {word_to_remove} removed.")
+        await self.manage_word(update, context, 'remove')
 
+    async def manage_word(self, update: Update, context: ContextTypes.DEFAULT_TYPE, action: str):
+        if not context.args:
+            await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word.")
+        else:
+            word = context.args[0]  # Assume that the word is the first argument
+            if action == 'add':
+                try:
+                    await self.words_list.add_word(' '.join(context.args))
+                    await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word added!")
+                except json.JSONDecodeError:
+                    await context.bot.send_message(chat_id=update.message.chat_id, text="Invalid JSON format.")
+            elif action == 'remove':
+                removed = await self.words_list.remove_word(word)
+                if not removed:
+                    await context.bot.send_message(chat_id=update.message.chat_id, text=f"No word found for: {word}")
+                else:
+                    await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word: {word} removed.")
 
     async def callback_quiz(self, context: ContextTypes.DEFAULT_TYPE):
         language = self.language_preferences.get(context.job.chat_id, 'korean')  # Default to 'korean' if no preference found
@@ -103,9 +107,7 @@ class TelegramQuizBot:
             'message_ids': [message.message_id]  # Initial valid reply IDs only contains the original message
         })
         
-        # Trim quiz_history to only keep the last 100 questions
-        while len(self.quiz_history) > 100:
-            self.quiz_history.pop(0)
+        self.quiz_history = self.quiz_history[-100:]
 
 
     async def start_callback_quiz(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
