@@ -1,22 +1,12 @@
 from telegram import Update, BotCommand
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters, Application
+from utils import get_random_id
 import json
 import random
-import uuid
 
 
-def get_random_id():
-    return str(uuid.uuid4())  # Returns a random UUID as a string
-
-
-def get_random_quiz(filename_json, language=None):
-    # Load the JSON file
-    with open(filename_json, 'r', encoding='utf-8') as f:
-        word_list = json.load(f)
-
-    # Filter the word list based on the specified language
-    if language:
-        word_list = [word for word in word_list if word['language'] == language]
+def get_random_quiz(words_list, language=None):
+    word_list = words_list.get_words_by_language(language)
 
     if not word_list:
         return "No words found for the specified language.", None
@@ -31,9 +21,10 @@ def get_random_quiz(filename_json, language=None):
     return f"What is the word (in {language}) with given description: {description}?", word, question_id
 
 
+
 class TelegramQuizBot:
-    def __init__(self, telegram_token, allowed_handles, words_file_path):
-        self.words_file_path = words_file_path
+    def __init__(self, telegram_token, allowed_handles, words_list):
+        self.words_list = words_list
         # Telegram bot token
         self.telegram_token = telegram_token
 
@@ -45,7 +36,7 @@ class TelegramQuizBot:
             BotCommand(command="remove_word", description="any word can be deleted from the list"),
         ]
 
-        handlers = [
+        self.handlers = [
             CommandHandler('start', self.start_callback_quiz),
             CommandHandler('stop', self.stop_callback_quiz),
             CommandHandler('add_word', self.add_word),
@@ -68,14 +59,8 @@ class TelegramQuizBot:
         
         if context.args:
             try:
-                word_data = json.loads(' '.join(context.args))
-                word_data["id"] = get_random_id()
-                with open(self.words_file_path, 'r', encoding='utf-8') as f:
-                    word_list = json.load(f)
-                word_list.append(word_data)
-                with open(self.words_file_path, 'w', encoding='utf-8') as f:
-                    json.dump(word_list, f, ensure_ascii=False, indent=4)
-                await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word added with ID: {word_data['id']}")
+                await self.words_list.add_word(' '.join(context.args))
+                await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word added!")
             except json.JSONDecodeError:
                 await context.bot.send_message(chat_id=update.message.chat_id, text="Invalid JSON format.")
         else:
@@ -91,21 +76,10 @@ class TelegramQuizBot:
             await context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a word to remove.")
         else:
             word_to_remove = context.args[0]  # Assume that the word is the first argument
-            with open(self.words_file_path, 'r', encoding='utf-8') as f:
-                word_list = json.load(f)
-            
-            # Store the original list length to check against it later
-            original_length = len(word_list)
-            
-            # Filter the list to keep only words that are NOT equal to `word_to_remove`
-            word_list = [word for word in word_list if word.get('word').lower() != word_to_remove.lower()]
-            
-            # If the length of the word_list has not changed, no word was removed
-            if len(word_list) == original_length:
+            removed = await self.words_list.remove_word(word_to_remove)
+            if not removed:
                 await context.bot.send_message(chat_id=update.message.chat_id, text=f"No word found for: {word_to_remove}")
             else:
-                with open(self.words_file_path, 'w', encoding='utf-8') as f:
-                    json.dump(word_list, f, ensure_ascii=False, indent=4)
                 await context.bot.send_message(chat_id=update.message.chat_id, text=f"Word: {word_to_remove} removed.")
 
 
@@ -158,14 +132,7 @@ class TelegramQuizBot:
         interval_time = interval_time_min * 60
         language = language.lower().strip()
 
-        # Load the JSON file
-        with open(self.words_file_path, 'r', encoding='utf-8') as f:
-            word_list = json.load(f)
-
-        if language:
-            word_list = [word for word in word_list if word['language'] == language]
-        else:
-            word_list = []
+        word_list = self.words_list.get_words_by_language(language)
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id, text=f'No words found for the specified language \"{language}\".')

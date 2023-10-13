@@ -2,6 +2,7 @@ import os
 import logging
 from dotenv import load_dotenv
 from telegram_bot import TelegramQuizBot
+from words_list import WordsList
 
 
 def main():
@@ -13,9 +14,11 @@ def main():
         level=logging.INFO
     )
 
+    words = WordsList(filepath="./data/words.json")
+
     bot = TelegramQuizBot(telegram_token=os.getenv('TELEGRAM_TOKEN'),
                           allowed_handles=os.getenv('ALLOWED_HANDLES').split(','),
-                          words_file_path="./data/words.json")
+                          words_list=words)
     
     bot.run()
 
