@@ -8,7 +8,7 @@ def get_random_id():
     return str(uuid.uuid4())  # Returns a random UUID as a string
 
 
-def localized_text(translations, key, bot_language, format_params=None):
+def localized_text(translations, bot_language, key, format_params=None):
     """
     Return translated text for a key in specified bot_language.
     Keys and translations can be found in the translations.json.
