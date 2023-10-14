@@ -92,7 +92,7 @@ class TelegramQuizBot:
             word = ' '.join(context.args)
             if action == 'add':
                 try:
-                    await self.words_list.add_word(' '.join(context.args))
+                    await self.words_list.add_word(word)
                     await context.bot.send_message(chat_id=update.message.chat_id, 
                                                    text=self._localized_text(update.message.chat_id, "word_added"))
                 except json.JSONDecodeError:
