@@ -1,0 +1,19 @@
+{
+    "en": {
+        "unauthorized_command": "You are not authorized to use this command.",
+        "no_words_language": "No words found for the specified language.",
+        "quiz_ongoing": "A quiz is already ongoing in this chat! Use /stop to stop it.",
+        "no_words_specific_language": "No words found for the specified language \"{language}\".",
+        "quiz_started": "Started timed Quiz with language: {language}!\nHere's the first one:",
+        "quiz_stopped": "Stopped!",
+        "correct_answer": "Correct! 🎉",
+        "incorrect_answer": "Incorrect. You have {remaining_attempts} attempts left. Try again by replying to this message.",
+        "incorrect_final_answer": "Incorrect. The correct answer was: {correct_answer}",
+        "reply_to_question": "Please reply directly to the question.",
+        "invalid_json_format": "Invalid JSON format.",
+        "word_added": "Word added!",
+        "word_not_found": "No word found for: {word}",
+        "word_removed": "Word: {word} removed.",
+        "quiz_question": "What is the word (in {language}) with given description: {description}?"
+    }
+}
