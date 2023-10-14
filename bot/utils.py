@@ -52,7 +52,12 @@ def quiz_start_args_parser(args_list):
             if len(args_list) > 1 and args_list[1].isnumeric():
                 interval_time = str(args_list[1])
     
-    interval_time_units = interval_time * 60
+    if constants.DEFAULT_TIME_UNIT == 'm':
+        interval_time_units = int(interval_time) * 60
+    elif constants.DEFAULT_TIME_UNIT == 'h':
+        interval_time_units = int(interval_time) * 60 * 60
+    else:
+        interval_time_units = int(interval_time)
     language = language.lower().strip()
     
     return language, interval_time_units

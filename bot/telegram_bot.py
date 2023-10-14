@@ -180,7 +180,7 @@ class TelegramQuizBot:
                                            text=localized_text(self.translations, "correct_answer", self.bot_language))
         else:
             if corresponding_question:  # If a related question is found
-                max_attempts = 3
+                max_attempts = constants.DEFAULT_MAX_ATTEMPTS
                 corresponding_question['attempts'] += 1
                 corresponding_question['attempts'] = min(corresponding_question['attempts'], max_attempts)
                 remaining_attempts = max_attempts - corresponding_question['attempts']
