@@ -1,10 +1,11 @@
-language = 'korean'  # Default language for a quiz
+DEFAULT_LANGUAGE = 'korean'  # Default language for a quiz
 
-interval_time_min = 120  # Default time
-time_units = ['s', 'm', 'h']
-default_time_unit = time_units[1]
+DEFAULT_INTERVAL_TIME = 120  # Default time
+TIME_UNITS = ['s', 'm', 'h']
+DEFAULT_TIME_UNIT = TIME_UNITS[1]
 
-default_max_attempts = 3
+DEFAULT_MAX_ATTEMPTS = 3
 
-quiz_history_length = 100  # How many quiz history to keep in memory
+QUIZ_HISTORY_LENGTH = 100  # How many quiz history to keep in memory
 
+DEFAULT_BOT_LANGUAGE = 'english'  # Default language for the bot
