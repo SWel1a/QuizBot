@@ -32,6 +32,7 @@ class TelegramQuizBot:
         self.commands = [
             BotCommand(command="start", description=self._localized_text(None, "start_description")),
             BotCommand(command="stop", description=self._localized_text(None, "stop_description")),
+            BotCommand(command="quiz", description=self._localized_text(None, "quiz_description")),
             BotCommand(command="add_word", description=self._localized_text(None, "add_word_description")),
             BotCommand(command="remove_word", description=self._localized_text(None, "remove_word_description")),
             BotCommand(command="language", description=self._localized_text(None, "language_description"))
@@ -40,6 +41,7 @@ class TelegramQuizBot:
         self.handlers = [
             CommandHandler('start', self.start_callback_quiz),
             CommandHandler('stop', self.stop_callback_quiz),
+            CommandHandler('quiz', self.callback_quiz_on_demand),
             CommandHandler('add_word', self.add_word),
             CommandHandler('remove_word', self.remove_word),
             CommandHandler('language', self.set_language),
@@ -182,6 +184,13 @@ class TelegramQuizBot:
             await context.bot.send_message(chat_id=chat_id, 
                                            text=self._localized_text(chat_id, "no_ongoing"))
 
+    async def callback_quiz_on_demand(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        chat_id = update.message.chat_id
+        if chat_id not in self.ongoing_quizzes:
+            await context.bot.send_message(chat_id=chat_id, 
+                                        text=self._localized_text(chat_id, "start_first"))
+            return
+        await self.callback_quiz(context)
 
     async def check_answer(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         user_message = update.message.text  # Get user's message
