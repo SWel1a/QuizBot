@@ -16,7 +16,7 @@ def main():
     )
 
     words = WordsList(filepath="./data/words.json")
-    with open("", 'r', encoding='utf-8') as f:
+    with open("./data/translations.json", 'r', encoding='utf-8') as f:
         translations = json.load(f)
 
     bot = TelegramQuizBot(telegram_token=os.getenv('TELEGRAM_TOKEN'),
