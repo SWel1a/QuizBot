@@ -1,0 +1,26 @@
+{
+    "en": {
+        "unauthorized_command": "You are not authorized to use this command.",
+        "no_words_language": "No words found for the specified language.",
+        "quiz_ongoing": "A quiz is already ongoing in this chat! Use /stop to stop it.",
+        "no_words_specific_language": "No words found for the specified language \"{language}\".",
+        "provide_word": "Please provide a word.",
+        "quiz_started": "Started timed Quiz with language: {language}!\nHere's the first one:",
+        "quiz_stopped": "Stopped!",
+        "no_ongoing": "No ongoing quiz to stop!",
+        "correct_answer": "Correct! 🎉",
+        "incorrect_answer": "Incorrect. You have {remaining_attempts} attempts left. Try again by replying to this message.",
+        "incorrect_final_answer": "Incorrect. The correct answer was: {correct_answer}",
+        "incorrect_outdated": "Incorrect or outdated answer. Try again with a new question!",
+        "reply_to_question": "Please reply directly to the question.",
+        "invalid_json_format": "Invalid JSON format.",
+        "word_added": "Word added!",
+        "word_not_found": "No word found for: {word}",
+        "word_removed": "Word: {word} removed.",
+        "quiz_question": "What is the word (in {language}) with given description: {description}?",
+        "start_description": "the timer can be added, for example start 10",
+        "stop_description": "stop the quiz",
+        "add_word_description": "{\"word\": \"your word\", \"language\": \"your language\", \"description\": \"the translation or context\"}",
+        "remove_word_description": "any word can be deleted from the list"
+    }
+}

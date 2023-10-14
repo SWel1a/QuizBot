@@ -3,6 +3,7 @@ import logging
 from dotenv import load_dotenv
 from telegram_bot import TelegramQuizBot
 from words_list import WordsList
+import json
 
 
 def main():
@@ -15,10 +16,13 @@ def main():
     )
 
     words = WordsList(filepath="./data/words.json")
+    with open("./data/translations.json", 'r', encoding='utf-8') as f:
+        translations = json.load(f)
 
     bot = TelegramQuizBot(telegram_token=os.getenv('TELEGRAM_TOKEN'),
                           allowed_handles=os.getenv('ALLOWED_HANDLES').split(','),
-                          words_list=words)
+                          words_list=words,
+                          translations=translations)
     
     bot.run()
 
