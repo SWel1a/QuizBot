@@ -187,7 +187,7 @@ class TelegramQuizBot:
                 
                 if remaining_attempts > 0:
                     msg = await context.bot.send_message(chat_id=chat_id, 
-                                                         text=localized_text(self.translations, "incorrect_answer", self.bot_language, remaining_attempts))
+                                                         text=localized_text(self.translations, "incorrect_answer", self.bot_language, {"remaining_attempts": remaining_attempts}))
                     corresponding_question['message_ids'].append(msg.message_id)  # Add new message_id to valid reply ids
                 else:
                     await context.bot.send_message(chat_id=chat_id, 
