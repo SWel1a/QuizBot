@@ -81,37 +81,29 @@ class TelegramQuizBot:
                     await context.bot.send_message(chat_id=update.message.chat_id, 
                                                    text=localized_text(self.translations, self.bot_language, "word_removed", {"word": word}))
 
-    async def _get_random_quiz(self, words_list, language=None):
-        word_list = await words_list.get_words_by_language(language)
+    async def callback_quiz(self, context: ContextTypes.DEFAULT_TYPE):
+        language = self.language_preferences.get(context.job.chat_id)
+        
+        word_list = await self.words_list.get_words_by_language(language)
 
         if not word_list:
-            return localized_text(self.translations, self.bot_language, "no_words_specific_language", {"language": language}), None, None
+            await context.bot.send_message(chat_id=context.job.chat_id, 
+                                           text=localized_text(self.translations, self.bot_language, "no_words_specific_language", {"language": language}))
+            return
 
         # Pick a random word-description pair
         random_pair = random.choice(word_list)
 
         word = random_pair['word']
         description = random_pair['description']
-        question_id = get_random_id()
-        question_text = localized_text(self.translations, self.bot_language, "quiz_question", {"language": language, "description": description})
 
-        return question_text, word, question_id
-
-    async def callback_quiz(self, context: ContextTypes.DEFAULT_TYPE):
-        language = self.language_preferences.get(context.job.chat_id)
-        random_quiz, correct_answer, question_id = await self._get_random_quiz(self.words_list, language)
-
-        if correct_answer:
-            message = await context.bot.send_message(chat_id=context.job.chat_id, text=random_quiz)
-        else:
-            await context.bot.send_message(chat_id=context.job.chat_id, 
-                                           text=localized_text(self.translations, self.bot_language, "no_words_specific_language", {"language": language}))
-            return
+        message = await context.bot.send_message(chat_id=context.job.chat_id, 
+                                                 text=localized_text(self.translations, self.bot_language, "quiz_question", {"language": language, "description": description}))
         
         # Save to history
         self.quiz_history.append({
-            'id': question_id,
-            'answer': correct_answer,
+            'id': get_random_id(),
+            'answer': word,
             'chat_id': context.job.chat_id,
             'attempts': 0,
             'message_ids': [message.message_id]  # Initial valid reply IDs only contains the original message
