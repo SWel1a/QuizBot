@@ -192,7 +192,7 @@ class TelegramQuizBot:
             await context.bot.send_message(chat_id=chat_id, 
                                         text=self._localized_text(chat_id, "start_first"))
             return
-        await self.callback_quiz(context)
+        await self.callback_quiz(context, chat_id)
 
     async def check_answer(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         user_message = update.message.text  # Get user's message
