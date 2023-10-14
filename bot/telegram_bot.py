@@ -196,6 +196,17 @@ class TelegramQuizBot:
         # Find the question in history based on reply_to_message_id
         corresponding_question = next((qa for qa in self.quiz_history if qa['chat_id'] == chat_id and reply_to_message_id in qa['message_ids']), None)
         
+        # Check if the user's reply is "idk" or any word in IDK_WORDS
+        if user_message.lower().strip() in constants.IDK_WORDS:
+            if corresponding_question:
+                await context.bot.send_message(chat_id=chat_id, 
+                                            text=self._localized_text(chat_id, "idk_answer", {"correct_answer": corresponding_question["answer"]}))
+                return
+            else:
+                await context.bot.send_message(chat_id=chat_id, 
+                                            text=self._localized_text(chat_id, "incorrect_outdated"))
+                return
+
         if corresponding_question and user_message.lower().strip() == corresponding_question['answer'].lower().strip():
             await context.bot.send_message(chat_id=chat_id, 
                                            text=self._localized_text(chat_id, "correct_answer"))
