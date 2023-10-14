@@ -14,7 +14,8 @@ def authorized(func):
     async def wrapper(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         user_handle = update.message.from_user.username
         if '@' + user_handle not in self.allowed_handles:
-            await context.bot.send_message(chat_id=update.message.chat_id, text=localized_text(self.translations, self.bot_language, "unauthorized_command"))
+            await context.bot.send_message(chat_id=update.message.chat_id, 
+                                           text=self._localized_text(update.message.chat_id, "unauthorized_command"))
             return
         return await func(self, update, context)
     return wrapper
@@ -24,17 +25,16 @@ class TelegramQuizBot:
     def __init__(self, telegram_token, allowed_handles, words_list, translations):
         self.words_list = words_list
         self.translations = translations
-        self.bot_language = constants.DEFAULT_BOT_LANGUAGE
         # Telegram bot token
         self.telegram_token = telegram_token
 
         # Commands and handlers
         self.commands = [
-            BotCommand(command="start", description=localized_text(self.translations, self.bot_language, "start_description")),
-            BotCommand(command="stop", description=localized_text(self.translations, self.bot_language, "stop_description")),
-            BotCommand(command="add_word", description=localized_text(self.translations, self.bot_language, "add_word_description")),
-            BotCommand(command="remove_word", description=localized_text(self.translations, self.bot_language, "remove_word_description")),
-            BotCommand(command="language", description=localized_text(self.translations, self.bot_language, "language_description"))
+            BotCommand(command="start", description=self._localized_text(None, "start_description")),
+            BotCommand(command="stop", description=self._localized_text(None, "stop_description")),
+            BotCommand(command="add_word", description=self._localized_text(None, "add_word_description")),
+            BotCommand(command="remove_word", description=self._localized_text(None, "remove_word_description")),
+            BotCommand(command="language", description=self._localized_text(None, "language_description"))
         ]
 
         self.handlers = [
@@ -54,7 +54,10 @@ class TelegramQuizBot:
         self.quiz_history = []
 
     def _localized_text(self, chat_id, key, format_params=None):
-        language = self.bot_language_preferences.get(chat_id, constants.DEFAULT_BOT_LANGUAGE)
+        if chat_id is None:
+            language = constants.DEFAULT_BOT_LANGUAGE
+        else:
+            language = self.bot_language_preferences.get(chat_id, constants.DEFAULT_BOT_LANGUAGE)
         return localized_text(self.translations, language, key, format_params)
 
     async def set_language(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
