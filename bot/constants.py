@@ -9,3 +9,5 @@ DEFAULT_MAX_ATTEMPTS = 3
 QUIZ_HISTORY_LENGTH = 100  # How many quiz history to keep in memory
 
 DEFAULT_BOT_LANGUAGE = 'english'  # Default language for the bot
+
+IDK_WORDS = ["idk"]
