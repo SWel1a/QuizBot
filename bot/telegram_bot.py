@@ -42,7 +42,7 @@ class TelegramQuizBot:
             CommandHandler('stop', self.stop_callback_quiz),
             CommandHandler('add_word', self.add_word),
             CommandHandler('remove_word', self.remove_word),
-            CommandHandler('language', self.change_language),
+            CommandHandler('language', self.set_language),
             MessageHandler(filters.TEXT & ~filters.COMMAND, self.check_answer),
         ]
 
