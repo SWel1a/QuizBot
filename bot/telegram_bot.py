@@ -112,14 +112,16 @@ class TelegramQuizBot:
                     await context.bot.send_message(chat_id=update.message.chat_id, 
                                                    text=self._localized_text(update.message.chat_id, "word_removed", {"word": word}))
 
-    async def callback_quiz(self, context: ContextTypes.DEFAULT_TYPE):
-        language = self.language_preferences.get(context.job.chat_id)
+    async def callback_quiz(self, context: ContextTypes.DEFAULT_TYPE, chat_id=None):
+        if chat_id is None:
+            chat_id = context.job.chat_id
+        language = self.language_preferences.get(chat_id)
         
         word_list = await self.words_list.get_words_by_language(language)
 
         if not word_list:
-            await context.bot.send_message(chat_id=context.job.chat_id, 
-                                           text=self._localized_text(context.job.chat_id, "no_words_specific_language", {"language": language}))
+            await context.bot.send_message(chat_id=chat_id, 
+                                           text=self._localized_text(chat_id, "no_words_specific_language", {"language": language}))
             return
 
         # Pick a random word-description pair
@@ -128,14 +130,14 @@ class TelegramQuizBot:
         word = random_pair['word']
         description = random_pair['description']
 
-        message = await context.bot.send_message(chat_id=context.job.chat_id, 
-                                                 text=self._localized_text(context.job.chat_id, "quiz_question", {"language": language, "description": description}))
+        message = await context.bot.send_message(chat_id=chat_id, 
+                                                 text=self._localized_text(chat_id, "quiz_question", {"language": language, "description": description}))
         
         # Save to history
         self.quiz_history.append({
             'id': get_random_id(),
             'answer': word,
-            'chat_id': context.job.chat_id,
+            'chat_id': chat_id,
             'attempts': 0,
             'message_ids': [message.message_id]  # Initial valid reply IDs only contains the original message
         })
