@@ -89,7 +89,7 @@ class TelegramQuizBot:
             await context.bot.send_message(chat_id=update.effective_chat.id, 
                                            text=self._localized_text(update.effective_chat.id, "provide_word"))
         else:
-            word = context.args[0]  # Assume that the word is the first argument
+            word = ' '.join(context.args)
             if action == 'add':
                 try:
                     await self.words_list.add_word(' '.join(context.args))
