@@ -1,5 +1,5 @@
 {
-    "en": {
+    "english": {
         "unauthorized_command": "You are not authorized to use this command.",
         "no_words_language": "No words found for the specified language.",
         "quiz_ongoing": "A quiz is already ongoing in this chat! Use /stop to stop it.",
