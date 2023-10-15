@@ -207,7 +207,7 @@ class TelegramQuizBot:
         # Find the question in history based on reply_to_message_id
         corresponding_question = next((qa for qa in self.quiz_history if qa['chat_id'] == chat_id and reply_to_message_id in qa['message_ids']), None)
         similarity = similarity_percentage(user_message.lower().strip(), corresponding_question['answer'].lower().strip())
-        similarity_msg = get_closeness_key(similarity)
+        similarity_msg = self._localized_text(chat_id, get_closeness_key(similarity))
 
         # Check if the user's reply is "idk" or any word in IDK_WORDS
         if user_message.lower().strip() in constants.IDK_WORDS:
