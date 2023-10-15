@@ -6,7 +6,7 @@ import random
 from functools import wraps
 
 import constants
-from utils import get_random_id, localized_text, quiz_start_args_parser
+from utils import get_random_id, localized_text, quiz_start_args_parser, similarity_percentage, get_closeness_key
 
 
 def authorized(func):
@@ -206,7 +206,9 @@ class TelegramQuizBot:
 
         # Find the question in history based on reply_to_message_id
         corresponding_question = next((qa for qa in self.quiz_history if qa['chat_id'] == chat_id and reply_to_message_id in qa['message_ids']), None)
-        
+        similarity = similarity_percentage(user_message.lower().strip(), corresponding_question['answer'].lower().strip())
+        similarity_msg = get_closeness_key(similarity)
+
         # Check if the user's reply is "idk" or any word in IDK_WORDS
         if user_message.lower().strip() in constants.IDK_WORDS:
             if corresponding_question:
@@ -230,7 +232,7 @@ class TelegramQuizBot:
                 
                 if remaining_attempts > 0:
                     msg = await context.bot.send_message(chat_id=chat_id, 
-                                                         text=self._localized_text(chat_id, "incorrect_answer", {"remaining_attempts": remaining_attempts}))
+                                                        text=self._localized_text(chat_id, "incorrect_answer", {"remaining_attempts": remaining_attempts}) + "\n" + similarity_msg)
                     corresponding_question['message_ids'].append(msg.message_id)  # Add new message_id to valid reply ids
                 else:
                     await context.bot.send_message(chat_id=chat_id, 
