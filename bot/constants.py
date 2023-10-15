@@ -1,4 +1,4 @@
-DEFAULT_LANGUAGE = 'korean'  # Default language for a quiz
+DEFAULT_LANGUAGE = 'english'  # Default language for a quiz
 
 DEFAULT_INTERVAL_TIME = 120  # Default time
 TIME_UNITS = ['s', 'm', 'h']
