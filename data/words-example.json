@@ -324,6 +324,18 @@
         "id": "ad07555a-07a0-42da-86a2-e34b877a0e00"
     },
     {
+        "word": "lynx",
+        "language": "english",
+        "description": "лесная кошка",
+        "id": "c07c2212-f3fa-4fd0-8289-2de00fe1d4d8"
+    },
+    {
+        "word": "예방 대책",
+        "language": "korean",
+        "description": "меры предосторожности",
+        "id": "fcc7cce0-a8a7-46e7-a52e-b6ec60c783d2"
+    },
+    {
         "word": "Tuxedo-clad",
         "language": "english",
         "description": "Одетый в смокинг",
@@ -1524,5 +1536,3 @@
         "id": "e1a4d0f7-47ba-4b2c-9b1f-1c3c4f7b1d1b"
     }
 ]
-
-
