@@ -35,7 +35,8 @@ class TelegramQuizBot:
             BotCommand(command="quiz", description=self._localized_text(None, "quiz_description")),
             BotCommand(command="add_word", description=self._localized_text(None, "add_word_description")),
             BotCommand(command="remove_word", description=self._localized_text(None, "remove_word_description")),
-            BotCommand(command="language", description=self._localized_text(None, "language_description"))
+            BotCommand(command="language", description=self._localized_text(None, "language_description")),
+            BotCommand(command="list", description=self._localized_text(None, "list_description"))),
         ]
 
         self.handlers = [
@@ -45,6 +46,7 @@ class TelegramQuizBot:
             CommandHandler('add_word', self.add_word),
             CommandHandler('remove_word', self.remove_word),
             CommandHandler('language', self.set_language),
+            CommandHandler('list', self.list_words),
             MessageHandler(filters.TEXT & ~filters.COMMAND, self.check_answer),
         ]
 
@@ -241,7 +243,34 @@ class TelegramQuizBot:
                 await context.bot.send_message(chat_id=chat_id, 
                                                text=self._localized_text(chat_id, "incorrect_outdated"))
 
-    async def post_init(self, application: Application):
+                async def list_words(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+                    chat_id = update.message.chat_id
+
+                    if not context.args:
+                        await context.bot.send_message(chat_id=chat_id,
+                                                       text=self._localized_text(chat_id, "list_no_argument"))
+                        return
+
+                    group = context.args[0].lower()
+
+                    if group not in self.translations:
+                        await context.bot.send_message(chat_id=chat_id,
+                                                       text=self._localized_text(chat_id, "list_unknown_group"))
+                        return
+
+                    word_list = await self.words_list.get_words_by_language(group)
+
+                    if not word_list:
+                        await context.bot.send_message(chat_id=chat_id,
+                                                       text=self._localized_text(chat_id, "list_empty_group"))
+                        return
+
+                    word_list_text = "\n".join([f"{entry['word']}: {entry['description']}" for entry in word_list])
+
+                    await context.bot.send_message(chat_id=chat_id,
+                                                   text=f"{self._localized_text(chat_id, 'list_group')} {group}:\n{word_list_text}")
+
+async def post_init(self, application: Application):
             """
             Post initialization hook for the bot.
             """
