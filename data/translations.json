@@ -33,7 +33,11 @@
         "start_description": "the timer can be added, for example start 10",
         "stop_description": "stop the quiz",
         "add_word_description": "{\"word\": \"your word\", \"language\": \"your language\", \"description\": \"the translation or context\"}",
-        "remove_word_description": "any word can be deleted from the list"
+        "remove_word_description": "any word can be deleted from the list",
+        "list_group": "Word list for group: {word_list_text}",
+        "list_no_argument": "Please specify a language to list words.",
+        "list_unknown_group": "Unknown language group. Available language groups: {available_groups}",
+        "list_empty_group": "The specified language group is empty."
     }, "russian": {
         "unauthorized_command": "Вы не авторизованы для использования этой команды.",
         "no_words_language": "Слов для указанного языка не найдено.",
@@ -68,8 +72,12 @@
         "start_description": "можно добавить таймер, например, start 10",
         "stop_description": "остановить викторину",
         "add_word_description": "{\"word\": \"ваше слово\", \"language\": \"ваш язык\", \"description\": \"перевод или контекст\"}",
-        "remove_word_description": "любое слово можно удалить из списка"
-    }, "korean": {
+        "remove_word_description": "любое слово можно удалить из списка",
+        "list_group": "Список слов для группы: {word_list_text}",
+        "list_no_argument": "Пожалуйста, укажите язык для перечисления слов.",
+        "list_unknown_group": "Неизвестная языковая группа. Доступные языковые группы: {available_groups}",
+        "list_empty_group": "Указанная языковая группа пуста."
+}, "korean": {
         "unauthorized_command": "이 명령을 사용할 권한이 없습니다.",
         "no_words_language": "지정된 언어에 대한 단어가 없습니다.",
         "quiz_ongoing": "이 채팅에서 이미 퀴즈가 진행 중입니다! 중지하려면 /stop을 사용하세요.",
@@ -103,8 +111,12 @@
         "start_description": "타이머를 추가할 수 있습니다, 예를 들어 start 10",
         "stop_description": "퀴즈를 중지",
         "add_word_description": "{\"word\": \"당신의 단어\", \"language\": \"당신의 언어\", \"description\": \"번역 또는 맥락\"}",
-        "remove_word_description": "목록에서 어떤 단어든 삭제할 수 있습니다"
-    }, "spanish": {
+        "remove_word_description": "목록에서 어떤 단어든 삭제할 수 있습니다",
+        "list_group": "그룹의 단어 목록: {word_list_text}",
+        "list_no_argument": "단어를 나열할 언어를 지정해주세요.",
+        "list_unknown_group": "알 수 없는 언어 그룹입니다. 사용 가능한 언어 그룹: {available_groups}",
+        "list_empty_group": "지정된 언어 그룹은 비어 있습니다."
+}, "spanish": {
         "unauthorized_command": "No estás autorizado para usar este comando.",
         "no_words_language": "No se encontraron palabras para el idioma especificado.",
         "quiz_ongoing": "¡Ya hay un cuestionario en marcha en este chat! Usa /stop para detenerlo.",
@@ -138,6 +150,10 @@
         "start_description": "se puede añadir un temporizador, por ejemplo start 10",
         "stop_description": "detener el cuestionario",
         "add_word_description": "{\"word\": \"tu palabra\", \"language\": \"tu idioma\", \"description\": \"la traducción o contexto\"}",
-        "remove_word_description": "cualquier palabra puede ser eliminada de la lista"
-    }
+        "remove_word_description": "cualquier palabra puede ser eliminada de la lista",
+        "list_group": "Lista de palabras para el grupo: {word_list_text}",
+        "list_no_argument": "Por favor, especifique un idioma para listar las palabras.",
+        "list_unknown_group": "Grupo de idioma desconocido. Grupos de idioma disponibles: {available_groups}",
+        "list_empty_group": "El grupo de idioma especificado está vacío."
+}
 }
