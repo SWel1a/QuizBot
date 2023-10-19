@@ -246,6 +246,8 @@ class TelegramQuizBot:
     async def list_words(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         chat_id = update.message.chat_id
 
+        available_groups = await self.list_words.get_languages()
+
         if not context.args:
             await context.bot.send_message(chat_id=chat_id,
                                            text=self._localized_text(chat_id, "list_no_argument"))
@@ -253,7 +255,7 @@ class TelegramQuizBot:
 
         group = context.args[0].lower()
 
-        if group not in self.translations:
+        if group not in available_groups:
             await context.bot.send_message(chat_id=chat_id,
                                            text=self._localized_text(chat_id, "list_unknown_group"))
             return

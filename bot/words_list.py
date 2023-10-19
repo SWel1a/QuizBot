@@ -48,5 +48,10 @@ class WordsList:
             words = [word for word in words if word['language'].lower() == language.lower()]
         return words
 
+    async def get_languages(self):
+        words = await self._load_words()
+        languages = list(set([word['language'] for word in words]))
+        return languages
+
     def _generate_id(self):
         return get_random_id()
