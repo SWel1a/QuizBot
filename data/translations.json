@@ -79,7 +79,7 @@
         "stop_description": "остановить викторину",
         "add_word_description": "{\"word\": \"ваше слово\", \"language\": \"ваш язык\", \"description\": \"перевод или контекст\"}",
         "remove_word_description": "любое слово можно удалить из списка"
-}, "korean": {
+    }, "korean": {
         "unauthorized_command": "이 명령을 사용할 권한이 없습니다.",
         "no_words_language": "지정된 언어에 대한 단어가 없습니다.",
         "quiz_ongoing": "이 채팅에서 이미 퀴즈가 진행 중입니다! 중지하려면 /stop을 사용하세요.",
@@ -119,7 +119,7 @@
         "stop_description": "퀴즈를 중지",
         "add_word_description": "{\"word\": \"당신의 단어\", \"language\": \"당신의 언어\", \"description\": \"번역 또는 맥락\"}",
         "remove_word_description": "목록에서 어떤 단어든 삭제할 수 있습니다"
-}, "spanish": {
+    }, "spanish": {
         "unauthorized_command": "No estás autorizado para usar este comando.",
         "no_words_language": "No se encontraron palabras para el idioma especificado.",
         "quiz_ongoing": "¡Ya hay un cuestionario en marcha en este chat! Usa /stop para detenerlo.",
