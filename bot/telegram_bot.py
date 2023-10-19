@@ -268,7 +268,7 @@ class TelegramQuizBot:
         word_list_text = "\n".join([f"{entry['word']}: {entry['description']}" for entry in word_list])
 
         await context.bot.send_message(chat_id=chat_id,
-                                       text=self._localized_text(chat_id, 'list_group', {"group": word_list_text}))
+                                       text=self._localized_text(chat_id, 'list_group', {"word_list_text": word_list_text}))
 
     async def post_init(self, application: Application):
         """
