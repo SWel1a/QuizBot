@@ -246,7 +246,7 @@ class TelegramQuizBot:
     async def list_words(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         chat_id = update.message.chat_id
 
-        available_groups = await self.list_words.get_languages()
+        available_groups = await self.words_list.get_languages()
 
         if not context.args:
             await context.bot.send_message(chat_id=chat_id,
