@@ -155,5 +155,5 @@
         "list_no_argument": "Por favor, especifique un idioma para listar las palabras.",
         "list_unknown_group": "Grupo de idioma desconocido. Grupos de idioma disponibles: {available_groups}",
         "list_empty_group": "El grupo de idioma especificado está vacío..."
-}
+    }
 }
