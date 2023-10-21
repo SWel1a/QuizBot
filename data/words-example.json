@@ -1536,6 +1536,506 @@
         "id": "e1a4d0f7-47ba-4b2c-9b1f-1c3c4f7b1d1b"
     },
     {
+        "word": "abate",
+        "language": "english_c1",
+        "description": "Сокращать, уменьшать, ослаблять"
+    },
+    {
+        "word": "abjure",
+        "language": "english_c1",
+        "description": "Отказаться, отрекаться, воздерживаться"
+    },
+    {
+        "word": "dangle",
+        "language": "english_c1",
+        "description": "Болтаться, зависать, висеть"
+    },
+    {
+        "word": "abscond",
+        "language": "english_c1",
+        "description": "Скрыться, пропасть, уйти"
+    },
+    {
+        "word": "assuage",
+        "language": "english_c1",
+        "description": "Успокаивать, утешать, усмирять"
+    },
+    {
+        "word": "disabuse",
+        "language": "english_c1",
+        "description": "Разочаровать, расстроить, развенчать"
+    },
+    {
+        "word": "equivocate",
+        "language": "english_c1",
+        "description": "Увиливать, оправдываться, оспаривать"
+    },
+    {
+        "word": "incise",
+        "language": "english_c1",
+        "description": "Надрезать"
+    },
+    {
+        "word": "diminish",
+        "language": "english_c1",
+        "description": "Уменьшать"
+    },
+    {
+        "word": "jeopardize",
+        "language": "english_c1",
+        "description": "Ставить под угрозу"
+    },
+    {
+        "word": "breed",
+        "language": "english_c1",
+        "description": "Размножаться"
+    },
+    {
+        "word": "prevaricate",
+        "language": "english_c1",
+        "description": "Преувеличивать"
+    },
+    {
+        "word": "recant",
+        "language": "english_c1",
+        "description": "Отказаться от показаний"
+    },
+    {
+        "word": "refute",
+        "language": "english_c1",
+        "description": "Опровергать"
+    },
+    {
+        "word": "ignoble",
+        "language": "english_c1",
+        "description": "Обольстить"
+    },
+    {
+        "word": "banish",
+        "language": "english_c1",
+        "description": "Изгнать"
+    },
+    {
+        "word": "disavow",
+        "language": "english_c1",
+        "description": "Отречься"
+    },
+    {
+        "word": "explode",
+        "language": "english_c1",
+        "description": "Взорваться"
+    },
+    {
+        "word": "unearth",
+        "language": "english_c1",
+        "description": "Раскопать"
+    },
+    {
+        "word": "depict",
+        "language": "english_c1",
+        "description": "Отобразить"
+    },
+    {
+        "word": "unpick",
+        "language": "english_c1",
+        "description": "Распарывать, распустить"
+    },
+    {
+        "word": "originate",
+        "language": "english_c1",
+        "description": "Зарождаться"
+    },
+    {
+        "word": "pluck",
+        "language": "english_c1",
+        "description": "Вырывать"
+    },
+    {
+        "word": "amass",
+        "language": "english_c1",
+        "description": "Накапливать"
+    },
+    {
+        "word": "staff",
+        "language": "english_c1",
+        "description": "Укомплектовать"
+    },
+    {
+        "word": "shrink",
+        "language": "english_c1",
+        "description": "Сокращаться"
+    },
+    {
+        "word": "mold",
+        "language": "english_c1",
+        "description": "Лепить"
+    },
+    {
+        "word": "contrive",
+        "language": "english_c1",
+        "description": "Придумывать"
+    },
+    {
+        "word": "entice",
+        "language": "english_c1",
+        "description": "Завлекать"
+    },
+    {
+        "word": "pervade",
+        "language": "english_c1",
+        "description": "Пронизывать"
+    },
+    {
+        "word": "prevail",
+        "language": "english_c1",
+        "description": "Преобладать"
+    },
+    {
+        "word": "supersede",
+        "language": "english_c1",
+        "description": "Вытеснять"
+    },
+    {
+        "word": "redeem",
+        "language": "english_c1",
+        "description": "Выкупить"
+    },
+    {
+        "word": "wrack",
+        "language": "english_c1",
+        "description": "Потревожить"
+    },
+    {
+        "word": "mesh",
+        "language": "english_c1",
+        "description": "Зацеплять"
+    },
+    {
+        "word": "render",
+        "language": "english_c1",
+        "description": "Оказывать"
+    },
+    {
+        "word": "lease",
+        "language": "english_c1",
+        "description": "Сдать в аренду"
+    },
+    {
+        "word": "stipulate",
+        "language": "english_c1",
+        "description": "Оговаривать"
+    },
+    {
+        "word": "decree",
+        "language": "english_c1",
+        "description": "Постановить"
+    },
+    {
+        "word": "reminisce",
+        "language": "english_c1",
+        "description": "Вспоминать"
+    },
+    {
+        "word": "rarefy",
+        "language": "english_c1",
+        "description": "Редеть"
+    },
+    {
+        "word": "venerate",
+        "language": "english_c1",
+        "description": "Почитать"
+    },
+    {
+        "word": "hatch",
+        "language": "english_c1",
+        "description": "Вылупляться"
+    },
+    {
+        "word": "anchor",
+        "language": "english_c1",
+        "description": "Бросить якорь"
+    },
+    {
+        "word": "inherit",
+        "language": "english_c1",
+        "description": "Получить в наследство"
+    },
+    {
+        "word": "stab",
+        "language": "english_c1",
+        "description": "Закалывать, нападать, вонзать"
+    },
+    {
+        "word": "sublet",
+        "language": "english_c1",
+        "description": "Сдавать в субаренду"
+    },
+    {
+        "word": "outline",
+        "language": "english_c1",
+        "description": "Начертить, обрисовать, наметить"
+    },
+    {
+        "word": "infiltrate",
+        "language": "english_c1",
+        "description": "Проникнуть, внедриться, просачиваться"
+    },
+    {
+        "word": "utter",
+        "language": "english_c1",
+        "description": "Произносить, изрекать, проговаривать"
+    },
+    {
+        "word": "vituperate",
+        "language": "english_c1",
+        "description": "Издеваться, обижать"
+    },
+    {
+        "word": "waver",
+        "language": "english_c1",
+        "description": "Колебаться, извиваться, дрогнуть"
+    },
+    {
+        "word": "withstand",
+        "language": "english_c1",
+        "description": "Выдерживать, устоять, терпеть"
+    },
+    {
+        "word": "swap",
+        "language": "english_c1",
+        "description": "Поменять местами, сменить"
+    },
+    {
+        "word": "coax",
+        "language": "english_c1",
+        "description": "Соединить"
+    },
+    {
+        "word": "conspire",
+        "language": "english_c1",
+        "description": "Сговориться"
+    },
+    {
+        "word": "append",
+        "language": "english_c1",
+        "description": "Приложить"
+    },
+    {
+        "word": "entail",
+        "language": "english_c1",
+        "description": "Влечь за собой"
+    },
+    {
+        "word": "repine",
+        "language": "english_c1",
+        "description": "Порицать"
+    },
+    {
+        "word": "glance",
+        "language": "english_c1",
+        "description": "Бросить взгляд, мельком глянуть"
+    },
+    {
+        "word": "resort",
+        "language": "english_c1",
+        "description": "Прибегать"
+    },
+    {
+        "word": "substitute",
+        "language": "english_c1",
+        "description": "Заменить"
+    },
+    {
+        "word": "surpass",
+        "language": "english_c1",
+        "description": "Превзойти"
+    },
+    {
+        "word": "deem",
+        "language": "english_c1",
+        "description": "Считать"
+    },
+    {
+        "word": "prophesy",
+        "language": "english_c1",
+        "description": "Пророчествовать"
+    },
+    {
+        "word": "unveil",
+        "language": "english_c1",
+        "description": "Раскрыть"
+    },
+    {
+        "word": "discard",
+        "language": "english_c1",
+        "description": "Отказаться, списывать, отвергнуть"
+    },
+    {
+        "word": "eradicate",
+        "language": "english_c1",
+        "description": "Искоренить"
+    },
+    {
+        "word": "propagate",
+        "language": "english_c1",
+        "description": "Распространять"
+    },
+    {
+        "word": "terminate",
+        "language": "english_c1",
+        "description": "Прекратить"
+    },
+    {
+        "word": "engross",
+        "language": "english_c1",
+        "description": "Захватить"
+    },
+    {
+        "word": "overtake",
+        "language": "english_c1",
+        "description": "Обгонять, нагнать, преодолеть"
+    },
+    {
+        "word": "shield",
+        "language": "english_c1",
+        "description": "Укрыть, заслонить, оградить"
+    },
+    {
+        "word": "ingest",
+        "language": "english_c1",
+        "description": "Проглотить"
+    },
+    {
+        "word": "malign",
+        "language": "english_c1",
+        "description": "Очернить"
+    },
+    {
+        "word": "exhibit",
+        "language": "english_c1",
+        "description": "Выставлять"
+    },
+    {
+        "word": "extirpate",
+        "language": "english_c1",
+        "description": "Уничтожить"
+    },
+    {
+        "word": "initiate",
+        "language": "english_c1",
+        "description": "Инициировать"
+    },
+    {
+        "word": "adjoy",
+        "language": "english_c1",
+        "description": "Придерживаться"
+    },
+    {
+        "word": "delve",
+        "language": "english_c1",
+        "description": "Углубиться"
+    },
+    {
+        "word": "vow",
+        "language": "english_c1",
+        "description": "Клясться, ручаться, обещать"
+    },
+    {
+        "word": "alienate",
+        "language": "english_c1",
+        "description": "Отчуждать"
+    },
+    {
+        "word": "reimburse",
+        "language": "english_c1",
+        "description": "Возмещать"
+    },
+    {
+        "word": "disperse",
+        "language": "english_c1",
+        "description": "Рассеивать, расходиться"
+    },
+    {
+        "word": "overlook",
+        "language": "english_c1",
+        "description": "Упускать из виду"
+    },
+    {
+        "word": "dismantle",
+        "language": "english_c1",
+        "description": "Демонтировать, разобрать, убрать, разрушить"
+    },
+    {
+        "word": "exhilarate",
+        "language": "english_c1",
+        "description": "Взбодриться"
+    },
+    {
+        "word": "thrill",
+        "language": "english_c1",
+        "description": "Возбуждать"
+    },
+    {
+        "word": "underpin",
+        "language": "english_c1",
+        "description": "Поддерживать"
+    },
+    {
+        "word": "follow-up",
+        "language": "english_c1",
+        "description": "Следить"
+    },
+    {
+        "word": "predispose",
+        "language": "english_c1",
+        "description": "Предрасполагать, склонять, располагать"
+    },
+    {
+        "word": "peer",
+        "language": "english_c1",
+        "description": "Равняться, сравнивать, подглядывать"
+    },
+    {
+        "word": "intervene",
+        "language": "english_c1",
+        "description": "вмешиваться"
+    },
+    {
+        "word": "resonate",
+        "language": "english_c1",
+        "description": "резонировать"
+    },
+    {
+        "word": "contradict",
+        "language": "english_c1",
+        "description": "Противоречить, возражать, опровергнуть"
+    },
+    {
+        "word": "distil",
+        "language": "english_c1",
+        "description": "Дистиллировать, смягчать, рассеивать"
+    },
+    {
+        "word": "mitigate",
+        "language": "english_c1",
+        "description": "Смягчать, сгладить, ослабить"
+    },
+    {
+        "word": "bounce back",
+        "language": "english_c1",
+        "description": "Отскочить, вернуться, возвращаться, восстановиться"
+    },
+    {
+        "word": "indulge",
+        "language": "english_c1",
+        "description": "Побаловать, потакать, потворствовать"
+    },
+    {
+        "word": "sniff",
+        "language": "english_c1",
+        "description": "Нюхать, принюхиваться, сопеть"
+    },
+    {
         "word": "a",
         "language": "hiragana",
         "description": "あ",
