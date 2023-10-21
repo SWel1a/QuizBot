@@ -119,4 +119,3 @@ doc/source/**/generated/
 # Things specific to this project #
 ###################################
 .env
-data/words.json
