@@ -929,1842 +929,1841 @@
         "language": "english_a1",
         "description": "Сомневаться"
     },
-  {
+    {
     "word": "air",
     "language": "english_a1",
     "description": "Воздух"
-  },
-  {
+    },
+    {
     "word": "wind",
     "language": "english_a1",
     "description": "Ветер"
-  },
-  {
+    },
+    {
     "word": "water",
     "language": "english_a1",
     "description": "Вода"
-  },
-  {
+    },
+    {
     "word": "west",
     "language": "english_a1",
     "description": "Запад"
-  },
-  {
+    },
+    {
     "word": "east",
     "language": "english_a1",
     "description": "Восток"
-  },
-  {
+    },
+    {
     "word": "north",
     "language": "english_a1",
     "description": "Север"
-  },
-  {
+    },
+    {
     "word": "south",
     "language": "english_a1",
     "description": "Юг"
-  },
-  {
+    },
+    {
     "word": "tree",
     "language": "english_a1",
     "description": "Дерево"
-  },
-  {
+    },
+    {
     "word": "sea",
     "language": "english_a1",
     "description": "Море"
-  },
-  {
+    },
+    {
     "word": "ocean",
     "language": "english_a1",
     "description": "Океан"
-  },
-  {
+    },
+    {
     "word": "rock",
     "language": "english_a1",
     "description": "Скала"
-  },
-  {
+    },
+    {
     "word": "plant",
     "language": "english_a1",
     "description": "Растение"
-  },
-  {
+    },
+    {
     "word": "flower",
     "language": "english_a1",
     "description": "Цветок"
-  },
-  {
+    },
+    {
     "word": "forest",
     "language": "english_a1",
     "description": "Лес"
-  },
-  {
+    },
+    {
     "word": "person",
     "language": "english_a1",
     "description": "Личность"
-  },
-  {
+    },
+    {
     "word": "night",
     "language": "english_a1",
     "description": "Ночь"
-  },
-  {
+    },
+    {
     "word": "morning",
     "language": "english_a1",
     "description": "Утро"
-  },
-  {
+    },
+    {
     "word": "day",
     "language": "english_a1",
     "description": "День"
-  },
-  {
+    },
+    {
     "word": "evening",
     "language": "english_a1",
     "description": "Вечер"
-  },
-  {
+    },
+    {
     "word": "life",
     "language": "english_a1",
     "description": "Жизнь"
-  },
-  {
+    },
+    {
     "word": "mountain",
     "language": "english_a1",
     "description": "Гора"
-  },
-  {
+    },
+    {
     "word": "land",
     "language": "english_a1",
     "description": "Земля"
-  },
-  {
+    },
+    {
     "word": "house",
     "language": "english_a1",
     "description": "Дом"
-  },
-  {
+    },
+    {
     "word": "fire",
     "language": "english_a1",
     "description": "Огонь"
-  },
-  {
+    },
+    {
     "word": "country",
     "language": "english_a1",
     "description": "Страна"
-  },
-  {
+    },
+    {
     "word": "animal",
     "language": "english_a1",
     "description": "Животное"
-  },
-  {
+    },
+    {
     "word": "bird",
     "language": "english_a1",
     "description": "Птица"
-  },
-  {
+    },
+    {
     "word": "fish",
     "language": "english_a1",
     "description": "Рыба"
-  },
-  {
+    },
+    {
     "word": "insect",
     "language": "english_a1",
     "description": "Насекомое"
-  },
-  {
+    },
+    {
     "word": "city",
     "language": "english_a1",
     "description": "Город"
-  },
-  {
+    },
+    {
     "word": "world",
     "language": "english_a1",
     "description": "Мир"
-  },
-  {
+    },
+    {
     "word": "road",
     "language": "english_a1",
     "description": "Дорога"
-  },
-  {
+    },
+    {
     "word": "ticket",
     "language": "english_a1",
     "description": "Билет"
-  },
-  {
+    },
+    {
     "word": "map",
     "language": "english_a1",
     "description": "Карта"
-  },
-  {
+    },
+    {
     "word": "motel",
     "language": "english_a1",
     "description": "Мотель"
-  },
-  {
+    },
+    {
     "word": "highway",
     "language": "english_a1",
     "description": "Шоссе"
-  },
-  {
+    },
+    {
     "word": "reception",
     "language": "english_a1",
     "description": "Регистратура, ресепшн"
-  },
-  {
+    },
+    {
     "word": "wallet",
     "language": "english_a1",
     "description": "Бумажник"
-  },
-  {
+    },
+    {
     "word": "bank",
     "language": "english_a1",
     "description": "Банк"
-  },
-  {
+    },
+    {
     "word": "subway",
     "language": "english_a1",
     "description": "Метро"
-  },
-  {
+    },
+    {
     "word": "cab",
     "language": "english_a1",
     "description": "Такси"
-  },
-  {
+    },
+    {
     "word": "parking",
     "language": "english_a1",
     "description": "Парковка"
-  },
-  {
+    },
+    {
     "word": "food order",
     "language": "english_a1",
     "description": "Заказ еды"
-  },
-  {
+    },
+    {
     "word": "cash",
     "language": "english_a1",
     "description": "Наличные"
-  },
-  {
+    },
+    {
     "word": "passport",
     "language": "english_a1",
     "description": "Паспорт"
-  },
-  {
+    },
+    {
     "word": "permission",
     "language": "english_a1",
     "description": "Разрешение"
-  },
-  {
+    },
+    {
     "word": "lawyer",
     "language": "english_a1",
     "description": "Адвокат"
-  },
-  {
+    },
+    {
     "word": "problem",
     "language": "english_a1",
     "description": "Проблема"
-  },
-  {
+    },
+    {
     "word": "waiting room",
     "language": "english_a1",
     "description": "Зал ожидания"
-  },
-  {
+    },
+    {
     "word": "transfer",
     "language": "english_a1",
     "description": "Пересадка"
-  },
-  {
+    },
+    {
     "word": "bag",
     "language": "english_a1",
     "description": "Сумка"
-  },
-  {
+    },
+    {
     "word": "suitcase",
     "language": "english_a1",
     "description": "Чемодан"
-  },
-  {
+    },
+    {
     "word": "property",
     "language": "english_a1",
     "description": "Имущество"
-  },
-  {
+    },
+    {
     "word": "law",
     "language": "english_a1",
     "description": "Право, закон"
-  },
-  {
+    },
+    {
     "word": "police station",
     "language": "english_a1",
     "description": "Полицейский участок"
-  },
-  {
+    },
+    {
     "word": "price",
     "language": "english_a1",
     "description": "Стоимость, цена"
-  },
-  {
+    },
+    {
     "word": "price list",
     "language": "english_a1",
     "description": "Ценник"
-  },
-  {
+    },
+    {
     "word": "courier",
     "language": "english_a1",
     "description": "Курьер"
-  },
-  {
+    },
+    {
     "word": "delivery",
     "language": "english_a1",
     "description": "Доставка"
-  },
-  {
+    },
+    {
     "word": "location",
     "language": "english_a1",
     "description": "Местоположение"
-  },
-  {
+    },
+    {
     "word": "route",
     "language": "english_a1",
     "description": "Маршрут"
-  },
-  {
+    },
+    {
     "word": "agreement",
     "language": "english_a1",
     "description": "Договор"
-  },
-  {
+    },
+    {
     "word": "hospital",
     "language": "english_a1",
     "description": "Больница"
-  },
-  {
+    },
+    {
     "word": "ambulance",
     "language": "english_a1",
     "description": "Скорая помощь"
-  },
-[
-  {
-    "word": "To appear",
-    "language": "english_a2",
-    "description": "Появляться"
-  },
-  {
-    "word": "To cancel",
-    "language": "english_a2",
-    "description": "Отменять"
-  },
-  {
-    "word": "To bite",
-    "language": "english_a2",
-    "description": "Кусать, укусить"
-  },
-  {
-    "word": "To regret",
-    "language": "english_a2",
-    "description": "Сожалеть"
-  },
-  {
-    "word": "To blow",
-    "language": "english_a2",
-    "description": "Дуть (о ветре), развеять, раздувать"
-  },
-  {
-    "word": "To compose",
-    "language": "english_a2",
-    "description": "Составлять"
-  },
-  {
-    "word": "To congratulate",
-    "language": "english_a2",
-    "description": "Поздравлять"
-  },
-  {
-    "word": "To correct",
-    "language": "english_a2",
-    "description": "Исправлять"
-  },
-  {
-    "word": "To fall asleep",
-    "language": "english_a2",
-    "description": "Засыпать"
-  },
-  {
-    "word": "To burn",
-    "language": "english_a2",
-    "description": "Гореть"
-  },
-  {
-    "word": "To invent",
-    "language": "english_a2",
-    "description": "Придумать, изобретать"
-  },
-  {
-    "word": "To mention",
-    "language": "english_a2",
-    "description": "Упоминать, заметить, отметить"
-  },
-  {
-    "word": "To suppose",
-    "language": "english_a2",
-    "description": "Предполагать"
-  },
-  {
-    "word": "To suggest",
-    "language": "english_a2",
-    "description": "Предлагать, намекать"
-  },
-  {
-    "word": "To consider",
-    "language": "english_a2",
-    "description": "Размышлять, учитывать"
-  },
-  {
-    "word": "To escape",
-    "language": "english_a2",
-    "description": "Сбегать, убегать"
-  },
-  {
-    "word": "To publish",
-    "language": "english_a2",
-    "description": "Публиковать"
-  },
-  {
-    "word": "To solve",
-    "language": "english_a2",
-    "description": "Решить, разгадать"
-  },
-  {
-    "word": "To tidy up",
-    "language": "english_a2",
-    "description": "Убираться, наводить порядок"
-  },
-  {
-    "word": "To win",
-    "language": "english_a2",
-    "description": "Выиграть"
-  },
-  {
-    "word": "To swallow",
-    "language": "english_a2",
-    "description": "Глотать"
-  },
-  {
-    "word": "To follow",
-    "language": "english_a2",
-    "description": "Следовать"
-  },
-  {
-    "word": "To abandon",
-    "language": "english_a2",
-    "description": "Покидать, оставлять"
-  },
-  {
-    "word": "To be able",
-    "language": "english_a2",
-    "description": "Быть в состоянии"
-  },
-  {
-    "word": "To abuse",
-    "language": "english_a2",
-    "description": "Оскорблять"
-  },
-  {
-    "word": "To accelerate",
-    "language": "english_a2",
-    "description": "Ускорять"
-  },
-  {
-    "word": "To reveal",
-    "language": "english_a2",
-    "description": "Раскрывать"
-  },
-  {
-    "word": "To consist of",
-    "language": "english_a2",
-    "description": "Состоять из"
-  },
-  {
-    "word": "To include",
-    "language": "english_a2",
-    "description": "Включать"
-  },
-  {
-    "word": "To guess",
-    "language": "english_a2",
-    "description": "Думать, предполагать"
-  },
-  {
-    "word": "To accept",
-    "language": "english_a2",
-    "description": "Одобрять, согласовать"
-  },
-  {
-    "word": "To formulate",
-    "language": "english_a2",
-    "description": "Формулировать"
-  },
-  {
-    "word": "To form",
-    "language": "english_a2",
-    "description": "Формировать"
-  },
-  {
-    "word": "To achieve",
-    "language": "english_a2",
-    "description": "Достигать"
-  },
-  {
-    "word": "To acknowledge",
-    "language": "english_a2",
-    "description": "Подтверждать"
-  },
-  {
-    "word": "To act",
-    "language": "english_a2",
-    "description": "Действовать"
-  },
-  {
-    "word": "To adhere",
-    "language": "english_a2",
-    "description": "Придерживаться"
-  },
-  {
-    "word": "To admire",
-    "language": "english_a2",
-    "description": "Восхищаться"
-  },
-  {
-    "word": "To adjust",
-    "language": "english_a2",
-    "description": "Адаптировать, настроить"
-  },
-  {
-    "word": "To advise",
-    "language": "english_a2",
-    "description": "Советовать"
-  },
-  {
-    "word": "To allow",
-    "language": "english_a2",
-    "description": "Позволять, разрешать"
-  },
-  {
-    "word": "To improve",
-    "language": "english_a2",
-    "description": "Улучшать"
-  },
-  {
-    "word": "To edit",
-    "language": "english_a2",
-    "description": "Редактировать"
-  },
-  {
-    "word": "To conclude",
-    "language": "english_a2",
-    "description": "Включать в себя"
-  },
-  {
-    "word": "To settle",
-    "language": "english_a2",
-    "description": "Располагаться, поселиться"
-  },
-  {
-    "word": "To handle",
-    "language": "english_a2",
-    "description": "Справиться"
-  },
-  {
-    "word": "To boost",
-    "language": "english_a2",
-    "description": "Увеличить, поддержать"
-  },
-  {
-    "word": "To amplify",
-    "language": "english_a2",
-    "description": "Усилить, расширить"
-  },
-  {
-    "word": "To appeal",
-    "language": "english_a2",
-    "description": "Просить, обращаться"
-  },
-  {
-    "word": "To assemble",
-    "language": "english_a2",
-    "description": "Собираться, созывать"
-  },
-  {
-    "word": "To assess",
-    "language": "english_a2",
-    "description": "Оценивать, рассматривать"
-  },
-  {
-    "word": "To assist",
-    "language": "english_a2",
-    "description": "Присутствовать, помогать"
-  },
-  {
-    "word": "To astonish",
-    "language": "english_a2",
-    "description": "Удивлять"
-  },
-  {
-    "word": "To assure",
-    "language": "english_a2",
-    "description": "Убеждать, заверять"
-  },
-  {
-    "word": "To avoid",
-    "language": "english_a2",
-    "description": "Избегать"
-  },
-  {
-    "word": "To await",
-    "language": "english_a2",
-    "description": "Ожидать"
-  },
-  {
-    "word": "To pick up",
-    "language": "english_a2",
-    "description": "Подбирать, забирать"
-  },
-  {
-    "word": "To cross off",
-    "language": "english_a2",
-    "description": "Вычеркивать"
-  },
-  {
-    "word": "To claim",
-    "language": "english_a2",
-    "description": "Утверждать, заявлять"
-  },
-  {
-    "word": "To hurry up",
-    "language": "english_a2",
-    "description": "Торопиться"
-  },
-  {
-    "word": "To find out",
-    "language": "english_a2",
-    "description": "Находить"
-  },
-  {
-    "word": "To divide",
-    "language": "english_a2",
-    "description": "Делить, разделять"
-  },
-  {
-    "word": "To bark",
-    "language": "english_a2",
-    "description": "Лаять"
-  },
-  {
-    "word": "To bathe",
-    "language": "english_a2",
-    "description": "Купаться"
-  },
-  {
-    "word": "To beat",
-    "language": "english_a2",
-    "description": "Бить, превосходить"
-  },
-  {
-    "word": "To blackmail",
-    "language": "english_a2",
-    "description": "Шантажировать"
-  },
-  {
-    "word": "To spent",
-    "language": "english_a2",
-    "description": "Тратить"
-  },
-  {
-    "word": "To send",
-    "language": "english_a2",
-    "description": "Посылать"
-  },
-  {
-    "word": "To laugh",
-    "language": "english_a2",
-    "description": "Смеяться"
-  },
-  {
-    "word": "To struggle",
-    "language": "english_a2",
-    "description": "Бороться"
-  },
-  {
-    "word": "To motivate",
-    "language": "english_a2",
-    "description": "Мотивировать"
-  },
-  {
-    "word": "To perceive",
-    "language": "english_a2",
-    "description": "Воспринимать"
-  },
-  {
-    "word": "To receive",
-    "language": "english_a2",
-    "description": "Получать"
-  },
-  {
-    "word": "To recognize",
-    "language": "english_a2",
-    "description": "Распознавать"
-  },
-  {
-    "word": "To remain",
-    "language": "english_a2",
-    "description": "Напоминать"
-  },
-  {
-    "word": "To retain",
-    "language": "english_a2",
-    "description": "Удержать"
-  },
-  {
-    "word": "To remember",
-    "language": "english_a2",
-    "description": "Помнить, запоминать"
-  },
-  {
-    "word": "To observed",
-    "language": "english_a2",
-    "description": "Исследовать"
-  },
-  {
-    "word": "To fight",
-    "language": "english_a2",
-    "description": "Драться"
-  },
-  {
-    "word": "To renew",
-    "language": "english_a2",
-    "description": "Обновлять"
-  },
-  {
-    "word": "To keep calm",
-    "language": "english_a2",
-    "description": "Успокаиваться"
-  },
-  {
-    "word": "To break up",
-    "language": "english_a2",
-    "description": "Разрушать, расходиться"
-  },
-  {
-    "word": "To focus",
-    "language": "english_a2",
-    "description": "Фокусироваться"
-  },
-  {
-    "word": "To perform",
-    "language": "english_a2",
-    "description": "Исполнять обязанности"
-  },
-  {
-    "word": "To offer",
-    "language": "english_a2",
-    "description": "Предлагать"
-  },
-  {
-    "word": "To display",
-    "language": "english_a2",
-    "description": "Отображать"
-  },
-  {
-    "word": "To behave",
-    "language": "english_a2",
-    "description": "Вести себя"
-  },
-  {
-    "word": "To get rid",
-    "language": "english_a2",
-    "description": "Избавляться"
-  },
-  {
-    "word": "To squeeze",
-    "language": "english_a2",
-    "description": "Выжимать"
-  },
-  {
-    "word": "To release",
-    "language": "english_a2",
-    "description": "Выпускать, публиковать"
-  },
-  {
-    "word": "To push",
-    "language": "english_a2",
-    "description": "Толкать"
-  },
-  {
-    "word": "To foster",
-    "language": "english_a2",
-    "description": "Поощрять"
-  },
-  {
-    "word": "To enhance",
-    "language": "english_a2",
-    "description": "Расширять, поощрять"
-  },
-  {
-    "word": "To develop",
-    "language": "english_a2",
-    "description": "Развивать, разрабатывать"
-  },
-  {
-    "word": "To envelop",
-    "language": "english_a2",
-    "description": "Окутывать, обволакивать"
-  },
-  {
-    "word": "To obtain",
-    "language": "english_a2",
-    "description": "Получить, добиться, приобрести"
-  },
-  {
-    "word": "To investigate",
-    "language": "english_a2",
-    "description": "Расследовать"
-  },
-  {
-    "word": "To adore",
-    "language": "english_a2",
-    "description": "Обожать"
-  },
-  {
-    "word": "To block out",
-    "language": "english_a2",
-    "description": "Заблокировать, замедлить"
-  },
-  {
-    "word": "To compete",
-    "language": "english_a2",
-    "description": "Состязаться"
-  },
-  {
-    "word": "To consist",
-    "language": "english_a2",
-    "description": "Состоять"
-  },
-  {
-    "word": "To contact",
-    "language": "english_a2",
-    "description": "Связаться"
-  },
-  {
-    "word": "To convince",
-    "language": "english_a2",
-    "description": "Убедить"
-  },
-  {
-    "word": "To deserve",
-    "language": "english_a2",
-    "description": "Заслуживать"
-  },
-  {
-    "word": "To discover",
-    "language": "english_a2",
-    "description": "Обнаружить"
-  },
-  {
-    "word": "To disagree",
-    "language": "english_a2",
-    "description": "Не соглашаться"
-  },
-  {
-    "word": "To disclose",
-    "language": "english_a2",
-    "description": "Разглашать"
-  },
-  {
-    "word": "To disrupt",
-    "language": "english_a2",
-    "description": "Портить, разрушать"
-  },
-  {
-    "word": "To entertain",
-    "language": "english_a2",
-    "description": "Развлекать"
-  },
-  {
-    "word": "To expand",
-    "language": "english_a2",
-    "description": "Расширять"
-  },
-  {
-    "word": "To express",
-    "language": "english_a2",
-    "description": "Выражать"
-  },
-  {
-    "word": "To fold",
-    "language": "english_a2",
-    "description": "Складывать"
-  },
-  {
-    "word": "To greet",
-    "language": "english_a2",
-    "description": "Приветствовать"
-  },
-  {
-    "word": "To hinder",
-    "language": "english_a2",
-    "description": "Препятствовать"
-  },
-  {
-    "word": "To host",
-    "language": "english_a2",
-    "description": "Принимать (гостей)"
-  },
-  {
-    "word": "To identify",
-    "language": "english_a2",
-    "description": "Опознавать"
-  },
-  {
-    "word": "To ignore",
-    "language": "english_a2",
-    "description": "Игнорировать"
-  },
-  {
-    "word": "To implement",
-    "language": "english_a2",
-    "description": "Реализовывать"
-  },
-  {
-    "word": "To impress",
-    "language": "english_a2",
-    "description": "Впечатлить"
-  },
-  {
-    "word": "To improve",
-    "language": "english_a2",
-    "description": "Улучшать"
-  },
-  {
-    "word": "To indicate",
-    "language": "english_a2",
-    "description": "Указывать"
-  },
-  {
-    "word": "To inform",
-    "language": "english_a2",
-    "description": "Информировать"
-  },
-  {
-    "word": "To inquire",
-    "language": "english_a2",
-    "description": "Спрашивать, узнавать"
-  },
-  {
-    "word": "To introduce",
-    "language": "english_a2",
-    "description": "Представить, ввести"
-  },
-  {
-    "word": "To involve",
-    "language": "english_a2",
-    "description": "Вовлекать, включать"
-  },
-  {
-    "word": "To invite",
-    "language": "english_a2",
-    "description": "Приглашать"
-  },
-  {
-    "word": "To isolate",
-    "language": "english_a2",
-    "description": "Изолировать"
-  },
-  {
-    "word": "To joke",
-    "language": "english_a2",
-    "description": "Шутить"
-  },
-  {
-    "word": "To judge",
-    "language": "english_a2",
-    "description": "Судить, оценивать"
-  },
-  {
-    "word": "To justify",
-    "language": "english_a2",
-    "description": "Обосновывать"
-  },
-  {
-    "word": "To knock",
-    "language": "english_a2",
-    "description": "Стучать, стукнуть"
-  },
-  {
-    "word": "To locate",
-    "language": "english_a2",
-    "description": "Найти, расположить"
-  },
-  {
-    "word": "To manage",
-    "language": "english_a2",
-    "description": "Управлять"
-  },
-  {
-    "word": "To master",
-    "language": "english_a2",
-    "description": "Овладеть, освоить"
-  },
-  {
-    "word": "To motivate",
-    "language": "english_a2",
-    "description": "Мотивировать"
-  },
-  {
-    "word": "To negotiate",
-    "language": "english_a2",
-    "description": "Вести переговоры"
-  },
-  {
-    "word": "To operate",
-    "language": "english_a2",
-    "description": "Действовать, работать"
-  },
-  {
-    "word": "To overtake",
-    "language": "english_a2",
-    "description": "Обогнать"
-  },
-  {
-    "word": "To persuade",
-    "language": "english_a2",
-    "description": "Уговаривать, убеждать"
-  },
-  {
-    "word": "To predict",
-    "language": "english_a2",
-    "description": "Предсказывать"
-  },
-  {
-    "word": "To prohibit",
-    "language": "english_a2",
-    "description": "Запрещать"
-  },
-  {
-    "word": "To qualify",
-    "language": "english_a2",
-    "description": "Квалифицировать"
-  },
-  {
-    "word": "To react",
-    "language": "english_a2",
-    "description": "Реагировать"
-  },
-  {
-    "word": "To receive",
-    "language": "english_a2",
-    "description": "Получать"
-  },
-  {
-    "word": "To reduce",
-    "language": "english_a2",
-    "description": "Сокращать"
-  },
-  {
-    "word": "To refer",
-    "language": "english_a2",
-    "description": "Ссылаться"
-  },
-  {
-    "word": "To refuse",
-    "language": "english_a2",
-    "description": "Отказывать"
-  },
-  {
-    "word": "To relax",
-    "language": "english_a2",
-    "description": "Расслабиться"
-  },
-  {
-    "word": "To rely",
-    "language": "english_a2",
-    "description": "Полагаться"
-  },
-  {
-    "word": "To remind",
-    "language": "english_a2",
-    "description": "Напоминать"
-  },
-  {
-    "word": "To repair",
-    "language": "english_a2",
-    "description": "Ремонтировать"
-  },
-  {
-    "word": "To represent",
-    "language": "english_a2",
-    "description": "Представлять"
-  },
-  {
-    "word": "To request",
-    "language": "english_a2",
-    "description": "Запрашивать, требовать"
-  },
-  {
-    "word": "To require",
-    "language": "english_a2",
-    "description": "Требовать, необходимость"
-  },
-  {
-    "word": "To resolve",
-    "language": "english_a2",
-    "description": "Решать, разрешать"
-  },
-  {
-    "word": "To respond",
-    "language": "english_a2",
-    "description": "Реагировать, отвечать"
-  },
-  {
-    "word": "To risk",
-    "language": "english_a2",
-    "description": "Рисковать"
-  },
-  {
-    "word": "To satisfy",
-    "language": "english_a2",
-    "description": "Удовлетворять"
-  },
-  {
-    "word": "To save",
-    "language": "english_a2",
-    "description": "Сохранять, спасать"
-  },
-  {
-    "word": "To search",
-    "language": "english_a2",
-    "description": "Искать"
-  },
-  {
-    "word": "To seize",
-    "language": "english_a2",
-    "description": "Захватывать"
-  },
-  {
-    "word": "To shake",
-    "language": "english_a2",
-    "description": "Трясти"
-  },
-  {
-    "word": "To show",
-    "language": "english_a2",
-    "description": "Показывать"
-  },
-  {
-    "word": "To sound",
-    "language": "english_a2",
-    "description": "Звучать"
-  },
-  {
-    "word": "To spread",
-    "language": "english_a2",
-    "description": "Распространять"
-  },
-  {
-    "word": "To steal",
-    "language": "english_a2",
-    "description": "Красть"
-  },
-  {
-    "word": "To support",
-    "language": "english_a2",
-    "description": "Поддерживать"
-  },
-  {
-    "word": "To teach",
-    "language": "english_a2",
-    "description": "Обучать"
-  },
-  {
-    "word": "To tell",
-    "language": "english_a2",
-    "description": "Рассказать"
-  },
-  {
-    "word": "To thank",
-    "language": "english_a2",
-    "description": "Благодарить"
-  },
-  {
-    "word": "To touch",
-    "language": "english_a2",
-    "description": "Касаться"
-  },
-  {
-    "word": "To travel",
-    "language": "english_a2",
-    "description": "Путешествовать"
-  },
-  {
-    "word": "To turn",
-    "language": "english_a2",
-    "description": "Повернуть"
-  },
-  {
-    "word": "To understand",
-    "language": "english_a2",
-    "description": "Понимать"
-  },
-  {
-    "word": "To unpack",
-    "language": "english_a2",
-    "description": "Распаковать"
-  },
-  {
-    "word": "To use",
-    "language": "english_a2",
-    "description": "Использовать"
-  },
-  {
-    "word": "To visit",
-    "language": "english_a2",
-    "description": "Посетить"
-  },
-  {
-    "word": "To wake up",
-    "language": "english_a2",
-    "description": "Пробудиться, разбудить"
-  },
-  {
-    "word": "To wash",
-    "language": "english_a2",
-    "description": "Мыть"
-  },
-  {
-    "word": "To work",
-    "language": "english_a2",
-    "description": "Работать"
-  },
-  {
-    "word": "To yell",
-    "language": "english_a2",
-    "description": "Кричать"
-  },
-  {
-    "word": "To zigzag",
-    "language": "english_a2",
-    "description": "Зигзаг"
-  },
-  {
-    "word": "To whistle",
-    "language": "english_a2",
-    "description": "Свистеть"
-  },
-  {
-    "word": "To wind",
-    "language": "english_a2",
-    "description": "Ветер"
-  },
-  {
-    "word": "To transform",
-    "language": "english_a2",
-    "description": "Преобразовать"
-  },
-  {
-    "word": "To get in touch",
-    "language": "english_a2",
-    "description": "Связаться"
-  },
-  {
-    "word": "To split up",
-    "language": "english_a2",
-    "description": "Расставаться"
-  },
-  {
-    "word": "To settle down",
-    "language": "english_a2",
-    "description": "Устроиться, успокоиться"
-  },
-  {
-    "word": "To set up",
-    "language": "english_a2",
-    "description": "Устанавливать"
-  },
-  {
-    "word": "To run out",
-    "language": "english_a2",
-    "description": "Иссякать, закончиться"
-  },
-  {
-    "word": "To stand out",
-    "language": "english_a2",
-    "description": "Выделяться"
-  },
-  {
-    "word": "To pull off",
-    "language": "english_a2",
-    "description": "Достичь, сорвать"
-  },
-  {
-    "word": "To put off",
-    "language": "english_a2",
-    "description": "Откладывать"
-  },
-  {
-    "word": "To call off",
-    "language": "english_a2",
-    "description": "Отменять"
-  },
-  {
-    "word": "To show off",
-    "language": "english_a2",
-    "description": "Показываться, хвастаться"
-  },
-  {
-    "word": "To get away",
-    "language": "english_a2",
-    "description": "Уйти, сбежать"
-  },
-  {
-    "word": "To eat out",
-    "language": "english_a2",
-    "description": "Есть вне дома"
-  },
-  {
-    "word": "To look forward",
-    "language": "english_a2",
-    "description": "С нетерпением ждать"
-  },
-  {
-    "word": "To drop by",
-    "language": "english_a2",
-    "description": "Зайти, навестить"
-  },
-  {
-    "word": "To go over",
-    "language": "english_a2",
-    "description": "Пройти, изучить"
-  },
-  {
-    "word": "To give up",
-    "language": "english_a2",
-    "description": "Сдаваться, бросить"
-  },
-  {
-    "word": "To look after",
-    "language": "english_a2",
-    "description": "Заботиться, присматривать"
-  },
-  {
-    "word": "To run away",
-    "language": "english_a2",
-    "description": "Сбежать"
-  },
-  {
-    "word": "To put up",
-    "language": "english_a2",
-    "description": "Остановиться, разместить"
-  },
-  {
-    "word": "To break down",
-    "language": "english_a2",
-    "description": "Сломаться"
-  },
-  {
-    "word": "To come over",
-    "language": "english_a2",
-    "description": "Заглянуть, навестить"
-  },
-  {
-    "word": "To catch up",
-    "language": "english_a2",
-    "description": "Догнать"
-  },
-  {
-    "word": "To calm down",
-    "language": "english_a2",
-    "description": "Успокоиться"
-  },
-  {
-    "word": "To get through",
-    "language": "english_a2",
-    "description": "Пройти, дозвониться"
-  },
-  {
-    "word": "To hold on",
-    "language": "english_a2",
-    "description": "Удерживаться, подождать"
-  },
-  {
-    "word": "To put on",
-    "language": "english_a2",
-    "description": "Надеть"
-  },
-  {
-    "word": "To pick up",
-    "language": "english_a2",
-    "description": "Забрать, поднять"
-  },
-  {
-    "word": "To break off",
-    "language": "english_a2",
-    "description": "Прервать, оборвать"
-  },
-  {
-    "word": "To stand up",
-    "language": "english_a2",
-    "description": "Вставать, подниматься"
-  },
-  {
-    "word": "To look up",
-    "language": "english_a2",
-    "description": "Искать (в словаре)"
-  },
-  {
-    "word": "To show up",
-    "language": "english_a2",
-    "description": "Появиться"
-  },
-  {
-    "word": "To drop off",
-    "language": "english_a2",
-    "description": "Подвезти, скинуть"
-  },
-  {
-    "word": "To go on",
-    "language": "english_a2",
-    "description": "Продолжать"
-  },
-  {
-    "word": "To give in",
-    "language": "english_a2",
-    "description": "Сдаваться, уступать"
-  },
-  {
-    "word": "To run out of",
-    "language": "english_a2",
-    "description": "Закончиться, иссякнуть"
-  },
-  {
-    "word": "To make up",
-    "language": "english_a2",
-    "description": "Изобрести, мириться"
-  },
-  {
-    "word": "To go up",
-    "language": "english_a2",
-    "description": "Подниматься"
-  },
-  {
-    "word": "To fill in",
-    "language": "english_a2",
-    "description": "Заполнить"
-  },
-  {
-    "word": "To find out",
-    "language": "english_a2",
-    "description": "Узнать"
-  },
-  {
-    "word": "To pick out",
-    "language": "english_a2",
-    "description": "Выбрать"
-  },
-  {
-    "word": "To look out",
-    "language": "english_a2",
-    "description": "Смотреть вперед"
-  },
-  {
-    "word": "To make out",
-    "language": "english_a2",
-    "description": "Различить, понять"
-  },
-  {
-    "word": "To take off",
-    "language": "english_a2",
-    "description": "Снимать"
-  },
-  {
-    "word": "To go over",
-    "language": "english_a2",
-    "description": "Пройти, изучить"
-  },
-  {
-    "word": "To hold up",
-    "language": "english_a2",
-    "description": "Задерживать"
-  },
-  {
-    "word": "To point out",
-    "language": "english_a2",
-    "description": "Указать"
-  },
-  {
-    "word": "To put off",
-    "language": "english_a2",
-    "description": "Откладывать"
-  },
-  {
-    "word": "To see off",
-    "language": "english_a2",
-    "description": "Провожать (на вокзал, аэропорт)"
-  },
-  {
-    "word": "To set up",
-    "language": "english_a2",
-    "description": "Устанавливать"
-  },
-  {
-    "word": "To wear out",
-    "language": "english_a2",
-    "description": "Износить"
-  },
-  {
-    "word": "To break off",
-    "language": "english_a2",
-    "description": "Прервать, оборвать"
-  },
-  {
-    "word": "To check out",
-    "language": "english_a2",
-    "description": "Проверить, осмотреть"
-  },
-  {
-    "word": "To give up",
-    "language": "english_a2",
-    "description": "Сдаваться, бросить"
-  },
-  {
-    "word": "To go on",
-    "language": "english_a2",
-    "description": "Продолжать"
-  },
-  {
-    "word": "To give in",
-    "language": "english_a2",
-    "description": "Сдаваться, уступать"
-  },
-  {
-    "word": "To break down",
-    "language": "english_a2",
-    "description": "Сломаться"
-  },
-  {
-    "word": "To run out of",
-    "language": "english_a2",
-    "description": "Закончиться, иссякнуть"
-  },
-  {
-    "word": "To go up",
-    "language": "english_a2",
-    "description": "Подниматься"
-  },
-  {
-    "word": "To fill in",
-    "language": "english_a2",
-    "description": "Заполнить"
-  },
-  {
-    "word": "To find out",
-    "language": "english_a2",
-    "description": "Узнать"
-  },
-  {
-    "word": "To pick out",
-    "language": "english_a2",
-    "description": "Выбрать"
-  },
-  {
-    "word": "To look out",
-    "language": "english_a2",
-    "description": "Смотреть вперед"
-  },
-  {
-    "word": "To make out",
-    "language": "english_a2",
-    "description": "Различить, понять"
-  },
-  {
-    "word": "To take off",
-    "language": "english_a2",
-    "description": "Снимать"
-  },
-  {
-    "word": "To go over",
-    "language": "english_a2",
-    "description": "Пройти, изучить"
-  },
-  {
-    "word": "To hold up",
-    "language": "english_a2",
-    "description": "Задерживать"
-  },
-  {
-    "word": "To point out",
-    "language": "english_a2",
-    "description": "Указать"
-  },
-  {
-    "word": "To set up",
-    "language": "english_a2",
-    "description": "Устанавливать"
-  },
-  {
-    "word": "To see off",
-    "language": "english_a2",
-    "description": "Провожать (на вокзал, аэропорт)"
-  },
-  {
-    "word": "To wear out",
-    "language": "english_a2",
-    "description": "Износить"
-  },
-  {
-    "word": "To go along",
-    "language": "english_a2",
-    "description": "Идти вместе"
-  },
-  {
-    "word": "To break up",
-    "language": "english_a2",
-    "description": "Расставаться"
-  },
-  {
-    "word": "To pick up",
-    "language": "english_a2",
-    "description": "Забрать, поднять"
-  },
-  {
-    "word": "To run over",
-    "language": "english_a2",
-    "description": "Переехать"
-  },
-  {
-    "word": "To set out",
-    "language": "english_a2",
-    "description": "Отправляться"
-  },
-  {
-    "word": "To take up",
-    "language": "english_a2",
-    "description": "Взять в обработку"
-  },
-  {
-    "word": "To make up",
-    "language": "english_a2",
-    "description": "Изготовить"
-  },
-  {
-    "word": "To give out",
-    "language": "english_a2",
-    "description": "Раздавать, распространять"
-  },
-  {
-    "word": "To come up",
-    "language": "english_a2",
-    "description": "Предложить, представить"
-  },
-  {
-    "word": "To bring up",
-    "language": "english_a2",
-    "description": "Воспитать"
-  },
-  {
-    "word": "To dress up",
-    "language": "english_a2",
-    "description": "Нарядиться"
-  },
-  {
-    "word": "To show up",
-    "language": "english_a2",
-    "description": "Появиться"
-  },
-  {
-    "word": "To check up",
-    "language": "english_a2",
-    "description": "Проверить"
-  },
-  {
-    "word": "To call up",
-    "language": "english_a2",
-    "description": "Позвонить"
-  },
-  {
-    "word": "To catch on",
-    "language": "english_a2",
-    "description": "Стать популярным"
-  },
-  {
-    "word": "To fill up",
-    "language": "english_a2",
-    "description": "Наполнить"
-  },
-  {
-    "word": "To let down",
-    "language": "english_a2",
-    "description": "Обмануть, разочаровать"
-  },
-  {
-    "word": "To turn up",
-    "language": "english_a2",
-    "description": "Появиться, объявиться"
-  },
-  {
-    "word": "To see through",
-    "language": "english_a2",
-    "description": "Проникнуться, раскусить"
-  },
-  {
-    "word": "To cut down",
-    "language": "english_a2",
-    "description": "Уменьшить"
-  },
-  {
-    "word": "To pick up",
-    "language": "english_a2",
-    "description": "Подобрать"
-  },
-  {
-    "word": "To run into",
-    "language": "english_a2",
-    "description": "Встретить (случайно)"
-  },
-  {
-    "word": "To set up",
-    "language": "english_a2",
-    "description": "Создать"
-  },
-  {
-    "word": "To go on",
-    "language": "english_a2",
-    "description": "Продолжать"
-  },
-  {
-    "word": "To give in",
-    "language": "english_a2",
-    "description": "Сдаваться, уступать"
-  },
-  {
-    "word": "To take off",
-    "language": "english_a2",
-    "description": "Снимать (одежду)"
-  },
-  {
-    "word": "To pull off",
-    "language": "english_a2",
-    "description": "Достичь, сорвать"
-  },
-  {
-    "word": "To show off",
-    "language": "english_a2",
-    "description": "Показываться, хвастаться"
-  },
-  {
-    "word": "To bring up",
-    "language": "english_a2",
-    "description": "Воспитать"
-  },
-  {
-    "word": "To dress up",
-    "language": "english_a2",
-    "description": "Нарядиться"
-  },
-  {
-    "word": "To check up",
-    "language": "english_a2",
-    "description": "Проверить"
-  },
-  {
-    "word": "To call up",
-    "language": "english_a2",
-    "description": "Позвонить"
-  },
-  {
-    "word": "To catch on",
-    "language": "english_a2",
-    "description": "Стать популярным"
-  },
-  {
-    "word": "To fill up",
-    "language": "english_a2",
-    "description": "Наполнить"
-  },
-  {
-    "word": "To let down",
-    "language": "english_a2",
-    "description": "Обмануть, разочаровать"
-  },
-  {
-    "word": "To turn up",
-    "language": "english_a2",
-    "description": "Появиться, объявиться"
-  },
-  {
-    "word": "To see through",
-    "language": "english_a2",
-    "description": "Проникнуться, раскусить"
-  },
-  {
-    "word": "To cut down",
-    "language": "english_a2",
-    "description": "Уменьшить"
-  },
-  {
-    "word": "To pick up",
-    "language": "english_a2",
-    "description": "Подобрать"
-  },
-  {
-    "word": "To run into",
-    "language": "english_a2",
-    "description": "Встретить (случайно)"
-  },
-  {
-    "word": "To set up",
-    "language": "english_a2",
-    "description": "Создать"
-  },
-  {
-    "word": "To take up",
-    "language": "english_a2",
-    "description": "Взять в обработку"
-  },
-  {
-    "word": "To let down",
-    "language": "english_a2",
-    "description": "Обмануть, разочаровать"
-  },
-  {
-    "word": "To turn up",
-    "language": "english_a2",
-    "description": "Появиться, объявиться"
-  },
-  {
-    "word": "To see through",
-    "language": "english_a2",
-    "description": "Проникнуться, раскусить"
-  },
-  {
-    "word": "To cut down",
-    "language": "english_a2",
-    "description": "Уменьшить"
-  },
-  {
-    "word": "To pick up",
-    "language": "english_a2",
-    "description": "Подобрать"
-  },
-  {
-    "word": "To run into",
-    "language": "english_a2",
-    "description": "Встретить (случайно)"
-  },
+    },
+    {
+        "word": "To appear",
+        "language": "english_a2",
+        "description": "Появляться"
+    },
+    {
+        "word": "To cancel",
+        "language": "english_a2",
+        "description": "Отменять"
+    },
+    {
+        "word": "To bite",
+        "language": "english_a2",
+        "description": "Кусать, укусить"
+    },
+    {
+        "word": "To regret",
+        "language": "english_a2",
+        "description": "Сожалеть"
+    },
+    {
+        "word": "To blow",
+        "language": "english_a2",
+        "description": "Дуть (о ветре), развеять, раздувать"
+    },
+    {
+        "word": "To compose",
+        "language": "english_a2",
+        "description": "Составлять"
+    },
+    {
+        "word": "To congratulate",
+        "language": "english_a2",
+        "description": "Поздравлять"
+    },
+    {
+        "word": "To correct",
+        "language": "english_a2",
+        "description": "Исправлять"
+    },
+    {
+        "word": "To fall asleep",
+        "language": "english_a2",
+        "description": "Засыпать"
+    },
+    {
+        "word": "To burn",
+        "language": "english_a2",
+        "description": "Гореть"
+    },
+    {
+        "word": "To invent",
+        "language": "english_a2",
+        "description": "Придумать, изобретать"
+    },
+    {
+        "word": "To mention",
+        "language": "english_a2",
+        "description": "Упоминать, заметить, отметить"
+    },
+    {
+        "word": "To suppose",
+        "language": "english_a2",
+        "description": "Предполагать"
+    },
+    {
+        "word": "To suggest",
+        "language": "english_a2",
+        "description": "Предлагать, намекать"
+    },
+    {
+        "word": "To consider",
+        "language": "english_a2",
+        "description": "Размышлять, учитывать"
+    },
+    {
+        "word": "To escape",
+        "language": "english_a2",
+        "description": "Сбегать, убегать"
+    },
+    {
+        "word": "To publish",
+        "language": "english_a2",
+        "description": "Публиковать"
+    },
+    {
+        "word": "To solve",
+        "language": "english_a2",
+        "description": "Решить, разгадать"
+    },
+    {
+        "word": "To tidy up",
+        "language": "english_a2",
+        "description": "Убираться, наводить порядок"
+    },
+    {
+        "word": "To win",
+        "language": "english_a2",
+        "description": "Выиграть"
+    },
+    {
+        "word": "To swallow",
+        "language": "english_a2",
+        "description": "Глотать"
+    },
+    {
+        "word": "To follow",
+        "language": "english_a2",
+        "description": "Следовать"
+    },
+    {
+        "word": "To abandon",
+        "language": "english_a2",
+        "description": "Покидать, оставлять"
+    },
+    {
+        "word": "To be able",
+        "language": "english_a2",
+        "description": "Быть в состоянии"
+    },
+    {
+        "word": "To abuse",
+        "language": "english_a2",
+        "description": "Оскорблять"
+    },
+    {
+        "word": "To accelerate",
+        "language": "english_a2",
+        "description": "Ускорять"
+    },
+    {
+        "word": "To reveal",
+        "language": "english_a2",
+        "description": "Раскрывать"
+    },
+    {
+        "word": "To consist of",
+        "language": "english_a2",
+        "description": "Состоять из"
+    },
+    {
+        "word": "To include",
+        "language": "english_a2",
+        "description": "Включать"
+    },
+    {
+        "word": "To guess",
+        "language": "english_a2",
+        "description": "Думать, предполагать"
+    },
+    {
+        "word": "To accept",
+        "language": "english_a2",
+        "description": "Одобрять, согласовать"
+    },
+    {
+        "word": "To formulate",
+        "language": "english_a2",
+        "description": "Формулировать"
+    },
+    {
+        "word": "To form",
+        "language": "english_a2",
+        "description": "Формировать"
+    },
+    {
+        "word": "To achieve",
+        "language": "english_a2",
+        "description": "Достигать"
+    },
+    {
+        "word": "To acknowledge",
+        "language": "english_a2",
+        "description": "Подтверждать"
+    },
+    {
+        "word": "To act",
+        "language": "english_a2",
+        "description": "Действовать"
+    },
+    {
+        "word": "To adhere",
+        "language": "english_a2",
+        "description": "Придерживаться"
+    },
+    {
+        "word": "To admire",
+        "language": "english_a2",
+        "description": "Восхищаться"
+    },
+    {
+        "word": "To adjust",
+        "language": "english_a2",
+        "description": "Адаптировать, настроить"
+    },
+    {
+        "word": "To advise",
+        "language": "english_a2",
+        "description": "Советовать"
+    },
+    {
+        "word": "To allow",
+        "language": "english_a2",
+        "description": "Позволять, разрешать"
+    },
+    {
+        "word": "To improve",
+        "language": "english_a2",
+        "description": "Улучшать"
+    },
+    {
+        "word": "To edit",
+        "language": "english_a2",
+        "description": "Редактировать"
+    },
+    {
+        "word": "To conclude",
+        "language": "english_a2",
+        "description": "Включать в себя"
+    },
+    {
+        "word": "To settle",
+        "language": "english_a2",
+        "description": "Располагаться, поселиться"
+    },
+    {
+        "word": "To handle",
+        "language": "english_a2",
+        "description": "Справиться"
+    },
+    {
+        "word": "To boost",
+        "language": "english_a2",
+        "description": "Увеличить, поддержать"
+    },
+    {
+        "word": "To amplify",
+        "language": "english_a2",
+        "description": "Усилить, расширить"
+    },
+    {
+        "word": "To appeal",
+        "language": "english_a2",
+        "description": "Просить, обращаться"
+    },
+    {
+        "word": "To assemble",
+        "language": "english_a2",
+        "description": "Собираться, созывать"
+    },
+    {
+        "word": "To assess",
+        "language": "english_a2",
+        "description": "Оценивать, рассматривать"
+    },
+    {
+        "word": "To assist",
+        "language": "english_a2",
+        "description": "Присутствовать, помогать"
+    },
+    {
+        "word": "To astonish",
+        "language": "english_a2",
+        "description": "Удивлять"
+    },
+    {
+        "word": "To assure",
+        "language": "english_a2",
+        "description": "Убеждать, заверять"
+    },
+    {
+        "word": "To avoid",
+        "language": "english_a2",
+        "description": "Избегать"
+    },
+    {
+        "word": "To await",
+        "language": "english_a2",
+        "description": "Ожидать"
+    },
+    {
+        "word": "To pick up",
+        "language": "english_a2",
+        "description": "Подбирать, забирать"
+    },
+    {
+        "word": "To cross off",
+        "language": "english_a2",
+        "description": "Вычеркивать"
+    },
+    {
+        "word": "To claim",
+        "language": "english_a2",
+        "description": "Утверждать, заявлять"
+    },
+    {
+        "word": "To hurry up",
+        "language": "english_a2",
+        "description": "Торопиться"
+    },
+    {
+        "word": "To find out",
+        "language": "english_a2",
+        "description": "Находить"
+    },
+    {
+        "word": "To divide",
+        "language": "english_a2",
+        "description": "Делить, разделять"
+    },
+    {
+        "word": "To bark",
+        "language": "english_a2",
+        "description": "Лаять"
+    },
+    {
+        "word": "To bathe",
+        "language": "english_a2",
+        "description": "Купаться"
+    },
+    {
+        "word": "To beat",
+        "language": "english_a2",
+        "description": "Бить, превосходить"
+    },
+    {
+        "word": "To blackmail",
+        "language": "english_a2",
+        "description": "Шантажировать"
+    },
+    {
+        "word": "To spent",
+        "language": "english_a2",
+        "description": "Тратить"
+    },
+    {
+        "word": "To send",
+        "language": "english_a2",
+        "description": "Посылать"
+    },
+    {
+        "word": "To laugh",
+        "language": "english_a2",
+        "description": "Смеяться"
+    },
+    {
+        "word": "To struggle",
+        "language": "english_a2",
+        "description": "Бороться"
+    },
+    {
+        "word": "To motivate",
+        "language": "english_a2",
+        "description": "Мотивировать"
+    },
+    {
+        "word": "To perceive",
+        "language": "english_a2",
+        "description": "Воспринимать"
+    },
+    {
+        "word": "To receive",
+        "language": "english_a2",
+        "description": "Получать"
+    },
+    {
+        "word": "To recognize",
+        "language": "english_a2",
+        "description": "Распознавать"
+    },
+    {
+        "word": "To remain",
+        "language": "english_a2",
+        "description": "Напоминать"
+    },
+    {
+        "word": "To retain",
+        "language": "english_a2",
+        "description": "Удержать"
+    },
+    {
+        "word": "To remember",
+        "language": "english_a2",
+        "description": "Помнить, запоминать"
+    },
+    {
+        "word": "To observed",
+        "language": "english_a2",
+        "description": "Исследовать"
+    },
+    {
+        "word": "To fight",
+        "language": "english_a2",
+        "description": "Драться"
+    },
+    {
+        "word": "To renew",
+        "language": "english_a2",
+        "description": "Обновлять"
+    },
+    {
+        "word": "To keep calm",
+        "language": "english_a2",
+        "description": "Успокаиваться"
+    },
+    {
+        "word": "To break up",
+        "language": "english_a2",
+        "description": "Разрушать, расходиться"
+    },
+    {
+        "word": "To focus",
+        "language": "english_a2",
+        "description": "Фокусироваться"
+    },
+    {
+        "word": "To perform",
+        "language": "english_a2",
+        "description": "Исполнять обязанности"
+    },
+    {
+        "word": "To offer",
+        "language": "english_a2",
+        "description": "Предлагать"
+    },
+    {
+        "word": "To display",
+        "language": "english_a2",
+        "description": "Отображать"
+    },
+    {
+        "word": "To behave",
+        "language": "english_a2",
+        "description": "Вести себя"
+    },
+    {
+        "word": "To get rid",
+        "language": "english_a2",
+        "description": "Избавляться"
+    },
+    {
+        "word": "To squeeze",
+        "language": "english_a2",
+        "description": "Выжимать"
+    },
+    {
+        "word": "To release",
+        "language": "english_a2",
+        "description": "Выпускать, публиковать"
+    },
+    {
+        "word": "To push",
+        "language": "english_a2",
+        "description": "Толкать"
+    },
+    {
+        "word": "To foster",
+        "language": "english_a2",
+        "description": "Поощрять"
+    },
+    {
+        "word": "To enhance",
+        "language": "english_a2",
+        "description": "Расширять, поощрять"
+    },
+    {
+        "word": "To develop",
+        "language": "english_a2",
+        "description": "Развивать, разрабатывать"
+    },
+    {
+        "word": "To envelop",
+        "language": "english_a2",
+        "description": "Окутывать, обволакивать"
+    },
+    {
+        "word": "To obtain",
+        "language": "english_a2",
+        "description": "Получить, добиться, приобрести"
+    },
+    {
+        "word": "To investigate",
+        "language": "english_a2",
+        "description": "Расследовать"
+    },
+    {
+        "word": "To adore",
+        "language": "english_a2",
+        "description": "Обожать"
+    },
+    {
+        "word": "To block out",
+        "language": "english_a2",
+        "description": "Заблокировать, замедлить"
+    },
+    {
+        "word": "To compete",
+        "language": "english_a2",
+        "description": "Состязаться"
+    },
+    {
+        "word": "To consist",
+        "language": "english_a2",
+        "description": "Состоять"
+    },
+    {
+        "word": "To contact",
+        "language": "english_a2",
+        "description": "Связаться"
+    },
+    {
+        "word": "To convince",
+        "language": "english_a2",
+        "description": "Убедить"
+    },
+    {
+        "word": "To deserve",
+        "language": "english_a2",
+        "description": "Заслуживать"
+    },
+    {
+        "word": "To discover",
+        "language": "english_a2",
+        "description": "Обнаружить"
+    },
+    {
+        "word": "To disagree",
+        "language": "english_a2",
+        "description": "Не соглашаться"
+    },
+    {
+        "word": "To disclose",
+        "language": "english_a2",
+        "description": "Разглашать"
+    },
+    {
+        "word": "To disrupt",
+        "language": "english_a2",
+        "description": "Портить, разрушать"
+    },
+    {
+        "word": "To entertain",
+        "language": "english_a2",
+        "description": "Развлекать"
+    },
+    {
+        "word": "To expand",
+        "language": "english_a2",
+        "description": "Расширять"
+    },
+    {
+        "word": "To express",
+        "language": "english_a2",
+        "description": "Выражать"
+    },
+    {
+        "word": "To fold",
+        "language": "english_a2",
+        "description": "Складывать"
+    },
+    {
+        "word": "To greet",
+        "language": "english_a2",
+        "description": "Приветствовать"
+    },
+    {
+        "word": "To hinder",
+        "language": "english_a2",
+        "description": "Препятствовать"
+    },
+    {
+        "word": "To host",
+        "language": "english_a2",
+        "description": "Принимать (гостей)"
+    },
+    {
+        "word": "To identify",
+        "language": "english_a2",
+        "description": "Опознавать"
+    },
+    {
+        "word": "To ignore",
+        "language": "english_a2",
+        "description": "Игнорировать"
+    },
+    {
+        "word": "To implement",
+        "language": "english_a2",
+        "description": "Реализовывать"
+    },
+    {
+        "word": "To impress",
+        "language": "english_a2",
+        "description": "Впечатлить"
+    },
+    {
+        "word": "To improve",
+        "language": "english_a2",
+        "description": "Улучшать"
+    },
+    {
+        "word": "To indicate",
+        "language": "english_a2",
+        "description": "Указывать"
+    },
+    {
+        "word": "To inform",
+        "language": "english_a2",
+        "description": "Информировать"
+    },
+    {
+        "word": "To inquire",
+        "language": "english_a2",
+        "description": "Спрашивать, узнавать"
+    },
+    {
+        "word": "To introduce",
+        "language": "english_a2",
+        "description": "Представить, ввести"
+    },
+    {
+        "word": "To involve",
+        "language": "english_a2",
+        "description": "Вовлекать, включать"
+    },
+    {
+        "word": "To invite",
+        "language": "english_a2",
+        "description": "Приглашать"
+    },
+    {
+        "word": "To isolate",
+        "language": "english_a2",
+        "description": "Изолировать"
+    },
+    {
+        "word": "To joke",
+        "language": "english_a2",
+        "description": "Шутить"
+    },
+    {
+        "word": "To judge",
+        "language": "english_a2",
+        "description": "Судить, оценивать"
+    },
+    {
+        "word": "To justify",
+        "language": "english_a2",
+        "description": "Обосновывать"
+    },
+    {
+        "word": "To knock",
+        "language": "english_a2",
+        "description": "Стучать, стукнуть"
+    },
+    {
+        "word": "To locate",
+        "language": "english_a2",
+        "description": "Найти, расположить"
+    },
+    {
+        "word": "To manage",
+        "language": "english_a2",
+        "description": "Управлять"
+    },
+    {
+        "word": "To master",
+        "language": "english_a2",
+        "description": "Овладеть, освоить"
+    },
+    {
+        "word": "To motivate",
+        "language": "english_a2",
+        "description": "Мотивировать"
+    },
+    {
+        "word": "To negotiate",
+        "language": "english_a2",
+        "description": "Вести переговоры"
+    },
+    {
+        "word": "To operate",
+        "language": "english_a2",
+        "description": "Действовать, работать"
+    },
+    {
+        "word": "To overtake",
+        "language": "english_a2",
+        "description": "Обогнать"
+    },
+    {
+        "word": "To persuade",
+        "language": "english_a2",
+        "description": "Уговаривать, убеждать"
+    },
+    {
+        "word": "To predict",
+        "language": "english_a2",
+        "description": "Предсказывать"
+    },
+    {
+        "word": "To prohibit",
+        "language": "english_a2",
+        "description": "Запрещать"
+    },
+    {
+        "word": "To qualify",
+        "language": "english_a2",
+        "description": "Квалифицировать"
+    },
+    {
+        "word": "To react",
+        "language": "english_a2",
+        "description": "Реагировать"
+    },
+    {
+        "word": "To receive",
+        "language": "english_a2",
+        "description": "Получать"
+    },
+    {
+        "word": "To reduce",
+        "language": "english_a2",
+        "description": "Сокращать"
+    },
+    {
+        "word": "To refer",
+        "language": "english_a2",
+        "description": "Ссылаться"
+    },
+    {
+        "word": "To refuse",
+        "language": "english_a2",
+        "description": "Отказывать"
+    },
+    {
+        "word": "To relax",
+        "language": "english_a2",
+        "description": "Расслабиться"
+    },
+    {
+        "word": "To rely",
+        "language": "english_a2",
+        "description": "Полагаться"
+    },
+    {
+        "word": "To remind",
+        "language": "english_a2",
+        "description": "Напоминать"
+    },
+    {
+        "word": "To repair",
+        "language": "english_a2",
+        "description": "Ремонтировать"
+    },
+    {
+        "word": "To represent",
+        "language": "english_a2",
+        "description": "Представлять"
+    },
+    {
+        "word": "To request",
+        "language": "english_a2",
+        "description": "Запрашивать, требовать"
+    },
+    {
+        "word": "To require",
+        "language": "english_a2",
+        "description": "Требовать, необходимость"
+    },
+    {
+        "word": "To resolve",
+        "language": "english_a2",
+        "description": "Решать, разрешать"
+    },
+    {
+        "word": "To respond",
+        "language": "english_a2",
+        "description": "Реагировать, отвечать"
+    },
+    {
+        "word": "To risk",
+        "language": "english_a2",
+        "description": "Рисковать"
+    },
+    {
+        "word": "To satisfy",
+        "language": "english_a2",
+        "description": "Удовлетворять"
+    },
+    {
+        "word": "To save",
+        "language": "english_a2",
+        "description": "Сохранять, спасать"
+    },
+    {
+        "word": "To search",
+        "language": "english_a2",
+        "description": "Искать"
+    },
+    {
+        "word": "To seize",
+        "language": "english_a2",
+        "description": "Захватывать"
+    },
+    {
+        "word": "To shake",
+        "language": "english_a2",
+        "description": "Трясти"
+    },
+    {
+        "word": "To show",
+        "language": "english_a2",
+        "description": "Показывать"
+    },
+    {
+        "word": "To sound",
+        "language": "english_a2",
+        "description": "Звучать"
+    },
+    {
+        "word": "To spread",
+        "language": "english_a2",
+        "description": "Распространять"
+    },
+    {
+        "word": "To steal",
+        "language": "english_a2",
+        "description": "Красть"
+    },
+    {
+        "word": "To support",
+        "language": "english_a2",
+        "description": "Поддерживать"
+    },
+    {
+        "word": "To teach",
+        "language": "english_a2",
+        "description": "Обучать"
+    },
+    {
+        "word": "To tell",
+        "language": "english_a2",
+        "description": "Рассказать"
+    },
+    {
+        "word": "To thank",
+        "language": "english_a2",
+        "description": "Благодарить"
+    },
+    {
+        "word": "To touch",
+        "language": "english_a2",
+        "description": "Касаться"
+    },
+    {
+        "word": "To travel",
+        "language": "english_a2",
+        "description": "Путешествовать"
+    },
+    {
+        "word": "To turn",
+        "language": "english_a2",
+        "description": "Повернуть"
+    },
+    {
+        "word": "To understand",
+        "language": "english_a2",
+        "description": "Понимать"
+    },
+    {
+        "word": "To unpack",
+        "language": "english_a2",
+        "description": "Распаковать"
+    },
+    {
+        "word": "To use",
+        "language": "english_a2",
+        "description": "Использовать"
+    },
+    {
+        "word": "To visit",
+        "language": "english_a2",
+        "description": "Посетить"
+    },
+    {
+        "word": "To wake up",
+        "language": "english_a2",
+        "description": "Пробудиться, разбудить"
+    },
+    {
+        "word": "To wash",
+        "language": "english_a2",
+        "description": "Мыть"
+    },
+    {
+        "word": "To work",
+        "language": "english_a2",
+        "description": "Работать"
+    },
+    {
+        "word": "To yell",
+        "language": "english_a2",
+        "description": "Кричать"
+    },
+    {
+        "word": "To zigzag",
+        "language": "english_a2",
+        "description": "Зигзаг"
+    },
+    {
+        "word": "To whistle",
+        "language": "english_a2",
+        "description": "Свистеть"
+    },
+    {
+        "word": "To wind",
+        "language": "english_a2",
+        "description": "Ветер"
+    },
+    {
+        "word": "To transform",
+        "language": "english_a2",
+        "description": "Преобразовать"
+    },
+    {
+        "word": "To get in touch",
+        "language": "english_a2",
+        "description": "Связаться"
+    },
+    {
+        "word": "To split up",
+        "language": "english_a2",
+        "description": "Расставаться"
+    },
+    {
+        "word": "To settle down",
+        "language": "english_a2",
+        "description": "Устроиться, успокоиться"
+    },
+    {
+        "word": "To set up",
+        "language": "english_a2",
+        "description": "Устанавливать"
+    },
+    {
+        "word": "To run out",
+        "language": "english_a2",
+        "description": "Иссякать, закончиться"
+    },
+    {
+        "word": "To stand out",
+        "language": "english_a2",
+        "description": "Выделяться"
+    },
+    {
+        "word": "To pull off",
+        "language": "english_a2",
+        "description": "Достичь, сорвать"
+    },
+    {
+        "word": "To put off",
+        "language": "english_a2",
+        "description": "Откладывать"
+    },
+    {
+        "word": "To call off",
+        "language": "english_a2",
+        "description": "Отменять"
+    },
+    {
+        "word": "To show off",
+        "language": "english_a2",
+        "description": "Показываться, хвастаться"
+    },
+    {
+        "word": "To get away",
+        "language": "english_a2",
+        "description": "Уйти, сбежать"
+    },
+    {
+        "word": "To eat out",
+        "language": "english_a2",
+        "description": "Есть вне дома"
+    },
+    {
+        "word": "To look forward",
+        "language": "english_a2",
+        "description": "С нетерпением ждать"
+    },
+    {
+        "word": "To drop by",
+        "language": "english_a2",
+        "description": "Зайти, навестить"
+    },
+    {
+        "word": "To go over",
+        "language": "english_a2",
+        "description": "Пройти, изучить"
+    },
+    {
+        "word": "To give up",
+        "language": "english_a2",
+        "description": "Сдаваться, бросить"
+    },
+    {
+        "word": "To look after",
+        "language": "english_a2",
+        "description": "Заботиться, присматривать"
+    },
+    {
+        "word": "To run away",
+        "language": "english_a2",
+        "description": "Сбежать"
+    },
+    {
+        "word": "To put up",
+        "language": "english_a2",
+        "description": "Остановиться, разместить"
+    },
+    {
+        "word": "To break down",
+        "language": "english_a2",
+        "description": "Сломаться"
+    },
+    {
+        "word": "To come over",
+        "language": "english_a2",
+        "description": "Заглянуть, навестить"
+    },
+    {
+        "word": "To catch up",
+        "language": "english_a2",
+        "description": "Догнать"
+    },
+    {
+        "word": "To calm down",
+        "language": "english_a2",
+        "description": "Успокоиться"
+    },
+    {
+        "word": "To get through",
+        "language": "english_a2",
+        "description": "Пройти, дозвониться"
+    },
+    {
+        "word": "To hold on",
+        "language": "english_a2",
+        "description": "Удерживаться, подождать"
+    },
+    {
+        "word": "To put on",
+        "language": "english_a2",
+        "description": "Надеть"
+    },
+    {
+        "word": "To pick up",
+        "language": "english_a2",
+        "description": "Забрать, поднять"
+    },
+    {
+        "word": "To break off",
+        "language": "english_a2",
+        "description": "Прервать, оборвать"
+    },
+    {
+        "word": "To stand up",
+        "language": "english_a2",
+        "description": "Вставать, подниматься"
+    },
+    {
+        "word": "To look up",
+        "language": "english_a2",
+        "description": "Искать (в словаре)"
+    },
+    {
+        "word": "To show up",
+        "language": "english_a2",
+        "description": "Появиться"
+    },
+    {
+        "word": "To drop off",
+        "language": "english_a2",
+        "description": "Подвезти, скинуть"
+    },
+    {
+        "word": "To go on",
+        "language": "english_a2",
+        "description": "Продолжать"
+    },
+    {
+        "word": "To give in",
+        "language": "english_a2",
+        "description": "Сдаваться, уступать"
+    },
+    {
+        "word": "To run out of",
+        "language": "english_a2",
+        "description": "Закончиться, иссякнуть"
+    },
+    {
+        "word": "To make up",
+        "language": "english_a2",
+        "description": "Изобрести, мириться"
+    },
+    {
+        "word": "To go up",
+        "language": "english_a2",
+        "description": "Подниматься"
+    },
+    {
+        "word": "To fill in",
+        "language": "english_a2",
+        "description": "Заполнить"
+    },
+    {
+        "word": "To find out",
+        "language": "english_a2",
+        "description": "Узнать"
+    },
+    {
+        "word": "To pick out",
+        "language": "english_a2",
+        "description": "Выбрать"
+    },
+    {
+        "word": "To look out",
+        "language": "english_a2",
+        "description": "Смотреть вперед"
+    },
+    {
+        "word": "To make out",
+        "language": "english_a2",
+        "description": "Различить, понять"
+    },
+    {
+        "word": "To take off",
+        "language": "english_a2",
+        "description": "Снимать"
+    },
+    {
+        "word": "To go over",
+        "language": "english_a2",
+        "description": "Пройти, изучить"
+    },
+    {
+        "word": "To hold up",
+        "language": "english_a2",
+        "description": "Задерживать"
+    },
+    {
+        "word": "To point out",
+        "language": "english_a2",
+        "description": "Указать"
+    },
+    {
+        "word": "To put off",
+        "language": "english_a2",
+        "description": "Откладывать"
+    },
+    {
+        "word": "To see off",
+        "language": "english_a2",
+        "description": "Провожать (на вокзал, аэропорт)"
+    },
+    {
+        "word": "To set up",
+        "language": "english_a2",
+        "description": "Устанавливать"
+    },
+    {
+        "word": "To wear out",
+        "language": "english_a2",
+        "description": "Износить"
+    },
+    {
+        "word": "To break off",
+        "language": "english_a2",
+        "description": "Прервать, оборвать"
+    },
+    {
+        "word": "To check out",
+        "language": "english_a2",
+        "description": "Проверить, осмотреть"
+    },
+    {
+        "word": "To give up",
+        "language": "english_a2",
+        "description": "Сдаваться, бросить"
+    },
+    {
+        "word": "To go on",
+        "language": "english_a2",
+        "description": "Продолжать"
+    },
+    {
+        "word": "To give in",
+        "language": "english_a2",
+        "description": "Сдаваться, уступать"
+    },
+    {
+        "word": "To break down",
+        "language": "english_a2",
+        "description": "Сломаться"
+    },
+    {
+        "word": "To run out of",
+        "language": "english_a2",
+        "description": "Закончиться, иссякнуть"
+    },
+    {
+        "word": "To go up",
+        "language": "english_a2",
+        "description": "Подниматься"
+    },
+    {
+        "word": "To fill in",
+        "language": "english_a2",
+        "description": "Заполнить"
+    },
+    {
+        "word": "To find out",
+        "language": "english_a2",
+        "description": "Узнать"
+    },
+    {
+        "word": "To pick out",
+        "language": "english_a2",
+        "description": "Выбрать"
+    },
+    {
+        "word": "To look out",
+        "language": "english_a2",
+        "description": "Смотреть вперед"
+    },
+    {
+        "word": "To make out",
+        "language": "english_a2",
+        "description": "Различить, понять"
+    },
+    {
+        "word": "To take off",
+        "language": "english_a2",
+        "description": "Снимать"
+    },
+    {
+        "word": "To go over",
+        "language": "english_a2",
+        "description": "Пройти, изучить"
+    },
+    {
+        "word": "To hold up",
+        "language": "english_a2",
+        "description": "Задерживать"
+    },
+    {
+        "word": "To point out",
+        "language": "english_a2",
+        "description": "Указать"
+    },
+    {
+        "word": "To set up",
+        "language": "english_a2",
+        "description": "Устанавливать"
+    },
+    {
+        "word": "To see off",
+        "language": "english_a2",
+        "description": "Провожать (на вокзал, аэропорт)"
+    },
+    {
+        "word": "To wear out",
+        "language": "english_a2",
+        "description": "Износить"
+    },
+    {
+        "word": "To go along",
+        "language": "english_a2",
+        "description": "Идти вместе"
+    },
+    {
+        "word": "To break up",
+        "language": "english_a2",
+        "description": "Расставаться"
+    },
+    {
+        "word": "To pick up",
+        "language": "english_a2",
+        "description": "Забрать, поднять"
+    },
+    {
+        "word": "To run over",
+        "language": "english_a2",
+        "description": "Переехать"
+    },
+    {
+        "word": "To set out",
+        "language": "english_a2",
+        "description": "Отправляться"
+    },
+    {
+        "word": "To take up",
+        "language": "english_a2",
+        "description": "Взять в обработку"
+    },
+    {
+        "word": "To make up",
+        "language": "english_a2",
+        "description": "Изготовить"
+    },
+    {
+        "word": "To give out",
+        "language": "english_a2",
+        "description": "Раздавать, распространять"
+    },
+    {
+        "word": "To come up",
+        "language": "english_a2",
+        "description": "Предложить, представить"
+    },
+    {
+        "word": "To bring up",
+        "language": "english_a2",
+        "description": "Воспитать"
+    },
+    {
+        "word": "To dress up",
+        "language": "english_a2",
+        "description": "Нарядиться"
+    },
+    {
+        "word": "To show up",
+        "language": "english_a2",
+        "description": "Появиться"
+    },
+    {
+        "word": "To check up",
+        "language": "english_a2",
+        "description": "Проверить"
+    },
+    {
+        "word": "To call up",
+        "language": "english_a2",
+        "description": "Позвонить"
+    },
+    {
+        "word": "To catch on",
+        "language": "english_a2",
+        "description": "Стать популярным"
+    },
+    {
+        "word": "To fill up",
+        "language": "english_a2",
+        "description": "Наполнить"
+    },
+    {
+        "word": "To let down",
+        "language": "english_a2",
+        "description": "Обмануть, разочаровать"
+    },
+    {
+        "word": "To turn up",
+        "language": "english_a2",
+        "description": "Появиться, объявиться"
+    },
+    {
+        "word": "To see through",
+        "language": "english_a2",
+        "description": "Проникнуться, раскусить"
+    },
+    {
+        "word": "To cut down",
+        "language": "english_a2",
+        "description": "Уменьшить"
+    },
+    {
+        "word": "To pick up",
+        "language": "english_a2",
+        "description": "Подобрать"
+    },
+    {
+        "word": "To run into",
+        "language": "english_a2",
+        "description": "Встретить (случайно)"
+    },
+    {
+        "word": "To set up",
+        "language": "english_a2",
+        "description": "Создать"
+    },
+    {
+        "word": "To go on",
+        "language": "english_a2",
+        "description": "Продолжать"
+    },
+    {
+        "word": "To give in",
+        "language": "english_a2",
+        "description": "Сдаваться, уступать"
+    },
+    {
+        "word": "To take off",
+        "language": "english_a2",
+        "description": "Снимать (одежду)"
+    },
+    {
+        "word": "To pull off",
+        "language": "english_a2",
+        "description": "Достичь, сорвать"
+    },
+    {
+        "word": "To show off",
+        "language": "english_a2",
+        "description": "Показываться, хвастаться"
+    },
+    {
+        "word": "To bring up",
+        "language": "english_a2",
+        "description": "Воспитать"
+    },
+    {
+        "word": "To dress up",
+        "language": "english_a2",
+        "description": "Нарядиться"
+    },
+    {
+        "word": "To check up",
+        "language": "english_a2",
+        "description": "Проверить"
+    },
+    {
+        "word": "To call up",
+        "language": "english_a2",
+        "description": "Позвонить"
+    },
+    {
+        "word": "To catch on",
+        "language": "english_a2",
+        "description": "Стать популярным"
+    },
+    {
+        "word": "To fill up",
+        "language": "english_a2",
+        "description": "Наполнить"
+    },
+    {
+        "word": "To let down",
+        "language": "english_a2",
+        "description": "Обмануть, разочаровать"
+    },
+    {
+        "word": "To turn up",
+        "language": "english_a2",
+        "description": "Появиться, объявиться"
+    },
+    {
+        "word": "To see through",
+        "language": "english_a2",
+        "description": "Проникнуться, раскусить"
+    },
+    {
+        "word": "To cut down",
+        "language": "english_a2",
+        "description": "Уменьшить"
+    },
+    {
+        "word": "To pick up",
+        "language": "english_a2",
+        "description": "Подобрать"
+    },
+    {
+        "word": "To run into",
+        "language": "english_a2",
+        "description": "Встретить (случайно)"
+    },
+    {
+        "word": "To set up",
+        "language": "english_a2",
+        "description": "Создать"
+    },
+    {
+        "word": "To take up",
+        "language": "english_a2",
+        "description": "Взять в обработку"
+    },
+    {
+        "word": "To let down",
+        "language": "english_a2",
+        "description": "Обмануть, разочаровать"
+    },
+    {
+        "word": "To turn up",
+        "language": "english_a2",
+        "description": "Появиться, объявиться"
+    },
+    {
+        "word": "To see through",
+        "language": "english_a2",
+        "description": "Проникнуться, раскусить"
+    },
+    {
+        "word": "To cut down",
+        "language": "english_a2",
+        "description": "Уменьшить"
+    },
+    {
+        "word": "To pick up",
+        "language": "english_a2",
+        "description": "Подобрать"
+    },
+    {
+        "word": "To run into",
+        "language": "english_a2",
+        "description": "Встретить (случайно)"
+    },
     {
         "word": "abhor",
         "language": "english_b2",
@@ -3860,10 +3859,10 @@
         "description": "Нюхать, принюхиваться, сопеть"
     },
     {
-    "word": "Tuxedo-clad",
-    "language": "english_vh11",
-    "description": "Одетый в смокинг",
-    "id": "f98d90cb-9e58-42d2-a3db-47f72f8ac1d5"
+        "word": "Tuxedo-clad",
+        "language": "english_vh11",
+        "description": "Одетый в смокинг",
+        "id": "f98d90cb-9e58-42d2-a3db-47f72f8ac1d5"
     },
     {
         "word": "Brim",
@@ -3933,93 +3932,93 @@
     },
     {
         "word": "crackhouse",
-    "language": "english_vh11",
-    "description": "притон",
-    "id": "1fb987b5-318f-48c6-92e1-3aef06584c1d"
+        "language": "english_vh11",
+        "description": "притон",
+        "id": "1fb987b5-318f-48c6-92e1-3aef06584c1d"
     },
     {
         "word": "slander",
-    "language": "english_vh11",
-    "description": "клевета",
-    "id": "f822ac35-483f-4f60-85df-dc17f97c192b"
+        "language": "english_vh11",
+        "description": "клевета",
+        "id": "f822ac35-483f-4f60-85df-dc17f97c192b"
     },
     {
         "word": "fend off",
-    "language": "english_vh11",
-    "description": "парировать/отбиваться",
-    "id": "c6c0d220-1644-4ea5-938f-e19cd89cf788"
+        "language": "english_vh11",
+        "description": "парировать/отбиваться",
+        "id": "c6c0d220-1644-4ea5-938f-e19cd89cf788"
     },
     {
         "word": "rioters",
-    "language": "english_vh11",
-    "description": "бунтовщики",
-    "id": "f4bdf8cb-e08b-4a52-9a78-3aa4654f7c76"
+        "language": "english_vh11",
+        "description": "бунтовщики",
+        "id": "f4bdf8cb-e08b-4a52-9a78-3aa4654f7c76"
     },
     {
         "word": "knocking them out cold one by one",
-    "language": "english_vh11",
-    "description": "вырубать их холодными по одному",
-    "id": "7d801f8b-23a2-42d2-88c6-693162733f7d"
+        "language": "english_vh11",
+        "description": "вырубать их холодными по одному",
+        "id": "7d801f8b-23a2-42d2-88c6-693162733f7d"
     },
     {
         "word": "sincere",
-    "language": "english_vh11",
-    "description": "искренний",
-    "id": "235f6a03-bacd-4ce1-9d07-96aa78b267c9"
+        "language": "english_vh11",
+        "description": "искренний",
+        "id": "235f6a03-bacd-4ce1-9d07-96aa78b267c9"
     },
     {
         "word": "pledge of allegiance",
-    "language": "english_vh11",
-    "description": "Клятва верности",
-    "id": "fb9a9d89-2aa6-4b7d-ae98-c0c2c2999162"
+        "language": "english_vh11",
+        "description": "Клятва верности",
+        "id": "fb9a9d89-2aa6-4b7d-ae98-c0c2c2999162"
     },
     {
         "word": "burglars",
-    "language": "english_vh11",
-    "description": "грабители",
-    "id": "e54a59db-4703-4da9-9f46-e5e527f49784"
+        "language": "english_vh11",
+        "description": "грабители",
+        "id": "e54a59db-4703-4da9-9f46-e5e527f49784"
     },
     {
         "word": "alas",
-    "language": "english_vh11",
-    "description": "увы",
-    "id": "14c52cda-1532-4f8b-8f01-e0674a07fcdf"
+        "language": "english_vh11",
+        "description": "увы",
+        "id": "14c52cda-1532-4f8b-8f01-e0674a07fcdf"
     },
     {
         "word": "that's a bummer",
-    "language": "english_vh11",
-    "description": "облом",
-    "id": "3665f013-4c89-43b5-835b-9de94f1ddbb3"
+        "language": "english_vh11",
+        "description": "облом",
+        "id": "3665f013-4c89-43b5-835b-9de94f1ddbb3"
     },
     {
         "word": "obnoxious",
-    "language": "english_vh11",
-    "description": "неприятный",
-    "id": "e07a3be2-8c05-42c7-b9c6-6f06f0e283f5"
+        "language": "english_vh11",
+        "description": "неприятный",
+        "id": "e07a3be2-8c05-42c7-b9c6-6f06f0e283f5"
     },
     {
         "word": "neatly",
-    "language": "english_vh11",
-    "description": "аккуратно",
-    "id": "a45d5ea7-b9aa-42fb-937a-9e89c4f5ec11"
+        "language": "english_vh11",
+        "description": "аккуратно",
+        "id": "a45d5ea7-b9aa-42fb-937a-9e89c4f5ec11"
     },
     {
         "word": "gimmick",
-    "language": "english_vh11",
-    "description": "трюк",
-    "id": "a88d9c56-45df-4f0e-8eb6-482c60d74d8c"
+        "language": "english_vh11",
+        "description": "трюк",
+        "id": "a88d9c56-45df-4f0e-8eb6-482c60d74d8c"
     },
     {
         "word": "fabulous",
-    "language": "english_vh11",
-    "description": "сказочный",
-    "id": "6b0bcfc3-4e80-4d1c-ba06-c33de4df8e1f"
+        "language": "english_vh11",
+        "description": "сказочный",
+        "id": "6b0bcfc3-4e80-4d1c-ba06-c33de4df8e1f"
     },
     {
         "word": "adore",
-    "language": "english_vh11",
-    "description": "обожать",
-    "id": "abbabf23-cb65-4b7d-a0cb-0daff0e9abec"
+        "language": "english_vh11",
+        "description": "обожать",
+        "id": "abbabf23-cb65-4b7d-a0cb-0daff0e9abec"
     },
     {
         "word": "a",
