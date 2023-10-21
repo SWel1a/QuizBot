@@ -1145,9 +1145,9 @@
     "description": "Заказ еды"
     },
     {
-    "word": "cash",
-    "language": "english_a1",
-    "description": "Наличные"
+        "word": "cash",
+        "language": "english_a1",
+        "description": "Наличные"
     },
     {
     "word": "passport",
