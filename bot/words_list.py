@@ -52,3 +52,7 @@ class WordsList:
         if language is not None:
             return words.get(language.lower(), [])
         return words
+    
+    async def get_languages(self):
+        words = await self._load_words()
+        return list(words.keys())
