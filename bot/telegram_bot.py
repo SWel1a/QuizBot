@@ -57,6 +57,34 @@ class TelegramQuizBot:
         self.bot_language_preferences = {}
         self.quiz_history = []
 
+    def _localize_word_list(self, word_list, chat_id=None):
+        if chat_id is None:
+            language = constants.DEFAULT_BOT_LANGUAGE
+        else:
+            language = self.bot_language_preferences.get(chat_id, constants.DEFAULT_BOT_LANGUAGE)
+        
+        result_list = []
+        for word_data in word_list:
+            word = word_data.get("word")
+            descriptions = word_data.get("descriptions", {})
+
+            # Try to get the description in the preferred language
+            description = descriptions.get(language)
+
+            # If not found, try the default bot language
+            if not description:
+                description = descriptions.get(constants.DEFAULT_BOT_LANGUAGE)
+
+            # If still not found, use any available description
+            if not description and descriptions:
+                description = next(iter(descriptions.values()))
+
+            result_list.append({
+                "word": word,
+                "description": description
+            })
+        return result_list
+    
     def _localized_text(self, chat_id, key, format_params=None):
         if chat_id is None:
             language = constants.DEFAULT_BOT_LANGUAGE
@@ -120,6 +148,7 @@ class TelegramQuizBot:
         language = self.language_preferences.get(chat_id)
         
         word_list = await self.words_list.get_words_by_language(language)
+        word_list = self._localize_word_list(word_list, chat_id)
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id, 
@@ -158,6 +187,7 @@ class TelegramQuizBot:
         language, interval_time_units = quiz_start_args_parser(context.args)
 
         word_list = await self.words_list.get_words_by_language(language)
+        word_list = self._localize_word_list(word_list, chat_id)
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id, 
@@ -249,28 +279,49 @@ class TelegramQuizBot:
         available_groups = await self.words_list.get_languages()
 
         if not context.args:
-            await context.bot.send_message(chat_id=chat_id,
-                                           text=self._localized_text(chat_id, "list_no_argument"))
-            return
+            # List all group descriptions and words with descriptions
+            result_text = ""
+            for group_language in available_groups:
+                group_description = await self.words_list.get_group_description(group_language, self.bot_language_preferences.get(chat_id, constants.DEFAULT_BOT_LANGUAGE))
+                word_list = await self.words_list.get_words_by_language(group_language)
+                word_list = self._localize_word_list(word_list, chat_id)
+                if group_description:
+                    result_text += f"{group_language} - {group_description}:\n"
+                else:
+                    result_text += f"{group_language}:\n"
 
-        group = context.args[0].lower()
+                result_text += "\n".join([f"{entry['word']}: {entry['description']}" for entry in word_list]) + "\n\n"
 
-        if group not in available_groups:
-            await context.bot.send_message(chat_id=chat_id,
-                                           text=self._localized_text(chat_id, "list_unknown_group"))
-            return
+            if not result_text:
+                await context.bot.send_message(chat_id=chat_id, text=self._localized_text(chat_id, "list_empty"))
+            else:
+                await context.bot.send_message(chat_id=chat_id, text=result_text)
+        else:
+            group = context.args[0].lower()
+            if group not in available_groups:
+                await context.bot.send_message(chat_id=chat_id, text=self._localized_text(chat_id, "list_unknown_group"))
+                return
 
-        word_list = await self.words_list.get_words_by_language(group)
+            group_descriptions = await self.words_list.get_group_description(group)
 
-        if not word_list:
-            await context.bot.send_message(chat_id=chat_id,
-                                           text=self._localized_text(chat_id, "list_empty_group"))
-            return
+            description = group_descriptions.get(self.bot_language_preferences.get(chat_id, constants.DEFAULT_BOT_LANGUAGE), None)
+            if not description:
+                description = group_descriptions.get(constants.DEFAULT_BOT_LANGUAGE, None)
+            if not description and group_descriptions:
+                description = next(iter(group_descriptions.values()))
 
-        word_list_text = "\n".join([f"{entry['word']}: {entry['description']}" for entry in word_list])
+            word_list = await self.words_list.get_words_by_language(group)
+            word_list = self._localize_word_list(word_list, chat_id)
 
-        await context.bot.send_message(chat_id=chat_id,
-                                       text=self._localized_text(chat_id, 'list_group', {"word_list_text": word_list_text}))
+            result_text = ""
+            if group_description:
+                result_text += f"{group} - {group_description}:\n"
+            else:
+                result_text += f"{group}:\n"
+
+            result_text += "\n".join([f"{entry['word']}: {entry['description']}" for entry in word_list])
+
+            await context.bot.send_message(chat_id=chat_id, text=result_text)
 
     async def post_init(self, application: Application):
         """
