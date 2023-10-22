@@ -1,6 +1,7 @@
 import logging
 import uuid
 import string
+import re
 
 import constants
 
@@ -41,26 +42,30 @@ def localized_text(translations, bot_language, key, format_params=None):
 def quiz_start_args_parser(args_list):
     # Default values
     language = constants.DEFAULT_LANGUAGE  # Default language
-    interval_time = constants.DEFAULT_INTERVAL_TIME  # Default time
     
     # Handling arguments
-    if len(args_list) >= 1:
-        first_arg = args_list[0]
-        if first_arg.isnumeric():
-            interval_time = str(first_arg)
+    language_parts = []
+    time_str = ""
+
+    for arg in args_list:
+        if re.match(r"^\d+[smh]$", arg):  # Check for time values like "100s", "100m", "100h"
+            time_str = arg
         else:
-            language = first_arg
-            if len(args_list) > 1 and args_list[1].isnumeric():
-                interval_time = str(args_list[1])
-    
-    if constants.DEFAULT_TIME_UNIT == 'm':
-        interval_time_units = int(interval_time) * 60
-    elif constants.DEFAULT_TIME_UNIT == 'h':
-        interval_time_units = int(interval_time) * 60 * 60
-    else:
-        interval_time_units = int(interval_time)
-    language = language.lower().strip()
-    
+            language_parts.append(arg)
+
+    language = " ".join(language_parts).lower().strip()
+
+    if not time_str:
+        time_str = str(constants.DEFAULT_INTERVAL_TIME) + constants.DEFAULT_TIME_UNIT
+    if time_str[-1] not in constants.TIME_UNITS:
+        time_str += constants.DEFAULT_TIME_UNIT
+    if time_str[-1] == 's':
+        interval_time_units = int(time_str[:-1])  # Remove the 's' and convert to seconds
+    elif time_str[-1] == 'm':
+        interval_time_units = int(time_str[:-1]) * 60  # Remove the 'm' and convert to minutes
+    elif time_str[-1] == 'h':
+        interval_time_units = int(time_str[:-1]) * 60 * 60  # Remove the 'h' and convert to hours
+
     return language, interval_time_units
 
 
