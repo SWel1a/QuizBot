@@ -78,6 +78,8 @@ def preprocess_string(text: str) -> str:
     # Remove stopwords
     for _, stopwords in constants.stopwords.items():
         text = ' '.join([word for word in text.split() if word not in stopwords])
+    text = text.replace("_", "")
+    text = text.replace(" ", "")
     return text
 
 
