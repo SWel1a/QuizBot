@@ -1,5 +1,6 @@
 import logging
 import uuid
+import string
 
 import constants
 
@@ -58,9 +59,27 @@ def quiz_start_args_parser(args_list):
         interval_time_units = int(interval_time) * 60 * 60
     else:
         interval_time_units = int(interval_time)
-    language = language.lower().strip()
+    language = preprocess_string(language)
     
     return language, interval_time_units
+
+
+def preprocess_string(text: str) -> str:
+    # Remove punctuation
+    text = text.lower()
+    text = text.translate(str.maketrans('', '', string.punctuation))
+
+    # Remove stopwords
+    for _, stopwords in constants.stopwords.items():
+        text = ' '.join([word for word in text.split() if word not in stopwords])
+    return text
+
+
+def words_eq(s1, s2, preprocess=True) -> bool:
+    if preprocess:
+        s1 = preprocess_string(s1)
+        s2 = preprocess_string(s2)
+    return s1 == s2
 
 
 def levenshtein_distance(s1: str, s2: str) -> int:
@@ -84,7 +103,10 @@ def levenshtein_distance(s1: str, s2: str) -> int:
     return previous_row[-1]
 
 
-def similarity_percentage(s1: str, s2: str) -> float:
+def similarity_percentage(s1: str, s2: str, preprocess=True) -> float:
+    if preprocess:
+        s1 = preprocess_string(s1)
+        s2 = preprocess_string(s2)
     distance = levenshtein_distance(s1, s2)
     max_len = max(len(s1), len(s2))
     similarity = (1 - distance / max_len) * 100

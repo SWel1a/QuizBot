@@ -6,7 +6,8 @@ import random
 from functools import wraps
 
 import constants
-from utils import get_random_id, localized_text, quiz_start_args_parser, similarity_percentage, get_closeness_key
+from utils import get_random_id, localized_text, quiz_start_args_parser, similarity_percentage, get_closeness_key, \
+                  words_eq, preprocess_string
 
 
 def authorized(func):
@@ -101,8 +102,8 @@ class TelegramQuizBot:
                                            text=self._localized_text(chat_id, "no_bot_language", {"available_languages": available_languages}))
             return
 
-        new_language = context.args[0].lower()
-        if new_language not in self.translations:
+        new_language = preprocess_string(context.args[0])
+        if new_language not in list(map(preprocess_string, self.translations)):
             await context.bot.send_message(chat_id=chat_id, 
                                            text=self._localized_text(chat_id, "unsupported_language", {"available_languages": available_languages}))
             return
@@ -238,11 +239,11 @@ class TelegramQuizBot:
 
         # Find the question in history based on reply_to_message_id
         corresponding_question = next((qa for qa in self.quiz_history if qa['chat_id'] == chat_id and reply_to_message_id in qa['message_ids']), None)
-        similarity = similarity_percentage(user_message.lower().strip(), corresponding_question['answer'].lower().strip())
+        similarity = similarity_percentage(user_message, corresponding_question['answer'])
         similarity_msg = self._localized_text(chat_id, get_closeness_key(similarity))
 
         # Check if the user's reply is "idk" or any word in IDK_WORDS
-        if user_message.lower().strip() in constants.IDK_WORDS:
+        if preprocess_string(user_message) in constants.IDK_WORDS:
             if corresponding_question:
                 await context.bot.send_message(chat_id=chat_id, 
                                             text=self._localized_text(chat_id, "idk_answer", {"correct_answer": corresponding_question["answer"]}))
@@ -252,7 +253,7 @@ class TelegramQuizBot:
                                             text=self._localized_text(chat_id, "incorrect_outdated"))
                 return
 
-        if corresponding_question and user_message.lower().strip() == corresponding_question['answer'].lower().strip():
+        if corresponding_question and words_eq(user_message, corresponding_question['answer']):
             await context.bot.send_message(chat_id=chat_id, 
                                            text=self._localized_text(chat_id, "correct_answer"))
         else:
@@ -298,8 +299,8 @@ class TelegramQuizBot:
             else:
                 await context.bot.send_message(chat_id=chat_id, text=result_text)
         else:
-            group = context.args[0].lower()
-            if group not in available_groups:
+            group = preprocess_string(context.args[0])
+            if group not in list(map(preprocess_string, available_groups)):
                 await context.bot.send_message(chat_id=chat_id, text=self._localized_text(chat_id, "list_unknown_group"))
                 return
 
