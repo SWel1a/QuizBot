@@ -282,11 +282,18 @@ class TelegramQuizBot:
             # List all group descriptions and words with descriptions
             result_text = ""
             for group_language in available_groups:
-                group_description = await self.words_list.get_group_description(group_language, self.bot_language_preferences.get(chat_id, constants.DEFAULT_BOT_LANGUAGE))
+                group_descriptions = await self.words_list.get_group_description(group_language)
+
+                description = group_descriptions.get(self.bot_language_preferences.get(chat_id, constants.DEFAULT_BOT_LANGUAGE), None)
+                if not description:
+                    description = group_descriptions.get(constants.DEFAULT_BOT_LANGUAGE, None)
+                if not description and group_descriptions:
+                    description = next(iter(group_descriptions.values()))
+
                 word_list = await self.words_list.get_words_by_language(group_language)
                 word_list = self._localize_word_list(word_list, chat_id)
-                if group_description:
-                    result_text += f"{group_language} - {group_description}:\n"
+                if description:
+                    result_text += f"{group_language} - {description}:\n"
                 else:
                     result_text += f"{group_language}:\n"
 
@@ -314,8 +321,8 @@ class TelegramQuizBot:
             word_list = self._localize_word_list(word_list, chat_id)
 
             result_text = ""
-            if group_description:
-                result_text += f"{group} - {group_description}:\n"
+            if description:
+                result_text += f"{group} - {description}:\n"
             else:
                 result_text += f"{group}:\n"
 
