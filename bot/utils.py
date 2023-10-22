@@ -1,5 +1,6 @@
 import logging
 import uuid
+import string
 
 import constants
 
@@ -63,10 +64,15 @@ def quiz_start_args_parser(args_list):
     return language, interval_time_units
 
 
-def preprocess_string(s: str) -> str:
-    s = s.lower()
-    s = s.replace(" ", "")
-    return s
+def preprocess_string(text: str) -> str:
+    # Remove punctuation
+    text = text.lower()
+    text = text.translate(str.maketrans('', '', string.punctuation))
+
+    # Remove stopwords
+    for _, stopwords in constants.stopwords.items():
+        text = ' '.join([word for word in text.split() if word not in stopwords])
+    return text
 
 
 def words_eq(s1, s2, preprocess=True) -> bool:
