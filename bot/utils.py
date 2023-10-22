@@ -53,7 +53,8 @@ def quiz_start_args_parser(args_list):
         else:
             language_parts.append(arg)
 
-    language = " ".join(language_parts).lower().strip()
+    if language_parts:
+        language = " ".join(language_parts).lower().strip()
 
     if not time_str:
         time_str = str(constants.DEFAULT_INTERVAL_TIME) + constants.DEFAULT_TIME_UNIT
