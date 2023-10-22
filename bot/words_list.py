@@ -65,3 +65,11 @@ class WordsList:
     async def get_languages(self):
         words = await self._load_words()
         return list(words.keys())
+
+    async def get_group_description(self, group_language):
+        words = await self._load_words()
+        group_data = words.get(group_language)
+        if group_data:
+            descriptions = group_data.get("description", {})
+            return descriptions
+        return None
