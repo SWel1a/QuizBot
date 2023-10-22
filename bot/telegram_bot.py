@@ -279,7 +279,7 @@ class TelegramQuizBot:
         available_groups = await self.words_list.get_languages()
 
         if not context.args:
-            # List all group descriptions and words with descriptions
+            # List only group descriptions without words
             result_text = ""
             for group_language in available_groups:
                 group_descriptions = await self.words_list.get_group_description(group_language)
@@ -290,14 +290,8 @@ class TelegramQuizBot:
                 if not description and group_descriptions:
                     description = next(iter(group_descriptions.values()))
 
-                word_list = await self.words_list.get_words_by_language(group_language)
-                word_list = self._localize_word_list(word_list, chat_id)
                 if description:
-                    result_text += f"{group_language} - {description}:\n"
-                else:
-                    result_text += f"{group_language}:\n"
-
-                result_text += "\n".join([f"{entry['word']}: {entry['description']}" for entry in word_list]) + "\n\n"
+                    result_text += f"{group_language} - {description}\n\n"
 
             if not result_text:
                 await context.bot.send_message(chat_id=chat_id, text=self._localized_text(chat_id, "list_empty"))
@@ -322,13 +316,14 @@ class TelegramQuizBot:
 
             result_text = ""
             if description:
-                result_text += f"{group} - {description}:\n"
+                result_text += f"{group} - {description}:\n\n"
             else:
-                result_text += f"{group}:\n"
+                result_text += f"{group}:\n\n"
 
             result_text += "\n".join([f"{entry['word']}: {entry['description']}" for entry in word_list])
 
             await context.bot.send_message(chat_id=chat_id, text=result_text)
+
 
     async def post_init(self, application: Application):
         """
