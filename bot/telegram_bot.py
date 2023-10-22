@@ -57,6 +57,34 @@ class TelegramQuizBot:
         self.bot_language_preferences = {}
         self.quiz_history = []
 
+    def _localize_word_list(self, word_list, chat_id=None):
+        if chat_id is None:
+            language = constants.DEFAULT_BOT_LANGUAGE
+        else:
+            language = self.bot_language_preferences.get(chat_id, constants.DEFAULT_BOT_LANGUAGE)
+        
+        result_list = []
+        for word_data in word_list:
+            word = word_data.get("word")
+            descriptions = word_data.get("descriptions", {})
+
+            # Try to get the description in the preferred language
+            description = descriptions.get(language)
+
+            # If not found, try the default bot language
+            if not description:
+                description = descriptions.get(constants.DEFAULT_BOT_LANGUAGE)
+
+            # If still not found, use any available description
+            if not description and descriptions:
+                description = next(iter(descriptions.values()))
+
+            result_list.append({
+                "word": word,
+                "description": description
+            })
+        return result_list
+    
     def _localized_text(self, chat_id, key, format_params=None):
         if chat_id is None:
             language = constants.DEFAULT_BOT_LANGUAGE
@@ -120,6 +148,7 @@ class TelegramQuizBot:
         language = self.language_preferences.get(chat_id)
         
         word_list = await self.words_list.get_words_by_language(language)
+        word_list = self._localize_word_list(word_list, chat_id)
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id, 
@@ -158,6 +187,7 @@ class TelegramQuizBot:
         language, interval_time_units = quiz_start_args_parser(context.args)
 
         word_list = await self.words_list.get_words_by_language(language)
+        word_list = self._localize_word_list(word_list, chat_id)
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id, 
@@ -261,6 +291,7 @@ class TelegramQuizBot:
             return
 
         word_list = await self.words_list.get_words_by_language(group)
+        word_list = self._localize_word_list(word_list, chat_id)
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id,
