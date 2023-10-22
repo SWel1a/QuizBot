@@ -134,7 +134,7 @@ def get_closeness_key(similarity: float) -> str:
         return "closeness0"
     
 
-def get_hint_text(text: str) -> str:
-    percentage_to_give = 10
-    hint_text = text[:max(int(len(text) * percentage_to_give / 100), 1)]
+def get_hint_text(text: str, multiplier: int) -> str:
+    percentage_to_give = constants.HINT_ITERATION_PERCENTAGE * multiplier
+    hint_text = text[:min(len(text), max(int(len(text) * percentage_to_give / 100), 1))]
     return hint_text

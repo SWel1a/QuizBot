@@ -17,5 +17,8 @@ stopwords = {
     "korean": ["이", "그", "저", "그녀", "우리", "너", "그들", "이것", "저것", "그것", "그리고", "하지만", "또는", "입니다", "있는", "그랬어", "하나", "두", "세", "네", "다섯"]
 }
 
+REMAINING_ATTEMPTS_HINT = 1
+HINT_ITERATION_PERCENTAGE = 10
+
 IDK_WORDS = ["idk"]
 HINT_WORDS = ["hint"]

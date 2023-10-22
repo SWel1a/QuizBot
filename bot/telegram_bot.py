@@ -262,8 +262,8 @@ class TelegramQuizBot:
                 corresponding_question['attempts'] = min(corresponding_question['attempts'], max_attempts)
                 remaining_attempts = max_attempts - corresponding_question['attempts']
                 
-                if preprocess_string(user_message) in constants.HINT_WORDS:
-                    hint_text = get_hint_text(corresponding_question['answer'])
+                if preprocess_string(user_message) in constants.HINT_WORDS or remaining_attempts <= constants.REMAINING_ATTEMPTS_HINT:
+                    hint_text = get_hint_text(corresponding_question['answer'], min(1, constants.HINT_ITERATION_PERCENTAGE - remaining_attempts))
                     hint_msg = self._localized_text(chat_id, "hint", {"hint_text": hint_text})
                 else:
                     hint_text = ""
