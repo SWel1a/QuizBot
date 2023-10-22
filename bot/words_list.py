@@ -21,14 +21,15 @@ class WordsList:
         if language not in words:
             words[language] = {"description": {}, "words": []}
         
-        words[language]["words"].append({
+        new_word = {
             "word": word_data["word"],
-            "descriptions": {
-                "russian": word_data["descriptions"]["russian"]
-            }
-        })
+            "descriptions": word_data["descriptions"]
+        }
+
+        words[language]["words"].append(new_word)
 
         await self._save_words(words)
+
 
     async def remove_word(self, word_text):
         words = await self._load_words()
