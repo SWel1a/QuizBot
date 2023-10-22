@@ -59,7 +59,7 @@ def quiz_start_args_parser(args_list):
         interval_time_units = int(interval_time) * 60 * 60
     else:
         interval_time_units = int(interval_time)
-    language = preprocess_string(language)
+    language = language.lower().strip()
     
     return language, interval_time_units
 
