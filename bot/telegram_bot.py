@@ -7,7 +7,7 @@ from functools import wraps
 
 import constants
 from utils import get_random_id, localized_text, quiz_start_args_parser, similarity_percentage, get_closeness_key, \
-                  words_eq, preprocess_string
+                  words_eq, preprocess_string, get_hint_text
 
 
 def authorized(func):
@@ -246,12 +246,11 @@ class TelegramQuizBot:
         if preprocess_string(user_message) in constants.IDK_WORDS:
             if corresponding_question:
                 await context.bot.send_message(chat_id=chat_id, 
-                                            text=self._localized_text(chat_id, "idk_answer", {"correct_answer": corresponding_question["answer"]}))
-                return
+                                               text=self._localized_text(chat_id, "idk_answer", {"correct_answer": corresponding_question["answer"]}))
             else:
                 await context.bot.send_message(chat_id=chat_id, 
-                                            text=self._localized_text(chat_id, "incorrect_outdated"))
-                return
+                                               text=self._localized_text(chat_id, "incorrect_outdated"))
+            return
 
         if corresponding_question and words_eq(user_message, corresponding_question['answer']):
             await context.bot.send_message(chat_id=chat_id, 
@@ -263,9 +262,19 @@ class TelegramQuizBot:
                 corresponding_question['attempts'] = min(corresponding_question['attempts'], max_attempts)
                 remaining_attempts = max_attempts - corresponding_question['attempts']
                 
+                if preprocess_string(user_message) in constants.HINT_WORDS:
+                    hint_text = get_hint_text(corresponding_question['answer'])
+                    hint_msg = self._localized_text(chat_id, "hint", {"hint_text": hint_text})
+                else:
+                    hint_text = ""
+
                 if remaining_attempts > 0:
+                    text_to_send = self._localized_text(chat_id, "incorrect_answer", {"remaining_attempts": remaining_attempts})
+                    text_to_send += "\n" + similarity_msg
+                    if hint_text:
+                        text_to_send += "\n" + hint_msg
                     msg = await context.bot.send_message(chat_id=chat_id, 
-                                                        text=self._localized_text(chat_id, "incorrect_answer", {"remaining_attempts": remaining_attempts}) + "\n" + similarity_msg)
+                                                         text=text_to_send)
                     corresponding_question['message_ids'].append(msg.message_id)  # Add new message_id to valid reply ids
                 else:
                     await context.bot.send_message(chat_id=chat_id, 

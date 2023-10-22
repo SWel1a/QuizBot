@@ -18,3 +18,4 @@ stopwords = {
 }
 
 IDK_WORDS = ["idk"]
+HINT_WORDS = ["hint"]
