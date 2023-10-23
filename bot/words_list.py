@@ -14,10 +14,20 @@ class WordsList:
             json.dump(words, file, ensure_ascii=False, indent=4)
 
     async def add_word(self, json_word_data):
-        word_data = json.loads(json_word_data)
-        language = word_data["language"]
+        words_data = json.loads(json_word_data)
+        if isinstance(words_data, list):
+            # Mass word addition
+            await self._add_multiple_words(words_data)
+        elif isinstance(words_data, dict):
+            # Single word addition
+            await self._add_single_word(words_data)
+        else:
+            raise ValueError("Invalid input format")
 
+    async def _add_single_word(self, word_data):
+        language = word_data["language"]
         words = await self._load_words()
+
         if language not in words:
             words[language] = {"description": {}, "words": []}
 
@@ -27,8 +37,11 @@ class WordsList:
         }
 
         words[language]["words"].append(new_word)
-
         await self._save_words(words)
+
+    async def _add_multiple_words(self, words_data):
+        for word_data in words_data:
+            await self._add_single_word(word_data)
 
     async def remove_word(self, word_text):
         words = await self._load_words()
