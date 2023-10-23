@@ -36,6 +36,7 @@ class TelegramQuizBot:
             BotCommand(command="quiz", description=self._localized_text(None, "quiz_description")),
             BotCommand(command="add_word", description=self._localized_text(None, "add_word_description")),
             BotCommand(command="remove_word", description=self._localized_text(None, "remove_word_description")),
+            BotCommand(command="change_description", description=self._localized_text(None, "change_description_description")),
             BotCommand(command="language", description=self._localized_text(None, "language_description")),
             BotCommand(command="list", description=self._localized_text(None, "list_description"))
         ]
@@ -46,6 +47,7 @@ class TelegramQuizBot:
             CommandHandler('quiz', self.callback_quiz_on_demand),
             CommandHandler('add_word', self.add_word),
             CommandHandler('remove_word', self.remove_word),
+            CommandHandler('change_description', self.change_description),
             CommandHandler('language', self.set_language),
             CommandHandler('list', self.list_words),
             MessageHandler(filters.TEXT & ~filters.COMMAND, self.check_answer),
@@ -142,6 +144,21 @@ class TelegramQuizBot:
                 else:
                     await context.bot.send_message(chat_id=update.message.chat_id, 
                                                    text=self._localized_text(update.message.chat_id, "word_removed", {"word": word}))
+
+    @authorized
+    async def change_description(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        if not context.args:
+            await context.bot.send_message(chat_id=update.effective_chat.id, 
+                                           text=self._localized_text(update.effective_chat.id, "provide_word"))
+        else:
+            word = ' '.join(context.args)
+            try:
+                await self.words_list.update_description(word)
+                await context.bot.send_message(chat_id=update.message.chat_id, 
+                                                text=self._localized_text(update.message.chat_id, "description_updated"))
+            except json.JSONDecodeError:
+                await context.bot.send_message(chat_id=update.message.chat_id, 
+                                                text=self._localized_text(update.message.chat_id, "invalid_json_format"))
 
     async def callback_quiz(self, context: ContextTypes.DEFAULT_TYPE, chat_id=None):
         if chat_id is None:
