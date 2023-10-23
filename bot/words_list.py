@@ -84,3 +84,20 @@ class WordsList:
             descriptions = group_data.get("description", {})
             return descriptions
         return None
+
+    async def update_description(self, json_word_data):
+        word_data = json.loads(json_word_data)
+        language = word_data["language"]
+        description = word_data["descriptions"]
+        words = await self._load_words()
+        preprocessed_language = preprocess_string(language)
+        group_data = None
+        for lang, lang_data in words.items():
+            if preprocess_string(lang) == preprocessed_language:
+                group_data = lang_data
+                break
+        if group_data:
+            group_data["description"] = description
+            await self._save_words(words)
+            return True
+        return False
