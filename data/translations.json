@@ -39,7 +39,8 @@
         "start_description": "the timer can be added, for example start 10",
         "stop_description": "stop the quiz",
         "add_word_description": "{\"word\": \"your word\", \"language\": \"your language\", \"descriptions\": {\"english\": \"the translation or context\"}}",
-        "remove_word_description": "any word can be deleted from the list"
+        "remove_word_description": "any word can be deleted from the list",
+        "change_description_description": "\"your language\": {\"english\": \"word group description\"}}"
     }, "russian": {
         "unauthorized_command": "Вы не авторизованы для использования этой команды.",
         "no_words_language": "Слов для указанного языка не найдено.",
@@ -80,7 +81,8 @@
         "start_description": "можно добавить таймер, например, start 10",
         "stop_description": "остановить викторину",
         "add_word_description": "{\"word\": \"ваше слово\", \"language\": \"ваш язык\", \"descriptions\": {\"russian\": \"перевод или контекст\"}}",
-        "remove_word_description": "любое слово можно удалить из списка"
+        "remove_word_description": "любое слово можно удалить из списка",
+        "change_description_description": "\"ваш язык\": {\"russian\": \"описание группы слов\"}}"
     }, "korean": {
         "unauthorized_command": "이 명령을 사용할 권한이 없습니다.",
         "no_words_language": "지정된 언어에 대한 단어가 없습니다.",
@@ -121,7 +123,8 @@
         "start_description": "타이머를 추가할 수 있습니다, 예를 들어 start 10",
         "stop_description": "퀴즈를 중지",
         "add_word_description": "{\"word\": \"당신의 단어\", \"language\": \"당신의 언어\", \"descriptions\": {\"korean\": \"번역 또는 맥락\"}}",
-        "remove_word_description": "목록에서 어떤 단어든 삭제할 수 있습니다"
+        "remove_word_description": "목록에서 어떤 단어든 삭제할 수 있습니다",
+        "change_description_description": "\"your language\": {\"english\": \"word group description\"}}"
     }, "spanish": {
         "unauthorized_command": "No estás autorizado para usar este comando.",
         "no_words_language": "No se encontraron palabras para el idioma especificado.",
@@ -162,6 +165,7 @@
         "start_description": "se puede añadir un temporizador, por ejemplo start 10",
         "stop_description": "detener el cuestionario",
         "add_word_description": "{\"word\": \"tu palabra\", \"language\": \"tu idioma\", \"descriptions\": {\"spanish\": \"la traducción o contexto\"}}",
-        "remove_word_description": "cualquier palabra puede ser eliminada de la lista"
+        "remove_word_description": "cualquier palabra puede ser eliminada de la lista",
+        "change_description_description": "\"tu idioma\": {\"spanish\": \"descripción del grupo de palabras\"}}"
     }
 }
