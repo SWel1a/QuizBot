@@ -1,4 +1,5 @@
 import json
+import constants
 from utils import preprocess_string
 
 class WordsList:
@@ -26,6 +27,10 @@ class WordsList:
 
     async def _add_single_word(self, word_data):
         language = word_data["language"]
+        if "quiz_tyoe" in word_data:
+            quiz_type = word_data["quiz_type"]
+        else:
+            quiz_type = constants.DEFAULT_QUIZ_TYPE
         words = await self._load_words()
 
         if language not in words:
@@ -33,7 +38,8 @@ class WordsList:
 
         new_word = {
             "word": word_data["word"],
-            "descriptions": word_data["descriptions"]
+            "descriptions": word_data["descriptions"],
+            "quiz_type": quiz_type
         }
 
         words[language]["words"].append(new_word)
