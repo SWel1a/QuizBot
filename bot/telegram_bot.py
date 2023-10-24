@@ -178,9 +178,15 @@ class TelegramQuizBot:
 
         word = random_pair['word']
         description = random_pair['description']
+        quiz_type = random_pair["quiz_type"]
+
+        if quiz_type == "fill":
+            msg_key = "quiz_fill_question"
+        else:
+            msg_key = "quiz_question"
 
         message = await context.bot.send_message(chat_id=chat_id, 
-                                                 text=self._localized_text(chat_id, "quiz_question", {"language": language, "description": description}))
+                                                 text=self._localized_text(chat_id, msg_key, {"language": language, "description": description}))
         
         # Save to history
         self.quiz_history.append({

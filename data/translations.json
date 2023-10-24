@@ -20,6 +20,7 @@
         "word_removed": "Word: {word} removed.",
         "description_updated": "Description updated!",
         "quiz_question": "What is the word (in {language}) with given description: {description}?",
+        "quiz_fill_question": "Fill the word (in {language}) in the given sentence: {description}",
         "no_bot_language": "Please provide a language. Available languages: {available_languages}",
         "unsupported_language": "Unsupported language. Available languages: {available_languages}",
         "language_set": "Language set to {new_language}.",
@@ -39,7 +40,7 @@
         "language_description": "Change the language of the bot.",
         "start_description": "the timer can be added, for example start 10",
         "stop_description": "stop the quiz",
-        "add_word_description": "[{\"word\": \"your word\", \"language\": \"your language\", \"descriptions\": {\"english\": \"the translation or context\"}}, ...]",
+        "add_word_description": "[{\"word\": \"your word\", \"language\": \"your language\", \"quiz_type\": \"<translate> by default\", \"descriptions\": {\"english\": \"the translation or context\"}}, ...]",
         "remove_word_description": "any word can be deleted from the list",
         "change_description_description": "{\"language\": \"your language\", \"descriptions\": {\"english\": \"word group description\"}}"
     }, "russian": {
@@ -63,6 +64,7 @@
         "word_removed": "Слово: {word} удалено.",
         "description_updated": "Описание обновлено!",
         "quiz_question": "Какое слово (на {language}) соответствует данному описанию: {description}?",
+        "quiz_fill_question": "Вставьте слово (на {language}) в данное предложение: {description}",
         "no_bot_language": "Пожалуйста, укажите язык. Доступные языки: {available_languages}",
         "unsupported_language": "Неподдерживаемый язык. Доступные языки: {available_languages}",
         "language_set": "Язык изменен на {new_language}.",
@@ -82,7 +84,7 @@
         "language_description": "Изменить язык бота.",
         "start_description": "можно добавить таймер, например, start 10",
         "stop_description": "остановить викторину",
-        "add_word_description": "[{\"word\": \"ваше слово\", \"language\": \"ваш язык\", \"descriptions\": {\"russian\": \"перевод или контекст\"}}, ...]",
+        "add_word_description": "[{\"word\": \"ваше слово\", \"language\": \"ваш язык\", \"quiz_type\": \"<translate> по умолчанию\", \"descriptions\": {\"russian\": \"перевод или контекст\"}}, ...]",
         "remove_word_description": "любое слово можно удалить из списка",
         "change_description_description": "{\"language\": \"ваш язык\", \"descriptions\": {\"english\": \"новое описание\"}}"
     }, "korean": {
@@ -106,6 +108,7 @@
         "word_removed": "단어: {word}가 제거되었습니다.",
         "description_updated": "설명이 업데이트되었습니다!",
         "quiz_question": "{language}에서 주어진 설명에 해당하는 단어는 무엇입니까? {description}?",
+        "quiz_fill_question": "{language}에서 주어진 문장에 단어를 채워 넣으세요. {description}",
         "no_bot_language": "언어를 제공해주세요. 사용 가능한 언어: {available_languages}",
         "unsupported_language": "지원하지 않는 언어입니다. 사용 가능한 언어: {available_languages}",
         "language_set": "{new_language}(으)로 언어가 설정되었습니다.",
@@ -125,7 +128,7 @@
         "language_description": "봇의 언어를 변경합니다.",
         "start_description": "타이머를 추가할 수 있습니다, 예를 들어 start 10",
         "stop_description": "퀴즈를 중지",
-        "add_word_description": "[{\"word\": \"당신의 단어\", \"language\": \"당신의 언어\", \"descriptions\": {\"korean\": \"번역 또는 맥락\"}}, ...]",
+        "add_word_description": "[{\"word\": \"당신의 단어\", \"language\": \"당신의 언어\", \"quiz_type\": \"<translate> by default\", \"descriptions\": {\"korean\": \"번역 또는 맥락\"}}, ...]",
         "remove_word_description": "목록에서 어떤 단어든 삭제할 수 있습니다",
         "change_description_description": "{\"language\": \"당신의 언어\", \"descriptions\": {\"english\": \"단어 그룹 설명\"}}"
     }, "spanish": {
@@ -149,6 +152,7 @@
         "word_removed": "Palabra: {word} eliminada.",
         "description_updated": "¡Descripción actualizada!",
         "quiz_question": "¿Cuál es la palabra (en {language}) con la descripción dada: {description}?",
+        "quiz_fill_question": "Rellena la palabra (en {language}) en la frase dada: {description}",
         "no_bot_language": "Por favor, proporciona un idioma. Idiomas disponibles: {available_languages}",
         "unsupported_language": "Idioma no soportado. Idiomas disponibles: {available_languages}",
         "language_set": "Idioma configurado a {new_language}.",
@@ -168,7 +172,7 @@
         "language_description": "Cambiar el idioma del bot.",
         "start_description": "se puede añadir un temporizador, por ejemplo start 10",
         "stop_description": "detener el cuestionario",
-        "add_word_description": "[{\"word\": \"tu palabra\", \"language\": \"tu idioma\", \"descriptions\": {\"spanish\": \"la traducción o contexto\"}}, ...]",
+        "add_word_description": "[{\"word\": \"tu palabra\", \"language\": \"tu idioma\", \"quiz_type\": \"<translate> por defecto\", \"descriptions\": {\"spanish\": \"la traducción o el contexto\"}}, ...]",
         "remove_word_description": "cualquier palabra puede ser eliminada de la lista",
         "change_description_description": "{\"language\": \"tu idioma\", \"descriptions\": {\"english\": \"word group description\"}}"
     }
