@@ -69,6 +69,7 @@ class TelegramQuizBot:
         result_list = []
         for word_data in word_list:
             word = word_data.get("word")
+            quiz_type = word_data.get("quiz_type")
             descriptions = word_data.get("descriptions", {})
 
             # Try to get the description in the preferred language
@@ -84,7 +85,8 @@ class TelegramQuizBot:
 
             result_list.append({
                 "word": word,
-                "description": description
+                "description": description,
+                "quiz_type": quiz_type
             })
         return result_list
     
