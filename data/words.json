@@ -5774,8 +5774,15 @@
                     "japanese": "ん"
                 },
                 "quiz_type": "translate"
-            },
-             {
+            }
+        ]
+    },
+    "english-de": {
+        "descriptions": {
+            "english": "Words and phrases from Disco Elysium videogame"
+        },
+        "words": [
+            {
                 "word": "cumbersome",
                 "descriptions": {
                      "english": "-Glasses are cool, I guess. -Are they? They're mostly just ____________."
