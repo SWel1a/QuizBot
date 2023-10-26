@@ -171,13 +171,13 @@
             "🌟 Shining bright! You're inches away!"
         ],
         "hint": [
-            "🎁 Here's a gift for you: {hint_text}...",
-            "🔍 A little nudge: {hint_text}...",
-            "🔦🎁 Spotlight on your hint: {hint_text}... Dance in its light! 💃🔍",
-            "🎨🖌️ Painting a hint for you: {hint_text}... Color within these lines! 🌈🎨",
-            "🎵🎧 Tune in! Your hint sounds like: {hint_text}... Sing along! 🎤🔊",
-            "🔭🏞️ Viewing platform alert! Look out for: {hint_text}... Spot the hint! 🌄🌌",
-            "📜🪄 Magical scroll reveals: {hint_text}... Cast your spell with it! 🎩✨"
+            "🎁 Here's a **hint** for you: **{hint_text}...**",
+            "🔍 A little **nudge**: **{hint_text}...**",
+            "🔦🎁 Spotlight on your **hint**: **{hint_text}...** Dance in its light! 💃🔍",
+            "🎨🖌️ Painting a **hint** for you: **{hint_text}...** Color within these lines! 🌈🎨",
+            "🎵🎧 Tune in! Your **hint** sounds like: **{hint_text}...** Sing along! 🎤🔊",
+            "🔭🏞️ Viewing platform alert! Look out for: **{hint_text}...** Spot the **hint**! 🌄🌌",
+            "📜🪄 Magical scroll reveals: **{hint_text}...** Cast your spell with it! 🎩✨"
         ],
         "list_group": [
             "📜 The royal scroll: Words for group: \n{word_list_text}.",
