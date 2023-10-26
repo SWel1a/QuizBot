@@ -1,48 +1,208 @@
 {
     "english": {
-        "unauthorized_command": "You are not authorized to use this command.",
-        "no_words_language": "No words found for the specified language.",
-        "quiz_ongoing": "A quiz is already ongoing in this chat! Use /stop to stop it.",
-        "no_words_specific_language": "No words found for the specified language \"{language}\".",
-        "provide_word": "Please provide a word.",
-        "quiz_started": "Started timed Quiz with language: {language}!\nHere's the first one:",
-        "quiz_stopped": "Stopped!",
-        "no_ongoing": "No ongoing quiz to stop!",
-        "correct_answer": "Correct! 🎉",
-        "incorrect_answer": "Incorrect. You have {remaining_attempts} attempts left. Try again by replying to this message.",
-        "incorrect_final_answer": "Incorrect. The correct answer was: {correct_answer}",
-        "incorrect_outdated": "Incorrect or outdated answer. Try again with a new question!",
-        "idk_answer": "Gave up already? Here's your answer: {correct_answer}",
-        "reply_to_question": "Please reply directly to the question.",
-        "invalid_json_format": "Invalid JSON format.",
-        "word_added": "Word added!",
-        "word_not_found": "No word found for: {word}",
-        "word_removed": "Word: {word} removed.",
-        "description_updated": "Description updated!",
-        "quiz_question": "What is the word (in {language}) with given description: {description}?",
-        "quiz_fill_question": "Fill the word (in {language}) in the given sentence: {description}",
-        "no_bot_language": "Please provide a language. Available languages: {available_languages}",
-        "unsupported_language": "Unsupported language. Available languages: {available_languages}",
-        "language_set": "Language set to {new_language}.",
-        "start_first": "Please initiate the quiz first by using the /start command.",
-        "closeness0": "You're not even close!",
-        "closeness50": "You're somewhat on the right track!",
-        "closeness70": "You're close!",
-        "closeness80": "You're very close!",
-        "closeness90": "You're extremely close!",
-        "hint": "Your hint: {hint_text}...",
-        "list_group": "Word list for group: {word_list_text}",
-        "list_no_argument": "Please specify a language to list words.",
-        "list_unknown_group": "Unknown language group.",
-        "list_empty_group": "The specified language group is empty.",
-        "list_description": "Show the list of words",
-        "quiz_description": "Trigger a new quiz question.",
-        "language_description": "Change the language of the bot.",
-        "start_description": "the timer can be added, for example start 10",
-        "stop_description": "stop the quiz",
-        "add_word_description": "[{\"word\": \"your word\", \"language\": \"your language\", \"quiz_type\": \"<translate> by default\", \"descriptions\": {\"english\": \"the translation or context\"}}, ...]",
-        "remove_word_description": "any word can be deleted from the list",
-        "change_description_description": "{\"language\": \"your language\", \"descriptions\": {\"english\": \"word group description\"}}"
+        "unauthorized_command": [
+            "🚫 Whoops! Looks like you don't have the magic key to use this command. 🗝️",
+            "🛑 Hold on! This command is VIP only. 😉"
+        ],
+        "no_words_language": [
+            "🤔 Hmm... It's silent as a library here. No words found for that language.",
+            "📚 Looks like that language section in our library is empty. Try another!"
+        ],
+        "quiz_ongoing": [
+            "🚀 Hold your horses! There's already a quiz zooming in this chat. Use /stop to halt it.",
+            "🕺 There's a quiz dance-off happening right now. Use /stop to cut the music."
+        ],
+        "no_words_specific_language": [
+            "🌍 No words sighted for \"{language}\". Maybe it's from another planet?",
+            "🏝️ The \"{language}\" section seems deserted. No words here!"
+        ],
+        "provide_word": [
+            "📜 Roll out your scroll! Please share a word with us.",
+            "🎙️ Your stage! Let's hear a word from you."
+        ],
+        "quiz_started": [
+            "🎉 And... ACTION! Quiz for {language} has begun! 🚀\nYour first challenge:",
+            "🥳 Ready, Set, QUIZ! Testing your {language} skills. Here's the opener:",
+            "🎉🚀 Let's get this {language} party started! 🥳 Ready...Set...Quiz! 📚",
+            "🤩 It's {language} quiz time! 🎈 Grab your thinking caps 🧢 and let's dive in! 🌊",
+            "🔥 The {language} arena is set! 🏟️ Are you the next quiz champion? 🏆 Let's find out! 💡",
+            "🎤 On your marks... {language} quiz is on the roll! 🎲 Dive into the wordy world! 🌍📖",
+            "🚦 Quiz lights are green for {language}! 🌈 Race through the questions! 🏎️🎯"
+        ],
+        "quiz_stopped": [
+            "🛑 Stop right there! Quiz halted.",
+            "✋ And... cut! Quiz is over.",
+            "🛑✋ And just like that... the quiz is over! 🎬 Curtain's down! 🎭",
+            "🎶 The music's stopped and so has the quiz! 🎵 Time to take a breather! 💨🍹",
+            "🔚 Game over! 🎮 Hope you had a blast in this {language} quest! 🎢🎉",
+            "⌛ Time's up! ⏰ The {language} quiz has closed its doors! 🚪🔐",
+            "🎈 And... POP! 📌 The quiz bubble is burst! 💥 See ya next round! 🔄"
+        ],
+        "no_ongoing": [
+            "🤷‍♂️ It's quiet... too quiet. No ongoing quiz to end.",
+            "🌌 It's a clear sky, no quiz stars twinkling right now."
+        ],
+        "correct_answer": [
+            "🎯 Bullseye! That's spot on! 🎉",
+            "🥳 Nailed it! You're on fire! 🔥",
+            "🎯 Woah! Right on target! 🚀🥳",
+            "🌟🌟 Double stars for that one! You're on fire! 🔥🕺",
+            "💡 Eureka! That's the light bulb moment! 🎉🍾",
+            "🔔 Ding Ding Ding! We have a winner here! 🏆🥇",
+            "💥 Kaboom! You just blew our minds with that answer! 🧠🎊"
+        ],
+        "incorrect_answer": [
+            "🤔 Not quite. You have {remaining_attempts} shots left. Reload and fire again!",
+            "😅 Oops! {remaining_attempts} more tries. You got this!",
+            "🤔🚫 Oopsie daisy! Try again! 🔄 You've got {remaining_attempts} more shots 🏹",
+            "😅🌪️ A slight whirlwind there. {remaining_attempts} more swings left! ⚾",
+            "💔 A tiny hiccup! Breathe 🌬️ and go again. {remaining_attempts} more chances! 🎲",
+            "👀 Peek again! That was a slip. 🍌 {remaining_attempts} more peeks! 🧐",
+            "🌊 A bit off course, sailor! 🧭 Set your compass and try {remaining_attempts} more times! ⏳"
+        ],
+        "incorrect_final_answer": [
+            "🙈 Missed by a whisker! The right answer was: {correct_answer}.",
+            "💔 So close! The treasure was: {correct_answer}.",
+            "🙈🎭 The drama unfolds! It was actually: {correct_answer}. 🎤",
+            "💥💔 Close but no cigar! The golden word was: {correct_answer}. 🏅",
+            "🎢 Rollercoaster of emotions! 🌀 The treasure word was: {correct_answer}. 🗝️",
+            "🍀 Needed a bit more luck there! 🌈 The magic answer was: {correct_answer}. 🎩",
+            "🔮 If only we had a crystal ball! 🌌 The star answer was: {correct_answer}. 🌠"
+        ],
+        "incorrect_outdated": [
+            "⌛ Time's tricked ya! That's an old or incorrect answer. New question awaits!",
+            "🔄 That's from a past life. Try again with a fresh question!"
+        ],
+        "idk_answer": [
+            "🕵️‍♂️ Giving up? Alright, here's the secret: {correct_answer}.",
+            "🎭 Unmasking the answer for you: {correct_answer}.",
+            "🤷‍♂️🎁 Throwing in the towel? Here's your gift: {correct_answer}. 🎀",
+            "🌊📦 Wave white flag? No worries! Your prize: {correct_answer}. 🏆",
+            "🎭🎫 Giving up the act? Here's your ticket to the answer: {correct_answer}. 🎟️",
+            "🌌💼 Packing up? Here's a parting gift of knowledge: {correct_answer}. 📚",
+            "🔍📬 Can't find it? Special delivery for you: {correct_answer}. 💌"
+        ],
+        "reply_to_question": [
+            "📩 Psst! Reply directly to the question, secret agent style.",
+            "🔗 Link your answer directly to the question! Hit reply.",
+            "📩🔗 Hey! Hitch your wagon 🚂 and reply directly to that question!",
+            "🚀📬 Blast off! Shoot your answer directly to the question's stars! 🌠",
+            "🎣🔒 Hook, line, and sinker! Reply right to that question, fisher!",
+            "🎯📨 Aiming for a bullseye? Reply straight to the question arrow!",
+            "🚁🔝 Hover up and reply right to the question's helipad!"
+        ],
+        "invalid_json_format": [
+            "🔍 Uh-oh! That JSON seems tangled. Let's straighten it out.",
+            "🚫 Oops! Invalid JSON format. Let's keep it neat."
+        ],
+        "word_added": [
+            "✅ Success! Word added to the vault. 🎉",
+            "📚 Your word found its place in our library!"
+        ],
+        "word_not_found": [
+            "🔍 Word \"{word}\" is playing hide and seek! Not found.",
+            "🌌 \"{word}\" seems to be in another galaxy. Not here!"
+        ],
+        "word_removed": [
+            "🗑️ Word \"{word}\" has left the building.",
+            "🚀 Word \"{word}\" has been launched into space. Gone!"
+        ],
+        "description_updated": [
+            "✍️ Description got a makeover! Updated and shining.",
+            "🔄 Description revamped! New and improved."
+        ],
+        "quiz_question": [
+            "🎤 Pop quiz! What's the {language} word for: {description}?",
+            "🔍 Detective time! Find the {language} word for: {description}.",
+            "🎤🌍 Global challenge! What's the {language} term for: {description}? 🤔📚",
+            "🔍🕵️ Detective mode on! Can you decode the {language} word for: {description}? 🔐🗝️",
+            "🌊🏄 Ride the {language} wave! What word matches: {description}? 🌺🤙",
+            "🌌🚀 Space mission! Find the {language} star word for: {description}. 🛸🌠",
+            "🏰🔮 In a magical realm, what's the {language} spell for: {description}? 🪄✨"
+        ],
+        "quiz_fill_question": [
+            "✍️ Fill in the blank! The {language} word in: {description}.",
+            "🖊️ Pen ready? Slot the {language} word in: {description}.",
+            "✍️🎶 Lyricist challenge! Slot the {language} word into this tune: {description}. 🎼🎤",
+            "🎬🎥 Movie scene! Fill the {language} script gap in: {description}. 🍿🎞️",
+            "🍔📖 Foodie alert! Spice up the {language} recipe in: {description}. 🍲🍴",
+            "🚂📝 Station stop! Plug the {language} word into this story: {description}. 📖💼",
+            "🏖️💌 Postcard fill-in! What's the {language} word missing in this note: {description}? 🌅✉️"
+        ],
+        "no_bot_language": [
+            "🌍 Language, please! Choices are: {available_languages}.",
+            "🎙️ Speak up! Which language? Options: {available_languages}."
+        ],
+        "unsupported_language": [
+            "🚫 Oops! That language isn't in our roster. Here's what we have: {available_languages}.",
+            "🔍 Can't find that language. But we do have: {available_languages}."
+        ],
+        "language_set": [
+            "🌐 New language alert! Set to {new_language}.",
+            "🔄 Language switched to {new_language}. Let's roll!"
+        ],
+        "start_first": [
+            "🚦 Wait! Start the engine first with /start.",
+            "🕹️ Push the /start button to kick things off!"
+        ],
+        "closeness0": [
+            "🌌 You're in another galaxy!",
+            "🌍 Miles apart! Try a different route.",
+            "🌌🚀 Oops! You're light years away in a different galaxy! 🌍💫",
+            "🏔️🚁 You're on a different mountain peak! Slide down and try again! 🛷🌲",
+            "🌊🏝️ Looks like you're stranded on a distant island! Signal for help! 🆘🚢",
+            "🎭🃏 Playing a different act in another show! Change the stage! 🎤🎪",
+            "🌵🚗 Driving in the desert with no signs! U-turn needed! 🔄🛣️"
+        ],
+        "closeness50": [
+            "🔭 I see you on the horizon! Keep going!",
+            "🚗 Halfway there! Keep driving!"
+        ],
+        "closeness70": [
+            "🔥 Getting warmer! You're close.",
+            "🎯 Almost a bullseye! You're on the right track."
+        ],
+        "closeness80": [
+            "🥁 Drumroll... You're super close!",
+            "🔍 Just a tiny step away! Very close!"
+        ],
+        "closeness90": [
+            "💥 Almost explosive! Extremely close!",
+            "🌟 Shining bright! You're inches away!"
+        ],
+        "hint": [
+            "🎁 Here's a gift for you: {hint_text}...",
+            "🔍 A little nudge: {hint_text}...",
+            "🔦🎁 Spotlight on your hint: {hint_text}... Dance in its light! 💃🔍",
+            "🎨🖌️ Painting a hint for you: {hint_text}... Color within these lines! 🌈🎨",
+            "🎵🎧 Tune in! Your hint sounds like: {hint_text}... Sing along! 🎤🔊",
+            "🔭🏞️ Viewing platform alert! Look out for: {hint_text}... Spot the hint! 🌄🌌",
+            "📜🪄 Magical scroll reveals: {hint_text}... Cast your spell with it! 🎩✨"
+        ],
+        "list_group": [
+            "📜 The royal scroll: Words for group: \n{word_list_text}.",
+            "📚 Library section for group: \n{word_list_text}."
+        ],
+        "list_no_argument": [
+            "🔍 Specify a language to unveil the words.",
+            "🌍 Which language to explore? Tell us!"
+        ],
+        "list_unknown_group": [
+            "🧭 Lost? Unknown language group.",
+            "🔭 Can't see that language group from here."
+        ],
+        "list_empty_group": [
+            "🌵 It's a desert! Empty language group.",
+            "🎈 Nothing to see here. The group's empty!"
+        ],
+        "list_description": "Show the list of words for given word group or leave empty to explore all word groups.",
+        "quiz_description": "Trigger a new quiz question. The quiz must be running for this command.",
+        "language_description": "Change the language in which bot speaks.",
+        "start_description": "Start the repeating quiz. Example: /start english_b2 120m.",
+        "stop_description": "Stop the repeating quiz.",
+        "add_word_description": "Bot admins only: [{\"word\": \"your word\", \"language\": \"your language\", \"quiz_type\": \"<translate> by default\", \"descriptions\": {\"english\": \"the translation or context\"}}, ...]",
+        "remove_word_description": "Bot admins only: remove word by it's name from all the word groups",
+        "change_description_description": "Bot admins only: {\"language\": \"your language\", \"descriptions\": {\"english\": \"word group description\"}}"
     }, "russian": {
         "unauthorized_command": "Вы не авторизованы для использования этой команды.",
         "no_words_language": "Слов для указанного языка не найдено.",
