@@ -4,6 +4,11 @@ Welcome to the **Telegram Quiz Bot** - an engaging and dynamic way to challenge 
 
 🔗 Interact with the bot directly on Telegram: [@This_quiz_bot](https://t.me/This_quiz_bot)
 
+## 🚀 Project Evolution Notice 🚀
+The journey of this bot takes a new and exciting turn! 🌟 The project now continues in a fork over at [Flagro's PhriniFluent](https://github.com/Flagro/PhriniFluent). This fork integrates LLM for some seriously cool features, including a dynamic word library generation! 📚🔥
+
+Feel free to hop over and explore the extended capabilities and features that have been introduced. Let's keep pushing the boundaries together!
+
 ## 🚀 Features:
 
 - 🌐 **Multi-language Support**: From English to Spanish, and more!
