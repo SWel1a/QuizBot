@@ -36,11 +36,11 @@ class TelegramQuizBot:
             BotCommand(command="start", description=self._localized_text(None, "start_description")),
             BotCommand(command="stop", description=self._localized_text(None, "stop_description")),
             BotCommand(command="quiz", description=self._localized_text(None, "quiz_description")),
+            BotCommand(command="language", description=self._localized_text(None, "language_description")),
+            BotCommand(command="list", description=self._localized_text(None, "list_description")),
             BotCommand(command="add_word", description=self._localized_text(None, "add_word_description")),
             BotCommand(command="remove_word", description=self._localized_text(None, "remove_word_description")),
-            BotCommand(command="change_description", description=self._localized_text(None, "change_description_description")),
-            BotCommand(command="language", description=self._localized_text(None, "language_description")),
-            BotCommand(command="list", description=self._localized_text(None, "list_description"))
+            BotCommand(command="change_description", description=self._localized_text(None, "change_description_description"))
         ]
 
         self.handlers = [
