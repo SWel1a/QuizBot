@@ -1,6 +1,7 @@
 import logging
 import uuid
 import string
+import random
 import re
 
 import constants
@@ -20,12 +21,16 @@ def localized_text(translations, bot_language, key, format_params=None):
     except KeyError:
         logging.warning(f"No translation available for bot_language code '{bot_language}' and key '{key}'")
         # Fallback to English if the translation is not available
-        if key in translations['en']:
-            translated_text = translations['en'][key]
+        if key in translations['english']:
+            translated_text = translations['english'][key]
         else:
             logging.warning(f"No english definition found for key '{key}' in translations.json")
             # return key as text
             return key
+        
+    if type(translated_text) == list:
+        # Select a random text from the list
+        translated_text = random.choice(translated_text)
 
     # Format the translated text with provided parameters if any
     if format_params:
