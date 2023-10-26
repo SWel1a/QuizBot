@@ -1,4 +1,4 @@
-from telegram import Update, BotCommand
+from telegram import Update, BotCommand, ParseMode
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters, Application
 
 import json
@@ -16,6 +16,7 @@ def authorized(func):
         user_handle = update.message.from_user.username
         if '@' + user_handle not in self.allowed_handles:
             await context.bot.send_message(chat_id=update.message.chat_id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(update.message.chat_id, "unauthorized_command"))
             return
         return await func(self, update, context)
@@ -102,18 +103,21 @@ class TelegramQuizBot:
         if not context.args:
             # No language provided, inform the user about available languages
             available_languages = ", ".join(self.translations.keys())
-            await context.bot.send_message(chat_id=chat_id, 
+            await context.bot.send_message(chat_id=chat_id,
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(chat_id, "no_bot_language", {"available_languages": available_languages}))
             return
 
         new_language = preprocess_string(context.args[0])
         if new_language not in list(map(preprocess_string, self.translations)):
             await context.bot.send_message(chat_id=chat_id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(chat_id, "unsupported_language", {"available_languages": available_languages}))
             return
 
         self.bot_language_preferences[chat_id] = new_language
         await context.bot.send_message(chat_id=chat_id, 
+                                       parse_mode=ParseMode.HTML, 
                                        text=self._localized_text(chat_id, "language_set", {"new_language": new_language}))
 
     @authorized
@@ -127,6 +131,7 @@ class TelegramQuizBot:
     async def manage_word(self, update: Update, context: ContextTypes.DEFAULT_TYPE, action: str):
         if not context.args:
             await context.bot.send_message(chat_id=update.effective_chat.id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(update.effective_chat.id, "provide_word"))
         else:
             word = ' '.join(context.args)
@@ -134,33 +139,40 @@ class TelegramQuizBot:
                 try:
                     await self.words_list.add_word(word)
                     await context.bot.send_message(chat_id=update.message.chat_id, 
+                                                   parse_mode=ParseMode.HTML, 
                                                    text=self._localized_text(update.message.chat_id, "word_added"))
                 except json.JSONDecodeError:
                     await context.bot.send_message(chat_id=update.message.chat_id, 
+                                                   parse_mode=ParseMode.HTML, 
                                                    text=self._localized_text(update.message.chat_id, "invalid_json_format"))
             elif action == 'remove':
                 removed = await self.words_list.remove_word(word)
                 if not removed:
                     await context.bot.send_message(chat_id=update.message.chat_id, 
+                                                   parse_mode=ParseMode.HTML, 
                                                    text=self._localized_text(update.message.chat_id, "word_not_found", {"word": word}))
                 else:
                     await context.bot.send_message(chat_id=update.message.chat_id, 
+                                                   parse_mode=ParseMode.HTML, 
                                                    text=self._localized_text(update.message.chat_id, "word_removed", {"word": word}))
 
     @authorized
     async def change_description(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         if not context.args:
             await context.bot.send_message(chat_id=update.effective_chat.id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(update.effective_chat.id, "provide_word"))
         else:
             word = ' '.join(context.args)
             try:
                 await self.words_list.update_description(word)
                 await context.bot.send_message(chat_id=update.message.chat_id, 
-                                                text=self._localized_text(update.message.chat_id, "description_updated"))
+                                               parse_mode=ParseMode.HTML, 
+                                               text=self._localized_text(update.message.chat_id, "description_updated"))
             except json.JSONDecodeError:
                 await context.bot.send_message(chat_id=update.message.chat_id, 
-                                                text=self._localized_text(update.message.chat_id, "invalid_json_format"))
+                                               parse_mode=ParseMode.HTML,
+                                               text=self._localized_text(update.message.chat_id, "invalid_json_format"))
 
     async def callback_quiz(self, context: ContextTypes.DEFAULT_TYPE, chat_id=None):
         if chat_id is None:
@@ -172,6 +184,7 @@ class TelegramQuizBot:
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(chat_id, "no_words_specific_language", {"language": language}))
             return
 
@@ -188,6 +201,7 @@ class TelegramQuizBot:
             msg_key = "quiz_question"
 
         message = await context.bot.send_message(chat_id=chat_id, 
+                                                 parse_mode=ParseMode.HTML, 
                                                  text=self._localized_text(chat_id, msg_key, {"language": language, "description": description}))
         
         # Save to history
@@ -208,6 +222,7 @@ class TelegramQuizBot:
         
         if chat_id in self.ongoing_quizzes:
             await context.bot.send_message(chat_id=chat_id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(chat_id, "quiz_ongoing"))
             return
 
@@ -218,6 +233,7 @@ class TelegramQuizBot:
 
         if not word_list:
             await context.bot.send_message(chat_id=chat_id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(chat_id, "no_words_specific_language", {"language": language}))
             return
 
@@ -225,6 +241,7 @@ class TelegramQuizBot:
         self.language_preferences[chat_id] = language
         
         await context.bot.send_message(chat_id=chat_id, 
+                                       parse_mode=ParseMode.HTML, 
                                        text=self._localized_text(chat_id, "quiz_started", {"language": language}))
         # Set the alarm:
         # Store the job for the quiz
@@ -240,16 +257,19 @@ class TelegramQuizBot:
         if ongoing_job:
             ongoing_job.schedule_removal()
             await context.bot.send_message(chat_id=chat_id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(chat_id, "quiz_stopped"))
         else:
             await context.bot.send_message(chat_id=chat_id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(chat_id, "no_ongoing"))
 
     async def callback_quiz_on_demand(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         chat_id = update.message.chat_id
         if chat_id not in self.ongoing_quizzes:
             await context.bot.send_message(chat_id=chat_id, 
-                                        text=self._localized_text(chat_id, "start_first"))
+                                           parse_mode=ParseMode.HTML, 
+                                           text=self._localized_text(chat_id, "start_first"))
             return
         await self.callback_quiz(context, chat_id)
 
@@ -260,6 +280,7 @@ class TelegramQuizBot:
 
         if not reply_to_message_id:  # If the user did not reply to a specific message, you might decide to ignore or handle differently
             await context.bot.send_message(chat_id=chat_id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(chat_id, "reply_to_question"))
             return
 
@@ -272,14 +293,17 @@ class TelegramQuizBot:
         if preprocess_string(user_message) in constants.IDK_WORDS:
             if corresponding_question:
                 await context.bot.send_message(chat_id=chat_id, 
+                                               parse_mode=ParseMode.HTML,
                                                text=self._localized_text(chat_id, "idk_answer", {"correct_answer": corresponding_question["answer"]}))
             else:
                 await context.bot.send_message(chat_id=chat_id, 
+                                               parse_mode=ParseMode.HTML, 
                                                text=self._localized_text(chat_id, "incorrect_outdated"))
             return
 
         if corresponding_question and words_eq(user_message, corresponding_question['answer']):
             await context.bot.send_message(chat_id=chat_id, 
+                                           parse_mode=ParseMode.HTML, 
                                            text=self._localized_text(chat_id, "correct_answer"))
         else:
             if corresponding_question:  # If a related question is found
@@ -301,13 +325,16 @@ class TelegramQuizBot:
                     if hint_text:
                         text_to_send += "\n" + hint_msg
                     msg = await context.bot.send_message(chat_id=chat_id, 
+                                                         parse_mode=ParseMode.HTML, 
                                                          text=text_to_send)
                     corresponding_question['message_ids'].append(msg.message_id)  # Add new message_id to valid reply ids
                 else:
                     await context.bot.send_message(chat_id=chat_id, 
+                                                   parse_mode=ParseMode.HTML, 
                                                    text=self._localized_text(chat_id, "incorrect_final_answer", {"correct_answer": corresponding_question["answer"]}))
             else:
                 await context.bot.send_message(chat_id=chat_id, 
+                                               parse_mode=ParseMode.HTML, 
                                                text=self._localized_text(chat_id, "incorrect_outdated"))
 
     async def list_words(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -331,13 +358,19 @@ class TelegramQuizBot:
                     result_text += f"{group_language} - {description}\n\n"
 
             if not result_text:
-                await context.bot.send_message(chat_id=chat_id, text=self._localized_text(chat_id, "list_empty"))
+                await context.bot.send_message(chat_id=chat_id, 
+                                               parse_mode=ParseMode.HTML, 
+                                               text=self._localized_text(chat_id, "list_empty"))
             else:
-                await context.bot.send_message(chat_id=chat_id, text=result_text)
+                await context.bot.send_message(chat_id=chat_id, 
+                                               parse_mode=ParseMode.HTML, 
+                                               text=result_text)
         else:
             group = preprocess_string(context.args[0])
             if group not in list(map(preprocess_string, available_groups)):
-                await context.bot.send_message(chat_id=chat_id, text=self._localized_text(chat_id, "list_unknown_group"))
+                await context.bot.send_message(chat_id=chat_id, 
+                                               parse_mode=ParseMode.HTML, 
+                                               text=self._localized_text(chat_id, "list_unknown_group"))
                 return
 
             group_descriptions = await self.words_list.get_group_description(group)
@@ -359,7 +392,9 @@ class TelegramQuizBot:
 
             result_text += "\n".join([f"{entry['word']}: {entry['description']}" for entry in word_list])
 
-            await context.bot.send_message(chat_id=chat_id, text=result_text)
+            await context.bot.send_message(chat_id=chat_id, 
+                                           parse_mode=ParseMode.HTML, 
+                                           text=result_text)
 
 
     async def post_init(self, application: Application):
