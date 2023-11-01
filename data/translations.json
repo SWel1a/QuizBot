@@ -83,13 +83,7 @@
             "🔍📬 Can't find it? Special delivery for you: <b>{correct_answer}</b>. 💌"
         ],
         "reply_to_question": [
-            "📩 Psst! Reply directly to the question, secret agent style.",
-            "🔗 Link your answer directly to the question! Hit reply.",
-            "📩🔗 Hey! Hitch your wagon 🚂 and reply directly to that question!",
-            "🚀📬 Blast off! Shoot your answer directly to the question's stars! 🌠",
-            "🎣🔒 Hook, line, and sinker! Reply right to that question, fisher!",
-            "🎯📨 Aiming for a bullseye? Reply straight to the question arrow!",
-            "🚁🔝 Hover up and reply right to the question's helipad!"
+            "📩 Which quiz you are answering to? Reply directly to the question!"
         ],
         "invalid_json_format": [
             "🔍 Uh-oh! That JSON seems tangled. Let's straighten it out.",
