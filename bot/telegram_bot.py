@@ -282,7 +282,7 @@ class TelegramQuizBot:
 
         # If in a private chat and the user did not reply to a specific message, consider it as a reply to the latest quiz question
         if chat_type == 'private' and not reply_to_message_id and chat_id in self.ongoing_quizzes:
-            last_quiz_question = max((qa for qa in self.quiz_history if qa['chat_id'] == chat_id), key=lambda qa: qa['id'], default=None)
+            last_quiz_question = next((qa for qa in reversed(self.quiz_history) if qa['chat_id'] == chat_id), None)
             if last_quiz_question:
                 reply_to_message_id = last_quiz_question['message_ids'][-1]
 
