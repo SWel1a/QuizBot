@@ -277,12 +277,24 @@ class TelegramQuizBot:
     async def check_answer(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         user_message = update.message.text  # Get user's message
         chat_id = update.message.chat_id  # Get chat_id
+        chat_type = update.message.chat.type  # Check if the chat is private (i.e., a one-to-one chat)
         reply_to_message_id = update.message.reply_to_message.message_id if update.message.reply_to_message else None
 
+        # If in a private chat and the user did not reply to a specific message, consider it as a reply to the latest quiz question
+        if chat_type == 'private' and not reply_to_message_id and chat_id in self.ongoing_quizzes:
+            last_quiz_question = max((qa for qa in self.quiz_history if qa['chat_id'] == chat_id), key=lambda qa: qa['id'], default=None)
+            if last_quiz_question:
+                reply_to_message_id = last_quiz_question['message_ids'][-1]
+
         if not reply_to_message_id:  # If the user did not reply to a specific message, you might decide to ignore or handle differently
-            await context.bot.send_message(chat_id=chat_id, 
-                                           parse_mode=ParseMode.HTML, 
-                                           text=self._localized_text(chat_id, "reply_to_question"))
+            if chat_id in self.ongoing_quizzes:
+                await context.bot.send_message(chat_id=chat_id, 
+                                            parse_mode=ParseMode.HTML, 
+                                            text=self._localized_text(chat_id, "reply_to_question"))
+            else:
+                await context.bot.send_message(chat_id=chat_id, 
+                                            parse_mode=ParseMode.HTML, 
+                                            text=self._localized_text(chat_id, "start_first"))
             return
 
         # Find the question in history based on reply_to_message_id
