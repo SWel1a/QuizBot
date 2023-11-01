@@ -215,7 +215,8 @@ class TelegramQuizBot:
             'message_ids': [message.message_id]  # Initial valid reply IDs only contains the original message
         })
         
-        self.quiz_history = self.quiz_history[-constants.QUIZ_HISTORY_LENGTH:]
+        self.quiz_history = [msg for chat_id in set(q['chat_id'] for q in self.quiz_history) 
+                     for msg in [q for q in self.quiz_history if q['chat_id'] == chat_id][-constants.QUIZ_HISTORY_LENGTH:]]
 
 
     async def start_callback_quiz(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
