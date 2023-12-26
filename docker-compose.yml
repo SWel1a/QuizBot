@@ -6,7 +6,7 @@ services:
     volumes:
       - ./:/app
     build: .
-    container_name: my_telegram_bot_container
+    container_name: quiz_bot_container
     env_file:
       - .env
     restart: unless-stopped
