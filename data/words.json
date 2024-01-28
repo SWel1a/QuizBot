@@ -5839,5 +5839,2388 @@
                 "quiz_type": "fill"
             }
         ]
+    },
+    "korean_a2": {
+        "description": {},
+        "words": [
+            {
+                "word": "빙어 낚시",
+                "descriptions": {
+                    "russian": "Ловля рыбы подо льдом",
+                    "english": "Ice fishing"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "뻗다",
+                "descriptions": {
+                    "russian": "Протянуть (руку)",
+                    "english": "To stretch out (the arm)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소문이 퍼지다",
+                "descriptions": {
+                    "russian": "Распространять слухи",
+                    "english": "To have a rumor spread"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "심하다",
+                "descriptions": {
+                    "russian": "Быть очень шумным",
+                    "english": "To have a lot of noise"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "빼앗다",
+                "descriptions": {
+                    "russian": "Взять; украсть",
+                    "english": "To take; steal"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "손을 잡다",
+                "descriptions": {
+                    "russian": "Держаться за руки",
+                    "english": "To hold hands"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "뾰족하다",
+                "descriptions": {
+                    "russian": "Быть острым/коническим",
+                    "english": "To be sharp/pointy"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "솔직히",
+                "descriptions": {
+                    "russian": "Честно; откровенно",
+                    "english": "Frankly; honestly"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "송년회",
+                "descriptions": {
+                    "russian": "Годовой вечер",
+                    "english": "Year-end party"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "송별회",
+                "descriptions": {
+                    "russian": "Прощальная вечеринка",
+                    "english": "Farewell party"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수돗물이 안 나오다",
+                "descriptions": {
+                    "russian": "Нет воды",
+                    "english": "To have the water go off"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사귀다",
+                "descriptions": {
+                    "russian": "Встречаться (в отношениях); ходить",
+                    "english": "To be in a relationship: go out"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수상 스키",
+                "descriptions": {
+                    "russian": "Водные лыжи",
+                    "english": "Water-ski"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사라지다",
+                "descriptions": {
+                    "russian": "Исчезнуть",
+                    "english": "To disappear"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수선하다",
+                "descriptions": {
+                    "russian": "Починить",
+                    "english": "To mend"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사랑에 빠지다",
+                "descriptions": {
+                    "russian": "Влюбиться",
+                    "english": "To fall in love"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수입",
+                "descriptions": {
+                    "russian": "Доход",
+                    "english": "Income"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사랑이 식다",
+                "descriptions": {
+                    "russian": "Любовь остыла",
+                    "english": "To have love cool-off"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "숨기다",
+                "descriptions": {
+                    "russian": "Спрятать",
+                    "english": "To hide"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사회를 보다",
+                "descriptions": {
+                    "russian": "Быть ведущим/модератором",
+                    "english": "To be a speaker/moderator"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "숨을 쉬다",
+                "descriptions": {
+                    "russian": "Дышать",
+                    "english": "To breathe"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "산악오토바이",
+                "descriptions": {
+                    "russian": "Горный мотоцикл",
+                    "english": "Mountain motorcycle"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "숨이 차다",
+                "descriptions": {
+                    "russian": "Задыхаться",
+                    "english": "To be out of breath"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "살이 찌다/빠지다",
+                "descriptions": {
+                    "russian": "Набрать/похудеть",
+                    "english": "To gain/lose weight"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "스킨스쿠버",
+                "descriptions": {
+                    "russian": "Дайвинг с маской и ластами",
+                    "english": "Skin scuba"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상대방",
+                "descriptions": {
+                    "russian": "Собеседник; партнер",
+                    "english": "The opposite party"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "승진 기회가 많다",
+                "descriptions": {
+                    "russian": "Иметь много возможностей для продвижения",
+                    "english": "To have many opportunities for advancement/promotion"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상상이 되다",
+                "descriptions": {
+                    "russian": "Можно представить",
+                    "english": "To be able to imagine"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상상이 안되다",
+                "descriptions": {
+                    "russian": "Невозможно представить",
+                    "english": "To not be able to imagine"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시간 가는 줄 모르다",
+                "descriptions": {
+                    "russian": "Не замечать, как летит время",
+                    "english": "To not know how time has passed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상식",
+                "descriptions": {
+                    "russian": "Здравый смысл",
+                    "english": "Common sense"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시급",
+                "descriptions": {
+                    "russian": "Почасовая оплата",
+                    "english": "Hourly wage"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상영하다",
+                "descriptions": {
+                    "russian": "Показывать фильм",
+                    "english": "To show a film"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시어머니",
+                "descriptions": {
+                    "russian": "Теща",
+                    "english": "Mother-in-law"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상하다",
+                "descriptions": {
+                    "russian": "Испортиться",
+                    "english": "To go bad: spoil"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신기하다",
+                "descriptions": {
+                    "russian": "Удивительно",
+                    "english": "To be amazing"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "생기다",
+                "descriptions": {
+                    "russian": "Образоваться",
+                    "english": "To be formed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신라",
+                "descriptions": {
+                    "russian": "Династия в истории Кореи",
+                    "english": "A dynasty in Tree Kingdom era of Korea"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "서류",
+                "descriptions": {
+                    "russian": "Документ",
+                    "english": "Document"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신인",
+                "descriptions": {
+                    "russian": "Новичок (новый актер)",
+                    "english": "Rookie (new actor)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "서툴다",
+                "descriptions": {
+                    "russian": "Быть неумелым в чем-то",
+                    "english": "To be poor at something"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신입 사원",
+                "descriptions": {
+                    "russian": "Новый сотрудник",
+                    "english": "New employee"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신보다",
+                "descriptions": {
+                    "russian": "Встречаться с целью брака",
+                    "english": "To meet with a view toward marriage"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신혼살림",
+                "descriptions": {
+                    "russian": "Первое жилище молодоженов после свадьбы",
+                    "english": "Newlywed home, first house after marriage"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신혼여행",
+                "descriptions": {
+                    "russian": "Медовый месяц",
+                    "english": "Honeymoon"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "설치하다",
+                "descriptions": {
+                    "russian": "Установить",
+                    "english": "To install"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신혼집",
+                "descriptions": {
+                    "russian": "Первое жилище молодоженов после свадьбы",
+                    "english": "Newlywed home, first house after marriage"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "성격[마음]이",
+                "descriptions": {
+                    "russian": "Совпадение характеров",
+                    "english": "To have a matching personality"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "실력이 있다",
+                "descriptions": {
+                    "russian": "Иметь способности",
+                    "english": "To have ability"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "성수기",
+                "descriptions": {
+                    "russian": "Сезонный пик",
+                    "english": "Peak season"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "실망하다",
+                "descriptions": {
+                    "russian": "Быть разочарованным",
+                    "english": "To be disappointed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "성실하다",
+                "descriptions": {
+                    "russian": "Быть искренним",
+                    "english": "To be sincere"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "실은",
+                "descriptions": {
+                    "russian": "Фактически",
+                    "english": "In fact"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "세모",
+                "descriptions": {
+                    "russian": "Треугольник",
+                    "english": "Triangle"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "실제로",
+                "descriptions": {
+                    "russian": "На самом деле",
+                    "english": "In reality"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소개팅하다",
+                "descriptions": {
+                    "russian": "Устроить свидание вслепую",
+                    "english": "To have a blind date"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "색다",
+                "descriptions": {
+                    "russian": "Гнить",
+                    "english": "To rot"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소리를 지르다",
+                "descriptions": {
+                    "russian": "Кричать; крикнуть",
+                    "english": "To scream; shout"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "매",
+                "descriptions": {
+                    "russian": "Санки",
+                    "english": "Sled"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소문을 내다",
+                "descriptions": {
+                    "russian": "Запустить слух",
+                    "english": "To start a rumor"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소문을 퍼뜨리다",
+                "descriptions": {
+                    "russian": "Распространять слух",
+                    "english": "To spread a rumor"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소문이 나다",
+                "descriptions": {
+                    "russian": "Появился слух",
+                    "english": "To have a rumor come out"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "권유하다 (to suggest)",
+                "descriptions": {
+                    "russian": "Предлагать",
+                    "english": "To suggest"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그네 (swing)",
+                "descriptions": {
+                    "russian": "Качели",
+                    "english": "Swing"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그럴 리가 없다 (to have no reason for something: not possible)",
+                "descriptions": {
+                    "russian": "Нет никакой причины: невозможно",
+                    "english": "To have no reason for something: not possible"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가슴이 두근거리다 (to have heart pound)",
+                "descriptions": {
+                    "russian": "Сердце стучит",
+                    "english": "To have heart pound"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그럴 수 있다 (to be possible)",
+                "descriptions": {
+                    "russian": "Может быть возможно",
+                    "english": "To be possible"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근무 시간 (working hours)",
+                "descriptions": {
+                    "russian": "Рабочее время",
+                    "english": "Working hours"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가슴이 뛰다 (to have one's heart beat)",
+                "descriptions": {
+                    "russian": "Сердце бьется",
+                    "english": "To have one's heart beat"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근육이 뭉치다 (to have muscle cramps)",
+                "descriptions": {
+                    "russian": "Судороги в мышцах",
+                    "english": "To have muscle cramps"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가야금 (zither)",
+                "descriptions": {
+                    "russian": "Цитра",
+                    "english": "Zither"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근육이 생기다 (to have muscle growth)",
+                "descriptions": {
+                    "russian": "Рост мышц",
+                    "english": "To have muscle growth"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가죽 (leather)",
+                "descriptions": {
+                    "russian": "Кожа",
+                    "english": "Leather"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기금 (fund)",
+                "descriptions": {
+                    "russian": "Фонд",
+                    "english": "Fund"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가축을 키우다 (to raise livestock)",
+                "descriptions": {
+                    "russian": "Воспитывать скот",
+                    "english": "To raise livestock"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기분이 상쾌하다 (to feel refreshed)",
+                "descriptions": {
+                    "russian": "Чувствовать свежесть",
+                    "english": "To feel refreshed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "강습 (lesson; training)",
+                "descriptions": {
+                    "russian": "Урок; обучение",
+                    "english": "Lesson; training"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기우제 (rain ritual)",
+                "descriptions": {
+                    "russian": "Ритуал дождя",
+                    "english": "Rain ritual"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거북 (turtle)",
+                "descriptions": {
+                    "russian": "Черепаха",
+                    "english": "Turtle"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기운이 나다 (to be energized)",
+                "descriptions": {
+                    "russian": "Приходит бодрость",
+                    "english": "To be energized"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거북목 증후군 (turtle neck syndrome)",
+                "descriptions": {
+                    "russian": "Синдром 'высокий воротник'",
+                    "english": "Turtle neck syndrome"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "깜짝 놀라다 (to be suddenly startled)",
+                "descriptions": {
+                    "russian": "Внезапно испугаться",
+                    "english": "To be suddenly startled"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거칠다 (to be rough)",
+                "descriptions": {
+                    "russian": "Быть грубым",
+                    "english": "To be rough"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "깨뜨리다 (to break; destroy)",
+                "descriptions": {
+                    "russian": "Разбивать; разрушать",
+                    "english": "To break; destroy"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경비실 (security office)",
+                "descriptions": {
+                    "russian": "Офис охраны",
+                    "english": "Security office"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "꼼꼼하다 (to be detail-oriented)",
+                "descriptions": {
+                    "russian": "Внимательный к деталям",
+                    "english": "To be detail-oriented"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경상도 (Gyeongsang Province)",
+                "descriptions": {
+                    "russian": "Провинция Кёнсан",
+                    "english": "Gyeongsang Province"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "방을 꾸미다 (to decorate (a room))",
+                "descriptions": {
+                    "russian": "Украшать (комнату)",
+                    "english": "To decorate (a room)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경험이 많다 (to have a lot of experience)",
+                "descriptions": {
+                    "russian": "Иметь много опыта",
+                    "english": "To have a lot of experience"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "꾸준히 (regularly; consistently)",
+                "descriptions": {
+                    "russian": "Регулярно; постоянно",
+                    "english": "Regularly; consistently"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약 기간 (contract period)",
+                "descriptions": {
+                    "russian": "Срок действия контракта",
+                    "english": "Contract period"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "반지를 끼다 (to slip/put on (a ring))",
+                "descriptions": {
+                    "russian": "Надевать кольцо",
+                    "english": "To slip/put on (a ring)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약서 (contract)",
+                "descriptions": {
+                    "russian": "Договор",
+                    "english": "Contract"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약하다 (to make a contract)",
+                "descriptions": {
+                    "russian": "Заключать контракт",
+                    "english": "To make a contract"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고개를 가로젓다 (to shake one's head)",
+                "descriptions": {
+                    "russian": "Покачивать головой",
+                    "english": "To shake one's head"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고백하다 (to confess)",
+                "descriptions": {
+                    "russian": "Признаваться",
+                    "english": "To confess"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무꾼 (woodcutter)",
+                "descriptions": {
+                    "russian": "Дровосек",
+                    "english": "Woodcutter"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고지서 (bill)",
+                "descriptions": {
+                    "russian": "Счёт",
+                    "english": "Bill"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무를 하다 (to cut wood)",
+                "descriptions": {
+                    "russian": "Рубить дерево",
+                    "english": "To cut wood"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "곱다 (to be pretty/nice)",
+                "descriptions": {
+                    "russian": "Быть красивым",
+                    "english": "To be pretty/nice"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무판 (wooden board)",
+                "descriptions": {
+                    "russian": "Деревянная доска",
+                    "english": "Wooden board"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공과금 (utility bill)",
+                "descriptions": {
+                    "russian": "Коммунальные платежи",
+                    "english": "Utility bill"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나이가 들다 (to get older)",
+                "descriptions": {
+                    "russian": "Стареть",
+                    "english": "To get older"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공기가 맑다 (to have clean air)",
+                "descriptions": {
+                    "russian": "Иметь чистый воздух",
+                    "english": "To have clean air"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나이를 먹다 (to grow old)",
+                "descriptions": {
+                    "russian": "Стареть",
+                    "english": "To grow old"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공기놀이 (n Korean variant of Jacks)",
+                "descriptions": {
+                    "russian": "Корейская версия игры в мяч",
+                    "english": "N Korean variant of Jacks"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "난방이 안되다 (to have broken air conditioning)",
+                "descriptions": {
+                    "russian": "Не работает отопление",
+                    "english": "To have broken air conditioning"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공예품 (craftwork)",
+                "descriptions": {
+                    "russian": "Рукоделие",
+                    "english": "Craftwork"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공해가 심하다 (to have severe air pollution)",
+                "descriptions": {
+                    "russian": "Высокая степень загрязнения воздуха",
+                    "english": "To have severe air pollution"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "권유하다",
+                "descriptions": {
+                    "russian": "Предлагать",
+                    "english": "To suggest"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그네",
+                "descriptions": {
+                    "russian": "Качели",
+                    "english": "Swing"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그럴 리가 없다",
+                "descriptions": {
+                    "russian": "Нет никакой причины: невозможно",
+                    "english": "To have no reason for something: not possible"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가슴이 두근거리다",
+                "descriptions": {
+                    "russian": "Сердце стучит",
+                    "english": "To have heart pound"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그럴 수 있다",
+                "descriptions": {
+                    "russian": "Может быть возможно",
+                    "english": "To be possible"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근무 시간",
+                "descriptions": {
+                    "russian": "Рабочее время",
+                    "english": "Working hours"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가슴이 뛰다",
+                "descriptions": {
+                    "russian": "Сердце бьется",
+                    "english": "To have one's heart beat"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근육이 뭉치다",
+                "descriptions": {
+                    "russian": "Судороги в мышцах",
+                    "english": "To have muscle cramps"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가야금",
+                "descriptions": {
+                    "russian": "Цитра",
+                    "english": "Zither"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근육이 생기다",
+                "descriptions": {
+                    "russian": "Рост мышц",
+                    "english": "To have muscle growth"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가죽",
+                "descriptions": {
+                    "russian": "Кожа",
+                    "english": "Leather"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기금",
+                "descriptions": {
+                    "russian": "Фонд",
+                    "english": "Fund"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가축을 키우다",
+                "descriptions": {
+                    "russian": "Воспитывать скот",
+                    "english": "To raise livestock"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기분이 상쾌하다",
+                "descriptions": {
+                    "russian": "Чувствовать свежесть",
+                    "english": "To feel refreshed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "강습",
+                "descriptions": {
+                    "russian": "Урок; обучение",
+                    "english": "Lesson; training"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기우제",
+                "descriptions": {
+                    "russian": "Ритуал дождя",
+                    "english": "Rain ritual"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거북",
+                "descriptions": {
+                    "russian": "Черепаха",
+                    "english": "Turtle"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기운이 나다",
+                "descriptions": {
+                    "russian": "Приходит бодрость",
+                    "english": "To be energized"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거북목 증후군",
+                "descriptions": {
+                    "russian": "Синдром 'высокий воротник'",
+                    "english": "Turtle neck syndrome"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "깜짝 놀라다",
+                "descriptions": {
+                    "russian": "Внезапно испугаться",
+                    "english": "To be suddenly startled"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거칠다",
+                "descriptions": {
+                    "russian": "Быть грубым",
+                    "english": "To be rough"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "깨뜨리다",
+                "descriptions": {
+                    "russian": "Разбивать; разрушать",
+                    "english": "To break; destroy"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경비실",
+                "descriptions": {
+                    "russian": "Офис охраны",
+                    "english": "Security office"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "꼼꼼하다",
+                "descriptions": {
+                    "russian": "Внимательный к деталям",
+                    "english": "To be detail-oriented"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경상도",
+                "descriptions": {
+                    "russian": "Провинция Кёнсан",
+                    "english": "Gyeongsang Province"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "방을 꾸미다",
+                "descriptions": {
+                    "russian": "Украшать (комнату)",
+                    "english": "To decorate (a room)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경험이 많다",
+                "descriptions": {
+                    "russian": "Иметь много опыта",
+                    "english": "To have a lot of experience"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "꾸준히",
+                "descriptions": {
+                    "russian": "Регулярно; постоянно",
+                    "english": "Regularly; consistently"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약 기간",
+                "descriptions": {
+                    "russian": "Срок действия контракта",
+                    "english": "Contract period"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "반지를 끼다",
+                "descriptions": {
+                    "russian": "Надевать кольцо",
+                    "english": "To slip/put on (a ring)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약서",
+                "descriptions": {
+                    "russian": "Договор",
+                    "english": "Contract"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약하다",
+                "descriptions": {
+                    "russian": "Заключать контракт",
+                    "english": "To make a contract"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고개를 가로젓다",
+                "descriptions": {
+                    "russian": "Покачивать головой",
+                    "english": "To shake one's head"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고백하다",
+                "descriptions": {
+                    "russian": "Признаваться",
+                    "english": "To confess"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무꾼",
+                "descriptions": {
+                    "russian": "Дровосек",
+                    "english": "Woodcutter"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고지서",
+                "descriptions": {
+                    "russian": "Счёт",
+                    "english": "Bill"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무를 하다",
+                "descriptions": {
+                    "russian": "Рубить дерево",
+                    "english": "To cut wood"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "곱다",
+                "descriptions": {
+                    "russian": "Быть красивым",
+                    "english": "To be pretty/nice"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무판",
+                "descriptions": {
+                    "russian": "Деревянная вывеска",
+                    "english": "Wooden board"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공과금",
+                "descriptions": {
+                    "russian": "Коммунальные платежи",
+                    "english": "Utility bill"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나이가 들다",
+                "descriptions": {
+                    "russian": "Стареть",
+                    "english": "To get older"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공기가 맑다",
+                "descriptions": {
+                    "russian": "Иметь чистый воздух",
+                    "english": "To have clean air"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나이를 먹다)",
+                "descriptions": {
+                    "russian": "Стареть",
+                    "english": "To grow old"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공기놀이",
+                "descriptions": {
+                    "russian": "Корейская версия игры в мяч",
+                    "english": "N Korean variant of Jacks"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "난방이 안되다",
+                "descriptions": {
+                    "russian": "Не работает отопление",
+                    "english": "To have broken air conditioning"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공예품",
+                "descriptions": {
+                    "russian": "художественное изделие",
+                    "english": "Craftwork"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공해가 심하다",
+                "descriptions": {
+                    "russian": "Высокая степень загрязнения воздуха",
+                    "english": "To have severe air pollution"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    },
+    "korean_c2": {
+        "description": {},
+        "words": [
+            {
+                "word": "기대를 모으고 있다",
+                "descriptions": {
+                    "russian": "Ждать с нетерпением/ожидания растут",
+                    "english": "Looking forward to it"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "내다보다",
+                "descriptions": {
+                    "russian": "Пристально смотреть",
+                    "english": "look out"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "예견하다",
+                "descriptions": {
+                    "russian": "Предвидеть",
+                    "english": "Predict"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "귀추가 주목되다",
+                "descriptions": {
+                    "russian": "Привлекать внимание/ситуация вызывает интерес",
+                    "english": "Attract attention"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "귀추가 주목되다",
+                "descriptions": {
+                    "russian": "Оптимистично смотреть",
+                    "english": "be optimistic"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "단정하기에는 이르다",
+                "descriptions": {
+                    "russian": "Утверждать заранее/слишком рано говорить",
+                    "english": "It's too early to tell"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "우려를 낳고 있다",
+                "descriptions": {
+                    "russian": "Вызывать опасения",
+                    "english": "Raising concerns"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시기상조",
+                "descriptions": {
+                    "russian": "Преждевременность",
+                    "english": "Premature"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "회의적이다 ",
+                "descriptions": {
+                    "russian": "Скептический",
+                    "english": "Skeptical"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소 뒷걸음질 치다 쥐잡다",
+                "descriptions": {
+                    "russian": "Получить что-либо в нагрузку, непреднамеренно и не прикладывая отдельных усилий",
+                    "english": "Cow backs away catches mouse"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "열 번 찍어 아니 넘어가는 나무 없다",
+                "descriptions": {
+                    "russian": "Даже если иметь твёрдое решение, постоянные разговоры о перемене намерений смогут изменить решение.",
+                    "english": "Even with a firm decision, constant discussions about changing intentions can alter the decision."
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "콩 심은 데 콩 나고 팥 심은 데 팥 난다",
+                "descriptions": {
+                    "russian": "Что посеешь, то и пожнёшь.",
+                    "english": "You reap what you sow."
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "감나무 밑에 누워서 홍시 떨어지기를 기다린다",
+                "descriptions": {
+                    "russian": "Ждать пока с неба упадут деньги.",
+                    "english": "Waiting for money to fall from the sky."
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식량 부족 문제를 해결하다",
+                "descriptions": {
+                    "russian": "Решить проблему нехватки продовольствия",
+                    "english": "Solve the problem of food shortage"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식량 문제 해결의 새로운 지평을 열다",
+                "descriptions": {
+                    "russian": "Открывать новый горизонт в решении продовольственных проблем",
+                    "english": "Open a new horizon in food problem-solving"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식량 문제 해결을 가능하게 하다",
+                "descriptions": {
+                    "russian": "Сделать возможным решение продовольственной проблемы",
+                    "english": "Enable the resolution of food issues"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식량 문제 해결의 신기원을 이룩하다",
+                "descriptions": {
+                    "russian": "Достижение новой эры в решении продовольственных проблем",
+                    "english": "Achieve a new era in solving food problems"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식량 문제 해결에 기여하다/이바지하다",
+                "descriptions": {
+                    "russian": "Внести вклад/способствовать решению продовольственной проблемы",
+                    "english": "Contribute to/aid in solving food problems"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식량 문제 해결의 실마리를 제공하다",
+                "descriptions": {
+                    "russian": "Дать ключ к решению продовольственной проблемы",
+                    "english": "Provide the key to solving food problems"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식량 문제 이해의 폭을 넓히다",
+                "descriptions": {
+                    "russian": "Расширить понимание продовольственных проблем",
+                    "english": "Broaden the understanding of food problems"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식량 문제 해결의 전기를 마련하다",
+                "descriptions": {
+                    "russian": "Закладывание переломного момента в решении продовольственной проблемы",
+                    "english": "Paving the way for a breakthrough in solving food problems"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기발하다",
+                "descriptions": {
+                    "russian": "необычный, оригинальный",
+                    "english": "unusual, original"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "위대하다",
+                "descriptions": {
+                    "russian": "великий",
+                    "english": "great"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "유례를 찾아볼 수 없다",
+                "descriptions": {
+                    "russian": "сложно найти похожее",
+                    "english": "difficult to find a precedent"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "유일무이하다",
+                "descriptions": {
+                    "russian": "единственный, уникальный",
+                    "english": "unique, one-of-a-kind"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "으뜸이다",
+                "descriptions": {
+                    "russian": "первый, главный, лучший",
+                    "english": "first, main, best"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "전무후무하다",
+                "descriptions": {
+                    "russian": "не было в прошлом, не будет и в будущем",
+                    "english": "unprecedented, nothing like it in the past or future"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "획기적이다",
+                "descriptions": {
+                    "russian": "эпохальный, исторический",
+                    "english": "epoch-making, historical"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "농업",
+                "descriptions": {
+                    "russian": "сельское хозяйство",
+                    "english": "agriculture"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수산업",
+                "descriptions": {
+                    "russian": "морская промышленность",
+                    "english": "fishery industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "서비스업",
+                "descriptions": {
+                    "russian": "индустрия обслуживания",
+                    "english": "service industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상업",
+                "descriptions": {
+                    "russian": "торговля",
+                    "english": "commerce"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경공업",
+                "descriptions": {
+                    "russian": "легкая промышленность",
+                    "english": "light industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "중공업",
+                "descriptions": {
+                    "russian": "тяжелая промышленность",
+                    "english": "heavy industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "금융업",
+                "descriptions": {
+                    "russian": "финансовый бизнес",
+                    "english": "financial industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "우수업",
+                "descriptions": {
+                    "russian": "транспортная компания",
+                    "english": "transportation company"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "유통업",
+                "descriptions": {
+                    "russian": "промышленный оборот",
+                    "english": "distribution industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "제조업",
+                "descriptions": {
+                    "russian": "обрабатывающая промышленность",
+                    "english": "manufacturing industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "조선업",
+                "descriptions": {
+                    "russian": "кораблестроение",
+                    "english": "shipbuilding industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "축산업",
+                "descriptions": {
+                    "russian": "промышленное животноводство",
+                    "english": "livestock industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "관광 산업",
+                "descriptions": {
+                    "russian": "туристическая промышленность",
+                    "english": "tourism industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "IT산업",
+                "descriptions": {
+                    "russian": "индустрия IT",
+                    "english": "IT industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "반도체 산업",
+                "descriptions": {
+                    "russian": "полупроводниковая промышленность",
+                    "english": "semiconductor industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "광업",
+                "descriptions": {
+                    "russian": "горнодобывающая промышленность",
+                    "english": "mining industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "임업",
+                "descriptions": {
+                    "russian": "лесная промышленность",
+                    "english": "forestry industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "농업",
+                "descriptions": {
+                    "russian": "сельское хозяйство",
+                    "english": "agriculture"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수산업",
+                "descriptions": {
+                    "russian": "морская промышленность",
+                    "english": "fishery industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "서비스업",
+                "descriptions": {
+                    "russian": "индустрия обслуживания",
+                    "english": "service industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상업",
+                "descriptions": {
+                    "russian": "торговля",
+                    "english": "commerce"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경공업",
+                "descriptions": {
+                    "russian": "легкая промышленность",
+                    "english": "light industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "중공업",
+                "descriptions": {
+                    "russian": "тяжелая промышленность",
+                    "english": "heavy industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "금융업",
+                "descriptions": {
+                    "russian": "финансовый бизнес",
+                    "english": "financial industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "우수업",
+                "descriptions": {
+                    "russian": "транспортная компания",
+                    "english": "transportation company"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "유통업",
+                "descriptions": {
+                    "russian": "промышленный оборот",
+                    "english": "distribution industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "제조업",
+                "descriptions": {
+                    "russian": "обрабатывающая промышленность",
+                    "english": "manufacturing industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "조선업",
+                "descriptions": {
+                    "russian": "кораблестроение",
+                    "english": "shipbuilding industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "축산업",
+                "descriptions": {
+                    "russian": "промышленное животноводство",
+                    "english": "livestock industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "관광 산업",
+                "descriptions": {
+                    "russian": "туристическая промышленность",
+                    "english": "tourism industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "IT산업",
+                "descriptions": {
+                    "russian": "индустрия IT",
+                    "english": "IT industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "반도체 산업",
+                "descriptions": {
+                    "russian": "полупроводниковая промышленность",
+                    "english": "semiconductor industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "광업",
+                "descriptions": {
+                    "russian": "горнодобывающая промышленность",
+                    "english": "mining industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "임업",
+                "descriptions": {
+                    "russian": "лесная промышленность",
+                    "english": "forestry industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "개발하다",
+                "descriptions": {
+                    "russian": "развивать",
+                    "english": "develop"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "침체되다",
+                "descriptions": {
+                    "russian": "находиться в состоянии застоя",
+                    "english": "be in a state of stagnation"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "발전하다",
+                "descriptions": {
+                    "russian": "развиваться",
+                    "english": "develop, progress"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "성장하다",
+                "descriptions": {
+                    "russian": "расти (развиваться)",
+                    "english": "grow (develop)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "쇠퇴하다",
+                "descriptions": {
+                    "russian": "прийти в упадок",
+                    "english": "decline"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "불황기를 맞다",
+                "descriptions": {
+                    "russian": "столкнуться со спадом/рецессией",
+                    "english": "face a downturn/recession"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "호황기를 맞다",
+                "descriptions": {
+                    "russian": "столкнуться с процветанием",
+                    "english": "encounter prosperity"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "활기를 띠다",
+                "descriptions": {
+                    "russian": "активизироваться, воспрянуть",
+                    "english": "come to life, become active"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "선진국 대열에 합류하다",
+                "descriptions": {
+                    "russian": "вступать в ряды развитых",
+                    "english": "join the ranks of advanced countries"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "국민소득 일만 불 시대를 열다",
+                "descriptions": {
+                    "russian": "открывать эпоху национального дохода в 10 000 долларов",
+                    "english": "open the era of a $10,000 per capita income"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수출 백억 불을 달성하다",
+                "descriptions": {
+                    "russian": "достигать 10 миллиардов долларов экспорта",
+                    "english": "achieve $100 billion in exports"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "독립운동을 하다",
+                "descriptions": {
+                    "russian": "Заниматься движением за независимость",
+                    "english": "engage in the independence movement"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식민 통치로부터 독립하다",
+                "descriptions": {
+                    "russian": "Добиться независимости от колониального управления",
+                    "english": "achieve independence from colonial rule"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "정부를 수립하다",
+                "descriptions": {
+                    "russian": "Учредить правительство",
+                    "english": "establish a government"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "선거를 실시하다",
+                "descriptions": {
+                    "russian": "Провести выборы",
+                    "english": "conduct elections"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "정권을 잡다",
+                "descriptions": {
+                    "russian": "Прийти к власти",
+                    "english": "take power"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "정권이 교체되다",
+                "descriptions": {
+                    "russian": "Смена власти",
+                    "english": "change of power"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "(시위, 항쟁, 혁명)이 일어나다",
+                "descriptions": {
+                    "russian": "Происходит (протест, борьба, революция)",
+                    "english": "(protests, struggles, revolutions) occur"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "쿠데타를 일으키다",
+                "descriptions": {
+                    "russian": "Организовать переворот",
+                    "english": "organize a coup"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "암살을 당하다",
+                "descriptions": {
+                    "russian": "Подвергнуться покушению",
+                    "english": "be assassinated"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "전쟁이 일어나다",
+                "descriptions": {
+                    "russian": "Возникла война",
+                    "english": "war breaks out"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "회담을 하다",
+                "descriptions": {
+                    "russian": "Провести переговоры",
+                    "english": "hold talks"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "조약을 체결하다",
+                "descriptions": {
+                    "russian": "Заключить соглашение",
+                    "english": "sign a treaty"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "선언을 하다",
+                "descriptions": {
+                    "russian": "Сделать заявление",
+                    "english": "make a declaration"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "내우외환",
+                "descriptions": {
+                    "russian": "ситуация, при которой на внутренние проблемы накладываются и внешние трудности",
+                    "english": "a situation where internal problems are compounded by external difficulties"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "불철주야",
+                "descriptions": {
+                    "russian": "Не отрываясь, полностью погрузиться во что-либо",
+                    "english": "without a break, to be completely immersed in something"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사상누각",
+                "descriptions": {
+                    "russian": "Предмет или событие, явление которого не продолжается долго, из-за шаткой основы (튼튼하지 못하여)",
+                    "english": "an object, event, or phenomenon that doesn't last long due to an unstable foundation"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "선견지명",
+                "descriptions": {
+                    "russian": "Способность заранее предугадать события из будущего",
+                    "english": "the ability to foresee events from the future in advance"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "설상가상",
+                "descriptions": {
+                    "russian": "Череда неудач или трудностей, возникающая друг за другом",
+                    "english": "a series of misfortunes or difficulties happening one after another"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "탁상공론",
+                "descriptions": {
+                    "russian": "Бесполезная теория, реализация которой маловероятна",
+                    "english": "a futile theory with unlikely practical implementation"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고용 위기를 맞다",
+                "descriptions": {
+                    "russian": "Столкнуться с кризисом занятости",
+                    "english": "face an employment crisis"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경제 위기를 맞다/극복하다",
+                "descriptions": {
+                    "russian": "Встретить/преодолеть экономический кризис",
+                    "english": "encounter/overcome an economic crisis"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "무역 협정을 맺다",
+                "descriptions": {
+                    "russian": "Заключить торговое соглашение",
+                    "english": "conclude a trade agreement"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "유가가 폭등하다",
+                "descriptions": {
+                    "russian": "Произошел взрыв цен на нефть",
+                    "english": "experience a sharp rise in oil prices"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수출 부진을 겪다",
+                "descriptions": {
+                    "russian": "Переживать упадок экспорта",
+                    "english": "suffer from export stagnation"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "원자재 가격이 폭등하다",
+                "descriptions": {
+                    "russian": "Цены на сырье резко возрастают",
+                    "english": "raw material prices skyrocket"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시장을 개방하다",
+                "descriptions": {
+                    "russian": "Открыть рынок",
+                    "english": "open up the market"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "화폐를 개혁하다",
+                "descriptions": {
+                    "russian": "Реформировать валюту",
+                    "english": "reform the currency"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "화폐 가치가 폭락하다",
+                "descriptions": {
+                    "russian": "Валютная стоимость резко падает",
+                    "english": "currency value sharply declines"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    },
+    "chapter_6": {
+        "description": {},
+        "words": [
+            {
+                "word": "농업",
+                "descriptions": {
+                    "russian": "сельское хозяйство",
+                    "english": "agriculture"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수산업",
+                "descriptions": {
+                    "russian": "морская промышленность",
+                    "english": "fishery industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "서비스업",
+                "descriptions": {
+                    "russian": "индустрия обслуживания",
+                    "english": "service industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상업",
+                "descriptions": {
+                    "russian": "торговля",
+                    "english": "commerce"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경공업",
+                "descriptions": {
+                    "russian": "легкая промышленность",
+                    "english": "light industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "중공업",
+                "descriptions": {
+                    "russian": "тяжелая промышленность",
+                    "english": "heavy industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "금융업",
+                "descriptions": {
+                    "russian": "финансовый бизнес",
+                    "english": "financial industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "우수업",
+                "descriptions": {
+                    "russian": "транспортная компания",
+                    "english": "transportation company"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "유통업",
+                "descriptions": {
+                    "russian": "промышленный оборот",
+                    "english": "distribution industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "제조업",
+                "descriptions": {
+                    "russian": "обрабатывающая промышленность",
+                    "english": "manufacturing industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "조선업",
+                "descriptions": {
+                    "russian": "кораблестроение",
+                    "english": "shipbuilding industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "축산업",
+                "descriptions": {
+                    "russian": "промышленное животноводство",
+                    "english": "livestock industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "관광 산업",
+                "descriptions": {
+                    "russian": "туристическая промышленность",
+                    "english": "tourism industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "IT산업",
+                "descriptions": {
+                    "russian": "индустрия IT",
+                    "english": "IT industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "반도체 산업",
+                "descriptions": {
+                    "russian": "полупроводниковая промышленность",
+                    "english": "semiconductor industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "광업",
+                "descriptions": {
+                    "russian": "горнодобывающая промышленность",
+                    "english": "mining industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "임업",
+                "descriptions": {
+                    "russian": "лесная промышленность",
+                    "english": "forestry industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "독립운동을 하다",
+                "descriptions": {
+                    "russian": "Заниматься движением за независимость",
+                    "english": "engage in the independence movement"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식민 통치로부터 독립하다",
+                "descriptions": {
+                    "russian": "Добиться независимости от колониального управления",
+                    "english": "achieve independence from colonial rule"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "정부를 수립하다",
+                "descriptions": {
+                    "russian": "Учредить правительство",
+                    "english": "establish a government"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "선거를 실시하다",
+                "descriptions": {
+                    "russian": "Провести выборы",
+                    "english": "conduct elections"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "정권을 잡다",
+                "descriptions": {
+                    "russian": "Прийти к власти",
+                    "english": "take power"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "정권이 교체되다",
+                "descriptions": {
+                    "russian": "Смена власти",
+                    "english": "change of power"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "(시위, 항쟁, 혁명)이 일어나다",
+                "descriptions": {
+                    "russian": "Происходит (протест, борьба, революция)",
+                    "english": "(protests, struggles, revolutions) occur"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "쿠데타를 일으키다",
+                "descriptions": {
+                    "russian": "Организовать переворот",
+                    "english": "organize a coup"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "암살을 당하다",
+                "descriptions": {
+                    "russian": "Подвергнуться покушению",
+                    "english": "be assassinated"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "전쟁이 일어나다",
+                "descriptions": {
+                    "russian": "Возникла война",
+                    "english": "war breaks out"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "회담을 하다",
+                "descriptions": {
+                    "russian": "Провести переговоры",
+                    "english": "hold talks"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "조약을 체결하다",
+                "descriptions": {
+                    "russian": "Заключить соглашение",
+                    "english": "sign a treaty"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "선언을 하다",
+                "descriptions": {
+                    "russian": "Сделать заявление",
+                    "english": "make a declaration"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고용 위기를 맞다",
+                "descriptions": {
+                    "russian": "Столкнуться с кризисом занятости",
+                    "english": "face an employment crisis"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경제 위기를 맞다/극복하다",
+                "descriptions": {
+                    "russian": "Встретить/преодолеть экономический кризис",
+                    "english": "encounter/overcome an economic crisis"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "무역 협정을 맺다",
+                "descriptions": {
+                    "russian": "Заключить торговое соглашение",
+                    "english": "conclude a trade agreement"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "유가가 폭등하다",
+                "descriptions": {
+                    "russian": "Произошел взрыв цен на нефть",
+                    "english": "experience a sharp rise in oil prices"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수출 부진을 겪다",
+                "descriptions": {
+                    "russian": "Переживать упадок экспорта",
+                    "english": "suffer from export stagnation"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "원자재 가격이 폭등하다",
+                "descriptions": {
+                    "russian": "Цены на сырье резко возрастают",
+                    "english": "raw material prices skyrocket"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시장을 개방하다",
+                "descriptions": {
+                    "russian": "Открыть рынок",
+                    "english": "open up the market"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "화폐를 개혁하다",
+                "descriptions": {
+                    "russian": "Реформировать валюту",
+                    "english": "reform the currency"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "화폐 가치가 폭락하다",
+                "descriptions": {
+                    "russian": "Валютная стоимость резко падает",
+                    "english": "currency value sharply declines"
+                },
+                "quiz_type": "translate"
+            }
+        ]
     }
 }
