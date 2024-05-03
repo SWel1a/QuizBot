@@ -76,9 +76,13 @@ def quiz_start_args_parser(args_list):
 
 
 def preprocess_string(text: str) -> str:
-    # Remove punctuation
     text = text.lower()
+    # Remove punctuation
     text = text.translate(str.maketrans('', '', string.punctuation))
+
+    # If the text is a single word, return it as it is
+    if len(text.split()) == 1:
+        return text
 
     # Remove stopwords
     for _, stopwords in constants.stopwords.items():
