@@ -6170,7 +6170,9 @@
         ]
     },
     "korean_a2": {
-        "description": {},
+        "description": {
+            "english": "Korean A2 level words"
+        },
         "words": [
             {
                 "word": "빙어 낚시",
@@ -7423,7 +7425,9 @@
         ]
     },
     "korean_c2": {
-        "description": {},
+        "description": {
+            "english": "Korean C2 level words"
+        },
         "words": [
             {
                 "word": "기대를 모으고 있다",
@@ -8236,7 +8240,9 @@
         ]
     },
     "chapter_6": {
-        "description": {},
+        "description": {
+            "english": "Chapter 6 korean words"
+        },
         "words": [
             {
                 "word": "농업",
