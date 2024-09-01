@@ -1,18 +1,44 @@
 import json
+import os
 import constants
 from utils import preprocess_string
 
+
 class WordsList:
-    def __init__(self, filepath):
+    def __init__(self, filepath: str, file_sets_path: str):
+        """
+        Save filepath and inject the data from file_sets_path
+        """
         self.filepath = filepath
+        # Iterate over all json files in the directory
+        original_words = self._load_json_file(filepath)
+        for file in os.listdir(file_sets_path):
+            if not file.endswith(".json"):
+                continue
+            file_path = os.path.join(file_sets_path, file)
+            additional_words = self._load_json_file(file_path)
+            for language, data in additional_words.items():
+                if language not in original_words:
+                    original_words[language] = data
+                else:
+                    original_words[language]["words"].extend(data["words"])
+        self._save_json_file(filepath, original_words)
+
+    @staticmethod
+    def _load_json_file(file_path):
+        with open(file_path, 'r', encoding='utf-8') as file:
+            return json.load(file)
+        
+    @staticmethod
+    def _save_json_file(file_path, data):
+        with open(file_path, 'w', encoding='utf-8') as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)
 
     async def _load_words(self):
-        with open(self.filepath, 'r', encoding='utf-8') as file:
-            return json.load(file)
+        return self._load_json_file(self.filepath)
 
     async def _save_words(self, words):
-        with open(self.filepath, 'w', encoding='utf-8') as file:
-            json.dump(words, file, ensure_ascii=False, indent=4)
+        self._save_json_file(self.filepath, words)
 
     async def add_word(self, json_word_data):
         words_data = json.loads(json_word_data)

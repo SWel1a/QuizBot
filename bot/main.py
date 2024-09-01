@@ -15,7 +15,7 @@ def main():
         level=logging.INFO
     )
 
-    words = WordsList(filepath="./data/words.json")
+    words = WordsList(filepath="./data/words.json", file_sets_path="./data/word_sets/")
     with open("./data/translations.json", 'r', encoding='utf-8') as f:
         translations = json.load(f)
 
