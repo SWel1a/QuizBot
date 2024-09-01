@@ -1,0 +1,712 @@
+{
+    "english_c1": {
+        "description": {
+            "russian": "Продвинутые английские слова и фразы (уровень C1 CEFR).",
+            "english": "Advanced English vocabulary (CEFR Level C1).",
+            "korean": "고급 영어 어휘 (CEFR C1 레벨).",
+            "spanish": "Vocabulario de inglés avanzado (Nivel C1 del CEFR)."
+        },
+        "words": [
+            {
+                "word": "abate",
+                "descriptions": {
+                    "russian": "Сокращать, уменьшать, ослаблять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "abjure",
+                "descriptions": {
+                    "russian": "Отказаться, отрекаться, воздерживаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "dangle",
+                "descriptions": {
+                    "russian": "Болтаться, зависать, висеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "abscond",
+                "descriptions": {
+                    "russian": "Скрыться, пропасть, уйти"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "assuage",
+                "descriptions": {
+                    "russian": "Успокаивать, утешать, усмирять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "disabuse",
+                "descriptions": {
+                    "russian": "Разочаровать, расстроить, развенчать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "equivocate",
+                "descriptions": {
+                    "russian": "Увиливать, оправдываться, оспаривать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "incise",
+                "descriptions": {
+                    "russian": "Надрезать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "diminish",
+                "descriptions": {
+                    "russian": "Уменьшать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "jeopardize",
+                "descriptions": {
+                    "russian": "Ставить под угрозу"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "breed",
+                "descriptions": {
+                    "russian": "Размножаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "prevaricate",
+                "descriptions": {
+                    "russian": "Преувеличивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "recant",
+                "descriptions": {
+                    "russian": "Отказаться от показаний"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "refute",
+                "descriptions": {
+                    "russian": "Опровергать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ignoble",
+                "descriptions": {
+                    "russian": "Обольстить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "banish",
+                "descriptions": {
+                    "russian": "Изгнать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "disavow",
+                "descriptions": {
+                    "russian": "Отречься"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "explode",
+                "descriptions": {
+                    "russian": "Взорваться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "unearth",
+                "descriptions": {
+                    "russian": "Раскопать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "depict",
+                "descriptions": {
+                    "russian": "Отобразить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "unpick",
+                "descriptions": {
+                    "russian": "Распарывать, распустить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "originate",
+                "descriptions": {
+                    "russian": "Зарождаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "pluck",
+                "descriptions": {
+                    "russian": "Вырывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "amass",
+                "descriptions": {
+                    "russian": "Накапливать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "staff",
+                "descriptions": {
+                    "russian": "Укомплектовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "shrink",
+                "descriptions": {
+                    "russian": "Сокращаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "mold",
+                "descriptions": {
+                    "russian": "Лепить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "contrive",
+                "descriptions": {
+                    "russian": "Придумывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "entice",
+                "descriptions": {
+                    "russian": "Завлекать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "pervade",
+                "descriptions": {
+                    "russian": "Пронизывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "prevail",
+                "descriptions": {
+                    "russian": "Преобладать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "supersede",
+                "descriptions": {
+                    "russian": "Вытеснять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "redeem",
+                "descriptions": {
+                    "russian": "Выкупить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "wrack",
+                "descriptions": {
+                    "russian": "Потревожить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "mesh",
+                "descriptions": {
+                    "russian": "Зацеплять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "render",
+                "descriptions": {
+                    "russian": "Оказывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "lease",
+                "descriptions": {
+                    "russian": "Сдать в аренду"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "stipulate",
+                "descriptions": {
+                    "russian": "Оговаривать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "decree",
+                "descriptions": {
+                    "russian": "Постановить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "reminisce",
+                "descriptions": {
+                    "russian": "Вспоминать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "rarefy",
+                "descriptions": {
+                    "russian": "Редеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "venerate",
+                "descriptions": {
+                    "russian": "Почитать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "hatch",
+                "descriptions": {
+                    "russian": "Вылупляться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "anchor",
+                "descriptions": {
+                    "russian": "Бросить якорь"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "inherit",
+                "descriptions": {
+                    "russian": "Получить в наследство"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "stab",
+                "descriptions": {
+                    "russian": "Закалывать, нападать, вонзать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "sublet",
+                "descriptions": {
+                    "russian": "Сдавать в субаренду"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "outline",
+                "descriptions": {
+                    "russian": "Начертить, обрисовать, наметить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "infiltrate",
+                "descriptions": {
+                    "russian": "Проникнуть, внедриться, просачиваться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "utter",
+                "descriptions": {
+                    "russian": "Произносить, изрекать, проговаривать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "vituperate",
+                "descriptions": {
+                    "russian": "Издеваться, обижать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "waver",
+                "descriptions": {
+                    "russian": "Колебаться, извиваться, дрогнуть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "withstand",
+                "descriptions": {
+                    "russian": "Выдерживать, устоять, терпеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "swap",
+                "descriptions": {
+                    "russian": "Поменять местами, сменить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "coax",
+                "descriptions": {
+                    "russian": "Соединить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "conspire",
+                "descriptions": {
+                    "russian": "Сговориться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "append",
+                "descriptions": {
+                    "russian": "Приложить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "entail",
+                "descriptions": {
+                    "russian": "Влечь за собой"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "repine",
+                "descriptions": {
+                    "russian": "Порицать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "glance",
+                "descriptions": {
+                    "russian": "Бросить взгляд, мельком глянуть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "resort",
+                "descriptions": {
+                    "russian": "Прибегать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "substitute",
+                "descriptions": {
+                    "russian": "Заменить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "surpass",
+                "descriptions": {
+                    "russian": "Превзойти"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "deem",
+                "descriptions": {
+                    "russian": "Считать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "prophesy",
+                "descriptions": {
+                    "russian": "Пророчествовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "unveil",
+                "descriptions": {
+                    "russian": "Раскрыть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "discard",
+                "descriptions": {
+                    "russian": "Отказаться, списывать, отвергнуть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "eradicate",
+                "descriptions": {
+                    "russian": "Искоренить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "propagate",
+                "descriptions": {
+                    "russian": "Распространять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "terminate",
+                "descriptions": {
+                    "russian": "Прекратить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "engross",
+                "descriptions": {
+                    "russian": "Захватить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "overtake",
+                "descriptions": {
+                    "russian": "Обгонять, нагнать, преодолеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "shield",
+                "descriptions": {
+                    "russian": "Укрыть, заслонить, оградить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ingest",
+                "descriptions": {
+                    "russian": "Проглотить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "malign",
+                "descriptions": {
+                    "russian": "Очернить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "exhibit",
+                "descriptions": {
+                    "russian": "Выставлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "extirpate",
+                "descriptions": {
+                    "russian": "Уничтожить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "initiate",
+                "descriptions": {
+                    "russian": "Инициировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "adjoy",
+                "descriptions": {
+                    "russian": "Придерживаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "delve",
+                "descriptions": {
+                    "russian": "Углубиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "vow",
+                "descriptions": {
+                    "russian": "Клясться, ручаться, обещать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "alienate",
+                "descriptions": {
+                    "russian": "Отчуждать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "reimburse",
+                "descriptions": {
+                    "russian": "Возмещать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "disperse",
+                "descriptions": {
+                    "russian": "Рассеивать, расходиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "overlook",
+                "descriptions": {
+                    "russian": "Упускать из виду"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "dismantle",
+                "descriptions": {
+                    "russian": "Демонтировать, разобрать, убрать, разрушить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "exhilarate",
+                "descriptions": {
+                    "russian": "Взбодриться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "thrill",
+                "descriptions": {
+                    "russian": "Возбуждать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "underpin",
+                "descriptions": {
+                    "russian": "Поддерживать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "follow-up",
+                "descriptions": {
+                    "russian": "Следить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "predispose",
+                "descriptions": {
+                    "russian": "Предрасполагать, склонять, располагать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "peer",
+                "descriptions": {
+                    "russian": "Равняться, сравнивать, подглядывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "intervene",
+                "descriptions": {
+                    "russian": "вмешиваться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "resonate",
+                "descriptions": {
+                    "russian": "резонировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "contradict",
+                "descriptions": {
+                    "russian": "Противоречить, возражать, опровергнуть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "distil",
+                "descriptions": {
+                    "russian": "Дистиллировать, смягчать, рассеивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "mitigate",
+                "descriptions": {
+                    "russian": "Смягчать, сгладить, ослабить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "bounce back",
+                "descriptions": {
+                    "russian": "Отскочить, вернуться, возвращаться, восстановиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "indulge",
+                "descriptions": {
+                    "russian": "Побаловать, потакать, потворствовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "sniff",
+                "descriptions": {
+                    "russian": "Нюхать, принюхиваться, сопеть"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "hiragana_first_three": {
+        "description": {
+            "english": "Hiragana first three rows symbols with romanization and Japanese explanations."
+        },
+        "words": [
+            {
+                "word": "a",
+                "descriptions": {
+                    "japanese": "あ"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "i",
+                "descriptions": {
+                    "japanese": "い"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "u",
+                "descriptions": {
+                    "japanese": "う"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "e",
+                "descriptions": {
+                    "japanese": "え"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "o",
+                "descriptions": {
+                    "japanese": "お"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ka",
+                "descriptions": {
+                    "japanese": "か"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ki",
+                "descriptions": {
+                    "japanese": "き"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ku",
+                "descriptions": {
+                    "japanese": "く"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ke",
+                "descriptions": {
+                    "japanese": "け"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ko",
+                "descriptions": {
+                    "japanese": "こ"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "sa",
+                "descriptions": {
+                    "japanese": "さ"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "shi",
+                "descriptions": {
+                    "japanese": "し"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "su",
+                "descriptions": {
+                    "japanese": "す"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "se",
+                "descriptions": {
+                    "japanese": "せ"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "so",
+                "descriptions": {
+                    "japanese": "そ"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}

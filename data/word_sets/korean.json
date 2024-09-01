@@ -1,0 +1,397 @@
+{
+    "korean": {
+        "description": {
+            "russian": "Слова и фразы на корейском языке.",
+            "english": "Words and phrases in the Korean language.",
+            "korean": "한국어 단어 및 구문.",
+            "spanish": "Palabras y frases en coreano."
+        },
+        "words": [
+            {
+                "word": "진정하다",
+                "descriptions": {
+                    "russian": "искренний, подлинный, настоящий (true, real, genuine)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "결단",
+                "descriptions": {
+                    "russian": "решение, определение (decision, resolution, determination)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "초대형",
+                "descriptions": {
+                    "russian": "крупный, масштабный (extra-large)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거인",
+                "descriptions": {
+                    "russian": "гигант, великий человек (네 안에 잠든 거인을 깨워라 - разбуди в себе гиганта) (giant)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "저자",
+                "descriptions": {
+                    "russian": "автор (author)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "단계",
+                "descriptions": {
+                    "russian": "стадия, этап (phase, step)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "결심",
+                "descriptions": {
+                    "russian": "решение, твердое намерение (determination, decision, resolution)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "대리석",
+                "descriptions": {
+                    "russian": "мрамор (мрамор)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "새기다",
+                "descriptions": {
+                    "russian": "вырезать, гравировать (carve)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "찍히다",
+                "descriptions": {
+                    "russian": "отпечатываться (be stamped)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "발자국",
+                "descriptions": {
+                    "russian": "отпечаток ноги (след) (footprint)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "물러서다",
+                "descriptions": {
+                    "russian": "уходить, оставлять (step aside, move back)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "평범하다",
+                "descriptions": {
+                    "russian": "простой, обычный (ordinary, common)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "일상",
+                "descriptions": {
+                    "russian": "повседневная жизнь (everyday life)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "간절히",
+                "descriptions": {
+                    "russian": "найстойчиво, искренне, страстно (earnestly, eagerly, ardently, sincerely, heartily)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "도약하다",
+                "descriptions": {
+                    "russian": "подпрыгивать, подскакивать ( jump, leap)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "굳다",
+                "descriptions": {
+                    "russian": "твердеть, прочнеть (hard, solid)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "우연히",
+                "descriptions": {
+                    "russian": "случайно (by chance, by accident)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "불구하다",
+                "descriptions": {
+                    "russian": "не смотря на что-либо (disregard, be not deterred)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "진정",
+                "descriptions": {
+                    "russian": "успокоение, умиротворение (calm)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "원어민",
+                "descriptions": {
+                    "russian": "носитель языка (native speaker)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기준",
+                "descriptions": {
+                    "russian": "критерий, стандарт (standard, criterion, basis)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "담대하다",
+                "descriptions": {
+                    "russian": "смелый, бесстрашный (daring, bold, dauntless, stout-hearted)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "진지하게",
+                "descriptions": {
+                    "russian": "серьезно (earnestly)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "위대하다",
+                "descriptions": {
+                    "russian": "великий (great)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "제자",
+                "descriptions": {
+                    "russian": "последователь (student)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공자",
+                "descriptions": {
+                    "russian": "Конфуций (Confucius)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "벅차다",
+                "descriptions": {
+                    "russian": "невыносимый (too much, overwhelming)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "면",
+                "descriptions": {
+                    "russian": "сторона, грань (side)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "따라오다",
+                "descriptions": {
+                    "russian": "следовать, повторять (follow)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "저절로",
+                "descriptions": {
+                    "russian": "само собой, естественно (automatically, by oneself)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "한계",
+                "descriptions": {
+                    "russian": "предел (limit, boundary)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "긋다",
+                "descriptions": {
+                    "russian": "чертить, проводить (draw)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "받치다",
+                "descriptions": {
+                    "russian": "подставлять, подбирать (hold)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "어쩔수없다",
+                "descriptions": {
+                    "russian": "неизбежно (unavoidable)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "헤엄",
+                "descriptions": {
+                    "russian": "плавание (swimming)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "돌고래",
+                "descriptions": {
+                    "russian": "дельфин (dolphin)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "날다",
+                "descriptions": {
+                    "russian": "летать (fly)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "지점",
+                "descriptions": {
+                    "russian": "местность (point, spot)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "받아들이다",
+                "descriptions": {
+                    "russian": "принимать (receive, take)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "깨달음",
+                "descriptions": {
+                    "russian": "осознание, познание (enlightenment)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "파고",
+                "descriptions": {
+                    "russian": "высота волны, уровень напряжения (height of wave)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "암반",
+                "descriptions": {
+                    "russian": "скалистое основание (bedrock)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "닿다",
+                "descriptions": {
+                    "russian": "прикасаться (attach, touch)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "다가오다",
+                "descriptions": {
+                    "russian": "подходить, подступать (approach, come near)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경계선",
+                "descriptions": {
+                    "russian": "граница (border line)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "이르다",
+                "descriptions": {
+                    "russian": "опережать (early, premature)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "무리",
+                "descriptions": {
+                    "russian": "чрезмерность, нелогичность (unreasonableness, irrationality, ―하다 (be) unreasonable, unfair, unnatural)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "저만치",
+                "descriptions": {
+                    "russian": "в такой степени, на таком расстоянии (that much)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "지치다",
+                "descriptions": {
+                    "russian": "устать, утомиться (be tired)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "예단",
+                "descriptions": {
+                    "russian": "предвзятое мнение (prejudgment)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "개운하다",
+                "descriptions": {
+                    "russian": "легкий, свежий (refreshed)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "너머",
+                "descriptions": {
+                    "russian": "(за, над) beyond, over"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "존재",
+                "descriptions": {
+                    "russian": "существование (existence)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "예방 대책",
+                "descriptions": {
+                    "russian": "меры предосторожности"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}

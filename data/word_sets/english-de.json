@@ -1,0 +1,65 @@
+{
+    "english-de": {
+        "description": {
+            "english": "Words and phrases from Disco Elysium videogame"
+        },
+        "words": [
+            {
+                "word": "cumbersome",
+                "descriptions": {
+                     "english": "-Glasses are cool, I guess. -Are they? They're mostly just ____________."
+                },
+                "quiz_type": "fill"
+            },
+            {
+                "word": "paraplegic",
+                "descriptions": {
+                    "english": "_______ is someone with limited or no ability to use the lower half of their body."
+                },
+                "quiz_type": "fill"
+            },
+            {
+                "word": "scatterbrained",
+                "descriptions": {
+                    "english": "You must forgive me! I'm getting so ___________! I completely forgot to introduce myself."
+                },
+                "quiz_type": "fill"
+            },
+            {
+                "word": "rims",
+                "descriptions": {
+                    "english": "Her eyes glitter over the ____ of her glasses as she looks up, smiling."
+                },
+                "quiz_type": "fill"
+            },
+            {
+                "word": "inspected",
+                "descriptions": {
+                    "english": "We shouldn't waste any more time on it. If you want my take, ask me after we've ________ the victim."
+                },
+                "quiz_type": "fill"
+            },
+            {
+                "word": "snoop",
+                "descriptions": {
+                    "english": "The kitchen is closed until 13:00 because the cook is working. You can _____ around after that - if you must."
+                },
+                "quiz_type": "fill"
+            },
+            {
+                "word": "tree",
+                "descriptions": {
+                    "english": "You're barking up the wrong ____. I don't have a key."
+                },
+                "quiz_type": "fill"
+            },
+            {
+                "word": "disdain",
+                "descriptions": {
+                    "english": "Just the nastiest and loudest faction He tosses his head in _______."
+                },
+                "quiz_type": "fill"
+            }
+        ]
+    }
+}

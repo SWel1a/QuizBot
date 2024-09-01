@@ -1,0 +1,1300 @@
+{
+    "english_a1": {
+        "description": {
+            "russian": "Основные английские слова и фразы (уровень A1 CEFR).",
+            "english": "Basic English vocabulary (CEFR Level A1).",
+            "korean": "기본 영어 어휘 (CEFR A1 레벨).",
+            "spanish": "Vocabulario básico en inglés (Nivel A1 del CEFR)."
+        },
+        "words": [
+            {
+                "word": "To be",
+                "descriptions": {
+                    "russian": "Быть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To do",
+                "descriptions": {
+                    "russian": "Делать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To feel",
+                "descriptions": {
+                    "russian": "Чувствовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To see",
+                "descriptions": {
+                    "russian": "Видеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To hear",
+                "descriptions": {
+                    "russian": "Слышать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To run",
+                "descriptions": {
+                    "russian": "Бежать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To get",
+                "descriptions": {
+                    "russian": "Получать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To make",
+                "descriptions": {
+                    "russian": "Сделать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To cook",
+                "descriptions": {
+                    "russian": "Готовить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To sing",
+                "descriptions": {
+                    "russian": "Петь"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To speak",
+                "descriptions": {
+                    "russian": "Разговаривать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To say",
+                "descriptions": {
+                    "russian": "Говорить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To tell",
+                "descriptions": {
+                    "russian": "Рассказывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To take",
+                "descriptions": {
+                    "russian": "Брать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To sit",
+                "descriptions": {
+                    "russian": "Садиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To stand",
+                "descriptions": {
+                    "russian": "Стоять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To laugh",
+                "descriptions": {
+                    "russian": "Смеяться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To smile",
+                "descriptions": {
+                    "russian": "Улыбаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To open",
+                "descriptions": {
+                    "russian": "Открывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To close",
+                "descriptions": {
+                    "russian": "Закрывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To love",
+                "descriptions": {
+                    "russian": "Любить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To like",
+                "descriptions": {
+                    "russian": "Нравиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To give",
+                "descriptions": {
+                    "russian": "Давать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To bring",
+                "descriptions": {
+                    "russian": "Приносить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To breath",
+                "descriptions": {
+                    "russian": "Дышать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To buy",
+                "descriptions": {
+                    "russian": "Покупать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To sell",
+                "descriptions": {
+                    "russian": "Продавать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To forget",
+                "descriptions": {
+                    "russian": "Забывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To believe",
+                "descriptions": {
+                    "russian": "Верить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To have",
+                "descriptions": {
+                    "russian": "Иметь"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go",
+                "descriptions": {
+                    "russian": "Идти"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To know",
+                "descriptions": {
+                    "russian": "Знать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To think",
+                "descriptions": {
+                    "russian": "Думать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To come",
+                "descriptions": {
+                    "russian": "Приходить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To want",
+                "descriptions": {
+                    "russian": "Хотеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To use",
+                "descriptions": {
+                    "russian": "Использовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To find",
+                "descriptions": {
+                    "russian": "Находить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To work",
+                "descriptions": {
+                    "russian": "Работать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To eat",
+                "descriptions": {
+                    "russian": "Есть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To drink",
+                "descriptions": {
+                    "russian": "Пить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To write",
+                "descriptions": {
+                    "russian": "Писать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To read",
+                "descriptions": {
+                    "russian": "Читать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To call",
+                "descriptions": {
+                    "russian": "Звонить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To try",
+                "descriptions": {
+                    "russian": "Пытаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To need",
+                "descriptions": {
+                    "russian": "Нуждаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To become",
+                "descriptions": {
+                    "russian": "Становиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To put",
+                "descriptions": {
+                    "russian": "Класть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To leave",
+                "descriptions": {
+                    "russian": "Оставлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pay",
+                "descriptions": {
+                    "russian": "Платить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To play",
+                "descriptions": {
+                    "russian": "Играть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pray",
+                "descriptions": {
+                    "russian": "Молиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To stay",
+                "descriptions": {
+                    "russian": "Оставаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To mean",
+                "descriptions": {
+                    "russian": "Означать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To keep",
+                "descriptions": {
+                    "russian": "Держать, хранить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To let",
+                "descriptions": {
+                    "russian": "Оставлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To begin",
+                "descriptions": {
+                    "russian": "Начинать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To start",
+                "descriptions": {
+                    "russian": "Стартовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To finish",
+                "descriptions": {
+                    "russian": "Заканчивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To help",
+                "descriptions": {
+                    "russian": "Помогать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To show",
+                "descriptions": {
+                    "russian": "Показывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To cry",
+                "descriptions": {
+                    "russian": "Плакать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To move",
+                "descriptions": {
+                    "russian": "Двигаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To jump",
+                "descriptions": {
+                    "russian": "Прыгать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To live",
+                "descriptions": {
+                    "russian": "Жить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To die",
+                "descriptions": {
+                    "russian": "Умирать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To happen",
+                "descriptions": {
+                    "russian": "Случаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To lose",
+                "descriptions": {
+                    "russian": "Проигрывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To hate",
+                "descriptions": {
+                    "russian": "Ненавидеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To include",
+                "descriptions": {
+                    "russian": "Включать в себя"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To turn on",
+                "descriptions": {
+                    "russian": "Включать (о приборе)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To turn off",
+                "descriptions": {
+                    "russian": "Выключать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To continue",
+                "descriptions": {
+                    "russian": "Продолжать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To change",
+                "descriptions": {
+                    "russian": "Менять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To wash",
+                "descriptions": {
+                    "russian": "Мыть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To clean",
+                "descriptions": {
+                    "russian": "Убирать, очищать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To lead",
+                "descriptions": {
+                    "russian": "Вести"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To understand",
+                "descriptions": {
+                    "russian": "Понимать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To watch",
+                "descriptions": {
+                    "russian": "Смотреть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To discover",
+                "descriptions": {
+                    "russian": "Исследовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To imagine",
+                "descriptions": {
+                    "russian": "Представлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To introduce",
+                "descriptions": {
+                    "russian": "Представить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To follow",
+                "descriptions": {
+                    "russian": "Следовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To create",
+                "descriptions": {
+                    "russian": "Создавать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To grow",
+                "descriptions": {
+                    "russian": "Расти"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To spend",
+                "descriptions": {
+                    "russian": "Тратить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To win",
+                "descriptions": {
+                    "russian": "Выигрывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To offer",
+                "descriptions": {
+                    "russian": "Предлагать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To learn",
+                "descriptions": {
+                    "russian": "Изучать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To appear",
+                "descriptions": {
+                    "russian": "Появляться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To disappear",
+                "descriptions": {
+                    "russian": "Исчезать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To build",
+                "descriptions": {
+                    "russian": "Строить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To break",
+                "descriptions": {
+                    "russian": "Ломать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To send",
+                "descriptions": {
+                    "russian": "Посылать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To fall",
+                "descriptions": {
+                    "russian": "Падать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To cut",
+                "descriptions": {
+                    "russian": "Резать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To achieve",
+                "descriptions": {
+                    "russian": "Достигать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To communicate",
+                "descriptions": {
+                    "russian": "Общаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To kill",
+                "descriptions": {
+                    "russian": "Убивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pass",
+                "descriptions": {
+                    "russian": "Проходить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To fly",
+                "descriptions": {
+                    "russian": "Летать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To swim",
+                "descriptions": {
+                    "russian": "Плавать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To decide",
+                "descriptions": {
+                    "russian": "Решать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To return",
+                "descriptions": {
+                    "russian": "Возвращаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To hope",
+                "descriptions": {
+                    "russian": "Надеяться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To explain",
+                "descriptions": {
+                    "russian": "Объяснять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To propose",
+                "descriptions": {
+                    "russian": "Предлагать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To develop",
+                "descriptions": {
+                    "russian": "Развивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To support",
+                "descriptions": {
+                    "russian": "Поддерживать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To dance",
+                "descriptions": {
+                    "russian": "Танцевать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To draw",
+                "descriptions": {
+                    "russian": "Рисовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To book",
+                "descriptions": {
+                    "russian": "Бронировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To be afraid",
+                "descriptions": {
+                    "russian": "Бояться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To agree",
+                "descriptions": {
+                    "russian": "Соглашаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To check up",
+                "descriptions": {
+                    "russian": "Проверять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To delete",
+                "descriptions": {
+                    "russian": "Удалять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To choose",
+                "descriptions": {
+                    "russian": "Выбирать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To catch",
+                "descriptions": {
+                    "russian": "Ловить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To ask",
+                "descriptions": {
+                    "russian": "Спрашивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To answer",
+                "descriptions": {
+                    "russian": "Отвечать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To hesitate",
+                "descriptions": {
+                    "russian": "Сомневаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "air",
+                "descriptions": {
+                    "russian": "Воздух"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "wind",
+                "descriptions": {
+                    "russian": "Ветер"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "water",
+                "descriptions": {
+                    "russian": "Вода"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "west",
+                "descriptions": {
+                    "russian": "Запад"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "east",
+                "descriptions": {
+                    "russian": "Восток"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "north",
+                "descriptions": {
+                    "russian": "Север"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "south",
+                "descriptions": {
+                    "russian": "Юг"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "tree",
+                "descriptions": {
+                    "russian": "Дерево"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "sea",
+                "descriptions": {
+                    "russian": "Море"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ocean",
+                "descriptions": {
+                    "russian": "Океан"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "rock",
+                "descriptions": {
+                    "russian": "Скала"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "plant",
+                "descriptions": {
+                    "russian": "Растение"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "flower",
+                "descriptions": {
+                    "russian": "Цветок"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "forest",
+                "descriptions": {
+                    "russian": "Лес"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "person",
+                "descriptions": {
+                    "russian": "Личность"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "night",
+                "descriptions": {
+                    "russian": "Ночь"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "morning",
+                "descriptions": {
+                    "russian": "Утро"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "day",
+                "descriptions": {
+                    "russian": "День"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "evening",
+                "descriptions": {
+                    "russian": "Вечер"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "life",
+                "descriptions": {
+                    "russian": "Жизнь"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "mountain",
+                "descriptions": {
+                    "russian": "Гора"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "land",
+                "descriptions": {
+                    "russian": "Земля"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "house",
+                "descriptions": {
+                    "russian": "Дом"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "fire",
+                "descriptions": {
+                    "russian": "Огонь"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "country",
+                "descriptions": {
+                    "russian": "Страна"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "animal",
+                "descriptions": {
+                    "russian": "Животное"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "bird",
+                "descriptions": {
+                    "russian": "Птица"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "fish",
+                "descriptions": {
+                    "russian": "Рыба"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "insect",
+                "descriptions": {
+                    "russian": "Насекомое"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "city",
+                "descriptions": {
+                    "russian": "Город"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "world",
+                "descriptions": {
+                    "russian": "Мир"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "road",
+                "descriptions": {
+                    "russian": "Дорога"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ticket",
+                "descriptions": {
+                    "russian": "Билет"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "map",
+                "descriptions": {
+                    "russian": "Карта"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "motel",
+                "descriptions": {
+                    "russian": "Мотель"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "highway",
+                "descriptions": {
+                    "russian": "Шоссе"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "reception",
+                "descriptions": {
+                    "russian": "Регистратура, ресепшн"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "wallet",
+                "descriptions": {
+                    "russian": "Бумажник"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "bank",
+                "descriptions": {
+                    "russian": "Банк"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "subway",
+                "descriptions": {
+                    "russian": "Метро"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "cab",
+                "descriptions": {
+                    "russian": "Такси"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "parking",
+                "descriptions": {
+                    "russian": "Парковка"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "food order",
+                "descriptions": {
+                    "russian": "Заказ еды"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "cash",
+                "descriptions": {
+                    "russian": "Наличные"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "passport",
+                "descriptions": {
+                    "russian": "Паспорт"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "permission",
+                "descriptions": {
+                    "russian": "Разрешение"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "lawyer",
+                "descriptions": {
+                    "russian": "Адвокат"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "problem",
+                "descriptions": {
+                    "russian": "Проблема"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "waiting room",
+                "descriptions": {
+                    "russian": "Зал ожидания"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "transfer",
+                "descriptions": {
+                    "russian": "Пересадка"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "bag",
+                "descriptions": {
+                    "russian": "Сумка"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "suitcase",
+                "descriptions": {
+                    "russian": "Чемодан"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "property",
+                "descriptions": {
+                    "russian": "Имущество"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "law",
+                "descriptions": {
+                    "russian": "Право, закон"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "police station",
+                "descriptions": {
+                    "russian": "Полицейский участок"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "price",
+                "descriptions": {
+                    "russian": "Стоимость, цена"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "price list",
+                "descriptions": {
+                    "russian": "Ценник"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "courier",
+                "descriptions": {
+                    "russian": "Курьер"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "delivery",
+                "descriptions": {
+                    "russian": "Доставка"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "location",
+                "descriptions": {
+                    "russian": "Местоположение"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "route",
+                "descriptions": {
+                    "russian": "Маршрут"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "agreement",
+                "descriptions": {
+                    "russian": "Договор"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "hospital",
+                "descriptions": {
+                    "russian": "Больница"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ambulance",
+                "descriptions": {
+                    "russian": "Скорая помощь"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}

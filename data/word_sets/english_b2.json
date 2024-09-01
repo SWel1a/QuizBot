@@ -1,0 +1,369 @@
+{
+    "english_b2": {
+        "description": {
+            "russian": "Промежуточные английские слова и фразы (уровень B2 CEFR).",
+            "english": "Intermediate English vocabulary (CEFR Level B2).",
+            "korean": "중급 영어 어휘 (CEFR B2 레벨).",
+            "spanish": "Vocabulario de inglés intermedio (Nivel B2 del CEFR)."
+        },
+        "words": [
+            {
+                "word": "abhor",
+                "descriptions": {
+                    "russian": "Ненавидеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "abrogate",
+                "descriptions": {
+                    "russian": "Отменить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "abstain",
+                "descriptions": {
+                    "russian": "Воздержаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "strengthen",
+                "descriptions": {
+                    "russian": "Укрепить, усилить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "yield",
+                "descriptions": {
+                    "russian": "Уступить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "sustain",
+                "descriptions": {
+                    "russian": "Поддерживать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "seize",
+                "descriptions": {
+                    "russian": "Захватить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "nourish",
+                "descriptions": {
+                    "russian": "Питать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "desist",
+                "descriptions": {
+                    "russian": "Запретить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "recapitulate",
+                "descriptions": {
+                    "russian": "Пересказывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "proclaim",
+                "descriptions": {
+                    "russian": "Провозгласить, объявить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "beget",
+                "descriptions": {
+                    "russian": "Родить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "mature",
+                "descriptions": {
+                    "russian": "Созреть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "contemplate",
+                "descriptions": {
+                    "russian": "Созерцать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "flourish",
+                "descriptions": {
+                    "russian": "Процветать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "cable",
+                "descriptions": {
+                    "russian": "Проводить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "congregate",
+                "descriptions": {
+                    "russian": "Собираться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "induce",
+                "descriptions": {
+                    "russian": "Побудить, побуждать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "highlight",
+                "descriptions": {
+                    "russian": "Выделять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "foretell",
+                "descriptions": {
+                    "russian": "Предсказывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "foreshadow",
+                "descriptions": {
+                    "russian": "Предвещать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "interlace",
+                "descriptions": {
+                    "russian": "Переплетать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "relish",
+                "descriptions": {
+                    "russian": "Наслаждаться, смаковать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "tread",
+                "descriptions": {
+                    "russian": "Ухаживать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "rehearse",
+                "descriptions": {
+                    "russian": "Репетировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "narrate",
+                "descriptions": {
+                    "russian": "Рассказывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "alleviate",
+                "descriptions": {
+                    "russian": "Облегчать, облегчить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "bilk",
+                "descriptions": {
+                    "russian": "Обналичивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "refine",
+                "descriptions": {
+                    "russian": "Усовершенствовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "restructure",
+                "descriptions": {
+                    "russian": "Реструктурировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "decay",
+                "descriptions": {
+                    "russian": "Распадаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "corrupt",
+                "descriptions": {
+                    "russian": "Развращать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "alter",
+                "descriptions": {
+                    "russian": "Изменяться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "discern",
+                "descriptions": {
+                    "russian": "Различить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "disclose",
+                "descriptions": {
+                    "russian": "Раскрыть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "inscribe",
+                "descriptions": {
+                    "russian": "Начертать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "proffer",
+                "descriptions": {
+                    "russian": "Предложить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "meddle",
+                "descriptions": {
+                    "russian": "Вмешиваться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "violate",
+                "descriptions": {
+                    "russian": "Нарушать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "further",
+                "descriptions": {
+                    "russian": "Продолжать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "humble",
+                "descriptions": {
+                    "russian": "Смирять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "subdue",
+                "descriptions": {
+                    "russian": "Покорять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "demote",
+                "descriptions": {
+                    "russian": "Понижать, разжаловать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "obey",
+                "descriptions": {
+                    "russian": "Подчиняться, слушаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "employ",
+                "descriptions": {
+                    "russian": "Нанимать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "chastise",
+                "descriptions": {
+                    "russian": "Наказывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "concoct",
+                "descriptions": {
+                    "russian": "Придумать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "condone",
+                "descriptions": {
+                    "russian": "Потворствовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "cringe",
+                "descriptions": {
+                    "russian": "Сокрушаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ensconce",
+                "descriptions": {
+                    "russian": "Приютить, успокоить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "sanction",
+                "descriptions": {
+                    "russian": "Наказывать"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}

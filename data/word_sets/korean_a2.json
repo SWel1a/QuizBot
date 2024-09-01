@@ -1,0 +1,1257 @@
+{
+    "korean_a2": {
+        "description": {
+            "english": "Korean A2 level words"
+        },
+        "words": [
+            {
+                "word": "빙어 낚시",
+                "descriptions": {
+                    "russian": "Ловля рыбы подо льдом",
+                    "english": "Ice fishing"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "뻗다",
+                "descriptions": {
+                    "russian": "Протянуть (руку)",
+                    "english": "To stretch out (the arm)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소문이 퍼지다",
+                "descriptions": {
+                    "russian": "Распространять слухи",
+                    "english": "To have a rumor spread"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "심하다",
+                "descriptions": {
+                    "russian": "Быть очень шумным",
+                    "english": "To have a lot of noise"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "빼앗다",
+                "descriptions": {
+                    "russian": "Взять; украсть",
+                    "english": "To take; steal"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "손을 잡다",
+                "descriptions": {
+                    "russian": "Держаться за руки",
+                    "english": "To hold hands"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "뾰족하다",
+                "descriptions": {
+                    "russian": "Быть острым/коническим",
+                    "english": "To be sharp/pointy"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "솔직히",
+                "descriptions": {
+                    "russian": "Честно; откровенно",
+                    "english": "Frankly; honestly"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "송년회",
+                "descriptions": {
+                    "russian": "Годовой вечер",
+                    "english": "Year-end party"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "송별회",
+                "descriptions": {
+                    "russian": "Прощальная вечеринка",
+                    "english": "Farewell party"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수돗물이 안 나오다",
+                "descriptions": {
+                    "russian": "Нет воды",
+                    "english": "To have the water go off"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사귀다",
+                "descriptions": {
+                    "russian": "Встречаться (в отношениях); ходить",
+                    "english": "To be in a relationship: go out"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수상 스키",
+                "descriptions": {
+                    "russian": "Водные лыжи",
+                    "english": "Water-ski"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사라지다",
+                "descriptions": {
+                    "russian": "Исчезнуть",
+                    "english": "To disappear"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수선하다",
+                "descriptions": {
+                    "russian": "Починить",
+                    "english": "To mend"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사랑에 빠지다",
+                "descriptions": {
+                    "russian": "Влюбиться",
+                    "english": "To fall in love"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수입",
+                "descriptions": {
+                    "russian": "Доход",
+                    "english": "Income"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사랑이 식다",
+                "descriptions": {
+                    "russian": "Любовь остыла",
+                    "english": "To have love cool-off"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "숨기다",
+                "descriptions": {
+                    "russian": "Спрятать",
+                    "english": "To hide"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "사회를 보다",
+                "descriptions": {
+                    "russian": "Быть ведущим/модератором",
+                    "english": "To be a speaker/moderator"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "숨을 쉬다",
+                "descriptions": {
+                    "russian": "Дышать",
+                    "english": "To breathe"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "산악오토바이",
+                "descriptions": {
+                    "russian": "Горный мотоцикл",
+                    "english": "Mountain motorcycle"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "숨이 차다",
+                "descriptions": {
+                    "russian": "Задыхаться",
+                    "english": "To be out of breath"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "살이 찌다/빠지다",
+                "descriptions": {
+                    "russian": "Набрать/похудеть",
+                    "english": "To gain/lose weight"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "스킨스쿠버",
+                "descriptions": {
+                    "russian": "Дайвинг с маской и ластами",
+                    "english": "Skin scuba"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상대방",
+                "descriptions": {
+                    "russian": "Собеседник; партнер",
+                    "english": "The opposite party"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "승진 기회가 많다",
+                "descriptions": {
+                    "russian": "Иметь много возможностей для продвижения",
+                    "english": "To have many opportunities for advancement/promotion"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상상이 되다",
+                "descriptions": {
+                    "russian": "Можно представить",
+                    "english": "To be able to imagine"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상상이 안되다",
+                "descriptions": {
+                    "russian": "Невозможно представить",
+                    "english": "To not be able to imagine"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시간 가는 줄 모르다",
+                "descriptions": {
+                    "russian": "Не замечать, как летит время",
+                    "english": "To not know how time has passed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상식",
+                "descriptions": {
+                    "russian": "Здравый смысл",
+                    "english": "Common sense"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시급",
+                "descriptions": {
+                    "russian": "Почасовая оплата",
+                    "english": "Hourly wage"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상영하다",
+                "descriptions": {
+                    "russian": "Показывать фильм",
+                    "english": "To show a film"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시어머니",
+                "descriptions": {
+                    "russian": "Теща",
+                    "english": "Mother-in-law"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상하다",
+                "descriptions": {
+                    "russian": "Испортиться",
+                    "english": "To go bad: spoil"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신기하다",
+                "descriptions": {
+                    "russian": "Удивительно",
+                    "english": "To be amazing"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "생기다",
+                "descriptions": {
+                    "russian": "Образоваться",
+                    "english": "To be formed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신라",
+                "descriptions": {
+                    "russian": "Династия в истории Кореи",
+                    "english": "A dynasty in Tree Kingdom era of Korea"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "서류",
+                "descriptions": {
+                    "russian": "Документ",
+                    "english": "Document"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신인",
+                "descriptions": {
+                    "russian": "Новичок (новый актер)",
+                    "english": "Rookie (new actor)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "서툴다",
+                "descriptions": {
+                    "russian": "Быть неумелым в чем-то",
+                    "english": "To be poor at something"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신입 사원",
+                "descriptions": {
+                    "russian": "Новый сотрудник",
+                    "english": "New employee"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신보다",
+                "descriptions": {
+                    "russian": "Встречаться с целью брака",
+                    "english": "To meet with a view toward marriage"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신혼살림",
+                "descriptions": {
+                    "russian": "Первое жилище молодоженов после свадьбы",
+                    "english": "Newlywed home, first house after marriage"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신혼여행",
+                "descriptions": {
+                    "russian": "Медовый месяц",
+                    "english": "Honeymoon"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "설치하다",
+                "descriptions": {
+                    "russian": "Установить",
+                    "english": "To install"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "신혼집",
+                "descriptions": {
+                    "russian": "Первое жилище молодоженов после свадьбы",
+                    "english": "Newlywed home, first house after marriage"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "성격[마음]이",
+                "descriptions": {
+                    "russian": "Совпадение характеров",
+                    "english": "To have a matching personality"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "실력이 있다",
+                "descriptions": {
+                    "russian": "Иметь способности",
+                    "english": "To have ability"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "성수기",
+                "descriptions": {
+                    "russian": "Сезонный пик",
+                    "english": "Peak season"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "실망하다",
+                "descriptions": {
+                    "russian": "Быть разочарованным",
+                    "english": "To be disappointed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "성실하다",
+                "descriptions": {
+                    "russian": "Быть искренним",
+                    "english": "To be sincere"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "실은",
+                "descriptions": {
+                    "russian": "Фактически",
+                    "english": "In fact"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "세모",
+                "descriptions": {
+                    "russian": "Треугольник",
+                    "english": "Triangle"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "실제로",
+                "descriptions": {
+                    "russian": "На самом деле",
+                    "english": "In reality"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소개팅하다",
+                "descriptions": {
+                    "russian": "Устроить свидание вслепую",
+                    "english": "To have a blind date"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "색다",
+                "descriptions": {
+                    "russian": "Гнить",
+                    "english": "To rot"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소리를 지르다",
+                "descriptions": {
+                    "russian": "Кричать; крикнуть",
+                    "english": "To scream; shout"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "매",
+                "descriptions": {
+                    "russian": "Санки",
+                    "english": "Sled"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소문을 내다",
+                "descriptions": {
+                    "russian": "Запустить слух",
+                    "english": "To start a rumor"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소문을 퍼뜨리다",
+                "descriptions": {
+                    "russian": "Распространять слух",
+                    "english": "To spread a rumor"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "소문이 나다",
+                "descriptions": {
+                    "russian": "Появился слух",
+                    "english": "To have a rumor come out"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "권유하다 (to suggest)",
+                "descriptions": {
+                    "russian": "Предлагать",
+                    "english": "To suggest"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그네 (swing)",
+                "descriptions": {
+                    "russian": "Качели",
+                    "english": "Swing"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그럴 리가 없다 (to have no reason for something: not possible)",
+                "descriptions": {
+                    "russian": "Нет никакой причины: невозможно",
+                    "english": "To have no reason for something: not possible"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가슴이 두근거리다 (to have heart pound)",
+                "descriptions": {
+                    "russian": "Сердце стучит",
+                    "english": "To have heart pound"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그럴 수 있다 (to be possible)",
+                "descriptions": {
+                    "russian": "Может быть возможно",
+                    "english": "To be possible"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근무 시간 (working hours)",
+                "descriptions": {
+                    "russian": "Рабочее время",
+                    "english": "Working hours"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가슴이 뛰다 (to have one's heart beat)",
+                "descriptions": {
+                    "russian": "Сердце бьется",
+                    "english": "To have one's heart beat"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근육이 뭉치다 (to have muscle cramps)",
+                "descriptions": {
+                    "russian": "Судороги в мышцах",
+                    "english": "To have muscle cramps"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가야금 (zither)",
+                "descriptions": {
+                    "russian": "Цитра",
+                    "english": "Zither"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근육이 생기다 (to have muscle growth)",
+                "descriptions": {
+                    "russian": "Рост мышц",
+                    "english": "To have muscle growth"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가죽 (leather)",
+                "descriptions": {
+                    "russian": "Кожа",
+                    "english": "Leather"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기금 (fund)",
+                "descriptions": {
+                    "russian": "Фонд",
+                    "english": "Fund"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가축을 키우다 (to raise livestock)",
+                "descriptions": {
+                    "russian": "Воспитывать скот",
+                    "english": "To raise livestock"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기분이 상쾌하다 (to feel refreshed)",
+                "descriptions": {
+                    "russian": "Чувствовать свежесть",
+                    "english": "To feel refreshed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "강습 (lesson; training)",
+                "descriptions": {
+                    "russian": "Урок; обучение",
+                    "english": "Lesson; training"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기우제 (rain ritual)",
+                "descriptions": {
+                    "russian": "Ритуал дождя",
+                    "english": "Rain ritual"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거북 (turtle)",
+                "descriptions": {
+                    "russian": "Черепаха",
+                    "english": "Turtle"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기운이 나다 (to be energized)",
+                "descriptions": {
+                    "russian": "Приходит бодрость",
+                    "english": "To be energized"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거북목 증후군 (turtle neck syndrome)",
+                "descriptions": {
+                    "russian": "Синдром 'высокий воротник'",
+                    "english": "Turtle neck syndrome"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "깜짝 놀라다 (to be suddenly startled)",
+                "descriptions": {
+                    "russian": "Внезапно испугаться",
+                    "english": "To be suddenly startled"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거칠다 (to be rough)",
+                "descriptions": {
+                    "russian": "Быть грубым",
+                    "english": "To be rough"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "깨뜨리다 (to break; destroy)",
+                "descriptions": {
+                    "russian": "Разбивать; разрушать",
+                    "english": "To break; destroy"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경비실 (security office)",
+                "descriptions": {
+                    "russian": "Офис охраны",
+                    "english": "Security office"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "꼼꼼하다 (to be detail-oriented)",
+                "descriptions": {
+                    "russian": "Внимательный к деталям",
+                    "english": "To be detail-oriented"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경상도 (Gyeongsang Province)",
+                "descriptions": {
+                    "russian": "Провинция Кёнсан",
+                    "english": "Gyeongsang Province"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "방을 꾸미다 (to decorate (a room))",
+                "descriptions": {
+                    "russian": "Украшать (комнату)",
+                    "english": "To decorate (a room)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경험이 많다 (to have a lot of experience)",
+                "descriptions": {
+                    "russian": "Иметь много опыта",
+                    "english": "To have a lot of experience"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "꾸준히 (regularly; consistently)",
+                "descriptions": {
+                    "russian": "Регулярно; постоянно",
+                    "english": "Regularly; consistently"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약 기간 (contract period)",
+                "descriptions": {
+                    "russian": "Срок действия контракта",
+                    "english": "Contract period"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "반지를 끼다 (to slip/put on (a ring))",
+                "descriptions": {
+                    "russian": "Надевать кольцо",
+                    "english": "To slip/put on (a ring)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약서 (contract)",
+                "descriptions": {
+                    "russian": "Договор",
+                    "english": "Contract"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약하다 (to make a contract)",
+                "descriptions": {
+                    "russian": "Заключать контракт",
+                    "english": "To make a contract"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고개를 가로젓다 (to shake one's head)",
+                "descriptions": {
+                    "russian": "Покачивать головой",
+                    "english": "To shake one's head"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고백하다 (to confess)",
+                "descriptions": {
+                    "russian": "Признаваться",
+                    "english": "To confess"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무꾼 (woodcutter)",
+                "descriptions": {
+                    "russian": "Дровосек",
+                    "english": "Woodcutter"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고지서 (bill)",
+                "descriptions": {
+                    "russian": "Счёт",
+                    "english": "Bill"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무를 하다 (to cut wood)",
+                "descriptions": {
+                    "russian": "Рубить дерево",
+                    "english": "To cut wood"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "곱다 (to be pretty/nice)",
+                "descriptions": {
+                    "russian": "Быть красивым",
+                    "english": "To be pretty/nice"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무판 (wooden board)",
+                "descriptions": {
+                    "russian": "Деревянная доска",
+                    "english": "Wooden board"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공과금 (utility bill)",
+                "descriptions": {
+                    "russian": "Коммунальные платежи",
+                    "english": "Utility bill"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나이가 들다 (to get older)",
+                "descriptions": {
+                    "russian": "Стареть",
+                    "english": "To get older"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공기가 맑다 (to have clean air)",
+                "descriptions": {
+                    "russian": "Иметь чистый воздух",
+                    "english": "To have clean air"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나이를 먹다 (to grow old)",
+                "descriptions": {
+                    "russian": "Стареть",
+                    "english": "To grow old"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공기놀이 (n Korean variant of Jacks)",
+                "descriptions": {
+                    "russian": "Корейская версия игры в мяч",
+                    "english": "N Korean variant of Jacks"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "난방이 안되다 (to have broken air conditioning)",
+                "descriptions": {
+                    "russian": "Не работает отопление",
+                    "english": "To have broken air conditioning"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공예품 (craftwork)",
+                "descriptions": {
+                    "russian": "Рукоделие",
+                    "english": "Craftwork"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공해가 심하다 (to have severe air pollution)",
+                "descriptions": {
+                    "russian": "Высокая степень загрязнения воздуха",
+                    "english": "To have severe air pollution"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "권유하다",
+                "descriptions": {
+                    "russian": "Предлагать",
+                    "english": "To suggest"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그네",
+                "descriptions": {
+                    "russian": "Качели",
+                    "english": "Swing"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그럴 리가 없다",
+                "descriptions": {
+                    "russian": "Нет никакой причины: невозможно",
+                    "english": "To have no reason for something: not possible"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가슴이 두근거리다",
+                "descriptions": {
+                    "russian": "Сердце стучит",
+                    "english": "To have heart pound"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "그럴 수 있다",
+                "descriptions": {
+                    "russian": "Может быть возможно",
+                    "english": "To be possible"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근무 시간",
+                "descriptions": {
+                    "russian": "Рабочее время",
+                    "english": "Working hours"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가슴이 뛰다",
+                "descriptions": {
+                    "russian": "Сердце бьется",
+                    "english": "To have one's heart beat"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근육이 뭉치다",
+                "descriptions": {
+                    "russian": "Судороги в мышцах",
+                    "english": "To have muscle cramps"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가야금",
+                "descriptions": {
+                    "russian": "Цитра",
+                    "english": "Zither"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "근육이 생기다",
+                "descriptions": {
+                    "russian": "Рост мышц",
+                    "english": "To have muscle growth"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가죽",
+                "descriptions": {
+                    "russian": "Кожа",
+                    "english": "Leather"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기금",
+                "descriptions": {
+                    "russian": "Фонд",
+                    "english": "Fund"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "가축을 키우다",
+                "descriptions": {
+                    "russian": "Воспитывать скот",
+                    "english": "To raise livestock"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기분이 상쾌하다",
+                "descriptions": {
+                    "russian": "Чувствовать свежесть",
+                    "english": "To feel refreshed"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "강습",
+                "descriptions": {
+                    "russian": "Урок; обучение",
+                    "english": "Lesson; training"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기우제",
+                "descriptions": {
+                    "russian": "Ритуал дождя",
+                    "english": "Rain ritual"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거북",
+                "descriptions": {
+                    "russian": "Черепаха",
+                    "english": "Turtle"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "기운이 나다",
+                "descriptions": {
+                    "russian": "Приходит бодрость",
+                    "english": "To be energized"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거북목 증후군",
+                "descriptions": {
+                    "russian": "Синдром 'высокий воротник'",
+                    "english": "Turtle neck syndrome"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "깜짝 놀라다",
+                "descriptions": {
+                    "russian": "Внезапно испугаться",
+                    "english": "To be suddenly startled"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "거칠다",
+                "descriptions": {
+                    "russian": "Быть грубым",
+                    "english": "To be rough"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "깨뜨리다",
+                "descriptions": {
+                    "russian": "Разбивать; разрушать",
+                    "english": "To break; destroy"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경비실",
+                "descriptions": {
+                    "russian": "Офис охраны",
+                    "english": "Security office"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "꼼꼼하다",
+                "descriptions": {
+                    "russian": "Внимательный к деталям",
+                    "english": "To be detail-oriented"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경상도",
+                "descriptions": {
+                    "russian": "Провинция Кёнсан",
+                    "english": "Gyeongsang Province"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "방을 꾸미다",
+                "descriptions": {
+                    "russian": "Украшать (комнату)",
+                    "english": "To decorate (a room)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경험이 많다",
+                "descriptions": {
+                    "russian": "Иметь много опыта",
+                    "english": "To have a lot of experience"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "꾸준히",
+                "descriptions": {
+                    "russian": "Регулярно; постоянно",
+                    "english": "Regularly; consistently"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약 기간",
+                "descriptions": {
+                    "russian": "Срок действия контракта",
+                    "english": "Contract period"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "반지를 끼다",
+                "descriptions": {
+                    "russian": "Надевать кольцо",
+                    "english": "To slip/put on (a ring)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약서",
+                "descriptions": {
+                    "russian": "Договор",
+                    "english": "Contract"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "계약하다",
+                "descriptions": {
+                    "russian": "Заключать контракт",
+                    "english": "To make a contract"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고개를 가로젓다",
+                "descriptions": {
+                    "russian": "Покачивать головой",
+                    "english": "To shake one's head"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고백하다",
+                "descriptions": {
+                    "russian": "Признаваться",
+                    "english": "To confess"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무꾼",
+                "descriptions": {
+                    "russian": "Дровосек",
+                    "english": "Woodcutter"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고지서",
+                "descriptions": {
+                    "russian": "Счёт",
+                    "english": "Bill"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무를 하다",
+                "descriptions": {
+                    "russian": "Рубить дерево",
+                    "english": "To cut wood"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "곱다",
+                "descriptions": {
+                    "russian": "Быть красивым",
+                    "english": "To be pretty/nice"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나무판",
+                "descriptions": {
+                    "russian": "Деревянная вывеска",
+                    "english": "Wooden board"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공과금",
+                "descriptions": {
+                    "russian": "Коммунальные платежи",
+                    "english": "Utility bill"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나이가 들다",
+                "descriptions": {
+                    "russian": "Стареть",
+                    "english": "To get older"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공기가 맑다",
+                "descriptions": {
+                    "russian": "Иметь чистый воздух",
+                    "english": "To have clean air"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "나이를 먹다)",
+                "descriptions": {
+                    "russian": "Стареть",
+                    "english": "To grow old"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공기놀이",
+                "descriptions": {
+                    "russian": "Корейская версия игры в мяч",
+                    "english": "N Korean variant of Jacks"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "난방이 안되다",
+                "descriptions": {
+                    "russian": "Не работает отопление",
+                    "english": "To have broken air conditioning"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공예품",
+                "descriptions": {
+                    "russian": "художественное изделие",
+                    "english": "Craftwork"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "공해가 심하다",
+                "descriptions": {
+                    "russian": "Высокая степень загрязнения воздуха",
+                    "english": "To have severe air pollution"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}

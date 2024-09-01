@@ -1,0 +1,348 @@
+{
+    "english_b1": {
+        "description": {
+            "russian": "Средний английский уровень (уровень B1 CEFR).",
+            "english": "Intermediate English level (CEFR Level B1).",
+            "korean": "중급 영어 레벨 (CEFR B1 레벨).",
+            "spanish": "Nivel intermedio de inglés (Nivel B1 del CEFR)."
+        },
+        "words": [
+            {
+                "word": "abolish",
+                "descriptions": {
+                    "russian": "Отменять, уничтожать, упразднять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "approve",
+                "descriptions": {
+                    "russian": "Утвердить, одобрить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "boast",
+                "descriptions": {
+                    "russian": "Гордиться, хвастаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "contribute",
+                "descriptions": {
+                    "russian": "Жертвовать, вносить свой вклад"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "deliver",
+                "descriptions": {
+                    "russian": "Доставлять, поставлять, приносить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "descend",
+                "descriptions": {
+                    "russian": "Спуститься, сходить, снизойти"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "concentrate",
+                "descriptions": {
+                    "russian": "Сосредотачиваться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "distract",
+                "descriptions": {
+                    "russian": "Отвлечь, отвлекать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "torture",
+                "descriptions": {
+                    "russian": "Мучить, терзать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "confuse",
+                "descriptions": {
+                    "russian": "Путать, запутать, сбить с толку"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "abandon",
+                "descriptions": {
+                    "russian": "Покинуть, бросить, оставить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "escape",
+                "descriptions": {
+                    "russian": "Совершить побег, убежать, сбежать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "distribute",
+                "descriptions": {
+                    "russian": "Распространять, распределить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "elaborate",
+                "descriptions": {
+                    "russian": "Разрабатывать, прорабатывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "construct",
+                "descriptions": {
+                    "russian": "Строить, построить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "humiliate",
+                "descriptions": {
+                    "russian": "Унижать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "maintain",
+                "descriptions": {
+                    "russian": "Поддерживать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "squeeze",
+                "descriptions": {
+                    "russian": "Сжимать, выжимать, сжать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "delegate",
+                "descriptions": {
+                    "russian": "Делегировать, посылать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "transfer",
+                "descriptions": {
+                    "russian": "Передавать, перечислять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "employ",
+                "descriptions": {
+                    "russian": "Нанимать, использовать, работать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "catch",
+                "descriptions": {
+                    "russian": "Поймать, ловить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "commit",
+                "descriptions": {
+                    "russian": "Совершить, зафиксировать, поручить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "arrange",
+                "descriptions": {
+                    "russian": "Организовать, устроить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "implement",
+                "descriptions": {
+                    "russian": "Внедрить, реализовать, осуществить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "insulate",
+                "descriptions": {
+                    "russian": "Ограждать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "encourage",
+                "descriptions": {
+                    "russian": "Стимулировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "foster",
+                "descriptions": {
+                    "russian": "Поощрять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "boost",
+                "descriptions": {
+                    "russian": "Повышать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "rank",
+                "descriptions": {
+                    "russian": "Ранжировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "identify",
+                "descriptions": {
+                    "russian": "Определить, идентифицировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "empower",
+                "descriptions": {
+                    "russian": "Наделить полномочиями, расширять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ensure",
+                "descriptions": {
+                    "russian": "Обеспечить, убедить, гарантировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "accomplish",
+                "descriptions": {
+                    "russian": "Выполнить, завершить, осуществить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "customize",
+                "descriptions": {
+                    "russian": "Настроить, сделать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "localize",
+                "descriptions": {
+                    "russian": "Локализовать, определить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "tailor",
+                "descriptions": {
+                    "russian": "Приспособить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "validate",
+                "descriptions": {
+                    "russian": "Удостоверять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "reserve",
+                "descriptions": {
+                    "russian": "Резервировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "estimate",
+                "descriptions": {
+                    "russian": "Оценивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "consulate",
+                "descriptions": {
+                    "russian": "Консультировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "regard",
+                "descriptions": {
+                    "russian": "Рассматривать, учитывать, относиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "indicate",
+                "descriptions": {
+                    "russian": "Указывать, обозначать, показывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "unify",
+                "descriptions": {
+                    "russian": "Объединять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "digitalize",
+                "descriptions": {
+                    "russian": "Оцифровать, перевести в online-формат"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "expose",
+                "descriptions": {
+                    "russian": "Подвергать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "idealize",
+                "descriptions": {
+                    "russian": "Идеализировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "navigate",
+                "descriptions": {
+                    "russian": "Ориентироваться"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}
