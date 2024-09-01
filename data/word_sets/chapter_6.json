@@ -1,0 +1,321 @@
+{
+    "chapter_6": {
+        "description": {
+            "english": "Chapter 6 korean words"
+        },
+        "words": [
+            {
+                "word": "농업",
+                "descriptions": {
+                    "russian": "сельское хозяйство",
+                    "english": "agriculture"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수산업",
+                "descriptions": {
+                    "russian": "морская промышленность",
+                    "english": "fishery industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "서비스업",
+                "descriptions": {
+                    "russian": "индустрия обслуживания",
+                    "english": "service industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "상업",
+                "descriptions": {
+                    "russian": "торговля",
+                    "english": "commerce"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경공업",
+                "descriptions": {
+                    "russian": "легкая промышленность",
+                    "english": "light industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "중공업",
+                "descriptions": {
+                    "russian": "тяжелая промышленность",
+                    "english": "heavy industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "금융업",
+                "descriptions": {
+                    "russian": "финансовый бизнес",
+                    "english": "financial industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "우수업",
+                "descriptions": {
+                    "russian": "транспортная компания",
+                    "english": "transportation company"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "유통업",
+                "descriptions": {
+                    "russian": "промышленный оборот",
+                    "english": "distribution industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "제조업",
+                "descriptions": {
+                    "russian": "обрабатывающая промышленность",
+                    "english": "manufacturing industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "조선업",
+                "descriptions": {
+                    "russian": "кораблестроение",
+                    "english": "shipbuilding industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "축산업",
+                "descriptions": {
+                    "russian": "промышленное животноводство",
+                    "english": "livestock industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "관광 산업",
+                "descriptions": {
+                    "russian": "туристическая промышленность",
+                    "english": "tourism industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "IT산업",
+                "descriptions": {
+                    "russian": "индустрия IT",
+                    "english": "IT industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "반도체 산업",
+                "descriptions": {
+                    "russian": "полупроводниковая промышленность",
+                    "english": "semiconductor industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "광업",
+                "descriptions": {
+                    "russian": "горнодобывающая промышленность",
+                    "english": "mining industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "임업",
+                "descriptions": {
+                    "russian": "лесная промышленность",
+                    "english": "forestry industry"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "독립운동을 하다",
+                "descriptions": {
+                    "russian": "Заниматься движением за независимость",
+                    "english": "engage in the independence movement"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "식민 통치로부터 독립하다",
+                "descriptions": {
+                    "russian": "Добиться независимости от колониального управления",
+                    "english": "achieve independence from colonial rule"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "정부를 수립하다",
+                "descriptions": {
+                    "russian": "Учредить правительство",
+                    "english": "establish a government"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "선거를 실시하다",
+                "descriptions": {
+                    "russian": "Провести выборы",
+                    "english": "conduct elections"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "정권을 잡다",
+                "descriptions": {
+                    "russian": "Прийти к власти",
+                    "english": "take power"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "정권이 교체되다",
+                "descriptions": {
+                    "russian": "Смена власти",
+                    "english": "change of power"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "(시위, 항쟁, 혁명)이 일어나다",
+                "descriptions": {
+                    "russian": "Происходит (протест, борьба, революция)",
+                    "english": "(protests, struggles, revolutions) occur"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "쿠데타를 일으키다",
+                "descriptions": {
+                    "russian": "Организовать переворот",
+                    "english": "organize a coup"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "암살을 당하다",
+                "descriptions": {
+                    "russian": "Подвергнуться покушению",
+                    "english": "be assassinated"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "전쟁이 일어나다",
+                "descriptions": {
+                    "russian": "Возникла война",
+                    "english": "war breaks out"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "회담을 하다",
+                "descriptions": {
+                    "russian": "Провести переговоры",
+                    "english": "hold talks"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "조약을 체결하다",
+                "descriptions": {
+                    "russian": "Заключить соглашение",
+                    "english": "sign a treaty"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "선언을 하다",
+                "descriptions": {
+                    "russian": "Сделать заявление",
+                    "english": "make a declaration"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "고용 위기를 맞다",
+                "descriptions": {
+                    "russian": "Столкнуться с кризисом занятости",
+                    "english": "face an employment crisis"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "경제 위기를 맞다/극복하다",
+                "descriptions": {
+                    "russian": "Встретить/преодолеть экономический кризис",
+                    "english": "encounter/overcome an economic crisis"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "무역 협정을 맺다",
+                "descriptions": {
+                    "russian": "Заключить торговое соглашение",
+                    "english": "conclude a trade agreement"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "유가가 폭등하다",
+                "descriptions": {
+                    "russian": "Произошел взрыв цен на нефть",
+                    "english": "experience a sharp rise in oil prices"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "수출 부진을 겪다",
+                "descriptions": {
+                    "russian": "Переживать упадок экспорта",
+                    "english": "suffer from export stagnation"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "원자재 가격이 폭등하다",
+                "descriptions": {
+                    "russian": "Цены на сырье резко возрастают",
+                    "english": "raw material prices skyrocket"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "시장을 개방하다",
+                "descriptions": {
+                    "russian": "Открыть рынок",
+                    "english": "open up the market"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "화폐를 개혁하다",
+                "descriptions": {
+                    "russian": "Реформировать валюту",
+                    "english": "reform the currency"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "화폐 가치가 폭락하다",
+                "descriptions": {
+                    "russian": "Валютная стоимость резко падает",
+                    "english": "currency value sharply declines"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}

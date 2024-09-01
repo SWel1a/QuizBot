@@ -1,0 +1,201 @@
+{
+    "english_vh11": {
+        "description": {
+            "russian": "Интересные слова из игры VA-11 Hall-A.",
+            "english": "Words from the VA-11 Hall-A game.",
+            "korean": "VA-11 Hall-A 게임에서 온 흥미로운 단어.",
+            "spanish": "Palabras interesantes del juego VA-11 Hall-A."
+        },
+        "words": [
+            {
+                "word": "Tuxedo-clad",
+                "descriptions": {
+                    "russian": "Одетый в смокинг"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "Brim",
+                "descriptions": {
+                    "russian": "Край"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ruckus",
+                "descriptions": {
+                    "russian": "Шум"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "comatose",
+                "descriptions": {
+                    "russian": "коматозный"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "corny shit that brings the clicks",
+                "descriptions": {
+                    "russian": "Тривиальная дребедень, которая приносит клики (кликбейт)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "outrageous",
+                "descriptions": {
+                    "russian": "скандальный"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "stutter",
+                "descriptions": {
+                    "russian": "заикаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "rant",
+                "descriptions": {
+                    "russian": "разглагольствовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "gal",
+                "descriptions": {
+                    "russian": "девчонка"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "before storming off",
+                "descriptions": {
+                    "russian": "перед уходом в гневе"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "ceiling",
+                "descriptions": {
+                    "russian": "потолок"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "sinks",
+                "descriptions": {
+                    "russian": "раковины"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "crackhouse",
+                "descriptions": {
+                    "russian": "притон"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "slander",
+                "descriptions": {
+                    "russian": "клевета"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "fend off",
+                "descriptions": {
+                    "russian": "парировать/отбиваться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "rioters",
+                "descriptions": {
+                    "russian": "бунтовщики"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "knocking them out cold one by one",
+                "descriptions": {
+                    "russian": "вырубать их холодными по одному"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "sincere",
+                "descriptions": {
+                    "russian": "искренний"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "pledge of allegiance",
+                "descriptions": {
+                    "russian": "Клятва верности"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "burglars",
+                "descriptions": {
+                    "russian": "грабители"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "alas",
+                "descriptions": {
+                    "russian": "увы"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "that's a bummer",
+                "descriptions": {
+                    "russian": "облом"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "obnoxious",
+                "descriptions": {
+                    "russian": "неприятный"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "neatly",
+                "descriptions": {
+                    "russian": "аккуратно"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "gimmick",
+                "descriptions": {
+                    "russian": "трюк"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "fabulous",
+                "descriptions": {
+                    "russian": "сказочный"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "adore",
+                "descriptions": {
+                    "russian": "обожать"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}

@@ -1,0 +1,2133 @@
+{
+    "english_a2": {
+        "description": {
+            "russian": "Начальные английские слова и фразы (уровень A2 CEFR).",
+            "english": "Elementary English vocabulary (CEFR Level A2).",
+            "korean": "초급 영어 어휘 (CEFR A2 레벨).",
+            "spanish": "Vocabulario de inglés elemental (Nivel A2 del CEFR)."
+        },
+        "words": [
+            {
+                "word": "To appear",
+                "descriptions": {
+                    "russian": "Появляться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To cancel",
+                "descriptions": {
+                    "russian": "Отменять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To bite",
+                "descriptions": {
+                    "russian": "Кусать, укусить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To regret",
+                "descriptions": {
+                    "russian": "Сожалеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To blow",
+                "descriptions": {
+                    "russian": "Дуть (о ветре), развеять, раздувать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To compose",
+                "descriptions": {
+                    "russian": "Составлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To congratulate",
+                "descriptions": {
+                    "russian": "Поздравлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To correct",
+                "descriptions": {
+                    "russian": "Исправлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To fall asleep",
+                "descriptions": {
+                    "russian": "Засыпать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To burn",
+                "descriptions": {
+                    "russian": "Гореть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To invent",
+                "descriptions": {
+                    "russian": "Придумать, изобретать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To mention",
+                "descriptions": {
+                    "russian": "Упоминать, заметить, отметить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To suppose",
+                "descriptions": {
+                    "russian": "Предполагать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To suggest",
+                "descriptions": {
+                    "russian": "Предлагать, намекать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To consider",
+                "descriptions": {
+                    "russian": "Размышлять, учитывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To escape",
+                "descriptions": {
+                    "russian": "Сбегать, убегать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To publish",
+                "descriptions": {
+                    "russian": "Публиковать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To solve",
+                "descriptions": {
+                    "russian": "Решить, разгадать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To tidy up",
+                "descriptions": {
+                    "russian": "Убираться, наводить порядок"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To win",
+                "descriptions": {
+                    "russian": "Выиграть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To swallow",
+                "descriptions": {
+                    "russian": "Глотать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To follow",
+                "descriptions": {
+                    "russian": "Следовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To abandon",
+                "descriptions": {
+                    "russian": "Покидать, оставлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To be able",
+                "descriptions": {
+                    "russian": "Быть в состоянии"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To abuse",
+                "descriptions": {
+                    "russian": "Оскорблять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To accelerate",
+                "descriptions": {
+                    "russian": "Ускорять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To reveal",
+                "descriptions": {
+                    "russian": "Раскрывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To consist of",
+                "descriptions": {
+                    "russian": "Состоять из"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To include",
+                "descriptions": {
+                    "russian": "Включать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To guess",
+                "descriptions": {
+                    "russian": "Думать, предполагать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To accept",
+                "descriptions": {
+                    "russian": "Одобрять, согласовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To formulate",
+                "descriptions": {
+                    "russian": "Формулировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To form",
+                "descriptions": {
+                    "russian": "Формировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To achieve",
+                "descriptions": {
+                    "russian": "Достигать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To acknowledge",
+                "descriptions": {
+                    "russian": "Подтверждать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To act",
+                "descriptions": {
+                    "russian": "Действовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To adhere",
+                "descriptions": {
+                    "russian": "Придерживаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To admire",
+                "descriptions": {
+                    "russian": "Восхищаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To adjust",
+                "descriptions": {
+                    "russian": "Адаптировать, настроить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To advise",
+                "descriptions": {
+                    "russian": "Советовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To allow",
+                "descriptions": {
+                    "russian": "Позволять, разрешать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To improve",
+                "descriptions": {
+                    "russian": "Улучшать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To edit",
+                "descriptions": {
+                    "russian": "Редактировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To conclude",
+                "descriptions": {
+                    "russian": "Включать в себя"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To settle",
+                "descriptions": {
+                    "russian": "Располагаться, поселиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To handle",
+                "descriptions": {
+                    "russian": "Справиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To boost",
+                "descriptions": {
+                    "russian": "Увеличить, поддержать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To amplify",
+                "descriptions": {
+                    "russian": "Усилить, расширить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To appeal",
+                "descriptions": {
+                    "russian": "Просить, обращаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To assemble",
+                "descriptions": {
+                    "russian": "Собираться, созывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To assess",
+                "descriptions": {
+                    "russian": "Оценивать, рассматривать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To assist",
+                "descriptions": {
+                    "russian": "Присутствовать, помогать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To astonish",
+                "descriptions": {
+                    "russian": "Удивлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To assure",
+                "descriptions": {
+                    "russian": "Убеждать, заверять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To avoid",
+                "descriptions": {
+                    "russian": "Избегать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To await",
+                "descriptions": {
+                    "russian": "Ожидать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pick up",
+                "descriptions": {
+                    "russian": "Подбирать, забирать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To cross off",
+                "descriptions": {
+                    "russian": "Вычеркивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To claim",
+                "descriptions": {
+                    "russian": "Утверждать, заявлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To hurry up",
+                "descriptions": {
+                    "russian": "Торопиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To find out",
+                "descriptions": {
+                    "russian": "Находить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To divide",
+                "descriptions": {
+                    "russian": "Делить, разделять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To bark",
+                "descriptions": {
+                    "russian": "Лаять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To bathe",
+                "descriptions": {
+                    "russian": "Купаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To beat",
+                "descriptions": {
+                    "russian": "Бить, превосходить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To blackmail",
+                "descriptions": {
+                    "russian": "Шантажировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To spent",
+                "descriptions": {
+                    "russian": "Тратить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To send",
+                "descriptions": {
+                    "russian": "Посылать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To laugh",
+                "descriptions": {
+                    "russian": "Смеяться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To struggle",
+                "descriptions": {
+                    "russian": "Бороться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To motivate",
+                "descriptions": {
+                    "russian": "Мотивировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To perceive",
+                "descriptions": {
+                    "russian": "Воспринимать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To receive",
+                "descriptions": {
+                    "russian": "Получать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To recognize",
+                "descriptions": {
+                    "russian": "Распознавать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To remain",
+                "descriptions": {
+                    "russian": "Напоминать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To retain",
+                "descriptions": {
+                    "russian": "Удержать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To remember",
+                "descriptions": {
+                    "russian": "Помнить, запоминать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To observed",
+                "descriptions": {
+                    "russian": "Исследовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To fight",
+                "descriptions": {
+                    "russian": "Драться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To renew",
+                "descriptions": {
+                    "russian": "Обновлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To keep calm",
+                "descriptions": {
+                    "russian": "Успокаиваться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To break up",
+                "descriptions": {
+                    "russian": "Разрушать, расходиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To focus",
+                "descriptions": {
+                    "russian": "Фокусироваться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To perform",
+                "descriptions": {
+                    "russian": "Исполнять обязанности"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To offer",
+                "descriptions": {
+                    "russian": "Предлагать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To display",
+                "descriptions": {
+                    "russian": "Отображать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To behave",
+                "descriptions": {
+                    "russian": "Вести себя"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To get rid",
+                "descriptions": {
+                    "russian": "Избавляться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To squeeze",
+                "descriptions": {
+                    "russian": "Выжимать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To release",
+                "descriptions": {
+                    "russian": "Выпускать, публиковать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To push",
+                "descriptions": {
+                    "russian": "Толкать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To foster",
+                "descriptions": {
+                    "russian": "Поощрять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To enhance",
+                "descriptions": {
+                    "russian": "Расширять, поощрять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To develop",
+                "descriptions": {
+                    "russian": "Развивать, разрабатывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To envelop",
+                "descriptions": {
+                    "russian": "Окутывать, обволакивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To obtain",
+                "descriptions": {
+                    "russian": "Получить, добиться, приобрести"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To investigate",
+                "descriptions": {
+                    "russian": "Расследовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To adore",
+                "descriptions": {
+                    "russian": "Обожать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To block out",
+                "descriptions": {
+                    "russian": "Заблокировать, замедлить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To compete",
+                "descriptions": {
+                    "russian": "Состязаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To consist",
+                "descriptions": {
+                    "russian": "Состоять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To contact",
+                "descriptions": {
+                    "russian": "Связаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To convince",
+                "descriptions": {
+                    "russian": "Убедить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To deserve",
+                "descriptions": {
+                    "russian": "Заслуживать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To discover",
+                "descriptions": {
+                    "russian": "Обнаружить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To disagree",
+                "descriptions": {
+                    "russian": "Не соглашаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To disclose",
+                "descriptions": {
+                    "russian": "Разглашать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To disrupt",
+                "descriptions": {
+                    "russian": "Портить, разрушать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To entertain",
+                "descriptions": {
+                    "russian": "Развлекать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To expand",
+                "descriptions": {
+                    "russian": "Расширять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To express",
+                "descriptions": {
+                    "russian": "Выражать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To fold",
+                "descriptions": {
+                    "russian": "Складывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To greet",
+                "descriptions": {
+                    "russian": "Приветствовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To hinder",
+                "descriptions": {
+                    "russian": "Препятствовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To host",
+                "descriptions": {
+                    "russian": "Принимать (гостей)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To identify",
+                "descriptions": {
+                    "russian": "Опознавать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To ignore",
+                "descriptions": {
+                    "russian": "Игнорировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To implement",
+                "descriptions": {
+                    "russian": "Реализовывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To impress",
+                "descriptions": {
+                    "russian": "Впечатлить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To improve",
+                "descriptions": {
+                    "russian": "Улучшать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To indicate",
+                "descriptions": {
+                    "russian": "Указывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To inform",
+                "descriptions": {
+                    "russian": "Информировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To inquire",
+                "descriptions": {
+                    "russian": "Спрашивать, узнавать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To introduce",
+                "descriptions": {
+                    "russian": "Представить, ввести"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To involve",
+                "descriptions": {
+                    "russian": "Вовлекать, включать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To invite",
+                "descriptions": {
+                    "russian": "Приглашать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To isolate",
+                "descriptions": {
+                    "russian": "Изолировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To joke",
+                "descriptions": {
+                    "russian": "Шутить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To judge",
+                "descriptions": {
+                    "russian": "Судить, оценивать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To justify",
+                "descriptions": {
+                    "russian": "Обосновывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To knock",
+                "descriptions": {
+                    "russian": "Стучать, стукнуть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To locate",
+                "descriptions": {
+                    "russian": "Найти, расположить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To manage",
+                "descriptions": {
+                    "russian": "Управлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To master",
+                "descriptions": {
+                    "russian": "Овладеть, освоить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To motivate",
+                "descriptions": {
+                    "russian": "Мотивировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To negotiate",
+                "descriptions": {
+                    "russian": "Вести переговоры"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To operate",
+                "descriptions": {
+                    "russian": "Действовать, работать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To overtake",
+                "descriptions": {
+                    "russian": "Обогнать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To persuade",
+                "descriptions": {
+                    "russian": "Уговаривать, убеждать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To predict",
+                "descriptions": {
+                    "russian": "Предсказывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To prohibit",
+                "descriptions": {
+                    "russian": "Запрещать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To qualify",
+                "descriptions": {
+                    "russian": "Квалифицировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To react",
+                "descriptions": {
+                    "russian": "Реагировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To receive",
+                "descriptions": {
+                    "russian": "Получать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To reduce",
+                "descriptions": {
+                    "russian": "Сокращать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To refer",
+                "descriptions": {
+                    "russian": "Ссылаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To refuse",
+                "descriptions": {
+                    "russian": "Отказывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To relax",
+                "descriptions": {
+                    "russian": "Расслабиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To rely",
+                "descriptions": {
+                    "russian": "Полагаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To remind",
+                "descriptions": {
+                    "russian": "Напоминать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To repair",
+                "descriptions": {
+                    "russian": "Ремонтировать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To represent",
+                "descriptions": {
+                    "russian": "Представлять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To request",
+                "descriptions": {
+                    "russian": "Запрашивать, требовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To require",
+                "descriptions": {
+                    "russian": "Требовать, необходимость"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To resolve",
+                "descriptions": {
+                    "russian": "Решать, разрешать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To respond",
+                "descriptions": {
+                    "russian": "Реагировать, отвечать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To risk",
+                "descriptions": {
+                    "russian": "Рисковать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To satisfy",
+                "descriptions": {
+                    "russian": "Удовлетворять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To save",
+                "descriptions": {
+                    "russian": "Сохранять, спасать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To search",
+                "descriptions": {
+                    "russian": "Искать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To seize",
+                "descriptions": {
+                    "russian": "Захватывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To shake",
+                "descriptions": {
+                    "russian": "Трясти"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To show",
+                "descriptions": {
+                    "russian": "Показывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To sound",
+                "descriptions": {
+                    "russian": "Звучать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To spread",
+                "descriptions": {
+                    "russian": "Распространять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To steal",
+                "descriptions": {
+                    "russian": "Красть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To support",
+                "descriptions": {
+                    "russian": "Поддерживать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To teach",
+                "descriptions": {
+                    "russian": "Обучать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To tell",
+                "descriptions": {
+                    "russian": "Рассказать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To thank",
+                "descriptions": {
+                    "russian": "Благодарить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To touch",
+                "descriptions": {
+                    "russian": "Касаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To travel",
+                "descriptions": {
+                    "russian": "Путешествовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To turn",
+                "descriptions": {
+                    "russian": "Повернуть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To understand",
+                "descriptions": {
+                    "russian": "Понимать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To unpack",
+                "descriptions": {
+                    "russian": "Распаковать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To use",
+                "descriptions": {
+                    "russian": "Использовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To visit",
+                "descriptions": {
+                    "russian": "Посетить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To wake up",
+                "descriptions": {
+                    "russian": "Пробудиться, разбудить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To wash",
+                "descriptions": {
+                    "russian": "Мыть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To work",
+                "descriptions": {
+                    "russian": "Работать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To yell",
+                "descriptions": {
+                    "russian": "Кричать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To zigzag",
+                "descriptions": {
+                    "russian": "Зигзаг"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To whistle",
+                "descriptions": {
+                    "russian": "Свистеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To wind",
+                "descriptions": {
+                    "russian": "Ветер"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To transform",
+                "descriptions": {
+                    "russian": "Преобразовать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To get in touch",
+                "descriptions": {
+                    "russian": "Связаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To split up",
+                "descriptions": {
+                    "russian": "Расставаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To settle down",
+                "descriptions": {
+                    "russian": "Устроиться, успокоиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To set up",
+                "descriptions": {
+                    "russian": "Устанавливать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To run out",
+                "descriptions": {
+                    "russian": "Иссякать, закончиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To stand out",
+                "descriptions": {
+                    "russian": "Выделяться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pull off",
+                "descriptions": {
+                    "russian": "Достичь, сорвать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To put off",
+                "descriptions": {
+                    "russian": "Откладывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To call off",
+                "descriptions": {
+                    "russian": "Отменять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To show off",
+                "descriptions": {
+                    "russian": "Показываться, хвастаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To get away",
+                "descriptions": {
+                    "russian": "Уйти, сбежать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To eat out",
+                "descriptions": {
+                    "russian": "Есть вне дома"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To look forward",
+                "descriptions": {
+                    "russian": "С нетерпением ждать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To drop by",
+                "descriptions": {
+                    "russian": "Зайти, навестить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go over",
+                "descriptions": {
+                    "russian": "Пройти, изучить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To give up",
+                "descriptions": {
+                    "russian": "Сдаваться, бросить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To look after",
+                "descriptions": {
+                    "russian": "Заботиться, присматривать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To run away",
+                "descriptions": {
+                    "russian": "Сбежать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To put up",
+                "descriptions": {
+                    "russian": "Остановиться, разместить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To break down",
+                "descriptions": {
+                    "russian": "Сломаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To come over",
+                "descriptions": {
+                    "russian": "Заглянуть, навестить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To catch up",
+                "descriptions": {
+                    "russian": "Догнать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To calm down",
+                "descriptions": {
+                    "russian": "Успокоиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To get through",
+                "descriptions": {
+                    "russian": "Пройти, дозвониться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To hold on",
+                "descriptions": {
+                    "russian": "Удерживаться, подождать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To put on",
+                "descriptions": {
+                    "russian": "Надеть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pick up",
+                "descriptions": {
+                    "russian": "Забрать, поднять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To break off",
+                "descriptions": {
+                    "russian": "Прервать, оборвать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To stand up",
+                "descriptions": {
+                    "russian": "Вставать, подниматься"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To look up",
+                "descriptions": {
+                    "russian": "Искать (в словаре)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To show up",
+                "descriptions": {
+                    "russian": "Появиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To drop off",
+                "descriptions": {
+                    "russian": "Подвезти, скинуть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go on",
+                "descriptions": {
+                    "russian": "Продолжать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To give in",
+                "descriptions": {
+                    "russian": "Сдаваться, уступать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To run out of",
+                "descriptions": {
+                    "russian": "Закончиться, иссякнуть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To make up",
+                "descriptions": {
+                    "russian": "Изобрести, мириться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go up",
+                "descriptions": {
+                    "russian": "Подниматься"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To fill in",
+                "descriptions": {
+                    "russian": "Заполнить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To find out",
+                "descriptions": {
+                    "russian": "Узнать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pick out",
+                "descriptions": {
+                    "russian": "Выбрать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To look out",
+                "descriptions": {
+                    "russian": "Смотреть вперед"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To make out",
+                "descriptions": {
+                    "russian": "Различить, понять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To take off",
+                "descriptions": {
+                    "russian": "Снимать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go over",
+                "descriptions": {
+                    "russian": "Пройти, изучить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To hold up",
+                "descriptions": {
+                    "russian": "Задерживать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To point out",
+                "descriptions": {
+                    "russian": "Указать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To put off",
+                "descriptions": {
+                    "russian": "Откладывать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To see off",
+                "descriptions": {
+                    "russian": "Провожать (на вокзал, аэропорт)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To set up",
+                "descriptions": {
+                    "russian": "Устанавливать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To wear out",
+                "descriptions": {
+                    "russian": "Износить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To break off",
+                "descriptions": {
+                    "russian": "Прервать, оборвать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To check out",
+                "descriptions": {
+                    "russian": "Проверить, осмотреть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To give up",
+                "descriptions": {
+                    "russian": "Сдаваться, бросить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go on",
+                "descriptions": {
+                    "russian": "Продолжать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To give in",
+                "descriptions": {
+                    "russian": "Сдаваться, уступать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To break down",
+                "descriptions": {
+                    "russian": "Сломаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To run out of",
+                "descriptions": {
+                    "russian": "Закончиться, иссякнуть"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go up",
+                "descriptions": {
+                    "russian": "Подниматься"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To fill in",
+                "descriptions": {
+                    "russian": "Заполнить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To find out",
+                "descriptions": {
+                    "russian": "Узнать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pick out",
+                "descriptions": {
+                    "russian": "Выбрать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To look out",
+                "descriptions": {
+                    "russian": "Смотреть вперед"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To make out",
+                "descriptions": {
+                    "russian": "Различить, понять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To take off",
+                "descriptions": {
+                    "russian": "Снимать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go over",
+                "descriptions": {
+                    "russian": "Пройти, изучить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To hold up",
+                "descriptions": {
+                    "russian": "Задерживать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To point out",
+                "descriptions": {
+                    "russian": "Указать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To set up",
+                "descriptions": {
+                    "russian": "Устанавливать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To see off",
+                "descriptions": {
+                    "russian": "Провожать (на вокзал, аэропорт)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To wear out",
+                "descriptions": {
+                    "russian": "Износить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go along",
+                "descriptions": {
+                    "russian": "Идти вместе"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To break up",
+                "descriptions": {
+                    "russian": "Расставаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pick up",
+                "descriptions": {
+                    "russian": "Забрать, поднять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To run over",
+                "descriptions": {
+                    "russian": "Переехать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To set out",
+                "descriptions": {
+                    "russian": "Отправляться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To take up",
+                "descriptions": {
+                    "russian": "Взять в обработку"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To make up",
+                "descriptions": {
+                    "russian": "Изготовить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To give out",
+                "descriptions": {
+                    "russian": "Раздавать, распространять"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To come up",
+                "descriptions": {
+                    "russian": "Предложить, представить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To bring up",
+                "descriptions": {
+                    "russian": "Воспитать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To dress up",
+                "descriptions": {
+                    "russian": "Нарядиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To show up",
+                "descriptions": {
+                    "russian": "Появиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To check up",
+                "descriptions": {
+                    "russian": "Проверить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To call up",
+                "descriptions": {
+                    "russian": "Позвонить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To catch on",
+                "descriptions": {
+                    "russian": "Стать популярным"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To fill up",
+                "descriptions": {
+                    "russian": "Наполнить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To let down",
+                "descriptions": {
+                    "russian": "Обмануть, разочаровать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To turn up",
+                "descriptions": {
+                    "russian": "Появиться, объявиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To see through",
+                "descriptions": {
+                    "russian": "Проникнуться, раскусить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To cut down",
+                "descriptions": {
+                    "russian": "Уменьшить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pick up",
+                "descriptions": {
+                    "russian": "Подобрать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To run into",
+                "descriptions": {
+                    "russian": "Встретить (случайно)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To set up",
+                "descriptions": {
+                    "russian": "Создать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To go on",
+                "descriptions": {
+                    "russian": "Продолжать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To give in",
+                "descriptions": {
+                    "russian": "Сдаваться, уступать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To take off",
+                "descriptions": {
+                    "russian": "Снимать (одежду)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pull off",
+                "descriptions": {
+                    "russian": "Достичь, сорвать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To show off",
+                "descriptions": {
+                    "russian": "Показываться, хвастаться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To bring up",
+                "descriptions": {
+                    "russian": "Воспитать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To dress up",
+                "descriptions": {
+                    "russian": "Нарядиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To check up",
+                "descriptions": {
+                    "russian": "Проверить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To call up",
+                "descriptions": {
+                    "russian": "Позвонить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To catch on",
+                "descriptions": {
+                    "russian": "Стать популярным"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To fill up",
+                "descriptions": {
+                    "russian": "Наполнить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To let down",
+                "descriptions": {
+                    "russian": "Обмануть, разочаровать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To turn up",
+                "descriptions": {
+                    "russian": "Появиться, объявиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To see through",
+                "descriptions": {
+                    "russian": "Проникнуться, раскусить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To cut down",
+                "descriptions": {
+                    "russian": "Уменьшить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pick up",
+                "descriptions": {
+                    "russian": "Подобрать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To run into",
+                "descriptions": {
+                    "russian": "Встретить (случайно)"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To set up",
+                "descriptions": {
+                    "russian": "Создать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To take up",
+                "descriptions": {
+                    "russian": "Взять в обработку"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To let down",
+                "descriptions": {
+                    "russian": "Обмануть, разочаровать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To turn up",
+                "descriptions": {
+                    "russian": "Появиться, объявиться"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To see through",
+                "descriptions": {
+                    "russian": "Проникнуться, раскусить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To cut down",
+                "descriptions": {
+                    "russian": "Уменьшить"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To pick up",
+                "descriptions": {
+                    "russian": "Подобрать"
+                },
+                "quiz_type": "translate"
+            },
+            {
+                "word": "To run into",
+                "descriptions": {
+                    "russian": "Встретить (случайно)"
+                },
+                "quiz_type": "translate"
+            }
+        ]
+    }
+}
